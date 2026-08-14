@@ -2,9 +2,11 @@
 
 Direktive für alle Änderungen an rauch-heilpraktiker.de.
 
+**Übergreifender Leitfaden (mehrere Projekte, LLM/Entwickler):** https://github.com/redshift-three67/eeat-optimierung — ersetzt dieses Repo **nicht**. Live-Status bleibt hier.
+
 ## Massgabe
 
-- Repository **redshift-three67/naturheilpraxis-eeat** = Single Source of Truth
+- Repository **redshift-three67/naturheilpraxis-eeat** = Single Source of Truth für **diese** Domain
 - Ab 2026-08-14: Ausführung **Chrome CDP Live** auf dem Debian-Server (Grok Build)
 - Vor CDP: Port-Kollisionen ausschliessen
 

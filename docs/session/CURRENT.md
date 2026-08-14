@@ -5,6 +5,7 @@ Stand: 2026-08-14 23:42 CEST · **Direktive Tagesabschluss fixiert**
 ## Massgabe
 
 **GitHub Repository `redshift-three67/naturheilpraxis-eeat` ist die alleinige Referenz.**  
+**Knowledge-Basis:** https://github.com/redshift-three67/eeat-optimierung  
 **Tagesabschluss:** `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
 **Nächster Session-Prompt:** `docs/session/PROMPT-FORTSETZUNG.md`  
 **Restore:** `archive/2026-08-14/CHECKPOINT-2026-08-14.md`  
