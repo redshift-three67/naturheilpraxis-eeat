@@ -1,0 +1,156 @@
+[
+  {
+    "id": 5430,
+    "title": "Seite bearbeiten „Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll“ ‹ Naturheilpraxis Rauch – WordPress",
+    "boxText": null,
+    "checks": []
+  },
+  {
+    "id": 717,
+    "title": "Seite bearbeiten „Biophysikalische Informationstherapie BIT“ ‹ Naturheilpraxis Rauch – WordPress",
+    "postTitle": "Biophysikalische Informationstherapie BIT",
+    "boxText": "Rank Math SEO\nNach oben verschieben\nNach unten verschieben\nBedienfeld umschalten: Rank Math SEO\nAllgemein\nErweitert\nSchema\nSoziale Netzwerke\nROBOTER-META\nIndex\nWeist Suchmaschinen an, diese Seiten zu indizieren und in den Suchergebnissen anzuzeigen\nKein Index\nVerhindert, dass Seiten indiziert und in Suchmaschinen-Ergebnisseiten angezeigt werden\nNofollow\nVerhindert, dass Suchmaschinen folgenden Links auf den Seiten folgen\nKein Archiv\nVerhindert, dass Suchmaschinen zwischengespeicherte Links für Seiten anzeigen\nKein Bildverzeichnis\nDiese Option verhindert, dass Bilder auf einer Seite von Google und anderen Suchmaschinen indiziert werden\nKein Snippet\nVerhindert, dass ein Snippet in den Suchergebnissen angezeigt wird\nERWEITERTE ROBOTS-META\nMax Snippet\nGebe eine maximale Textlänge, in Zeichen, eines Snippets für deine Seite an\nMax. Videovorschaugröße\nGebe eine maximale Dauer einer animierten Videovorschau in Sekunden an\nMax. Bildvorschaugröße\nGebe eine maximale Größe der Bildvorschau an, die für Bilder auf dieser Seite angezeigt werden soll\nGroß\nStandard\nKein\nKanonische URL\nDie kanonische URL informiert die Such-Crawler, welche Seite die Hauptseite ist, wenn diese doppelten Inhalt haben\nWeiterleitung",
+    "checks": [
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-1",
+        "checked": false,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-1",
+        "checked": false,
+        "value": "on",
+        "label": "Index Weist Suchmaschinen an, diese Seiten zu indizieren und in den Suchergebnis"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-2",
+        "checked": true,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-2",
+        "checked": false,
+        "value": "on",
+        "label": "Kein Index Verhindert, dass Seiten indiziert und in Suchmaschinen-Ergebnisseiten"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-3",
+        "checked": false,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-3",
+        "checked": false,
+        "value": "on",
+        "label": "Nofollow Verhindert, dass Suchmaschinen folgenden Links auf den Seiten folgen"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-4",
+        "checked": false,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-4",
+        "checked": false,
+        "value": "on",
+        "label": "Kein Archiv Verhindert, dass Suchmaschinen zwischengespeicherte Links für Seiten"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-5",
+        "checked": false,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-5",
+        "checked": false,
+        "value": "on",
+        "label": "Kein Bildverzeichnis Diese Option verhindert, dass Bilder auf einer Seite von Go"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-6",
+        "checked": false,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-6",
+        "checked": false,
+        "value": "on",
+        "label": "Kein Snippet Verhindert, dass ein Snippet in den Suchergebnissen angezeigt wird"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-7",
+        "checked": true,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-7",
+        "checked": false,
+        "value": "on",
+        "label": "Max Snippet Gebe eine maximale Textlänge, in Zeichen, eines Snippets für deine S"
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-8",
+        "checked": true,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-8",
+        "checked": false,
+        "value": "on",
+        "label": "Max. Videovorschaugröße Gebe eine maximale Dauer einer animierten Videovorschau "
+      },
+      {
+        "name": "",
+        "id": "inspector-checkbox-control-9",
+        "checked": true,
+        "value": "1",
+        "label": ""
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-9",
+        "checked": false,
+        "value": "on",
+        "label": "Max. Bildvorschaugröße Gebe eine maximale Größe der Bildvorschau an, die für Bil"
+      },
+      {
+        "name": "",
+        "id": "rank-math-tooltip-10",
+        "checked": false,
+        "value": "on",
+        "label": "Die kanonische URL informiert die Such-Crawler, welche Seite die Hauptseite ist,"
+      },
+      {
+        "name": "",
+        "id": "inspector-toggle-control-1",
+        "checked": false,
+        "value": "on",
+        "label": ""
+      }
+    ]
+  }
+]

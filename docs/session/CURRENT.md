@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:32 CEST
+Stand: 2026-08-14 21:37 CEST
 
 ## Massgabe
 
@@ -41,8 +41,8 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 3. ~~SCHEMA-02 Schema-Plugin aus~~
 4. ~~SCHEMA-03 Rank Math an~~
 5. ~~SCHEMA-04 Lokales SEO aus~~ live_verified
-6. ~~META-01 NLS-Titel ohne „Metatron Hospital“~~ live_verified
-7. NOINDEX: EAV (5430) + BIT (717) stehen auf `noindex` – Quelle prüfen/heben
+6. ~~META-01 NLS-Titel~~ live_verified
+7. ~~NOINDEX-01 EAV+BIT wieder index~~ live_verified
 8. META-02: Umlaute (`ergaenzende`, `Homoeopathie`) + BIT-Titel „Ganzeitlich“
 
-Protokolle: `SCHEMA-01` … `SCHEMA-04`, `META-01-nls-title.md`
+Protokolle: `SCHEMA-01`…`04`, `META-01-nls-title.md`, `NOINDEX-01-eav-bit-index.md`
