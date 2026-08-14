@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:40 CEST
+Stand: 2026-08-14 21:42 CEST
 
 ## Massgabe
 
@@ -46,6 +46,7 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 8. ~~META-02 Umlaute + BIT-Titel~~ live_verified
 
 noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine globalen noindex-Regeln.  
-Nächste optionale Restpunkte: NLS-Fokus-Keywords („Metatron Hospital“); Titel-Claims („Gesund durch Frequenztherapie“, „Mehr Energie“).
+9. ~~META-03 NLS-Keywords ohne Metatron Hospital/Hunter~~ live_verified
+10. META-04: Titel ohne „Gesund durch Frequenztherapie“ / „Mehr Energie“
 
 Protokolle: `META-01`, `NOINDEX-01`, `META-02-umlaute.md`
