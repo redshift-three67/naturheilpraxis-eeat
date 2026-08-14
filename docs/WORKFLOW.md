@@ -1,37 +1,34 @@
-# WORKFLOW – Pflichtablauf (Live)
+# WORKFLOW – Pflichtablauf (Live + CDP)
 
-Direktive für alle technischen und inhaltlichen Änderungen an rauch-heilpraktiker.de.
+Direktive für alle Änderungen an rauch-heilpraktiker.de.
 
-## Ablauf (strikt)
+## Massgabe
+
+- Repository **redshift-three67/naturheilpraxis-eeat** = Single Source of Truth
+- Ab 2026-08-14: Ausführung **Chrome CDP Live** auf dem Debian-Server (Grok Build)
+- Vor CDP: Port-Kollisionen ausschliessen
+
+## Ablauf (strikt, höchste Präzision)
 
 1. **Pre-Write-Sicherung**
-   - Betroffene Dateien/Snippets/Meta-Werte dokumentieren oder exportieren
-   - Ablage: `archive/YYYY-MM-DD/prewrite/`
-   - Mindestens: ID, Ort (HFCM/Rank Math/Plugin), alter Inhalt/Hash
+   - Betroffene Snippets/Meta/Dateien archivieren
+   - Pfad: `archive/YYYY-MM-DD/prewrite/`
+   - Inhalt: ID, Ort, alter Stand (Text/HTML/JSON)
 
-2. **Änderung Live**
-   - Nur nach klarer Freigabe / Auftrag
-   - Eine logische Änderung pro Batch (kein Mix aus Schema + Text + Performance)
+2. **Ein Live-Schritt**
+   - Nur ein logischer Change pro Batch
+   - Sichtbar über CDP (Admin-UI), sofern CDP-Modus aktiv
 
 3. **Verifizierung Live**
-   - Öffentliches Frontend (Cache-Bust)
-   - Bei Schema: `MedicalClinic` / JSON-LD prüfen
-   - Bei Meta: `meta name="description"` prüfen
-   - Bei Disclaimer: Text + Links im Footer prüfen
+   - Öffentliches Frontend, Cache-Bust
+   - Schema / Meta / Disclaimer je nach Change
 
 4. **Ergebnis**
-   - **Erfolg:** Protokoll in `archive/YYYY-MM-DD/TQW-xx-*.md` + `docs/session/CURRENT.md` aktualisieren
-   - **Fehler:** Rollback (Snippet off / Meta zurück) + Wiedervorlage mit Ursache
-
-## Transport-Rangfolge
-
-1. Rank Math REST / HFCM Admin (kontrolliert)
-2. WordPress REST (Application Password, wenn Rechte passen)
-3. Chrome/CDP nur UI-only und Abnahme
-4. Manuell bei 2FA / rechtlichen Bestätigungen
+   - **Erfolg:** `archive/YYYY-MM-DD/…md` + `docs/session/CURRENT.md`
+   - **Fehler:** Rollback + **Wiedervorlage an Auftraggeber** (keine stillen Workarounds)
 
 ## Verbote
 
-- Keine undokumentierte Live-Änderung
-- Kein paralleles Schreiben mehrerer Schema-Systeme ohne Strategie-Update
-- Keine Bulk-Inhaltsumschreibungen ohne Pre-Write pro ID
+- Undokumentierte Live-Writes
+- Parallele Schema-Systeme ohne Strategie-Update (`docs/SCHEMA-STRATEGY.md`)
+- CDP-Port teilen mit anderen Sessions

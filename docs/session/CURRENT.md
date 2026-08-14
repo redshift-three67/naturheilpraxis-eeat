@@ -1,24 +1,32 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 18:25 CEST
+Stand: 2026-08-14 20:19 CEST
 
-## Umgebung
-- Live only
-- GitHub: redshift-three67/naturheilpraxis-eeat
+## Massgabe
 
-## Erledigt (2026-08-14)
-- TQW-01 robots.txt https
-- TQW-02 Schema HFCM #6 MedicalClinic+Physician
-- TQW-03 Rank Math + Meta Top-Seiten
-- TQW-04 Disclaimer + Autorenbox HFCM #7 Footer
+**GitHub Repository `redshift-three67/naturheilpraxis-eeat` ist die alleinige Referenz.**  
+Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
 
-## Schema-Entscheidung (Empfehlung)
-- Behalten: HFCM MedicalClinic/Physician + Rank Math (Meta/SEO)
-- Deaktivieren (Freigabe): snip pro, Schema & Structured Data Plugin
-- Details: `docs/SCHEMA-STRATEGY.md`
+## Umgebung ab jetzt
 
-## Nächste Schritte
-1. Schema-Plugin-Bereinigung nach Freigabe
-2. Rank Math Titles/Umlaute in Metas nachziehen
-3. Optional: LocalBusiness-Doppelung in Rank Math reduzieren
-4. Content/E-E-A-T Vertiefung (Therapie-Seiten)
+- Auftraggeber: lokaler **Debian-Server** + **Grok Build CLI**
+- Transport: **strikt Chrome CDP Live**
+- CDP-Port vor Start prüfen (keine Session-Kollisionen)
+- Staging: deaktiviert
+
+## Live-Kernstatus
+
+- TQW-01…04 erledigt (siehe archive/2026-08-14/)
+- HFCM #6 Schema ON, #5 OFF, #7 Disclaimer+Autor ON
+- Rank Math aktiv, Top-Metas gesetzt
+- robots Sitemap: https
+
+## Workflow
+
+Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wiedervorlage
+
+## Nächster Schritt
+
+1. Repo pull + Live-Validierung  
+2. CDP-Port-Check  
+3. Weiter mit Schema-Plugin-Bereinigung **nur nach Freigabe**
