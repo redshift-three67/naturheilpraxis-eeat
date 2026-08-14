@@ -1,0 +1,372 @@
+{
+  "counts": {
+    "all": "(46)",
+    "active": "(35)",
+    "inactive": "(11)"
+  },
+  "plugins": [
+    {
+      "name": "301 Redirects",
+      "file": "eps-301-redirects/eps-301-redirects.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "404 Solution",
+      "file": "404-solution/404-solution.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Advanced Custom Fields",
+      "file": "advanced-custom-fields/acf.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Asset CleanUp: Page Speed Booster",
+      "file": "wp-asset-clean-up/wpacu.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Async JavaScript",
+      "file": "async-javascript/async-javascript.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Autoptimize",
+      "file": "autoptimize/autoptimize.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Custom Post Exporter",
+      "file": "wp-exporter/index.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Disable & Remove Google Fonts",
+      "file": "disable-remove-google-fonts/disable-remove-google-fonts.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Disable Comments",
+      "file": "disable-comments/disable-comments.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Duplicator",
+      "file": "duplicator/duplicator.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Easy Table of Contents",
+      "file": "easy-table-of-contents/easy-table-of-contents.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Embed Optimizer",
+      "file": "embed-optimizer/load.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Enhanced Responsive Images",
+      "file": "auto-sizes/auto-sizes.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Folders",
+      "file": "folders/folders.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Header Footer Code Manager",
+      "file": "header-footer-code-manager/99robots-header-footer-code-manager.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Image optimization service by Optimole",
+      "file": "optimole-wp/optimole-wp.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Image Placeholders",
+      "file": "dominant-color-images/load.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Image Prioritizer",
+      "file": "image-prioritizer/load.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Imunify Security",
+      "file": "imunify-security/imunify-security.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Menu Management Enhancer",
+      "file": "menu_management_enhancer/wp-mm-enhancer.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Modern Image Formats",
+      "file": "webp-uploads/load.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "noindex SEO",
+      "file": "noindex-seo/noindex-seo.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Optimization Detective",
+      "file": "optimization-detective/load.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "PB SEO Friendly Images",
+      "file": "pb-seo-friendly-images/pb-seo-friendly-images.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Performance Lab",
+      "file": "performance-lab/load.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math/rank-math.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math_old/rank-math.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Rank Math SEO PRO",
+      "file": "seo-by-rank-math-pro-old/rank-math-pro.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Regenerate Thumbnails",
+      "file": "regenerate-thumbnails/regenerate-thumbnails.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Robots.txt Editor",
+      "file": "robots-txt-editor/robots-txt-editor.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Safe SVG",
+      "file": "safe-svg/safe-svg.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Schema & Structured Data for WP & AMP",
+      "file": "schema-and-structured-data-for-wp/structured-data-for-wp.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Server IP & Memory Usage Display",
+      "file": "server-ip-memory-usage/server-ip-memory-usage.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "ShortPixel Image Optimizer",
+      "file": "shortpixel-image-optimiser/wp-shortpixel.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "snip pro - Strukturierte Daten",
+      "file": "rich-snippets-wordpress-plugin/rich-snippets-wordpress-plugin.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Speed Booster Pack",
+      "file": "speed-booster-pack/speed-booster-pack.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "The GDPR Framework",
+      "file": "gdpr-framework/gdpr-framework.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Tracking Code Manager",
+      "file": "tracking-code-manager/index.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "UpdraftPlus – Sichern/Wiederherstellen",
+      "file": "updraftplus/updraftplus.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WP All Export",
+      "file": "wp-all-export/wp-all-export.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WP Links Page",
+      "file": "wp-links-page/wp-links-page-free.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WP STAGING WordPress Backup Plugin - Backup Duplicator",
+      "file": "wp-staging/wp-staging.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "WP-Dateimanager",
+      "file": "wp-file-manager/file_folder_manager.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WPvivid Backup Plugin",
+      "file": "wpvivid-backuprestore/wpvivid-backuprestore.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WPvivid Plugins Pro",
+      "file": "wpvivid-backup-pro/wpvivid-backup-pro.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Yoast Duplicate Post",
+      "file": "duplicate-post/duplicate-post.php",
+      "active": true,
+      "inactive": false
+    }
+  ],
+  "user": "Administrator",
+  "notices": [
+    "WordPress 7.0.4 ist verfügbar! Bitte aktualisiere jetzt.",
+    "There is a new version of WPvivid Plugins Pro available. Update now."
+  ],
+  "url": "https://rauch-heilpraktiker.de/wp-admin/plugins.php",
+  "title": "Plugins ‹ Naturheilpraxis Rauch – WordPress",
+  "watched": [
+    {
+      "name": "404 Solution",
+      "file": "404-solution/404-solution.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Asset CleanUp: Page Speed Booster",
+      "file": "wp-asset-clean-up/wpacu.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Async JavaScript",
+      "file": "async-javascript/async-javascript.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Header Footer Code Manager",
+      "file": "header-footer-code-manager/99robots-header-footer-code-manager.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "noindex SEO",
+      "file": "noindex-seo/noindex-seo.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math/rank-math.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math_old/rank-math.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Rank Math SEO PRO",
+      "file": "seo-by-rank-math-pro-old/rank-math-pro.php",
+      "active": false,
+      "inactive": true
+    },
+    {
+      "name": "Robots.txt Editor",
+      "file": "robots-txt-editor/robots-txt-editor.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Schema & Structured Data for WP & AMP",
+      "file": "schema-and-structured-data-for-wp/structured-data-for-wp.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "snip pro - Strukturierte Daten",
+      "file": "rich-snippets-wordpress-plugin/rich-snippets-wordpress-plugin.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "Speed Booster Pack",
+      "file": "speed-booster-pack/speed-booster-pack.php",
+      "active": true,
+      "inactive": false
+    },
+    {
+      "name": "WP STAGING WordPress Backup Plugin - Backup Duplicator",
+      "file": "wp-staging/wp-staging.php",
+      "active": false,
+      "inactive": true
+    }
+  ]
+}

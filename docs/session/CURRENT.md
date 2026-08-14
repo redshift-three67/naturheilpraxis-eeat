@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:01 CEST
+Stand: 2026-08-14 21:07 CEST
 
 ## Massgabe
 
@@ -24,18 +24,20 @@ Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
 - HFCM #6 Schema ON, #5 OFF, #7 Disclaimer+Autor ON
 - Frontend: 1× MedicalClinic+Physician (identisch Repo-Snippet)
 - Disclaimer sitewide sichtbar
-- Rank Math SEO **aktuell INAKTIV** (inkl. old/PRO-Kopien) → erklärt fehlende Frontend-Metas
-- snip pro **ON**, Schema & Structured Data **ON**, HFCM **ON**, noindex SEO **ON**
+- Rank Math SEO **INAKTIV** (inkl. old/PRO-Kopien) → fehlende Frontend-Metas
+- **snip pro OFF** (SCHEMA-01, live_verified; Home JSON-LD 7→2)
+- Schema & Structured Data **ON**, HFCM **ON**, noindex SEO **ON**
 
 ## Workflow
 
 Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wiedervorlage
 
-## Nächster Schritt (Freigabe nötig)
+## Nächster Schritt
 
-1. ~~WP-Admin-Login~~ erledigt (CDP 9224)
-2. Schema-Plugin-Bereinigung (`snip pro` → Schema-Plugin) **nur nach expliziter Freigabe**
-3. Rank Math wieder aktivieren **nur nach Freigabe** (TQW-03-Metas + Frontend-Ausgabe)
-4. LocalBusiness-Doppelung prüfen
+1. ~~WP-Admin-Login~~ erledigt
+2. ~~SCHEMA-01 snip pro aus~~ live_verified
+3. SCHEMA-02: `Schema & Structured Data` deaktivieren
+4. SCHEMA-03: Rank Math wieder aktivieren, Frontend-Metas prüfen
+5. LocalBusiness-Doppelung prüfen
 
-Protokolle: `archive/2026-08-14/SESSION-START-CDP.md`, `archive/2026-08-14/SESSION-ADMIN-LOGIN.md`
+Protokolle: `archive/2026-08-14/SESSION-START-CDP.md`, `SESSION-ADMIN-LOGIN.md`, `SCHEMA-01-snip-pro-deactivate.md`

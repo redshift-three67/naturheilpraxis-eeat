@@ -1,6 +1,6 @@
 # Schema-Strategie – rauch-heilpraktiker.de
 
-Stand: 2026-08-14
+Stand: 2026-08-14 21:07 CEST
 
 ## Empfehlung (aktuell optimal)
 
@@ -29,11 +29,11 @@ Stand: 2026-08-14
 2. Rank Math: nur SEO-Meta/Titles/Sitemap; Schema-Typen LocalBusiness/Organization nur wenn nötig und ohne Widerspruch
 3. Keine parallelen Schema-Plugins
 
-### Freigabe-Schritte (nächste Iteration)
+### Freigabe-Schritte
 
-1. `snip pro` deaktivieren → Frontend Schema validieren
+1. ~~`snip pro` deaktivieren~~ **SCHEMA-01 done** (Home JSON-LD 7→2, HFCM-Schema bleibt 1×)
 2. `Schema & Structured Data` deaktivieren → erneut validieren
-3. Rank Math → Schema-Generator prüfen, doppelte LocalBusiness entfernen falls redundant
+3. Rank Math reaktivieren → Metas + Schema-Generator; LocalBusiness nur wenn nötig
 
 ### Rollback
 
