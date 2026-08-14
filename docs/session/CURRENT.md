@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 20:56 CEST
+Stand: 2026-08-14 21:01 CEST
 
 ## Massgabe
 
@@ -15,7 +15,7 @@ Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
 - Fremd-Sessions nicht anfassen: `9223` Lovable, `9225` Sunclinic
 - Chrome-Profil: `/tmp/chrome-rauch-heilpraktiker-cdp`
 - Staging: deaktiviert
-- WP-Admin: Login-Seite über CDP **erreichbar**; **nicht eingeloggt** (keine Alt-Secrets)
+- WP-Admin: **eingeloggt** über CDP (Anzeige „Administrator“ / Konto `Redshift-Three`)
 
 ## Live-Kernstatus (re-validiert 20:56 CEST, Cache-Bust + CDP)
 
@@ -24,17 +24,18 @@ Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
 - HFCM #6 Schema ON, #5 OFF, #7 Disclaimer+Autor ON
 - Frontend: 1× MedicalClinic+Physician (identisch Repo-Snippet)
 - Disclaimer sitewide sichtbar
-- Rank Math **Frontend-Meta-Descriptions derzeit nicht im HTML** (Abweichung zu TQW-03-REST-Setzung) – Wiedervorlage, kein Write
+- Rank Math SEO **aktuell INAKTIV** (inkl. old/PRO-Kopien) → erklärt fehlende Frontend-Metas
+- snip pro **ON**, Schema & Structured Data **ON**, HFCM **ON**, noindex SEO **ON**
 
 ## Workflow
 
 Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wiedervorlage
 
-## Nächster Schritt (nach Zugangsdaten)
+## Nächster Schritt (Freigabe nötig)
 
-1. WP-Admin-Login **nur mit aktuellen Daten vom Auftraggeber**
+1. ~~WP-Admin-Login~~ erledigt (CDP 9224)
 2. Schema-Plugin-Bereinigung (`snip pro` → Schema-Plugin) **nur nach expliziter Freigabe**
-3. Rank Math: Frontend-Ausgabe der Metas prüfen (Umlaute + fehlende `meta description`)
+3. Rank Math wieder aktivieren **nur nach Freigabe** (TQW-03-Metas + Frontend-Ausgabe)
 4. LocalBusiness-Doppelung prüfen
 
-Protokoll Session-Start: `archive/2026-08-14/SESSION-START-CDP.md`
+Protokolle: `archive/2026-08-14/SESSION-START-CDP.md`, `archive/2026-08-14/SESSION-ADMIN-LOGIN.md`
