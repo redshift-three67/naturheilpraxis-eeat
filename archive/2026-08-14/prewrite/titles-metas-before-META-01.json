@@ -1,0 +1,74 @@
+[
+  {
+    "id": "17",
+    "slug": "home",
+    "url": "https://rauch-heilpraktiker.de/",
+    "title": "Heilpraktiker Augsburg - Naturheilpraxis Peter Rauch",
+    "meta": "Heilpraktiker in Augsburg – Naturheilpraxis Peter Rauch. Bioresonanz, NLS-Diagnostik, Elektroakupunktur und klassische Naturheilverfahren.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "26",
+    "slug": "kontakt",
+    "url": "https://rauch-heilpraktiker.de/kontakt/",
+    "title": "Kontakt | Naturheilpraxis Rauch",
+    "meta": "Kontakt und Termin – Naturheilpraxis Rauch, Friedrich-Deffner-Str. 19a, 86163 Augsburg. Tel. +49 821 2621462.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "797",
+    "slug": "nls-diagnostik",
+    "url": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+    "title": "NLS Diagnostik | Metatron Hospital - Diagnose Und Therapie",
+    "meta": "NLS-Diagnostik in Augsburg – sanfte Hinweisdiagnostik in der Naturheilpraxis Rauch. Information und Terminvereinbarung.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "751",
+    "slug": "bioresonanz-therapie",
+    "url": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+    "title": "Bioresonanz-Therapie | Gesund Durch Frequenztherapie",
+    "meta": "Bioresonanztherapie Augsburg – ergaenzende naturheilkundliche Behandlung in der Praxis von Heilpraktiker Peter Rauch.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "728",
+    "slug": "elektroakupunktur",
+    "url": "https://rauch-heilpraktiker.de/elektroakupunktur-nach-dr-voll-3/",
+    "title": "Elektroakupunktur Nach Dr Voll | Mehr Energie",
+    "meta": "Elektroakupunktur nach Dr. Voll in Augsburg – Hinweisdiagnostik in der Naturheilpraxis Rauch.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "5430",
+    "slug": "eav",
+    "url": "https://rauch-heilpraktiker.de/hinweisdiagnostik-eav-elektroakupunktur-nach-voll/",
+    "title": "Hinweisdiagnostik - EAV - Elektroakupunktur Nach Dr. Voll | Naturheilpraxis Rauch",
+    "meta": "EAV und Elektroakupunktur nach Dr. Voll – Hinweisdiagnostik in der Naturheilpraxis Rauch in Augsburg.",
+    "robots": "follow, noindex",
+    "noindex": true
+  },
+  {
+    "id": "2746",
+    "slug": "homoeopathie",
+    "url": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+    "title": "Klassische Homöopathie | Naturheilpraxis Rauch",
+    "meta": "Klassische Homoeopathie in Augsburg – naturheilkundliche Behandlung in der Praxis von Heilpraktiker Peter Rauch.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "noindex": false
+  },
+  {
+    "id": "717",
+    "slug": "bit",
+    "url": "https://rauch-heilpraktiker.de/biophysikalische-informationstherapie-bit/",
+    "title": "Biophysikalische Informationstherapie | Kraftvoll Ganzeitlich",
+    "meta": "Biophysikalische Informationstherapie BIT in Augsburg – ergaenzendes Verfahren in der Naturheilpraxis Rauch.",
+    "robots": "follow, noindex",
+    "noindex": true
+  }
+]
