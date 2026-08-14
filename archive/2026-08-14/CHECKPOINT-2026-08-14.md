@@ -2,8 +2,8 @@
 
 **Fixiert:** 2026-08-14 23:42 CEST  
 **Direktive:** Tagesabschluss  
-**Git-Basis vor diesem Dokument:** `063ebe9efb7f2e994d7dabcc3510235c74a36939`  
-**Nach Push:** `git log -1 --oneline` auf `main` = dieser Tagesabschluss-Commit
+**Wiederherstellungspunkt (Git):** `c828af9e93e85ea7c7d0a9c373527b3a5305f8be`  
+**Basis davor:** `063ebe9efb7f2e994d7dabcc3510235c74a36939`
 
 ## Git wiederherstellen
 
