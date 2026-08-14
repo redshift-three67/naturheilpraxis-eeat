@@ -1,0 +1,28 @@
+User-Agent: *
+Allow: /?display=wide
+Allow: /wp-content/uploads/
+Disallow: /readme.html
+Disallow: /refer/
+
+# Spam Backlink Blocker
+
+Disallow: /feed/
+Disallow: /feed/$
+Disallow: /comments/feed
+Disallow: /trackback/
+Disallow: */?author=*
+Disallow: */author/*
+Disallow: /author*
+Disallow: /author/
+Disallow: */comments$
+Disallow: */feed
+Disallow: */feed$
+Disallow: */trackback
+Disallow: */trackback$
+Disallow: /?feed=
+Disallow: /wp-comments
+Disallow: /wp-feed
+Disallow: /wp-trackback
+Disallow: */replytocom=
+
+Sitemap: https://rauch-heilpraktiker.de/sitemap.xml

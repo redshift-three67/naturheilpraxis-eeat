@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:14 CEST  
+Stand: 2026-08-14 23:27 CEST  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 ## Erledigt (diese Session-Kette)
@@ -53,7 +53,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | Offscreen-Folien lazy | 4 große Hero-Bilder |
 | Autoplay-Interval / Pause prüfen | weniger Main-Thread |
 
-**Paket SLIDER-01:** Texte/CTA-Ziele (Inhalt) – offen  
+**Paket SLIDER-01:** ~~Untertitel HWG + CTA Psychotherapie-Ziel~~ done  
 **Paket SPEED-01:** ~~Kenburns mobil aus + Höhe~~ done (HFCM #9). Offen: WebP/Kompression der Folienbilder.
 
 ## C – Mobile UX / weitere QuickWins
@@ -63,7 +63,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | UX-01 | Footer-Legal-Menü `uk-visible@s` auf XS unsichtbar – Anamnese jetzt über Hero-Leiste abgedeckt; Legal-Links auf Mobile prüfen | mittel |
 | UX-02 | Cookie-Banner überdeckt First Screen | mittel |
 | UX-03 | „Jetzt Termin buchen“ = ProvenExpert extern – bleibt, Anamnese darunter (done) | — |
-| QW-SITEMAP | `sitemap.xml` ist statisch (Stand 2024); Rank-Math-Sitemap-Modul war aus | hoch |
+| QW-SITEMAP | RM-Sitemap an / `sitemap_index.xml` live; **robots.txt-Datei im Root** blockiert die Zeile | Wiedervorlage Plesk |
 | QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
 | QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
 | QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
@@ -72,11 +72,10 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 
 ## Reihenfolge (verbindlich)
 
-1. ~~APP-03/04 Plätze · APP-05 Button-Stil · SPEED-01 Kenburns/Höhe · QW-MENU-METATRON~~
-2. **QW-SITEMAP** (Rank Math Sitemap vs. alte xml)
-3. **SLIDER-01** Texte/CTA-Mismatch (YOOTheme, eher manuell)
-4. UX-01/02 Cookie + Footer mobil
-5. CONTENT-01
-6. Optional Slider-Anamnese-Folie manuell · Bild-WebP/Kompression
+1. ~~APP · SPEED-01 · QW-MENU-METATRON · SLIDER-01~~
+2. **QW-SITEMAP** Modul an, `sitemap_index.xml` live – **robots.txt physisch** noch auf alte `sitemap.xml` (Plesk-Wiedervorlage)
+3. UX-01/02 Cookie + Footer mobil
+4. CONTENT-01
+5. Optional Slider-Anamnese-Folie manuell · Bild-WebP/Kompression
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

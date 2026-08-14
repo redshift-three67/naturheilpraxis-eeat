@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:14 CEST
+Stand: 2026-08-14 23:27 CEST
 
 ## Massgabe
 
@@ -54,7 +54,10 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 14. ~~SPEED-01~~ Kenburns mobil aus, Slider-Höhe reduziert
 15. ~~QW-MENU-METATRON~~ NLS-Label ohne Hospital (Rauch-Punkt korrigiert)
 
-Nächster Plan-Schritt: **QW-SITEMAP**. Siehe `docs/PLAN.md`.
+16. ~~SLIDER-01~~ Untertitel ohne „Sanft Heilen“; Psychotherapie-CTA → `/psychotherapie-augsburg/`
+17. QW-SITEMAP: Rank Math Sitemap **an**; Live-robots zeigt weiter alte `sitemap.xml` (physische Root-Datei) → **Wiedervorlage Plesk**
+
+Siehe `docs/PLAN.md`.
 
 Vollständiger Plan: `docs/PLAN.md`
 
