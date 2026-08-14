@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:44 CEST
+Stand: 2026-08-14 21:54 CEST
 
 ## Massgabe
 
@@ -47,8 +47,6 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 
 noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine globalen noindex-Regeln.  
 9. ~~META-03 NLS-Keywords~~
-10. ~~META-04 YMYL-Titel~~ live_verified
-
-Offene Restpunkte (nicht nötig): Rank-Math-Titel-Großschreibung; NLS-Keyword „Oberon NLS Diagnostik“ (Gerätename, belassen).
-
-Protokolle: `META-01`, `NOINDEX-01`, `META-02-umlaute.md`
+10. ~~META-04 YMYL-Titel~~
+11. ~~META-05 restliche Werbetitel (8 Seiten)~~ live_verified
+12. META-06: restliche Claim-/ASCII-Metas (Darm, Manuell, Komplex-Homöopathie, Psychotherapie, NAET)
