@@ -1,17 +1,18 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 15:04 CEST
+Stand: 2026-08-14 15:15 CEST
 
 ## Umgebung
-- Live: https://rauch-heilpraktiker.de
-- Staging: deaktiviert
+- Live only
 - GitHub: redshift-three67/naturheilpraxis-eeat
 
-## Letzte Aktion
-- TQW-02: MedicalClinic + Physician Schema via HFCM auf Live angelegt und im Frontend verifiziert.
-- HFCM: Snippets id=5 und id=6 (Doppelanlage – eines deaktivieren/löschen).
+## Erledigt
+- TQW-01 robots.txt https
+- TQW-02 Schema MedicalClinic+Physician (HFCM id=6 active, id=5 off)
+- TQW-03 Rank Math aktiv + Meta Descriptions Top-Seiten
 
 ## Nächste Schritte
-1. Doppel-Snippet bereinigen (nur eines active)
-2. TQW-03 Meta Descriptions
-3. TQW-04 Disclaimer + Autorenbox
+- TQW-04 Disclaimer + Autorenbox
+- Plugin-Bereinigung (siehe docs/plugin-conflicts)
+- Rank Math Setup-Wizard prüfen / Titles konsolidieren
+- Schema-Doppelungen: HFCM vs Schema-Plugin vs snip pro vs Rank Math
