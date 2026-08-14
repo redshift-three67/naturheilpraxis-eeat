@@ -50,8 +50,9 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 10. ~~META-04 YMYL-Titel~~
 11. ~~META-05 restliche Werbetitel (8 Seiten)~~
 12. ~~META-06 Claim-/ASCII-Metas (5 Seiten)~~ live_verified
-13. ~~APP-01 Footer Online-Anamnesebogen~~ live_verified
-14. APP-02: ein Slider-CTA zur Lovable-App
+13. ~~APP-01 Footer-Menü Online-Anamnesebogen~~ (topmenu / `nav_menu-7`)
+14. ~~APP-02 sichtbare Leiste HFCM #8~~ live_verified  
+    Slider-CTA: versucht, leere Folie, **Rollback**. YOOtheme-Slider bei Bedarf manuell.
 
 Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
 Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
