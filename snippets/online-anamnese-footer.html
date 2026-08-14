@@ -2,3 +2,33 @@
   <a href="https://naturheilpraxis-rauch.lovable.app/" target="_blank" rel="noopener">Online-Anamnesebogen</a>
   <span style="color:#555;"> – Patientenaufnahme vor dem Termin</span>
 </div>
+<script>
+(function () {
+  var src = document.getElementById('eeat-online-anamnese');
+  if (!src) return;
+  function after(el, node) {
+    if (!el || !el.parentNode) return false;
+    el.parentNode.insertBefore(node, el.nextSibling);
+    return true;
+  }
+  var termin = Array.prototype.find.call(document.querySelectorAll('h3, a, .el-title'), function (el) {
+    return /Jetzt\s+Termin\s+buchen/i.test((el.textContent || '').replace(/\s+/g, ' '));
+  });
+  var pe = document.querySelector('img[data-src*="provenexpert"], img[src*="provenexpert"], img[alt*="Kundenbewertungen"]');
+  if (termin) {
+    var card = termin.closest('a.el-item, .uk-card, .uk-margin-small') || termin.parentElement;
+    after(card, src);
+  }
+  if (pe) {
+    var wrap = pe.closest('a') || pe.parentElement;
+    if (termin) {
+      var clone = src.cloneNode(true);
+      clone.id = 'eeat-online-anamnese-pe';
+      after(wrap, clone);
+    } else {
+      after(wrap, src);
+    }
+  }
+})();
+</script>
+

@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 22:22 CEST
+Stand: 2026-08-14 22:55 CEST
 
 ## Massgabe
 
@@ -50,9 +50,10 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 10. ~~META-04 YMYL-Titel~~
 11. ~~META-05 restliche Werbetitel (8 Seiten)~~
 12. ~~META-06 Claim-/ASCII-Metas (5 Seiten)~~ live_verified
-13. ~~APP-01 Footer-Menü Online-Anamnesebogen~~ (topmenu / `nav_menu-7`)
-14. ~~APP-02 sichtbare Leiste HFCM #8~~ live_verified  
-    Slider-CTA: versucht, leere Folie, **Rollback**. YOOtheme-Slider bei Bedarf manuell.
+13. ~~APP-01…04 Anamnesebogen~~ Menü nach Kontakt, Submenü nach „Praxis offen“, Startseite unter „Jetzt Termin buchen“
+14. Nächster Live-Schritt laut `docs/PLAN.md`: **QW-MENU-METATRON** oder **QW-SITEMAP**
+
+Vollständiger Plan: `docs/PLAN.md`
 
 Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
 Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
