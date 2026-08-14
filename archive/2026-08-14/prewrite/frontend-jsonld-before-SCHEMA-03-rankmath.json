@@ -1,0 +1,53 @@
+{
+  "home": {
+    "jsonLd": 1,
+    "types": [
+      [
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician"
+      ]
+    ],
+    "clinic": 1,
+    "physician": 1,
+    "repoMatch": true,
+    "disclaimer": true,
+    "diagnose": true,
+    "metaDesc": false
+  },
+  "nls": {
+    "jsonLd": 1,
+    "types": [
+      [
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician"
+      ]
+    ],
+    "clinic": 1,
+    "physician": 1,
+    "repoMatch": true,
+    "disclaimer": true,
+    "diagnose": true,
+    "metaDesc": false
+  },
+  "kontakt": {
+    "jsonLd": 1,
+    "types": [
+      [
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician"
+      ]
+    ],
+    "clinic": 1,
+    "physician": 1,
+    "repoMatch": true,
+    "disclaimer": true,
+    "diagnose": true,
+    "metaDesc": false
+  }
+}

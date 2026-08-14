@@ -1,0 +1,238 @@
+{
+  "counts": {
+    "all": 46,
+    "active": 33
+  },
+  "plugins": [
+    {
+      "name": "301 Redirects",
+      "file": "eps-301-redirects/eps-301-redirects.php",
+      "active": true
+    },
+    {
+      "name": "404 Solution",
+      "file": "404-solution/404-solution.php",
+      "active": true
+    },
+    {
+      "name": "Advanced Custom Fields",
+      "file": "advanced-custom-fields/acf.php",
+      "active": true
+    },
+    {
+      "name": "Asset CleanUp: Page Speed Booster",
+      "file": "wp-asset-clean-up/wpacu.php",
+      "active": false
+    },
+    {
+      "name": "Async JavaScript",
+      "file": "async-javascript/async-javascript.php",
+      "active": true
+    },
+    {
+      "name": "Autoptimize",
+      "file": "autoptimize/autoptimize.php",
+      "active": false
+    },
+    {
+      "name": "Custom Post Exporter",
+      "file": "wp-exporter/index.php",
+      "active": false
+    },
+    {
+      "name": "Disable & Remove Google Fonts",
+      "file": "disable-remove-google-fonts/disable-remove-google-fonts.php",
+      "active": true
+    },
+    {
+      "name": "Disable Comments",
+      "file": "disable-comments/disable-comments.php",
+      "active": true
+    },
+    {
+      "name": "Duplicator",
+      "file": "duplicator/duplicator.php",
+      "active": true
+    },
+    {
+      "name": "Easy Table of Contents",
+      "file": "easy-table-of-contents/easy-table-of-contents.php",
+      "active": true
+    },
+    {
+      "name": "Embed Optimizer",
+      "file": "embed-optimizer/load.php",
+      "active": true
+    },
+    {
+      "name": "Enhanced Responsive Images",
+      "file": "auto-sizes/auto-sizes.php",
+      "active": true
+    },
+    {
+      "name": "Folders",
+      "file": "folders/folders.php",
+      "active": true
+    },
+    {
+      "name": "Header Footer Code Manager",
+      "file": "header-footer-code-manager/99robots-header-footer-code-manager.php",
+      "active": true
+    },
+    {
+      "name": "Image optimization service by Optimole",
+      "file": "optimole-wp/optimole-wp.php",
+      "active": false
+    },
+    {
+      "name": "Image Placeholders",
+      "file": "dominant-color-images/load.php",
+      "active": true
+    },
+    {
+      "name": "Image Prioritizer",
+      "file": "image-prioritizer/load.php",
+      "active": true
+    },
+    {
+      "name": "Imunify Security",
+      "file": "imunify-security/imunify-security.php",
+      "active": false
+    },
+    {
+      "name": "Menu Management Enhancer",
+      "file": "menu_management_enhancer/wp-mm-enhancer.php",
+      "active": true
+    },
+    {
+      "name": "Modern Image Formats",
+      "file": "webp-uploads/load.php",
+      "active": false
+    },
+    {
+      "name": "noindex SEO",
+      "file": "noindex-seo/noindex-seo.php",
+      "active": true
+    },
+    {
+      "name": "Optimization Detective",
+      "file": "optimization-detective/load.php",
+      "active": true
+    },
+    {
+      "name": "PB SEO Friendly Images",
+      "file": "pb-seo-friendly-images/pb-seo-friendly-images.php",
+      "active": true
+    },
+    {
+      "name": "Performance Lab",
+      "file": "performance-lab/load.php",
+      "active": true
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math/rank-math.php",
+      "active": false
+    },
+    {
+      "name": "Rank Math SEO",
+      "file": "seo-by-rank-math_old/rank-math.php",
+      "active": false
+    },
+    {
+      "name": "Rank Math SEO PRO",
+      "file": "seo-by-rank-math-pro-old/rank-math-pro.php",
+      "active": false
+    },
+    {
+      "name": "Regenerate Thumbnails",
+      "file": "regenerate-thumbnails/regenerate-thumbnails.php",
+      "active": false
+    },
+    {
+      "name": "Robots.txt Editor",
+      "file": "robots-txt-editor/robots-txt-editor.php",
+      "active": true
+    },
+    {
+      "name": "Safe SVG",
+      "file": "safe-svg/safe-svg.php",
+      "active": true
+    },
+    {
+      "name": "Schema & Structured Data for WP & AMP",
+      "file": "schema-and-structured-data-for-wp/structured-data-for-wp.php",
+      "active": false
+    },
+    {
+      "name": "Server IP & Memory Usage Display",
+      "file": "server-ip-memory-usage/server-ip-memory-usage.php",
+      "active": true
+    },
+    {
+      "name": "ShortPixel Image Optimizer",
+      "file": "shortpixel-image-optimiser/wp-shortpixel.php",
+      "active": true
+    },
+    {
+      "name": "snip pro - Strukturierte Daten",
+      "file": "rich-snippets-wordpress-plugin/rich-snippets-wordpress-plugin.php",
+      "active": false
+    },
+    {
+      "name": "Speed Booster Pack",
+      "file": "speed-booster-pack/speed-booster-pack.php",
+      "active": true
+    },
+    {
+      "name": "The GDPR Framework",
+      "file": "gdpr-framework/gdpr-framework.php",
+      "active": true
+    },
+    {
+      "name": "Tracking Code Manager",
+      "file": "tracking-code-manager/index.php",
+      "active": true
+    },
+    {
+      "name": "UpdraftPlus – Sichern/Wiederherstellen",
+      "file": "updraftplus/updraftplus.php",
+      "active": true
+    },
+    {
+      "name": "WP All Export",
+      "file": "wp-all-export/wp-all-export.php",
+      "active": true
+    },
+    {
+      "name": "WP Links Page",
+      "file": "wp-links-page/wp-links-page-free.php",
+      "active": true
+    },
+    {
+      "name": "WP STAGING WordPress Backup Plugin - Backup Duplicator",
+      "file": "wp-staging/wp-staging.php",
+      "active": false
+    },
+    {
+      "name": "WP-Dateimanager",
+      "file": "wp-file-manager/file_folder_manager.php",
+      "active": true
+    },
+    {
+      "name": "WPvivid Backup Plugin",
+      "file": "wpvivid-backuprestore/wpvivid-backuprestore.php",
+      "active": true
+    },
+    {
+      "name": "WPvivid Plugins Pro",
+      "file": "wpvivid-backup-pro/wpvivid-backup-pro.php",
+      "active": true
+    },
+    {
+      "name": "Yoast Duplicate Post",
+      "file": "duplicate-post/duplicate-post.php",
+      "active": true
+    }
+  ]
+}

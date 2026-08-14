@@ -33,7 +33,8 @@ Stand: 2026-08-14 21:07 CEST
 
 1. ~~`snip pro` deaktivieren~~ **SCHEMA-01 done**
 2. ~~`Schema & Structured Data` deaktivieren~~ **SCHEMA-02 done** (nur noch 1× HFCM MedicalClinic+Physician)
-3. Rank Math reaktivieren → Metas + Schema-Generator; LocalBusiness nur wenn nötig
+3. ~~Rank Math reaktivieren~~ **SCHEMA-03 done** (Metas wieder da)
+4. Rank-Math-Graph: `HealthAndBeautyBusiness` überlappt `MedicalClinic` → Modul prüfen/reduzieren
 
 ### Rollback
 
