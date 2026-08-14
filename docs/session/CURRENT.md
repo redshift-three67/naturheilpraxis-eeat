@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 22:55 CEST
+Stand: 2026-08-14 23:14 CEST
 
 ## Massgabe
 
@@ -50,8 +50,11 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 10. ~~META-04 YMYL-Titel~~
 11. ~~META-05 restliche Werbetitel (8 Seiten)~~
 12. ~~META-06 Claim-/ASCII-Metas (5 Seiten)~~ live_verified
-13. ~~APP-01…04 Anamnesebogen~~ Menü nach Kontakt, Submenü nach „Praxis offen“, Startseite unter „Jetzt Termin buchen“
-14. Nächster Live-Schritt laut `docs/PLAN.md`: **QW-MENU-METATRON** oder **QW-SITEMAP**
+13. ~~APP-01…05 Anamnesebogen~~ inkl. Button-Stil unter „Jetzt Termin buchen“
+14. ~~SPEED-01~~ Kenburns mobil aus, Slider-Höhe reduziert
+15. ~~QW-MENU-METATRON~~ NLS-Label ohne Hospital (Rauch-Punkt korrigiert)
+
+Nächster Plan-Schritt: **QW-SITEMAP**. Siehe `docs/PLAN.md`.
 
 Vollständiger Plan: `docs/PLAN.md`
 

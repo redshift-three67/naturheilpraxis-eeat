@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 22:55 CEST  
+Stand: 2026-08-14 23:14 CEST  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 ## Erledigt (diese Session-Kette)
@@ -66,19 +66,17 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | QW-SITEMAP | `sitemap.xml` ist statisch (Stand 2024); Rank-Math-Sitemap-Modul war aus | hoch |
 | QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
 | QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
-| QW-MENU-METATRON | Menüpunkt „NLS Diagnostik / Metatron Hospital System“ umbenennen | hoch |
+| QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
 | QW-TITELCASE | Rank-Math „Titel großschreiben“ (Nach vs. nach) | niedrig |
 | CONTENT-01 | Therapie-Seiten E-E-A-T-Vertiefung (kein Heilversprechen) | mittel |
 
 ## Reihenfolge (verbindlich)
 
-1. ~~APP-03/04 Anamnese-Plätze~~ (diese Runde)
-2. **QW-MENU-METATRON** (kleiner Live-Schritt)
-3. **QW-SITEMAP** (Rank Math Sitemap vs. alte xml)
-4. **SLIDER-01** Texte/CTA-Mismatch (YOOTheme, eher manuell oder sehr kleinteilig)
-5. **SPEED-01** Slider-Performance mobil
-6. UX-01/02 Cookie + Footer mobil
-7. CONTENT-01
-8. Optional APP-05 Slider-Anamnese manuell
+1. ~~APP-03/04 Plätze · APP-05 Button-Stil · SPEED-01 Kenburns/Höhe · QW-MENU-METATRON~~
+2. **QW-SITEMAP** (Rank Math Sitemap vs. alte xml)
+3. **SLIDER-01** Texte/CTA-Mismatch (YOOTheme, eher manuell)
+4. UX-01/02 Cookie + Footer mobil
+5. CONTENT-01
+6. Optional Slider-Anamnese-Folie manuell · Bild-WebP/Kompression
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

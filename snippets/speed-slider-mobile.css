@@ -1,0 +1,16 @@
+<style id="eeat-speed-slider-mobile">
+@media (prefers-reduced-motion: reduce) {
+  .uk-slideshow .uk-animation-kenburns { animation: none !important; transform: none !important; }
+}
+@media (max-width: 959px) {
+  .uk-slideshow .uk-animation-kenburns {
+    animation: none !important;
+    transform: none !important;
+  }
+  .uk-slideshow-items {
+    min-height: 260px !important;
+    height: 46vh !important;
+    max-height: 400px !important;
+  }
+}
+</style>
