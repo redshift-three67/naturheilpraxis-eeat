@@ -31,8 +31,8 @@ Stand: 2026-08-14 21:07 CEST
 
 ### Freigabe-Schritte
 
-1. ~~`snip pro` deaktivieren~~ **SCHEMA-01 done** (Home JSON-LD 7→2, HFCM-Schema bleibt 1×)
-2. `Schema & Structured Data` deaktivieren → erneut validieren
+1. ~~`snip pro` deaktivieren~~ **SCHEMA-01 done**
+2. ~~`Schema & Structured Data` deaktivieren~~ **SCHEMA-02 done** (nur noch 1× HFCM MedicalClinic+Physician)
 3. Rank Math reaktivieren → Metas + Schema-Generator; LocalBusiness nur wenn nötig
 
 ### Rollback
