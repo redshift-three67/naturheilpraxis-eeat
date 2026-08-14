@@ -1,11 +1,14 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:27 CEST
+Stand: 2026-08-14 23:42 CEST · **Direktive Tagesabschluss fixiert**
 
 ## Massgabe
 
 **GitHub Repository `redshift-three67/naturheilpraxis-eeat` ist die alleinige Referenz.**  
-Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
+**Tagesabschluss:** `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
+**Nächster Session-Prompt:** `docs/session/PROMPT-FORTSETZUNG.md`  
+**Restore:** `archive/2026-08-14/CHECKPOINT-2026-08-14.md`  
+Handoff-Historie: `docs/session/HANDOFF-2026-08-14.md`
 
 ## Umgebung jetzt
 

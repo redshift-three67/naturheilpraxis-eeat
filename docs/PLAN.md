@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:27 CEST  
+Stand: 2026-08-14 23:42 CEST · siehe Direktive `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 ## Erledigt (diese Session-Kette)
