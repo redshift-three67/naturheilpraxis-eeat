@@ -46,7 +46,9 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 8. ~~META-02 Umlaute + BIT-Titel~~ live_verified
 
 noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine globalen noindex-Regeln.  
-9. ~~META-03 NLS-Keywords ohne Metatron Hospital/Hunter~~ live_verified
-10. META-04: Titel ohne „Gesund durch Frequenztherapie“ / „Mehr Energie“
+9. ~~META-03 NLS-Keywords~~
+10. ~~META-04 YMYL-Titel~~ live_verified
+
+Offene Restpunkte (nicht nötig): Rank-Math-Titel-Großschreibung; NLS-Keyword „Oberon NLS Diagnostik“ (Gerätename, belassen).
 
 Protokolle: `META-01`, `NOINDEX-01`, `META-02-umlaute.md`
