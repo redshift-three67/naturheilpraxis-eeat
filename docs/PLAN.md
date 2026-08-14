@@ -53,8 +53,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | Offscreen-Folien lazy | 4 große Hero-Bilder |
 | Autoplay-Interval / Pause prüfen | weniger Main-Thread |
 
-**Paket SLIDER-01:** Texte/CTA-Ziele (Inhalt)  
-**Paket SPEED-01:** Kenburns aus + Bildgewicht + Viewport-Höhe mobil
+**Paket SLIDER-01:** Texte/CTA-Ziele (Inhalt) – offen  
+**Paket SPEED-01:** ~~Kenburns mobil aus + Höhe~~ done (HFCM #9). Offen: WebP/Kompression der Folienbilder.
 
 ## C – Mobile UX / weitere QuickWins
 
