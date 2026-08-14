@@ -1,18 +1,24 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 15:15 CEST
+Stand: 2026-08-14 18:25 CEST
 
 ## Umgebung
 - Live only
 - GitHub: redshift-three67/naturheilpraxis-eeat
 
-## Erledigt
+## Erledigt (2026-08-14)
 - TQW-01 robots.txt https
-- TQW-02 Schema MedicalClinic+Physician (HFCM id=6 active, id=5 off)
-- TQW-03 Rank Math aktiv + Meta Descriptions Top-Seiten
+- TQW-02 Schema HFCM #6 MedicalClinic+Physician
+- TQW-03 Rank Math + Meta Top-Seiten
+- TQW-04 Disclaimer + Autorenbox HFCM #7 Footer
+
+## Schema-Entscheidung (Empfehlung)
+- Behalten: HFCM MedicalClinic/Physician + Rank Math (Meta/SEO)
+- Deaktivieren (Freigabe): snip pro, Schema & Structured Data Plugin
+- Details: `docs/SCHEMA-STRATEGY.md`
 
 ## Nächste Schritte
-- TQW-04 Disclaimer + Autorenbox
-- Plugin-Bereinigung (siehe docs/plugin-conflicts)
-- Rank Math Setup-Wizard prüfen / Titles konsolidieren
-- Schema-Doppelungen: HFCM vs Schema-Plugin vs snip pro vs Rank Math
+1. Schema-Plugin-Bereinigung nach Freigabe
+2. Rank Math Titles/Umlaute in Metas nachziehen
+3. Optional: LocalBusiness-Doppelung in Rank Math reduzieren
+4. Content/E-E-A-T Vertiefung (Therapie-Seiten)
