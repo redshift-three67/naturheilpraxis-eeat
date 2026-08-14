@@ -17,11 +17,11 @@ Stand: 2026-08-14 21:07 CEST
 | **Schema & Structured Data for WP & AMP** | Generische JSON-LD | **Deaktivieren** – redundant zu HFCM + Rank Math |
 | **snip pro** | Weitere strukturierte Daten | **Deaktivieren** – dritte Quelle, Konflikt-/Validierungsrisiko |
 
-### Ist-Zustand Frontend (Home)
+### Ist-Zustand Frontend (Home) – nach SCHEMA-04
 
 - 1× `@graph` MedicalClinic + Physician (HFCM) ✅
-- Zusätzlich: WebSite, Organization, LocalBusiness, Breadcrumb, ItemList (Rank Math / Theme / andere)
-- LocalBusiness überlappt inhaltlich mit MedicalClinic → mittelfristig Rank-Math-LocalBusiness abschalten oder auf MedicalClinic konsolidieren
+- Rank Math: Organization, WebSite, WebPage/Article, Person (kein LocalBusiness / HealthAndBeautyBusiness)
+- Lokales SEO-Modul: **aus**
 
 ### Zielbild
 
@@ -33,8 +33,8 @@ Stand: 2026-08-14 21:07 CEST
 
 1. ~~`snip pro` deaktivieren~~ **SCHEMA-01 done**
 2. ~~`Schema & Structured Data` deaktivieren~~ **SCHEMA-02 done** (nur noch 1× HFCM MedicalClinic+Physician)
-3. ~~Rank Math reaktivieren~~ **SCHEMA-03 done** (Metas wieder da)
-4. Rank-Math-Graph: `HealthAndBeautyBusiness` überlappt `MedicalClinic` → Modul prüfen/reduzieren
+3. ~~Rank Math reaktivieren~~ **SCHEMA-03 done**
+4. ~~Lokales SEO aus~~ **SCHEMA-04 done** (kein HealthAndBeautyBusiness mehr; fachliches Schema nur HFCM MedicalClinic+Physician)
 
 ### Rollback
 

@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:10 CEST
+Stand: 2026-08-14 21:19 CEST
 
 ## Massgabe
 
@@ -27,7 +27,8 @@ Vollständiger Handoff: `docs/session/HANDOFF-2026-08-14.md`
 - **Rank Math SEO ON** (SCHEMA-03, nur `seo-by-rank-math/`; old/PRO bleiben aus)
 - Frontend-Metas wieder da (TQW-03-Texte); robots `follow, index`
 - **snip pro OFF**, **Schema-Plugin OFF**, HFCM **ON**, noindex SEO **ON**
-- JSON-LD: 1× HFCM MedicalClinic+Physician + Rank-Math-Graph (`HealthAndBeautyBusiness`)
+- JSON-LD: 1× HFCM MedicalClinic+Physician + Rank-Math (Organization/WebSite/WebPage/Person)
+- **Lokales SEO-Modul OFF** (SCHEMA-04) – kein HealthAndBeautyBusiness / LocalBusiness mehr
 
 ## Workflow
 
@@ -36,9 +37,10 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 ## Nächster Schritt
 
 1. ~~WP-Admin-Login~~ erledigt
-2. ~~SCHEMA-01 snip pro aus~~ live_verified
-3. ~~SCHEMA-02 Schema-Plugin aus~~ live_verified
-4. ~~SCHEMA-03 Rank Math an~~ live_verified (Metas wieder im HTML)
-5. SCHEMA-04: Rank-Math-Graph `HealthAndBeautyBusiness` vs HFCM `MedicalClinic` konsolidieren
+2. ~~SCHEMA-01 snip pro aus~~
+3. ~~SCHEMA-02 Schema-Plugin aus~~
+4. ~~SCHEMA-03 Rank Math an~~
+5. ~~SCHEMA-04 Lokales SEO aus~~ live_verified
+6. Optional: Rank-Math-Titel (z. B. NLS „Metatron Hospital“), Umlaute in Metas, noindex-SEO-Konflikt
 
-Protokolle: `SCHEMA-01` … `SCHEMA-03-rankmath-activate.md`
+Protokolle: `SCHEMA-01` … `SCHEMA-04-local-seo-off.md`

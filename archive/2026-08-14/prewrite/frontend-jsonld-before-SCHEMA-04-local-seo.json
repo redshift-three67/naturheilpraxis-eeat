@@ -1,0 +1,29 @@
+{
+  "jsonLd": 2,
+  "hasHealthAndBeauty": true,
+  "hasMedicalClinic": true,
+  "hasOpeningHours": true,
+  "disclaimer": true,
+  "meta": "Heilpraktiker in Augsburg – Naturheilpraxis Peter Rauch. Bioresonanz, NLS-Diagnostik, Elektroakupunktur und klassische Naturheilverfahren.",
+  "types": [
+    [
+      "Place",
+      "PostalAddress",
+      "HealthAndBeautyBusiness+Organization",
+      "PostalAddress",
+      "ImageObject",
+      "WebSite",
+      "SearchAction",
+      "ImageObject",
+      "WebPage",
+      "Article",
+      "Person"
+    ],
+    [
+      "MedicalClinic",
+      "PostalAddress",
+      "GeoCoordinates",
+      "Physician"
+    ]
+  ]
+}
