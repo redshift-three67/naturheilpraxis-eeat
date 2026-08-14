@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 21:54 CEST
+Stand: 2026-08-14 21:56 CEST
 
 ## Massgabe
 
@@ -48,5 +48,8 @@ Siehe `docs/WORKFLOW.md` – Prewrite → Live → Verify → Dokumentieren / Wi
 noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine globalen noindex-Regeln.  
 9. ~~META-03 NLS-Keywords~~
 10. ~~META-04 YMYL-Titel~~
-11. ~~META-05 restliche Werbetitel (8 Seiten)~~ live_verified
-12. META-06: restliche Claim-/ASCII-Metas (Darm, Manuell, Komplex-Homöopathie, Psychotherapie, NAET)
+11. ~~META-05 restliche Werbetitel (8 Seiten)~~
+12. ~~META-06 Claim-/ASCII-Metas (5 Seiten)~~ live_verified
+
+Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
+Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
