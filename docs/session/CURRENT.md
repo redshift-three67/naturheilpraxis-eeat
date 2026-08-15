@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · VERF-01…05 Naturheilkunde-Verfahrenstexte live_verified
+Stand: 2026-08-15 · VERF-01…06 live_verified (Naturheilkunde + Kinesiologie/Schmerz)
 
 ## Massgabe
 

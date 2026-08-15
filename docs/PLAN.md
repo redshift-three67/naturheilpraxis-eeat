@@ -103,6 +103,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 28. ~~VERF-03~~ Phytotherapie
 29. ~~VERF-04~~ NAET
 30. ~~VERF-05~~ Injektion / Neuraltherapie
-31. Offen: nächste Verfahrenstexte (Schmerz, dann Bioresonanz/IMT) · NLS-Fett · TTFB Hosting
+31. ~~VERF-06~~ Schmerz / Kinesiologie (Hub behalten)
+32. Offen: Homöopathie-Schmerz und Injektion-Schmerz auf derselben Seite · Bioresonanz/IMT · NLS-Fett · TTFB Hosting
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
