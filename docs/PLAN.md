@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · **Welle 1–5 live** · **nächste Freigabe: Welle 6 (10 Kindseiten)**  
+Stand: 2026-08-15 · **Welle 1–5 live** · **Welle 6 Cluster live** (Texte unverändert, H1/Claims zur Absprache)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`  
 YMYL/HWG: keine Heilversprechen · Disclaimer/Autor nur sitewide (HFCM #7) · Schema nur HFCM #6 + Rank Math
 
@@ -104,7 +104,9 @@ flowchart TB
 
 ### Welle 6 – Naturheilkunde-Kinder + höchste HWG-Last (10)
 
-Hub `/naturheilkunde/` ist fertig; die Kinder widersprechen ihm noch.
+**Live:** Cluster HFCM #13, Texte unangetastet. Archiv `WELLE-6.md`.
+
+Hub `/naturheilkunde/` ist fertig; die Kinder widersprechen ihm im **Wortlaut** noch – der Wortlaut bleibt bis zur Absprache / Adwords-Phase.
 
 | # | URL | Warum zuerst | Live-Befund |
 |---|-----|----------------|-------------|

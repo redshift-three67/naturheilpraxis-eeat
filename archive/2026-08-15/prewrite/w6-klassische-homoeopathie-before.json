@@ -1,0 +1,165 @@
+{
+  "slug": "klassische-homoeopathie",
+  "url": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+  "hub": "naturheilkunde",
+  "page_id": "2746",
+  "body_class": "wp-singular page-template-default page page-id-2746 wp-theme-yootheme ",
+  "title": "Klassische Homöopathie | Naturheilpraxis Rauch",
+  "meta": "Klassische Homöopathie in Augsburg – naturheilkundliche Behandlung in der Praxis von Heilpraktiker Peter Rauch.",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "canonical": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+  "h1": [
+    "Klassische Homöopathie nach Dr. Samuel Hahnemann"
+  ],
+  "h2": [
+    "Klassische Homöopathie nach Hahnemann",
+    "Phytotherapie – Sanfte Therapie mit Pflanzen",
+    "NAET Allergiebehandlung nach Nambudripad",
+    "Lebensmittelunverträglichkeit sanft behandeln",
+    "Naturheilkundlich begleiten – Stark im Leben",
+    "Homöopathie was ist das eigentlich?"
+  ],
+  "h1_count": 1,
+  "word_count": 1200,
+  "content_chars": 94841,
+  "disclaimer": true,
+  "author_box": true,
+  "nap": true,
+  "faq": true,
+  "schema_types": [
+    "Organization",
+    "ImageObject",
+    "WebSite",
+    "ImageObject",
+    "WebPage",
+    "Article",
+    "Person",
+    "MedicalClinic",
+    "PostalAddress",
+    "GeoCoordinates",
+    "Physician",
+    "FAQPage",
+    "Question",
+    "Answer",
+    "Question",
+    "Answer",
+    "Question",
+    "Answer"
+  ],
+  "risky_terms": [
+    "Heilen",
+    "Heilmittel",
+    "Heilung",
+    "Heilversprechen",
+    "Regulationsstimmulus",
+    "geheilt",
+    "heilt",
+    "heilung"
+  ],
+  "internal_links_sample": [
+    {
+      "href": "https://rauch-heilpraktiker.de/",
+      "text": "Rauch"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung/",
+      "text": "Datenschutz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung-tools/",
+      "text": "Datenschutz Tools"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/impressum/",
+      "text": "Impressum"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilpraktiker-rechtshinweise/",
+      "text": "Rechtshinweise"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtshinweise Therapieverfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/downloadbereich-naturheilpraxis-rauch/",
+      "text": "Downloadbereich"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/corona-praxis-offen/",
+      "text": "Praxis offen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/gesundheitsrelevante-dokumentation/",
+      "text": "Gesundheitsrelevante Dokumentation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-informationstherapie/",
+      "text": "Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-stuhluntersuchung/",
+      "text": "Diagnostik – Stuhluntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-urinuntersuchung/",
+      "text": "Diagnose – Urinuntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-labordiagnose-biodiagnostik/",
+      "text": "Diagnose – Labordiagnose – Biodiagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/",
+      "text": "Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-irisdiagnose/",
+      "text": "Hinweisdiagnostik – Irisdiagnose"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-frequenztherapie/",
+      "text": "Hinweisdiagnostik – Frequenztherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/biophysikalische-informationstherapie-bit/",
+      "text": "Biophysikalische"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+      "text": "Bioresonanz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-versus-elektroakupunktur/",
+      "text": "Funktionsweise Bioresonanz / Elektroakupunktur"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/akupunktur-ohne-nadeln/",
+      "text": "Akupunktur ohne Nadeln"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+      "text": "NLS-Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vieva Pro"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vital-und-naehrstoffanalyse/",
+      "text": "Analyse"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/elektroakupunktur-nach-dr-voll-3/",
+      "text": "Elektroakupunktur nach Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/150-mhz-befeldung-nach-broers-3/",
+      "text": "150 MHz nach Broers"
+    }
+  ],
+  "has_cluster_hub": true,
+  "text": "Klassische Homöopathie | Naturheilpraxis Rauch Menü Rauch Datenschutz Datenschutz Tools Impressum Rechtshinweise Rechtshinweise Therapieverfahren Downloadbereich Praxis offen Online-Anamnesebogen Gesundheitsrelevante Dokumentation Diagnostik Diagnostik – Stuhluntersuchung Diagnose – Urinuntersuchung Diagnose – Labordiagnose – Biodiagnostik Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll Hinweisdiagnostik – Irisdiagnose Hinweisdiagnostik – Frequenztherapie Biophysikalische Bioresonanz Funktionsweise Bioresonanz / Elektroakupunktur Akupunktur ohne Nadeln NLS-Diagnostik Vieva Pro Analyse Elektroakupunktur nach Voll 150 MHz nach Broers Manuelle +Osteopathie Allgemein +Integrative Manual Therapy Die Begründer Denk und Behandlungsansätze Behandlungsmöglichkeiten Rehabilitation +Lowen Systems (Biovalent System) Arbeit mit den Händen Begründer Frank Lowen Die Hände Die Regulatoren Die Koerper Rhythmen Die Körpersysteme +Microkinesi Allgemein Microkinesi Möglichkeiten +Physiotherapie Allgemein Physiotherapie Tätigkeitsfelder +Dorntherapie Schmerz Entstehung von Schmerz Naturheilkunde Klassische Homöopathie Die Komplex Homöopathie Die Phytotherapie Allergiebehandlung mit NAET Behandlungsablauf Naturheilkundliche Darmsanierung Injektionstherapie Orthomolekular Kinesiologie Zhineng Dr Pang Ming Psychotherapie Hypnose Heilmeditation Kontakt Rauch Heilpraktiker Datenschutz Datenschutz Tools Impressum Rechtshinweise Rechtshinweise Therapieverfahren Downloadbereich Praxis offen Online-Anamnesebogen Gesundheitsrelevante Dokumentation Diagnostik Untersuchungen Diagnostik – Stuhluntersuchung Diagnose – Urinuntersuchung Diagnose – Labordiagnose – Biodiagnostik Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll Hinweisdiagnostik – Irisdiagnose Hinweisdiagnostik – Frequenztherapie Biophysikalische Informationstherapie Bioresonanz Funktionsweise Bioresonanz / Elektroakupunktur Akupunktur ohne Nadeln NLS-Diagnostik Vieva Pro Analyse Elektroakupunktur nach Voll 150 MHz nach Broers Manuelle Therapien +Osteopathie Allgemein +Integrative Manual Therapy Die Begründer Denk und Behandlungsansätze Behandlungsmöglichkeiten Rehabilitation +Lowen Systems (Biovalent System) Arbeit mit den Händen Begründer Frank Lowen Die Hände Die Regulatoren Die Koerper Rhythmen Die Körpersysteme +Microkinesi Allgemein Microkinesi Möglichkeiten +Physiotherapie Allgemein Physiotherapie Tätigkeitsfelder +Dorntherapie Schmerz Therapie Entstehung von Schmerz Naturheilkunde Therapieverfahren Klassische Homöopathie Die Komplex Homöopathie Die Phytotherapie Allergiebehandlung mit NAET Behandlungsablauf Naturheilkundliche Darmsanierung Injektionstherapie Orthomolekular Therapie Kinesiologie Zhineng Qi Gong Dr Pang Ming Psychotherapie und Burnout Hypnose Heilmeditation Kontakt Naturheilpraxis Naturheilpraxis Rauch Klassische Homöopathie nach Hahnemann Mehr Lesen Naturheilpraxis Rauch Phytotherapie – Sanfte Therapie mit Pflanzen Mehr Lesen Naturheilpraxis Rauch NAET Allergiebehandlung nach Nambudripad Mehr Lesen Naturheilpraxis Rauch Lebensmittelunverträglichkeit sanft behandeln Mehr Lesen Klassische Homöopathie nach Dr. Samuel Hahnemann Naturheilkundlich begleiten – Stark im Leben Homöopathie was ist das eigentlich? Begründer der „klassischen“ Homöopathie ist der deutsche Arzt Dr. med. Samuel Hahnemann (1755 – 1843). Klassische Homöopathie Naturheilkunde Augsburg Die Bezeichnung Homöopathie entstand aus dem Griechischen. Von homoios = ähnlich und pathos = Leiden. Homöopathie bedeutet wörtlich also “ähnliches Leiden”. Die Homöopathie behandelt nicht Krankheiten, sondern kranke Menschen. Das bedeutet, dass die Homöopathie nicht ein einzelnes Symptom betrachtet, sondern den ganzen Menschen (Körper, „Seele“, Geist, Emotio). Für die Homöopathie ist der gesunde Körper ein System in Balance. Im erkrankten Körper ist dieses Gleichgewicht gestört. Die Klassische Homöopathie nach Hahnemann gibt – ein sogenanntes „Homöopathika“ als Reiz- und Regulationsstimmulus, bzw. als Information – um dem Körper die Möglichkeit zu geben, wieder in seine Regulation bzw. in sein Gleichgewicht zurückzukommen. In der „klassischen“ Homöopathie wird deswegen ein Mittel gesucht, dass die Ursache einer gesundheitlichen Störung im Gesamtkomplex Mensch, in dessen körperlicher und seelischer Ganzheit, heilt. Und dieses Mittel dem ganzen Menschen unter Berücksichtigung aller Symptome entspricht. Dies wird mit einem Mittel erreicht (laut Hahnemann), welches bei einem Gesunden ähnliche Symptome hervorruft. Nach der von Samuel Hahnemann aufgestellten Similie-Regel: Ähnliches möge durch Ähnliches geheilt werden. Beispiel das Gift einer Biene kann in einer homöopathischen Verdünnung gegeben werden, wenn die Symptome des Patienten genau der Symptome entspricht, die ein Bienenstich auslöst. Dies sollte nur im Groben das Ähnlichkeitsprinzip verdeutlichen. Klassische Homöopathie – Wirkprinzip Die Homöopathie entstand aus einem Eigenversuch von Hahnemann. Hahnemann übersetzte 1790 ein Werk des schottischen Pharmakologen Dr. William Cullen. In diesem Werk beschrieb Cullen die Wirksamkeit von Chinarinde bei Wechselfieber. Hahnemann überprüfte daraufhin diese Behauptung von Cullen durch einen Selbstversuch an sich selbst. Daraufhin entwickelte er Symptome die den Symptomen des Wechselfiebers gleichen. Durch weitere Selbstversuche und langjährige Experimenten an weiteren Substanzen folgerte Hahnemann: Die Selbstheilungskräfte des Körpers sollen aktiviert werden durch die Erzeugung einer Kunstkrankheit, die im Wesen der eigenen Symptomatik ähnlich ist. Dabei soll durch die Potenzierung (= Verdünnung und Verschüttelung) der Arzneien deren Wirkung auf die Selbstheilungskräfte aufgeschlüsselt und verfeinert werden. Durch die Verdünnung wird auch erreicht das giftige Substanzen wie z.B. Arsen zu großen ungefährlichen homöopathischen Heilmitteln werden. Die Verschüttelung bewirkt vor allem die sogenannte “Dynamisierung” der Arznei d.h. es werden Informationen des Heilmittels erschlossen, die im Urzustand des Mittels verborgen liegen. Neuere wissenschaftliche Erkenntnisse und Modelle aus der Quantenphysik zeigen immer deutlicher, dass diese Mechanismen der Wirkung der homöopathischen Arzneien durchaus intellektuell nachvollziehbar sind. Die homöopathischen Mittel werden hergestellt aus Pflanzen-, Tier-, Mineralstoffen, Giften (z.B. Arsen oder Quecksilber) und den „Nosoden“ (sterilisierte Gewebe z.B. Carcinosin und sterilisierte Sekrete z.B. Tuberkulinum). Klassische Homöopathie – Theorie der Funktionsweise Homöopathische Therapie, homöopathisches Heilen bedeutet einen kranken bzw. aus der Mitte geratenen Organismus, Menschen bestehend aus den Teilen: Seele, Struktur, Kognitio, Emotio aktiv, das heißt aus sich heraus in die Eigenheilung zu führen. Das Homöopathische Mittel regt sozusagen diese Eigenheilung an. Es wirkt nicht gegen die Erkrankung sondern mit der Erkrankung zur Heilung. Denn Erkrankung ist im Sinne der Homöopathie kein Fehlverhalten, kein Scheitern des Körpers. Und von dem her auch nicht negativ zu sehen. Krankheit ist ein Prozess ein Versuch des Körpers in seine Regulationsfähigkeit zurückzufinden. Es kann jedoch geschehen, dass er dies aus eigener Kraft nicht mehr kann. Und hier verhilft das passende Homöopathische Mittel diese Kraft, diesen Weg in die Eigenregulation zurück zu finden Hinweis: Die Behandlung von Infektionserkrankungen, sowie Notfällen, ist dem Arzt vorenthalten. Des Weiteren existieren eine Vielzahl von Erkrankungen, die unbedingt das Heranziehen bzw. Hinzuziehen eines ärztlichen Beistandes und dessen Möglichkeit der Diagnose beinhaltet. Das bedeutet für den Physiotherapeuten, den Heilpraktiker, sowie dem Patienten ein vernünftiges Maß an Urteilsfähigkeit und Ehrlichkeit zu sich selbst um nichts zu übersehen. 1) Das Bindegewebe, das prozentual den größten Anteil am Aufbau des Körpers hat, bildet ein kontinuierliches, zusammenhängendes System durch den ganzen Organismus hindurch. 2) Das Craniosakrale System besteht grobgesehen aus allen Strukturen die umgangssprachlich unseren Kopf (Knochen, Nähte..) bzw. dessen Inhalt (Gehirn Nerven, Gefäße, Hirnhäute….) unsere Wirbelsäule mit Sakrum und dessen Inhalt (Nerven, Gefäße, Hirnhäute) bestehen. Kontakt Anschrift: Naturheilpraxis Rauch Heilpraktiker Augsburg, Hochzoll Terminvereinbarung: Telefon: 0821 262 14 62 E-Mail: praxis_rauch@icloud.com Heilpraktiker Rauch Bioresonanztherapie NLS Diagnose EAV nach Dr. Voll Vieva Plus Diagnostik Vitalfeld- und Nährstoffanalyse Osteopathie 150 MHz nach Broers Partner der Naturheilpraxis Öffnungszeiten Montag bis Freitag 10:00 Uhr bis 19:00 Uhr Mittagsruhe 12:30 Uhr bis 13:00 Uhr Informationen Naturheilkunde Zentrum für Naturheilkunde Mein Facebook - Profil Meine Google - Bewertung Downloadbereich Naturheilpraxis Impressum | Datenschutzerklärung | Kontakt | Online-Anamnesebogen Rechtshinweise Therapieverfahren | Hinweis: Die auf dieser Website dargestellten Verfahren und Informationen dienen der allgemeinen Aufklärung und ersetzen keine ärztliche Diagnose, Beratung oder Behandlung. Es werden keine Heilversprechen abgegeben. Weitere Angaben: Heilpraktiker-Rechtshinweise und Rechtshinweise Therapieverfahren . Peter Rauch – Heilpraktiker Naturheilpraxis Rauch, Friedrich-Deffner-Straße 19a, 86163 Augsburg (Hochzoll) Telefon: 0821 2621462 · Kontakt Schwerpunkte: Bioresonanz, NLS-Diagnostik, Elektroakupunktur nach Dr. Voll, klassische Naturheilverfahren und biophysikalische Informationstherapie. Stand: August 2026 Häufige Fragen Ersetzt die Naturheilpraxis einen Arztbesuch? Nein. Die Verfahren sind ergänzend. Sie ersetzen keine ärztliche Diagnose oder Behandlung. Wie vereinbare ich einen Termin? Telefonisch unter 0821 2621462 oder über die Seite Kontakt . Unter „Jetzt Termin buchen“ ist die Online-Terminabfrage verlinkt. Wozu dient der Online-Anamnesebogen? Zur Patientenaufnahme vor dem Termin. Er stellt keine Diagnose und gibt kein Behandlungsergebnis. Online-Anamnesebogen Patientenaufnahme vor dem Termin Vor dem Termin können Sie den Online-Anamnesebogen ausfüllen. Das ist die Patientenaufnahme, keine Diagnose.",
+  "content_text": "Klassische Homöopathie | Naturheilpraxis Rauch Menü Rauch Datenschutz Datenschutz Tools Impressum Rechtshinweise Rechtshinweise Therapieverfahren Downloadbereich Praxis offen Online-Anamnesebogen Gesundheitsrelevante Dokumentation Diagnostik Diagnostik – Stuhluntersuchung Diagnose – Urinuntersuchung Diagnose – Labordiagnose – Biodiagnostik Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll Hinweisdiagnostik – Irisdiagnose Hinweisdiagnostik – Frequenztherapie Biophysikalische Bioresonanz Funktionsweise Bioresonanz / Elektroakupunktur Akupunktur ohne Nadeln NLS-Diagnostik Vieva Pro Analyse Elektroakupunktur nach Voll 150 MHz nach Broers Manuelle +Osteopathie Allgemein +Integrative Manual Therapy Die Begründer Denk und Behandlungsansätze Behandlungsmöglichkeiten Rehabilitation +Lowen Systems (Biovalent System) Arbeit mit den Händen Begründer Frank Lowen Die Hände Die Regulatoren Die Koerper Rhythmen Die Körpersysteme +Microkinesi Allgemein Microkinesi Möglichkeiten +Physiotherapie Allgemein Physiotherapie Tätigkeitsfelder +Dorntherapie Schmerz Entstehung von Schmerz Naturheilkunde Klassische Homöopathie Die Komplex Homöopathie Die Phytotherapie Allergiebehandlung mit NAET Behandlungsablauf Naturheilkundliche Darmsanierung Injektionstherapie Orthomolekular Kinesiologie Zhineng Dr Pang Ming Psychotherapie Hypnose Heilmeditation Kontakt Rauch Heilpraktiker Datenschutz Datenschutz Tools Impressum Rechtshinweise Rechtshinweise Therapieverfahren Downloadbereich Praxis offen Online-Anamnesebogen Gesundheitsrelevante Dokumentation Diagnostik Untersuchungen Diagnostik – Stuhluntersuchung Diagnose – Urinuntersuchung Diagnose – Labordiagnose – Biodiagnostik Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll Hinweisdiagnostik – Irisdiagnose Hinweisdiagnostik – Frequenztherapie Biophysikalische Informationstherapie Bioresonanz Funktionsweise Bioresonanz / Elektroakupunktur Akupunktur ohne Nadeln NLS-Diagnostik Vieva Pro Analyse Elektroakupunktur nach Voll 150 MHz nach Broers Manuelle Therapien +Osteopathie Allgemein +Integrative Manual Therapy Die Begründer Denk und Behandlungsansätze Behandlungsmöglichkeiten Rehabilitation +Lowen Systems (Biovalent System) Arbeit mit den Händen Begründer Frank Lowen Die Hände Die Regulatoren Die Koerper Rhythmen Die Körpersysteme +Microkinesi Allgemein Microkinesi Möglichkeiten +Physiotherapie Allgemein Physiotherapie Tätigkeitsfelder +Dorntherapie Schmerz Therapie Entstehung von Schmerz Naturheilkunde Therapieverfahren Klassische Homöopathie Die Komplex Homöopathie Die Phytotherapie Allergiebehandlung mit NAET Behandlungsablauf Naturheilkundliche Darmsanierung Injektionstherapie Orthomolekular Therapie Kinesiologie Zhineng Qi Gong Dr Pang Ming Psychotherapie und Burnout Hypnose Heilmeditation Kontakt Naturheilpraxis Naturheilpraxis Rauch Klassische Homöopathie nach Hahnemann Mehr Lesen Naturheilpraxis Rauch Phytotherapie – Sanfte Therapie mit Pflanzen Mehr Lesen Naturheilpraxis Rauch NAET Allergiebehandlung nach Nambudripad Mehr Lesen Naturheilpraxis Rauch Lebensmittelunverträglichkeit sanft behandeln Mehr Lesen Klassische Homöopathie nach Dr. Samuel Hahnemann Naturheilkundlich begleiten – Stark im Leben Homöopathie was ist das eigentlich? Begründer der „klassischen“ Homöopathie ist der deutsche Arzt Dr. med. Samuel Hahnemann (1755 – 1843). Klassische Homöopathie Naturheilkunde Augsburg Die Bezeichnung Homöopathie entstand aus dem Griechischen. Von homoios = ähnlich und pathos = Leiden. Homöopathie bedeutet wörtlich also “ähnliches Leiden”. Die Homöopathie behandelt nicht Krankheiten, sondern kranke Menschen. Das bedeutet, dass die Homöopathie nicht ein einzelnes Symptom betrachtet, sondern den ganzen Menschen (Körper, „Seele“, Geist, Emotio). Für die Homöopathie ist der gesunde Körper ein System in Balance. Im erkrankten Körper ist dieses Gleichgewicht gestört. Die Klassische Homöopathie nach Hahnemann gibt – ein sogenanntes „Homöopathika“ als Reiz- und Regulationsstimmulus, bzw. als Information – um dem Körper die Möglichkeit zu geben, wieder in seine Regulation bzw. in sein Gleichgewicht zurückzukommen. In der „klassischen“ Homöopathie wird deswegen ein Mittel gesucht, dass die Ursache einer gesundheitlichen Störung im Gesamtkomplex Mensch, in dessen körperlicher und seelischer Ganzheit, heilt. Und dieses Mittel dem ganzen Menschen unter Berücksichtigung aller Symptome entspricht. Dies wird mit einem Mittel erreicht (laut Hahnemann), welches bei einem Gesunden ähnliche Symptome hervorruft. Nach der von Samuel Hahnemann aufgestellten Similie-Regel: Ähnliches möge durch Ähnliches geheilt werden. Beispiel das Gift einer Biene kann in einer homöopathischen Verdünnung gegeben werden, wenn die Symptome des Patienten genau der Symptome entspricht, die ein Bienenstich auslöst. Dies sollte nur im Groben das Ähnlichkeitsprinzip verdeutlichen. Klassische Homöopathie – Wirkprinzip Die Homöopathie entstand aus einem Eigenversuch von Hahnemann. Hahnemann übersetzte 1790 ein Werk des schottischen Pharmakologen Dr. William Cullen. In diesem Werk beschrieb Cullen die Wirksamkeit von Chinarinde bei Wechselfieber. Hahnemann überprüfte daraufhin diese Behauptung von Cullen durch einen Selbstversuch an sich selbst. Daraufhin entwickelte er Symptome die den Symptomen des Wechselfiebers gleichen. Durch weitere Selbstversuche und langjährige Experimenten an weiteren Substanzen folgerte Hahnemann: Die Selbstheilungskräfte des Körpers sollen aktiviert werden durch die Erzeugung einer Kunstkrankheit, die im Wesen der eigenen Symptomatik ähnlich ist. Dabei soll durch die Potenzierung (= Verdünnung und Verschüttelung) der Arzneien deren Wirkung auf die Selbstheilungskräfte aufgeschlüsselt und verfeinert werden. Durch die Verdünnung wird auch erreicht das giftige Substanzen wie z.B. Arsen zu großen ungefährlichen homöopathischen Heilmitteln werden. Die Verschüttelung bewirkt vor allem die sogenannte “Dynamisierung” der Arznei d.h. es werden Informationen des Heilmittels erschlossen, die im Urzustand des Mittels verborgen liegen. Neuere wissenschaftliche Erkenntnisse und Modelle aus der Quantenphysik zeigen immer deutlicher, dass diese Mechanismen der Wirkung der homöopathischen Arzneien durchaus intellektuell nachvollziehbar sind. Die homöopathischen Mittel werden hergestellt aus Pflanzen-, Tier-, Mineralstoffen, Giften (z.B. Arsen oder Quecksilber) und den „Nosoden“ (sterilisierte Gewebe z.B. Carcinosin und sterilisierte Sekrete z.B. Tuberkulinum). Klassische Homöopathie – Theorie der Funktionsweise Homöopathische Therapie, homöopathisches Heilen bedeutet einen kranken bzw. aus der Mitte geratenen Organismus, Menschen bestehend aus den Teilen: Seele, Struktur, Kognitio, Emotio aktiv, das heißt aus sich heraus in die Eigenheilung zu führen. Das Homöopathische Mittel regt sozusagen diese Eigenheilung an. Es wirkt nicht gegen die Erkrankung sondern mit der Erkrankung zur Heilung. Denn Erkrankung ist im Sinne der Homöopathie kein Fehlverhalten, kein Scheitern des Körpers. Und von dem her auch nicht negativ zu sehen. Krankheit ist ein Prozess ein Versuch des Körpers in seine Regulationsfähigkeit zurückzufinden. Es kann jedoch geschehen, dass er dies aus eigener Kraft nicht mehr kann. Und hier verhilft das passende Homöopathische Mittel diese Kraft, diesen Weg in die Eigenregulation zurück zu finden Hinweis: Die Behandlung von Infektionserkrankungen, sowie Notfällen, ist dem Arzt vorenthalten. Des Weiteren existieren eine Vielzahl von Erkrankungen, die unbedingt das Heranziehen bzw. Hinzuziehen eines ärztlichen Beistandes und dessen Möglichkeit der Diagnose beinhaltet. Das bedeutet für den Physiotherapeuten, den Heilpraktiker, sowie dem Patienten ein vernünftiges Maß an Urteilsfähigkeit und Ehrlichkeit zu sich selbst um nichts zu übersehen. 1) Das Bindegewebe, das prozentual den größten Anteil am Aufbau des Körpers hat, bildet ein kontinuierliches, zusammenhängendes System durch den ganzen Organismus hindurch. 2) Das Craniosakrale System besteht grobgesehen aus allen Strukturen die umgangssprachlich unseren Kopf (Knochen, Nähte..) bzw. dessen Inhalt (Gehirn Nerven, Gefäße, Hirnhäute….) unsere Wirbelsäule mit Sakrum und dessen Inhalt (Nerven, Gefäße, Hirnhäute) bestehen. Kontakt Anschrift: Naturheilpraxis Rauch Heilpraktiker Augsburg, Hochzoll Terminvereinbarung: Telefon: 0821 262 14 62 E-Mail: praxis_rauch@icloud.com Heilpraktiker Rauch Bioresonanztherapie NLS Diagnose EAV nach Dr. Voll Vieva Plus Diagnostik Vitalfeld- und Nährstoffanalyse Osteopathie 150 MHz nach Broers Partner der Naturheilpraxis Öffnungszeiten Montag bis Freitag 10:00 Uhr bis 19:00 Uhr Mittagsruhe 12:30 Uhr bis 13:00 Uhr Informationen Naturheilkunde Zentrum für Naturheilkunde Mein Facebook - Profil Meine Google - Bewertung Downloadbereich Naturheilpraxis Impressum | Datenschutzerklärung | Kontakt | Online-Anamnesebogen Rechtshinweise Therapieverfahren |",
+  "content_words": 1058
+}

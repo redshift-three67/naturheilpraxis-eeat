@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Welle 5 live (noindex aus · Titelcase aus · Kontakt-Satz)
+Stand: 2026-08-15 · Welle 6 Cluster live (Texte der 10 Kindseiten unverändert)
 
 ## Massgabe
 
@@ -111,6 +111,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 66. ~~QW-NOINDEX~~ Plugin deaktiviert
 67. ~~QW-TITELCASE~~ Rank Math aus
 68. ~~Kontakt-Satz~~ HFCM #12
+69. ~~WELLE-6 Cluster~~ HFCM #13 auf 10 Kindseiten; Texte archiviert, nicht umgeschrieben
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
@@ -118,6 +119,7 @@ Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6�
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Nächster Block:** 48 Kindseiten auf Hub-/VERF-Niveau, in 10er-Wellen (Welle 6 zuerst). Nicht starten ohne Freigabe „Welle 6 go“.
+**Welle 6:** 10 Kindseiten archiviert. HFCM #13 Cluster live. Fließtexte/H1-Wortlaut nicht geändert (Auftrag: erst nach Absprache / Adwords).  
+**Als Nächstes:** Absprache der Welle-6-Textliste **oder** Freigabe Welle 7 (Hinweisdiagnostik, gleiches Muster).
 
-Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten (Beispiel `/klassische-homoeopathie/`) noch alter Wortlaut. Legal/Utility = Welle 11 leicht.
+Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut noch Bestand. Legal/Utility = Welle 11 leicht.

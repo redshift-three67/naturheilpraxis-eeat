@@ -1,0 +1,474 @@
+{
+  "admin": {
+    "title": "Skript aktualisieren ‹ Naturheilpraxis Rauch – WordPress",
+    "name": "E-E-A-T Kindseiten Cluster",
+    "status": "active",
+    "location": "footer",
+    "bytes": 3850,
+    "hasCluster": true
+  },
+  "pages": [
+    {
+      "url": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Komplex-Homöopathie · Phytotherapie · NAET · Darmsanierung · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Klassische Homöopathie nach Dr. Samuel Hahnemann"
+      ],
+      "title": "Klassische Homöopathie | Naturheilpraxis Rauch",
+      "meta": "Klassische Homöopathie in Augsburg – naturheilkundliche Behandlung in der Praxis",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Klassische Homöopathie · Phytotherapie · NAET · Darmsanierung · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Die Komplex Homöopathie"
+      ],
+      "title": "Die Komplex Homöopathie | Naturheilpraxis Rauch",
+      "meta": "Komplex-Homöopathie in der Naturheilpraxis Rauch – Informationen zu Komplexmitte",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/die-phytotherapie/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · NAET · Darmsanierung · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Phytotherapie Augsburg – Pflanzen als Heilmittel"
+      ],
+      "title": "Phytotherapie Augsburg | Naturheilpraxis Heilpraktiker Rauch",
+      "meta": "Die Phytotherapie arbeitet mit Pflanzen als Heilmitteln. Phytotherapie bzw. die ",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · Phytotherapie · Darmsanierung · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Allergie Behandlung mit NAET"
+      ],
+      "title": "NAET Methode - Allergie Behandlung | Naturheilpraxis",
+      "meta": "NAET nach Nambudripad in der Naturheilpraxis Rauch in Augsburg – Informationen z",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/allergiebehandlung-mit-naet/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde · Ausführlicher zur NAET-Methode Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · Phytotherapie · NAET · Darmsanierung · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Allergiebehandlung mit NAET"
+      ],
+      "title": "Allergiebehandlung mit NAET | Naturheilpraxis Rauch",
+      "meta": "Die Allergiebehandlung mit NAET der Naturheilpraxis Rauch nach Nambudripad sind ",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · Phytotherapie · NAET · Injektionstherapie · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Darmsanierung Augsburg – Naturheilpraxis Rauch"
+      ],
+      "title": "Darmsanierung Augsburg | Naturheilpraxis Rauch",
+      "meta": "Darmsanierung in der Naturheilpraxis Rauch in Augsburg – Informationen zum natur",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/orthomolekulare-therapie/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · Phytotherapie · NAET · Darmsanierung · Injektionstherapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/injektionstherapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Naturheilpraxis – Orthomolekulare Therapie"
+      ],
+      "title": "Orthomolekulare Therapie | Naturheilpraxis Rauch",
+      "meta": "Die Orthomolekulare Therapie nach Linus Pauling basiert auf dem gezielten Einsat",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/injektionstherapie/",
+      "hidden": false,
+      "text": "Übersicht: Naturheilkunde · Schmerztherapie Weitere Verfahren: Klassische Homöopathie · Komplex-Homöopathie · Phytotherapie · NAET · Darmsanierung · Orthomolekulare Therapie",
+      "links": [
+        "https://rauch-heilpraktiker.de/naturheilkunde/",
+        "https://rauch-heilpraktiker.de/schmerztherapie-augsburg/",
+        "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+        "https://rauch-heilpraktiker.de/die-phytotherapie/",
+        "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+        "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+        "https://rauch-heilpraktiker.de/orthomolekulare-therapie/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Injektionstherapie – gezielte Behandlung"
+      ],
+      "title": "Injektionstherapie | Naturheilpraxis Rauch",
+      "meta": "Injektionsbehandlungen sind z.B. in der Schmerztherapie eine angewandte Therapie",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/heilmeditation/",
+      "hidden": false,
+      "text": "Übersicht: Psychotherapie Weitere Verfahren: Hypnotherapie · Zhineng Qigong",
+      "links": [
+        "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+        "https://rauch-heilpraktiker.de/hypnotherapie-augsburg/",
+        "https://rauch-heilpraktiker.de/zhineng-qigong/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Heilmeditation"
+      ],
+      "title": "Heilmeditation in der Naturheilpraxis Rauch",
+      "meta": "Heilmeditationen zur Erhaltung der Gesundheit und für die Gesundung von Körper u",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/hypnotherapie-augsburg/",
+      "hidden": false,
+      "text": "Übersicht: Psychotherapie Weitere Verfahren: Heilmeditation · Zhineng Qigong",
+      "links": [
+        "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+        "https://rauch-heilpraktiker.de/heilmeditation/",
+        "https://rauch-heilpraktiker.de/zhineng-qigong/"
+      ],
+      "disc": true,
+      "nap": true,
+      "h1": [
+        "Was die Hypnotherapie leisten kann"
+      ],
+      "title": "Hypnotherapie Augsburg | Naturheilpraxis Heilpraktiker Rauch",
+      "meta": "Hypnotherapie in der Naturheilpraxis Rauch in Augsburg. Hypnose ist im therapeut",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "types": [
+        "Organization",
+        "ImageObject",
+        "WebSite",
+        "ImageObject",
+        "WebPage",
+        "Article",
+        "Person",
+        "MedicalClinic",
+        "PostalAddress",
+        "GeoCoordinates",
+        "Physician",
+        "FAQPage",
+        "Question",
+        "Answer",
+        "Question",
+        "Answer"
+      ],
+      "beforeDisc": true,
+      "h1Size": {
+        "fontSize": "36px",
+        "fontWeight": "500"
+      }
+    }
+  ],
+  "control": [
+    {
+      "url": "https://rauch-heilpraktiker.de/",
+      "hidden": true,
+      "text": ""
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/naturheilkunde/",
+      "hidden": true,
+      "text": ""
+    },
+    {
+      "url": "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+      "hidden": true,
+      "text": ""
+    }
+  ]
+}
