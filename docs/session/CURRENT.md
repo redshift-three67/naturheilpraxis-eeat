@@ -114,9 +114,10 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
-Siehe `docs/PLAN.md` (konsolidiert 15.08., B5-IDs, Wellen 1–5, noch nicht ausgeführt).
+Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6–11).
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
-Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
+**Nächster Block:** 48 Kindseiten auf Hub-/VERF-Niveau, in 10er-Wellen (Welle 6 zuerst). Nicht starten ohne Freigabe „Welle 6 go“.
+
+Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten (Beispiel `/klassische-homoeopathie/`) noch alter Wortlaut. Legal/Utility = Welle 11 leicht.
