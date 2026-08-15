@@ -93,6 +93,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 18. ~~BIT-H2~~ Slider ohne „Hospital“ (`NLS-Diagnostik nach Nesterov`)  
 19. ~~HUB-07 Schmerztherapie~~ Feld 6: Hinweis + Kindlinks  
 20. ~~NLS-CAPTION~~ Grid-Titel ohne „Metatron Hospital System“  
-21. Offen: Start-Karte NLS noch „Metatron Hospital System“ im Kartentext · NLS-Fließtext Gerätename · Speed-Paket
+21. ~~KONTRAST-Messung~~ Hub-Seiten AA (Fließtext 4,69 · H1 7,66)  
+22. ~~HOME-NLS-CARD~~ Hinweis statt Hospital-System  
+23. Offen: Start-Liste „Metatron Hospital nach Nesterov“ · NLS-Fließtext Gerätename · lange Verfahrenstexte · Speed-Paket
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

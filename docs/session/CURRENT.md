@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-07 Schmerz + NLS-Bildtitel live_verified
+Stand: 2026-08-15 · Start-Karte NLS + Kontrast-Messung live_verified
 
 ## Massgabe
 
@@ -80,6 +80,8 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 35. ~~BIT-H2~~ Slider `Metatron Hospital nach Nesterov` → `NLS-Diagnostik nach Nesterov`
 36. ~~HUB-07~~ Schmerztherapie-Einstieg (Hinweis + Kindlinks)
 37. ~~NLS-CAPTION~~ Grid-Titel `Metatron Hospital System` → `NLS-Diagnostik`
+38. ~~KONTRAST-Messung Hubs~~ AA auf 7 Hub-Seiten (HFCM #11)
+39. ~~HOME-NLS-CARD~~ Karte ohne Hospital-System / ohne „schnell präzise“
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
