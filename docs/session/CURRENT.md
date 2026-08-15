@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · APP-07 Slider-Anamnese + SPEED-02 LCP live_verified; robots weiter alt
+Stand: 2026-08-15 · QW-SITEMAP live + HWG-01 Tagline live_verified
 
 ## Massgabe
 
@@ -24,7 +24,7 @@ Handoff-Historie: `docs/session/HANDOFF-2026-08-14.md`
 ## Live-Kernstatus (re-validiert 20:56 CEST, Cache-Bust + CDP)
 
 - TQW-01…04 erledigt (siehe archive/2026-08-14/)
-- robots Sitemap: **weiter** `https://rauch-heilpraktiker.de/sitemap.xml` (Plesk-Datei unverändert, Check 09:28)
+- robots Sitemap: `https://rauch-heilpraktiker.de/sitemap_index.xml` (Plesk, 07:46 UTC, 64 https-URLs)
 - HFCM #6 Schema ON, #5 OFF, #7 Disclaimer+Autor ON
 - Frontend: 1× MedicalClinic+Physician (identisch Repo-Snippet)
 - Disclaimer sitewide sichtbar
@@ -59,12 +59,13 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 15. ~~QW-MENU-METATRON~~ NLS-Label ohne Hospital (Rauch-Punkt korrigiert)
 
 16. ~~SLIDER-01~~ Untertitel ohne „Sanft Heilen“; Psychotherapie-CTA → `/psychotherapie-augsburg/`
-17. QW-SITEMAP: Rank Math Sitemap **an**; Live-robots **weiter** `sitemap.xml` (Check 2026-08-15 09:28) → **Wiedervorlage Plesk**
+17. ~~QW-SITEMAP~~ Live-robots `sitemap_index.xml` (64 https-URLs)
 18. ~~UX-01~~ Footer-Legal auf XS sichtbar (HFCM #10)
 19. ~~UX-02~~ Cookie-Banner mobil 109 px statt 190 px (HFCM #10)
 20. ~~APP-06~~ Anamnese-Button: PE-Breite + Rahmen `#8ec760` (HFCM #8)
 21. ~~APP-07~~ Slider-Folie Online-Anamnesebogen (YOO-Duplikat, Folie 1)
 22. ~~SPEED-02~~ Folien bereits WebP; LCP `eager`/`high` (HFCM #9)
+23. ~~HWG-01~~ Start-Tagline ohne „heilen“
 
 Siehe `docs/PLAN.md`.
 

@@ -64,7 +64,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | UX-01 | ~~Footer-Legal auf XS sichtbar~~ (HFCM #10) | done |
 | UX-02 | ~~Cookie-Banner First Screen kompakter~~ (HFCM #10, 109 px) | done |
 | UX-03 | „Jetzt Termin buchen“ = ProvenExpert extern – bleibt, Anamnese darunter (done) | — |
-| QW-SITEMAP | RM-Sitemap an / `sitemap_index.xml` live; **robots.txt physisch weiter `sitemap.xml`** (Check 15.08. 09:28) | Wiedervorlage Plesk |
+| QW-SITEMAP | ~~robots → `sitemap_index.xml`~~ (Plesk 15.08. 07:46 UTC, 64 https-URLs) | done |
 | QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
 | QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
 | QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
@@ -74,9 +74,10 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 ## Reihenfolge (verbindlich)
 
 1. ~~APP · SPEED-01 · QW-MENU-METATRON · SLIDER-01~~
-2. **QW-SITEMAP** weiter Plesk: Live-robots zeigt `sitemap.xml` (statisch 53 URLs). Soll: `sitemap_index.xml` (64 URLs).
+2. ~~QW-SITEMAP~~ robots → `sitemap_index.xml`
 3. ~~UX-01/02 Cookie + Footer mobil~~
 4. ~~Slider-Anamnese-Folie + SPEED-02 WebP/LCP~~
-5. CONTENT-01
+5. ~~HWG-01 Homepage-Tagline~~
+6. CONTENT-01 (inkl. Innerseiten-Slogan „Sanft Heilen“, Typo „Therpapieverfahren“)
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

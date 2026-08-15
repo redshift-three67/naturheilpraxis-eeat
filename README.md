@@ -56,4 +56,4 @@ naturheilpraxis-eeat/
 | Slider mobil CSS | HFCM **#9** Header ON |
 | Footer+Cookie mobil | HFCM **#10** Header ON |
 | Meta Descriptions | Rank Math |
-| robots.txt | physische Root-Datei; Sitemap-Zeile noch `sitemap.xml` (Plesk) |
+| robots.txt | physische Root-Datei; Sitemap `sitemap_index.xml` (Plesk 2026-08-15) |
