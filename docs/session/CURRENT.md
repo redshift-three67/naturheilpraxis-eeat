@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Start-Liste + NLS-unten + Speed-Check live_verified
+Stand: 2026-08-15 · VERF-01 Hahnemann auf Naturheilkunde live_verified
 
 ## Massgabe
 
@@ -85,6 +85,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 40. ~~HOME-LIST~~ `Metatron Hospital nach Nesterov` → `NLS-Diagnostik nach Nesterov`
 41. ~~NLS-LOWER~~ Hospital-System / „Diagnose erstellt“ im unteren Fließtext
 42. ~~SPEED-CHECK~~ Brotli live an; TTFB nur über Hosting
+43. ~~VERF-01~~ Naturheilkunde Feld 6: Hahnemann in drei kurze Absätze, ohne zweiten Disclaimer-Satz
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
