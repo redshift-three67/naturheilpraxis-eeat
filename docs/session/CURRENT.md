@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-02 NLS Diagnostik-Einstieg live_verified
+Stand: 2026-08-15 · HUB-03 Bioresonanz-Einstieg live_verified
 
 ## Massgabe
 
@@ -71,6 +71,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 26. ~~HUB-01~~ Startseite Einstieg (Termin + Grenzen + Themenlinks)
 27. ~~pagespeed.de~~ Mobil 79 / Desktop 97 · Archiv `PAGESPEED-2026-08-15.md`
 28. ~~HUB-02~~ NLS als Diagnostik-Einstieg (Hinweis + Kindlinks)
+29. ~~HUB-03~~ Bioresonanz-Einstieg (Hinweis + Kindlinks)
 
 Siehe `docs/PLAN.md`.
 
