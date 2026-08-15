@@ -85,6 +85,9 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 10. ~~pagespeed.de Startseite~~ Mobil 79 / Desktop 97 (LCP mobil 4,91 s)  
 11. ~~HUB-02 Diagnostik~~ NLS-Feld 7: Hinweis + Kindlinks  
 12. ~~HUB-03 Bioresonanz~~ Feld 6: Hinweis + Kindlinks  
-13. Offen: nächster Hub Naturheilkunde · Bildunterschriften Metatron · BIT-H2 „Hospital“
+13. ~~pagespeed.de 13:48/13:49~~ Mobil 82 / Desktop 97  
+14. ~~SLIDER-NLS~~ `vormals Metatron Hunter` → `Metatron Hospital` (nur Slider)  
+15. ~~HUB-04 Naturheilkunde~~ Feld 3: Hinweis + Kindlinks  
+16. Offen: nächster Hub Psychotherapie · Bildunterschriften Metatron · BIT-H2 „Hospital“
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

@@ -1,0 +1,36 @@
+{
+  "page": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+  "old": "NLS-Diagnostik – vormals Metatron Hunter",
+  "neu": "NLS-Diagnostik – Metatron Hospital",
+  "visible_inputs": [
+    {
+      "i": 0,
+      "val": "Veröffentlicht"
+    },
+    {
+      "i": 168,
+      "val": "wp-content/uploads/NLS_Diagnose_Metatron_Hospital_Vitages-7.jpg"
+    },
+    {
+      "i": 170,
+      "val": "NLS-Diagnostik – vormals Metatron Hunter"
+    },
+    {
+      "i": 171,
+      "val": "NLS-Diagnostik – vormals Metatron Hunter"
+    },
+    {
+      "i": 172,
+      "val": "NLS - Diagnostik"
+    },
+    {
+      "i": 173,
+      "val": "nls-diagnostik/"
+    },
+    {
+      "i": 174,
+      "val": "Mehr Info zur NLS Diagnostik"
+    }
+  ],
+  "filled": 2
+}

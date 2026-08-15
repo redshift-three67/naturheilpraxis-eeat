@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-03 Bioresonanz-Einstieg live_verified
+Stand: 2026-08-15 · HUB-04 Naturheilkunde-Einstieg live_verified
 
 ## Massgabe
 
@@ -72,6 +72,11 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 27. ~~pagespeed.de~~ Mobil 79 / Desktop 97 · Archiv `PAGESPEED-2026-08-15.md`
 28. ~~HUB-02~~ NLS als Diagnostik-Einstieg (Hinweis + Kindlinks)
 29. ~~HUB-03~~ Bioresonanz-Einstieg (Hinweis + Kindlinks)
+30. ~~pagespeed.de 13:48~~ Mobil 82 / Desktop 97 · `PAGESPEED-2026-08-15-1348.md`
+31. ~~SLIDER-NLS~~ erste Folie: Metatron Hospital (nur Slider)
+32. ~~HUB-04~~ Naturheilkunde-Einstieg (Einleitung + Kindlinks)
+
+CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
 Siehe `docs/PLAN.md`.
 
