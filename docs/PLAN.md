@@ -91,6 +91,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 16. ~~HUB-05 Psychotherapie~~ Feld 7: Hinweis + Kindlinks  
 17. ~~HUB-06 Manuelle Verfahren~~ Feld 3: Hinweis + Kindlinks  
 18. ~~BIT-H2~~ Slider ohne „Hospital“ (`NLS-Diagnostik nach Nesterov`)  
-19. Offen: nächster Hub Schmerztherapie · Bildunterschriften Metatron
+19. ~~HUB-07 Schmerztherapie~~ Feld 6: Hinweis + Kindlinks  
+20. ~~NLS-CAPTION~~ Grid-Titel ohne „Metatron Hospital System“  
+21. Offen: Start-Karte NLS noch „Metatron Hospital System“ im Kartentext · NLS-Fließtext Gerätename · Speed-Paket
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

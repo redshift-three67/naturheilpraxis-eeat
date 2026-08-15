@@ -1,0 +1,28 @@
+{
+  "page": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+  "old": "Metatron Hospital System",
+  "neu": "NLS-Diagnostik",
+  "visible_inputs": [
+    {
+      "i": 0,
+      "val": "Veröffentlicht"
+    },
+    {
+      "i": 174,
+      "val": "Metatron Hospital System"
+    },
+    {
+      "i": 176,
+      "val": "wp-content/uploads/NLS-Metatron-Diagnostik-Gehirn.png"
+    },
+    {
+      "i": 177,
+      "val": "Metatron Hospital System"
+    },
+    {
+      "i": 179,
+      "val": "#"
+    }
+  ],
+  "filled": 2
+}
