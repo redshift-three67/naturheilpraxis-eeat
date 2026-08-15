@@ -35,6 +35,8 @@ Erster Auftrag dieser Session (noch keine Inhalts-Writes):
 2) Live gegen Repo validieren (Schema 1× MedicalClinic+Physician, Disclaimer #7, Anamnese-Button, Slider-Untertitel, robots-Zeile)
 3) CDP-Port kollisionsfrei setzen und dokumentieren
 4) CDP-Chrome starten und WP-Admin erreichbar machen
-Erst danach den nächsten offenen Schritt aus docs/PLAN.md (typisch: Plesk-robots wenn freigegeben, sonst UX-01/02 oder CONTENT-01) – genau ein logischer Schritt.
+Ist-Stand ergänzt 2026-08-15: UX-01/02 (HFCM #10), APP-06 Anamnese-Rahmen/PE-Breite (HFCM #8).
+
+Erst danach den nächsten offenen Schritt aus docs/PLAN.md (typisch: Plesk-robots wenn freigegeben, sonst CONTENT-01) – genau ein logischer Schritt.
 
 ---

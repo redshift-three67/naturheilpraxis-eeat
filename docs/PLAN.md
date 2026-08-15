@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:42 CEST · siehe Direktive `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
+Stand: 2026-08-15 · siehe Direktive `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 ## Erledigt (diese Session-Kette)
@@ -60,8 +60,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 
 | ID | Thema | Priorität |
 |----|--------|-----------|
-| UX-01 | Footer-Legal-Menü `uk-visible@s` auf XS unsichtbar – Anamnese jetzt über Hero-Leiste abgedeckt; Legal-Links auf Mobile prüfen | mittel |
-| UX-02 | Cookie-Banner überdeckt First Screen | mittel |
+| UX-01 | ~~Footer-Legal auf XS sichtbar~~ (HFCM #10) | done |
+| UX-02 | ~~Cookie-Banner First Screen kompakter~~ (HFCM #10, 109 px) | done |
 | UX-03 | „Jetzt Termin buchen“ = ProvenExpert extern – bleibt, Anamnese darunter (done) | — |
 | QW-SITEMAP | RM-Sitemap an / `sitemap_index.xml` live; **robots.txt-Datei im Root** blockiert die Zeile | Wiedervorlage Plesk |
 | QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
@@ -74,7 +74,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 
 1. ~~APP · SPEED-01 · QW-MENU-METATRON · SLIDER-01~~
 2. **QW-SITEMAP** Modul an, `sitemap_index.xml` live – **robots.txt physisch** noch auf alte `sitemap.xml` (Plesk-Wiedervorlage)
-3. UX-01/02 Cookie + Footer mobil
+3. ~~UX-01/02 Cookie + Footer mobil~~
 4. CONTENT-01
 5. Optional Slider-Anamnese-Folie manuell · Bild-WebP/Kompression
 

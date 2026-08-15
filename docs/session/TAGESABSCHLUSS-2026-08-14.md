@@ -91,8 +91,8 @@
 | ID | Inhalt | Priorität |
 |----|--------|-----------|
 | PLESK-ROBOTS | Root-`robots.txt` Zeile `Sitemap: https://rauch-heilpraktiker.de/sitemap_index.xml` | hoch |
-| UX-01 | Footer-Legal auf XS sichtbar machen | mittel |
-| UX-02 | Cookie-Banner First Screen | mittel |
+| UX-01 | ~~Footer-Legal auf XS sichtbar~~ HFCM #10 2026-08-15 | done |
+| UX-02 | ~~Cookie-Banner First Screen~~ HFCM #10 2026-08-15 | done |
 | QW-SPEED-PLUGINS | Async JS + Speed Booster nach SPEED-01 testen | mittel |
 | QW-NOINDEX-PLUGIN | 0/110 Regeln – deinstallieren | niedrig |
 | QW-TITELCASE | Rank Math „Titel großschreiben“ | niedrig |

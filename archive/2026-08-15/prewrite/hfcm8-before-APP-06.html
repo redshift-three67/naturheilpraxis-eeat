@@ -1,11 +1,9 @@
 <style>
 .eeat-anamnese-wrap{text-align:center;margin:.55rem auto 0;padding:0}
-.eeat-anamnese-btn{display:inline-block;width:min(360px,92vw);box-sizing:border-box;background:#bebaa0;color:#fff!important;text-decoration:none!important;padding:11px 16px;border:2px solid #8ec760;box-shadow:2px 3px 6px rgba(25,20,17,.35);font-family:"Open Sans",sans-serif;line-height:1.25;text-align:center}
+.eeat-anamnese-btn{display:inline-block;width:min(360px,92vw);background:#bebaa0;color:#fff!important;text-decoration:none!important;padding:11px 16px;box-shadow:2px 3px 6px rgba(25,20,17,.35);font-family:"Open Sans",sans-serif;line-height:1.25;text-align:center}
 .eeat-anamnese-btn:hover{filter:brightness(1.06);color:#fff!important}
 .eeat-anamnese-l1{display:block;font-size:16px;font-weight:400}
 .eeat-anamnese-l2{display:block;font-size:12px;font-weight:300;opacity:.88;margin-top:2px}
-#eeat-online-anamnese-pe{margin:.55rem auto 0;padding:0;text-align:center}
-#eeat-online-anamnese-pe .eeat-anamnese-btn{width:100%}
 </style>
 <div id="eeat-online-anamnese" class="eeat-anamnese-wrap">
   <a class="eeat-anamnese-btn" href="https://naturheilpraxis-rauch.lovable.app/" target="_blank" rel="noopener">
@@ -40,25 +38,7 @@
       after(wrap, src);
     }
   }
-  function fitPeWidth() {
-    var img = document.querySelector('img[data-src*="provenexpert"], img[src*="provenexpert"], img[alt*="Kundenbewertungen"]');
-    var box = document.getElementById('eeat-online-anamnese-pe');
-    if (!img || !box) return;
-    var w = Math.round(img.getBoundingClientRect().width);
-    if (w > 80) {
-      box.style.width = w + 'px';
-      box.style.maxWidth = w + 'px';
-    }
-  }
-  fitPeWidth();
-  if (pe) {
-    pe.addEventListener('load', fitPeWidth);
-    if (window.MutationObserver) {
-      new MutationObserver(fitPeWidth).observe(pe, { attributes: true, attributeFilter: ['src', 'srcset', 'class', 'style'] });
-    }
-  }
-  window.addEventListener('resize', fitPeWidth);
-  setTimeout(fitPeWidth, 400);
-  setTimeout(fitPeWidth, 1400);
 })();
 </script>
+
+

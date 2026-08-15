@@ -52,5 +52,8 @@ naturheilpraxis-eeat/
 |----------|------|
 | Schema MedicalClinic/Physician | HFCM **#6** Header ON |
 | Disclaimer + Autor | HFCM **#7** Footer ON |
+| Anamnese-Button | HFCM **#8** Footer+JS ON |
+| Slider mobil CSS | HFCM **#9** Header ON |
+| Footer+Cookie mobil | HFCM **#10** Header ON |
 | Meta Descriptions | Rank Math |
-| robots.txt | Robots.txt Editor, Sitemap https |
+| robots.txt | physische Root-Datei; Sitemap-Zeile noch `sitemap.xml` (Plesk) |

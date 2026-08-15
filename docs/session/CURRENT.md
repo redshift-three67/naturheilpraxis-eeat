@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-14 23:42 CEST · **Direktive Tagesabschluss fixiert**
+Stand: 2026-08-15 · UX-01/02 + APP-06 live_verified
 
 ## Massgabe
 
@@ -60,6 +60,9 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 
 16. ~~SLIDER-01~~ Untertitel ohne „Sanft Heilen“; Psychotherapie-CTA → `/psychotherapie-augsburg/`
 17. QW-SITEMAP: Rank Math Sitemap **an**; Live-robots zeigt weiter alte `sitemap.xml` (physische Root-Datei) → **Wiedervorlage Plesk**
+18. ~~UX-01~~ Footer-Legal auf XS sichtbar (HFCM #10)
+19. ~~UX-02~~ Cookie-Banner mobil 109 px statt 190 px (HFCM #10)
+20. ~~APP-06~~ Anamnese-Button: PE-Breite + Rahmen `#8ec760` (HFCM #8)
 
 Siehe `docs/PLAN.md`.
 
