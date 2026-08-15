@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · CONTENT-01b Slogans + NLS-H2 live_verified
+Stand: 2026-08-15 · Audit Kontrast/Struktur/Hubs (keine Inhalts-Writes)
 
 ## Massgabe
 
