@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · VERF-01…15 live_verified (Verfahrenstexte Kern abgeschlossen)
+Stand: 2026-08-15 · VERF-01…15 done · neuer Plan zur Besprechung (B5 + UX/Speed)
 
 ## Massgabe
 

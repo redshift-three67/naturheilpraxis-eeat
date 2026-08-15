@@ -1,116 +1,156 @@
-# Umsetzungsplan – rauch-heilpraktiker.de
+# Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · siehe Direktive `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
+Stand: 2026-08-15 · zur **Besprechung**, noch nicht ausgeführt  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
-## Erledigt (diese Session-Kette)
+**B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
+Nur das, was hier messbar hilft: Lesbarkeit, Hub-Struktur, Cache, Bildgröße, eine H1, sichtbares Schema.
 
-Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01…04 (Footer-Menü, HFCM-Leiste, Menü-Reorder, Submenü, Platzierung unter „Jetzt Termin buchen“).
+---
 
-## A – Online-Anamnesebogen / Lovable (jetzt weitgehend fertig)
+## Pagespeed (Referenz, nicht neu gemessen)
 
-**Ziel-URL:** `https://naturheilpraxis-rauch.lovable.app/`  
-**Anker:** „Online-Anamnesebogen“ + Zusatz „Patientenaufnahme vor dem Termin“  
-**Technik:** `target=_blank` `rel=noopener` · kein nofollow (offizielles Praxis-Tool)
+Quelle: pagespeed.de 15.08.2026, Startseite.
 
-### Google-Richtlinien (Outbound / YMYL)
+| | Mobil 13:05 | Mobil 13:48 | Desktop 13:49 | Ziel |
+|---|---:|---:|---:|---|
+| Note | 79 | **82** | **97** | Mobil ≥ 90 |
+| LCP | 4,91 s | **4,53 s** | 1,18 s | < 2,5 s |
+| FCP | 2,17 s | 1,88 s | 430 ms | < 1,8 s |
+| CLS | 0,035 | 0,025 | 0,003 | < 0,1 |
+| TBT | 4 ms | 29 ms | 0 ms | ok |
+| TTFB | ~0,9 s | **961 ms** | 854 ms | < 400 ms |
 
-| Regel | Umsetzung |
-|-------|-----------|
-| Klarer Zweck, kein Cloaking | Anker = Anamnese/Aufnahme, nicht „heilen“ |
-| Extern erkennbar | lovable.app, neuer Tab, kein Fake-Unterpfad |
-| Kein Link-Schema / kein Spam | 3–4 redaktionelle Plätze, nicht sitewide in jedem Block |
-| Hilfreich, nicht irreführend | Kein Diagnose-/Heilversprechen auf dem Button |
-| Gesundheitsdaten | Zweck nur Aufnahme; Datenschutz liegt in der App |
+Live zusätzlich: Brotli **an** (Tool-Kachel war falsch), HTTP/2, HSTS.  
+Zwei Bremsen: **TTFB ~0,9 s** (Hosting) und **LCP-Hero** (zu großes First-Image + Slider-Höhe auf Tablet/Laptop).
 
-### Rest A (optional, nicht blockierend)
+---
 
-- ~~APP-05/07: YOOtheme-Slider-CTA eine Folie~~ done (Duplikat, nicht „Eintrag einfügen“)
-- Kontaktseite: ein Satz + gleicher Link
-- App-Seite: Impressum/Datenschutz der Praxis sichtbar halten
-- Menü-Label in WP „NLS Diagnostik / Metatron Hospital System“ umbenennen (Admin-Menü 12)
+## Live-Befund UX / Bilder (CDP 15.08., Startseite)
 
-## B – Slider (E-E-A-T, SEO, Pagespeed) – nächstes größeres Paket
+| Viewport | Abstand Termin→Anamnese | Kontakt PE+Button | Hero angezeigt | Hero-Datei |
+|----------|------------------------:|-------------------|----------------|------------|
+| 390 Mobil | **10 px** (zu eng) | PE oft **0×0** (lazy), Button 409 px | 439×292 | **1583 px** breit |
+| 768 Tablet | 10 px | PE+Button **rechts** (Mitte +273 px) | **972×646** | **1920 px** |
+| 1024 Laptop | 10 px | Button bei x=870, nicht zentriert | **1344×894** | 1500–1920 px |
+| 1280 Desk | 10 px | Button bei x=1049, PE 0×0 | 1475×981 | 1688 px |
 
-### E-E-A-T / HWG
+SPEED-01 greift nur `max-width: 959px` und verliert auf Tablet gegen YOO (`height: 646` statt max 400).  
+`fitPeWidth()` setzt die Anamnese-Breite an ein noch nicht geladenes PE-Bild → Breite 0 / Versatz.
 
-- Folientexte „Sanft Heilen – Stark im Leben“ sind werblich/HWG-nah → analog META-04 entschärfen
-- CTA „Info zur Psychotherapie“ zeigt auf `/hypnotherapie-augsburg/` → **Mismatch**, Ziel korrigieren oder Label anpassen
+Schrift jetzt: H1 **46 px / 300**, Mobil ~35 px / 300; Fließtext **18/27 / 300**; Disclaimer 16,2 / 300.
 
-### SEO der Verlinkungen
+---
 
-- Interne Folien-CTAs (NLS, Homöopathie, BIT) sind thematisch sinnvoll
-- Anker „Info zur …“ sind beschreibend, kein Keyword-Spam
-- Kein Follow auf externe App im Slider nötig, wenn intern nur Praxis-URLs
+## B5 – was wir übernehmen (und was nicht)
 
-### Pagespeed / mobil (hohe Hebel)
+| ID | Übernehmen | Warum hier |
+|----|------------|------------|
+| **B5-TYPE** | Typo-Skala für ältere Leser: Gewicht 400, H1 kleiner, Zeile ≥ 1,55 | E-E-A-T + WCAG, Praxis-Publikum |
+| **B5-H1** | Eine klare H1, etwas kleiner als jetzt | Hierarchie, nicht „Plakat“ |
+| **B5-CLUSTER** | Hub → Kindseiten, keine Textwände | schon VERF/HUB; Long-Tail nur bei Bedarf |
+| **B5-CACHE** | HTML-Cache / kurzes TTFB (bei uns: Plesk nginx/OPcache) | wie deren Varnish-HIT |
+| **B5-IMG** | Richtige Dateibreite + modernes Format | WebP da, **srcset/Größe fehlt** |
+| **B5-NAP** | Adresse/Tel/Geo nur wie sichtbar, MedicalClinic | kein LocalBusiness zurück |
+| **B5-FAQ** | FAQ nur wenn die Antwort sichtbar im HTML steht | später, keine Keyword-Farm |
+| **Nicht B5** | Product-Schema, 100 Glossar-URLs, GTM-First, Award-Leiste | YMYL / irreführend |
 
-| Hebel | Warum |
-|-------|--------|
-| Kenburns-Animation aus | teuer auf Mobile (GPU/Compositor) |
-| `uk-height-viewport` min 550 reduzieren | frisst First Screen auf dem Handy |
-| Bilder WebP/komprimieren, nicht nur YOO-Cache-JPEG | LCP |
-| Offscreen-Folien lazy | 4 große Hero-Bilder |
-| Autoplay-Interval / Pause prüfen | weniger Main-Thread |
+---
 
-**Paket SLIDER-01:** ~~Untertitel HWG + CTA Psychotherapie-Ziel~~ done  
-**Paket SPEED-01:** ~~Kenburns mobil aus + Höhe~~ done (HFCM #9).  
-**Paket SPEED-02:** ~~WebP bereits via YOO-Cache; LCP eager~~ done.
+## Nächste Arbeit – Reihenfolge zur Freigabe
 
-## C – Mobile UX / weitere QuickWins
+Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in Welle 1–3.
 
-| ID | Thema | Priorität |
-|----|--------|-----------|
-| UX-01 | ~~Footer-Legal auf XS sichtbar~~ (HFCM #10) | done |
-| UX-02 | ~~Cookie-Banner First Screen kompakter~~ (HFCM #10, 109 px) | done |
-| UX-03 | „Jetzt Termin buchen“ = ProvenExpert extern – bleibt, Anamnese darunter (done) | — |
-| QW-SITEMAP | ~~robots → `sitemap_index.xml`~~ (Plesk 15.08. 07:46 UTC, 64 https-URLs) | done |
-| QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
-| QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
-| QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
-| QW-TITELCASE | Rank-Math „Titel großschreiben“ (Nach vs. nach) | niedrig |
-| CONTENT-01 | ~~Start + Kernseiten ohne „heilen/lindern/helfe“~~ | done (Rest = 01b) |
+### Welle 1 – Lesbarkeit und Klickfläche (hoch)
 
-## Reihenfolge (verbindlich)
+| ID | Schritt | Inhalt | Prio |
+|----|---------|--------|------|
+| **B5-TYPE-01** | H1 kleiner, Schrift fetter | H1 Desk **36 px / 500**, Mobil **30 px / 500**. Fließtext 18 px bleiben, Gewicht **400**, `line-height` 1,55. Disclaimer 16–17 px / 400. HFCM #11 ergänzen. | hoch |
+| **UX-04** | Abstand Termin + Anamnese | `margin-top` 10 px → **18–20 px**. Beide Buttons gleiche Breite (Termin 450, Anamnese ebenfalls 450 bzw. 100 % der Karte). Mehr Innenabstand im Anamnese-Button (14/20 statt 11/16). HFCM #8. | hoch |
+| **UX-05** | Kontakt PE + Anamnese mittig | Warten bis PE-Bild echte Breite hat (`data-src`/`load`). Wrapper: Spalte, `margin-left/right: auto`, `text-align: center`. Kein `width` aus 0-px-Bild. Tablet+Mobil prüfen. HFCM #8. | hoch |
 
-1. ~~APP · SPEED-01 · QW-MENU-METATRON · SLIDER-01~~
-2. ~~QW-SITEMAP~~ robots → `sitemap_index.xml`
-3. ~~UX-01/02 Cookie + Footer mobil~~
-4. ~~Slider-Anamnese-Folie + SPEED-02 WebP/LCP~~
-5. ~~HWG-01 Homepage-Tagline~~
-6. ~~CONTENT-01 Kern~~ Start + Kontakt/NLS/Impressum/Bioresonanz/Homöopathie/BIT/Psychotherapie
-7. ~~CONTENT-01b Slogans + NLS-H2~~  
-8. ~~KONTRAST-01 · Start-Absätze/Fett · NLS-Fließtext (Felder 3–7)~~  
-9. ~~HUB-01 Startseite Einstieg (Termin + Grenzen + Themenlinks)~~  
-10. ~~pagespeed.de Startseite~~ Mobil 79 / Desktop 97 (LCP mobil 4,91 s)  
-11. ~~HUB-02 Diagnostik~~ NLS-Feld 7: Hinweis + Kindlinks  
-12. ~~HUB-03 Bioresonanz~~ Feld 6: Hinweis + Kindlinks  
-13. ~~pagespeed.de 13:48/13:49~~ Mobil 82 / Desktop 97  
-14. ~~SLIDER-NLS~~ `vormals Metatron Hunter` → `Metatron Hospital` (nur Slider)  
-15. ~~HUB-04 Naturheilkunde~~ Feld 3: Hinweis + Kindlinks  
-16. ~~HUB-05 Psychotherapie~~ Feld 7: Hinweis + Kindlinks  
-17. ~~HUB-06 Manuelle Verfahren~~ Feld 3: Hinweis + Kindlinks  
-18. ~~BIT-H2~~ Slider ohne „Hospital“ (`NLS-Diagnostik nach Nesterov`)  
-19. ~~HUB-07 Schmerztherapie~~ Feld 6: Hinweis + Kindlinks  
-20. ~~NLS-CAPTION~~ Grid-Titel ohne „Metatron Hospital System“  
-21. ~~KONTRAST-Messung~~ Hub-Seiten AA (Fließtext 4,69 · H1 7,66)  
-22. ~~HOME-NLS-CARD~~ Hinweis statt Hospital-System  
-23. ~~HOME-LIST~~ NLS-Diagnostik nach Nesterov  
-24. ~~NLS-LOWER~~ Gerätename ohne Hospital-System; Hinweisbild statt „Diagnose erstellt“  
-25. ~~SPEED-CHECK~~ Brotli bereits an; TTFB = Hosting/Plesk, nicht dieses Repo  
-26. ~~VERF-01~~ Naturheilkunde / klassische Homöopathie (Hahnemann)
-27. ~~VERF-02~~ Naturheilkunde / Komplex-Homöopathie
-28. ~~VERF-03~~ Phytotherapie
-29. ~~VERF-04~~ NAET
-30. ~~VERF-05~~ Injektion / Neuraltherapie
-31. ~~VERF-06~~ Schmerz / Kinesiologie (Hub behalten)
-32. ~~VERF-07~~ Schmerz / Homöopathie
-33. ~~VERF-08~~ Schmerz / Injektion
-34. ~~VERF-09~~ Bioresonanz / Trikombin (Hub behalten)
-35. ~~VERF-10~~ Manuell / IMT-Definition
-36. ~~VERF-11…13~~ Manuell: Osteopathie, Lowen, Physiotherapie
-37. ~~VERF-14/14b~~ IMT-Unterseite
-38. ~~VERF-15~~ NLS-Anwendungsliste ohne Keyword-Fett
-39. Offen: Long-Tail-Unterseiten (Microkinesie, Dorn, weitere IMT/Lowen-Seiten) · Rest-Fett in NLS-Intro · TTFB Hosting · Speed-Plugins testen · QW-NOINDEX deinstallieren · QW-TITELCASE · externe Sichtbarkeit (GBP)
+### Welle 2 – Responsiveness und Bilder (hoch)
 
-Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
+| ID | Schritt | Inhalt | Prio |
+|----|---------|--------|------|
+| **RESP-01** | Slider Tablet/Laptop | SPEED-01 von 959 auf **1199 px**. `max-height` 320 Mobil / 380 Tablet / nicht 46 vh von 1024. Hero darf auf 768 nicht 646 px hoch sein. HFCM #9. | hoch |
+| **B5-IMG-01** | Hero-Datei an Viewport | Mobil nicht 1583–1920 px laden. `sizes` + YOO-srcset prüfen; LCP nur Folie 1 `eager`/`high`; Folie 2–n `lazy` + kleineres srcset. | hoch |
+| **B5-IMG-02** | Inhaltbilder | Karten/Portraits: max Anzeigebreite begrenzen; `width`/`height` im Markup gegen CLS; Qualität YOO-WebP prüfen (nicht 1600er Datei für 260 px Karte). | mittel-hoch |
+
+**Bilder besser einbinden (Technik, kein Plugin-Wettlauf):**
+
+1. **Richtige Breite:** Mobil ~800 w, Tablet ~1200 w, Desk ~1600 w – nicht 1920 an 390 px.  
+2. **Nur LCP eager.** Alle anderen Slider- und Below-fold-Bilder `loading="lazy"` `decoding="async"`.  
+3. **Ein Format-Pfad:** YOO-WebP behalten; AVIF nur wenn YOO es ohne Doppel-Download kann.  
+4. **Dimensionen im HTML** (`width`/`height` oder aspect-ratio), sonst CLS.  
+5. **Kein Kenburns** (schon aus auf <960; auf Tablet mitziehen).  
+6. **TTFB getrennt:** kleines Bild hilft nicht, wenn HTML 0,9 s braucht (**B5-CACHE** = Plesk).
+
+### Welle 3 – Speed Hosting (hoch, nicht dieses Repo allein)
+
+| ID | Schritt | Inhalt | Prio |
+|----|---------|--------|------|
+| **B5-CACHE / TTFB** | Plesk nginx microcache oder gleichwertig, PHP-OPcache, `cache-control` für HTML kurz | hoch |
+| **QW-SPEED-PLUGINS** | Async JS + Speed Booster **nur Test**, Default bleibt aus (Schema/HFCM) | mittel |
+| **SPEED-03** | Nach Welle 2: pagespeed.de erneut (Mobil LCP/TTFB) | hoch zur Kontrolle |
+
+### Welle 4 – Rest EEAT/Content (mittel)
+
+| ID | Schritt | Prio |
+|----|---------|------|
+| NLS-Intro-Restfett | mittel |
+| Long-Tail Microkinesie / Dorn / weitere IMT-Lowen-Seiten | mittel, nur bei Bedarf |
+| **B5-FAQ-01** | echte Patientenfragen als sichtbarer Block, kein Glossar-100 | niedrig-mittel |
+| **B5-NAP-01** | sichtbare NAP gegen Schema-Snippet | mittel |
+
+### Welle 5 – Klein / extern (niedrig bzw. später)
+
+| ID | Schritt | Prio |
+|----|---------|------|
+| QW-NOINDEX-PLUGIN deinstallieren | niedrig |
+| QW-TITELCASE Rank Math | niedrig |
+| Kontakt-Satz + Anamnese-Link | niedrig |
+| GBP / lokale Verzeichnisse | mittel **nach** Welle 3 |
+
+---
+
+## Vorgeschlagene erste drei Live-Schritte (wenn Plan ok)
+
+1. **B5-TYPE-01** – Schrift (H1 runter, Gewicht rauf)  
+2. **UX-04** – Abstand/Breite Termin + Anamnese  
+3. **UX-05** – PE + Anamnese zentrieren (load-sicher)
+
+Dann RESP-01 + B5-IMG-01, danach Plesk-TTFB und neue pagespeed.de-Messung.
+
+Keine Parallel-Writes. Prewrite → ein Schritt → Verify Desktop **und** 390 / 768 / 1024.
+
+---
+
+## Erledigt (nicht zurückdrehen)
+
+TQW-01…04 · SCHEMA-01…04 · META-01…06 · NOINDEX-01 · APP-01…07 · SPEED-01/02 · SLIDER-01 · UX-01/02 · QW-SITEMAP · HWG-01 · CONTENT-01/01b · KONTRAST-01 · HUB-01…07 · Hospital-Reste · VERF-01…15.
+
+```mermaid
+flowchart TB
+  subgraph W1["Welle 1 · hoch · Lesen + Klick"]
+    T["B5-TYPE-01 Schrift / H1 kleiner"]
+    U4["UX-04 Abstand Termin-Anamnese"]
+    U5["UX-05 PE zentrieren"]
+    T --> U4 --> U5
+  end
+  subgraph W2["Welle 2 · hoch · Mobil/Tablet/Bilder"]
+    R["RESP-01 Slider-Höhe bis 1199"]
+    I1["B5-IMG-01 Hero-srcset"]
+    I2["B5-IMG-02 Inhaltbilder"]
+    R --> I1 --> I2
+  end
+  subgraph W3["Welle 3 · hoch · Speed"]
+    C["B5-CACHE TTFB Plesk"]
+    P["pagespeed.de Kontrolle"]
+    C --> P
+  end
+  subgraph W4["Welle 4 · mittel"]
+    N["NLS-Restfett · Long-Tail · B5-FAQ/NAP"]
+  end
+  W1 --> W2 --> W3 --> W4
+```
