@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · Welle 1–3 gemessen (Plesk TTFB ok, nginx HTML weiter MISS)  
+Stand: 2026-08-15 · Welle 1–4 live (NAP/FAQ/NLS-Fett/Long-Tail)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 **B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
@@ -98,10 +98,10 @@ Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in 
 
 | ID | Schritt | Prio |
 |----|---------|------|
-| NLS-Intro-Restfett | mittel |
-| Long-Tail Microkinesie / Dorn / weitere IMT-Lowen-Seiten | mittel, nur bei Bedarf |
-| **B5-FAQ-01** | echte Patientenfragen als sichtbarer Block, kein Glossar-100 | niedrig-mittel |
-| **B5-NAP-01** | sichtbare NAP gegen Schema-Snippet | mittel |
+| ~~NLS-Intro-Restfett~~ VERF-16 live (einzelne H3 noch fett) | mittel |
+| ~~Long-Tail Microkinesie/Dorn~~ VERF-17/18 auf Manuell-Hub | mittel |
+| **B5-FAQ-01** | ~~3 Fragen + FAQPage in HFCM #7~~ live | niedrig-mittel |
+| **B5-NAP-01** | ~~Straße/PLZ/Tel in HFCM #7~~ live | mittel |
 
 ### Welle 5 – Klein / extern (niedrig bzw. später)
 
