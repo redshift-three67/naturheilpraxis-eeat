@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · VERF-01…06 live_verified (Naturheilkunde + Kinesiologie/Schmerz)
+Stand: 2026-08-15 · VERF-01…10 live_verified
 
 ## Massgabe
 
@@ -90,6 +90,11 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 45. ~~VERF-03~~ Phytotherapie gekürzt
 46. ~~VERF-04~~ NAET gekürzt, ohne Symptomkatalog
 47. ~~VERF-05~~ Injektion/Neuraltherapie gekürzt
+48. ~~VERF-06~~ Schmerz: Kinesiologie gekürzt, HUB-07 behalten
+49. ~~VERF-07~~ Schmerz: Homöopathie gekürzt
+50. ~~VERF-08~~ Schmerz: Injektion gekürzt, ohne Indikationsliste
+51. ~~VERF-09~~ Bioresonanz: Trikombin gekürzt, HUB-03 behalten
+52. ~~VERF-10~~ Manuell: IMT-Block gekürzt, Technikliste behalten
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 

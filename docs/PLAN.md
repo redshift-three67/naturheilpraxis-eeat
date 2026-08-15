@@ -104,6 +104,10 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 29. ~~VERF-04~~ NAET
 30. ~~VERF-05~~ Injektion / Neuraltherapie
 31. ~~VERF-06~~ Schmerz / Kinesiologie (Hub behalten)
-32. Offen: Homöopathie-Schmerz und Injektion-Schmerz auf derselben Seite · Bioresonanz/IMT · NLS-Fett · TTFB Hosting
+32. ~~VERF-07~~ Schmerz / Homöopathie
+33. ~~VERF-08~~ Schmerz / Injektion
+34. ~~VERF-09~~ Bioresonanz / Trikombin (Hub behalten)
+35. ~~VERF-10~~ Manuell / IMT-Definition
+36. Offen: restliche Manuell-Blöcke (Osteopathie, Lowen, Physio) · IMT-Unterseite · NLS-Fett · TTFB Hosting
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
