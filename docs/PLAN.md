@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · Welle 1–4 live (NAP/FAQ/NLS-Fett/Long-Tail)  
+Stand: 2026-08-15 · Welle 1–5 abgeschlossen (GBP bleibt extern)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 **B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
@@ -107,10 +107,10 @@ Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in 
 
 | ID | Schritt | Prio |
 |----|---------|------|
-| QW-NOINDEX-PLUGIN deinstallieren | niedrig |
-| QW-TITELCASE Rank Math | niedrig |
-| Kontakt-Satz + Anamnese-Link | niedrig |
-| GBP / lokale Verzeichnisse | mittel **nach** Welle 3 |
+| ~~QW-NOINDEX-PLUGIN~~ deaktiviert (Dateien: Löschen fehlgeschlagen) | niedrig |
+| ~~QW-TITELCASE~~ Rank Math aus | niedrig |
+| ~~Kontakt-Satz~~ HFCM #12 auf `/kontakt/` | niedrig |
+| GBP / lokale Verzeichnisse | extern, Betreiber – siehe `WELLE-5.md` |
 
 ---
 

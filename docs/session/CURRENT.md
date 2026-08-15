@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Welle 4 live (VERF-16…18 · B5-NAP · B5-FAQ)
+Stand: 2026-08-15 · Welle 5 live (noindex aus · Titelcase aus · Kontakt-Satz)
 
 ## Massgabe
 
@@ -108,12 +108,15 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 63. ~~VERF-16~~ NLS-Intro ohne Keyword-Fett
 64. ~~VERF-17/18~~ Microkinesie + Dorn auf Manuell-Hub
 65. ~~B5-NAP-01 + B5-FAQ-01~~ HFCM #7
+66. ~~QW-NOINDEX~~ Plugin deaktiviert
+67. ~~QW-TITELCASE~~ Rank Math aus
+68. ~~Kontakt-Satz~~ HFCM #12
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
 Siehe `docs/PLAN.md` (konsolidiert 15.08., B5-IDs, Wellen 1–5, noch nicht ausgeführt).
 
-Welle 1–4 erledigt. Offen: Welle 5 klein/extern · optional nginx-HIT · kein Speed-Plugin ohne Exclude-Liste.
+Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
 Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
 Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
