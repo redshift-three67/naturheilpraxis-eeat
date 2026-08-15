@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · QW-SITEMAP live + HWG-01 Tagline live_verified
+Stand: 2026-08-15 · CONTENT-01 Kern live_verified
 
 ## Massgabe
 
@@ -66,6 +66,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 21. ~~APP-07~~ Slider-Folie Online-Anamnesebogen (YOO-Duplikat, Folie 1)
 22. ~~SPEED-02~~ Folien bereits WebP; LCP `eager`/`high` (HFCM #9)
 23. ~~HWG-01~~ Start-Tagline ohne „heilen“
+24. ~~CONTENT-01~~ Starttexte + Slogan/Slider auf Kernseiten; Restseiten = 01b
 
 Siehe `docs/PLAN.md`.
 

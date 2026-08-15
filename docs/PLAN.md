@@ -69,7 +69,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
 | QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
 | QW-TITELCASE | Rank-Math „Titel großschreiben“ (Nach vs. nach) | niedrig |
-| CONTENT-01 | Therapie-Seiten E-E-A-T-Vertiefung (kein Heilversprechen) | mittel |
+| CONTENT-01 | ~~Start + Kernseiten ohne „heilen/lindern/helfe“~~ | done (Rest = 01b) |
 
 ## Reihenfolge (verbindlich)
 
@@ -78,6 +78,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 3. ~~UX-01/02 Cookie + Footer mobil~~
 4. ~~Slider-Anamnese-Folie + SPEED-02 WebP/LCP~~
 5. ~~HWG-01 Homepage-Tagline~~
-6. CONTENT-01 (inkl. Innerseiten-Slogan „Sanft Heilen“, Typo „Therpapieverfahren“)
+6. ~~CONTENT-01 Kern~~ Start + Kontakt/NLS/Impressum/Bioresonanz/Homöopathie/BIT/Psychotherapie
+7. CONTENT-01b übrige Innerseiten-Slogans · NLS-H2 Metatron Hospital · weitere Therapie-Fließtexte
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

@@ -35,8 +35,8 @@ Erster Auftrag dieser Session (noch keine Inhalts-Writes):
 2) Live gegen Repo validieren (Schema 1× MedicalClinic+Physician, Disclaimer #7, Anamnese-Button, Slider-Untertitel, robots-Zeile)
 3) CDP-Port kollisionsfrei setzen und dokumentieren
 4) CDP-Chrome starten und WP-Admin erreichbar machen
-Ist-Stand ergänzt 2026-08-15: UX-01/02, APP-06/07, SPEED-02, QW-SITEMAP (`sitemap_index.xml`), HWG-01 Tagline.
+Ist-Stand ergänzt 2026-08-15: UX-01/02, APP-06/07, SPEED-02, QW-SITEMAP, HWG-01, CONTENT-01 Kern.
 
-Erst danach den nächsten offenen Schritt aus docs/PLAN.md (CONTENT-01) – genau ein logischer Schritt.
+Erst danach den nächsten offenen Schritt aus docs/PLAN.md (CONTENT-01b oder Pause) – genau ein logischer Schritt.
 
 ---
