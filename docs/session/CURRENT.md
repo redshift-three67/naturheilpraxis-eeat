@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Start-Karte NLS + Kontrast-Messung live_verified
+Stand: 2026-08-15 · Start-Liste + NLS-unten + Speed-Check live_verified
 
 ## Massgabe
 
@@ -82,6 +82,9 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 37. ~~NLS-CAPTION~~ Grid-Titel `Metatron Hospital System` → `NLS-Diagnostik`
 38. ~~KONTRAST-Messung Hubs~~ AA auf 7 Hub-Seiten (HFCM #11)
 39. ~~HOME-NLS-CARD~~ Karte ohne Hospital-System / ohne „schnell präzise“
+40. ~~HOME-LIST~~ `Metatron Hospital nach Nesterov` → `NLS-Diagnostik nach Nesterov`
+41. ~~NLS-LOWER~~ Hospital-System / „Diagnose erstellt“ im unteren Fließtext
+42. ~~SPEED-CHECK~~ Brotli live an; TTFB nur über Hosting
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
