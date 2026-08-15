@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · KONTRAST-01 + Start-Struktur + NLS-Fließtext live_verified
+Stand: 2026-08-15 · HUB-01 Startseite Praxis-Einstieg live_verified
 
 ## Massgabe
 

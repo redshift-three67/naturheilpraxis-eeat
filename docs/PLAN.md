@@ -81,6 +81,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 6. ~~CONTENT-01 Kern~~ Start + Kontakt/NLS/Impressum/Bioresonanz/Homöopathie/BIT/Psychotherapie
 7. ~~CONTENT-01b Slogans + NLS-H2~~  
 8. ~~KONTRAST-01 · Start-Absätze/Fett · NLS-Fließtext (Felder 3–7)~~  
-9. Offen: Hubs besprechen · Bildunterschriften Metatron · restliche Therapie-Fließtexte
+9. ~~HUB-01 Startseite Einstieg (Termin + Grenzen + Themenlinks)~~  
+10. Offen: nächster Hub Diagnostik · Bildunterschriften Metatron
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
