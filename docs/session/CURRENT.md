@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-05 Psychotherapie-Einstieg live_verified
+Stand: 2026-08-15 · HUB-06 Manuelle + BIT-H2 live_verified
 
 ## Massgabe
 
@@ -76,6 +76,8 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 31. ~~SLIDER-NLS~~ erste Folie: Metatron Hospital (nur Slider)
 32. ~~HUB-04~~ Naturheilkunde-Einstieg (Einleitung + Kindlinks)
 33. ~~HUB-05~~ Psychotherapie-Einstieg (Hinweis + Kindlinks)
+34. ~~HUB-06~~ Manuelle Verfahren-Einstieg (Einleitung + Kindlinks)
+35. ~~BIT-H2~~ Slider `Metatron Hospital nach Nesterov` → `NLS-Diagnostik nach Nesterov`
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 

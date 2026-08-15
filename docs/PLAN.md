@@ -89,6 +89,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 14. ~~SLIDER-NLS~~ `vormals Metatron Hunter` → `Metatron Hospital` (nur Slider)  
 15. ~~HUB-04 Naturheilkunde~~ Feld 3: Hinweis + Kindlinks  
 16. ~~HUB-05 Psychotherapie~~ Feld 7: Hinweis + Kindlinks  
-17. Offen: nächster Hub Manuelle Verfahren · Bildunterschriften Metatron · BIT-H2 „Hospital“
+17. ~~HUB-06 Manuelle Verfahren~~ Feld 3: Hinweis + Kindlinks  
+18. ~~BIT-H2~~ Slider ohne „Hospital“ (`NLS-Diagnostik nach Nesterov`)  
+19. Offen: nächster Hub Schmerztherapie · Bildunterschriften Metatron
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
