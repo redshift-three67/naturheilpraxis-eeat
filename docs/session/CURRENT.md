@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-04 Naturheilkunde-Einstieg live_verified
+Stand: 2026-08-15 · HUB-05 Psychotherapie-Einstieg live_verified
 
 ## Massgabe
 
@@ -75,6 +75,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 30. ~~pagespeed.de 13:48~~ Mobil 82 / Desktop 97 · `PAGESPEED-2026-08-15-1348.md`
 31. ~~SLIDER-NLS~~ erste Folie: Metatron Hospital (nur Slider)
 32. ~~HUB-04~~ Naturheilkunde-Einstieg (Einleitung + Kindlinks)
+33. ~~HUB-05~~ Psychotherapie-Einstieg (Hinweis + Kindlinks)
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
