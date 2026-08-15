@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · CONTENT-01 Kern live_verified
+Stand: 2026-08-15 · CONTENT-01b Slogans + NLS-H2 live_verified
 
 ## Massgabe
 
@@ -66,7 +66,8 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 21. ~~APP-07~~ Slider-Folie Online-Anamnesebogen (YOO-Duplikat, Folie 1)
 22. ~~SPEED-02~~ Folien bereits WebP; LCP `eager`/`high` (HFCM #9)
 23. ~~HWG-01~~ Start-Tagline ohne „heilen“
-24. ~~CONTENT-01~~ Starttexte + Slogan/Slider auf Kernseiten; Restseiten = 01b
+24. ~~CONTENT-01~~ Starttexte + Slogan/Slider Kernseiten
+25. ~~CONTENT-01b~~ restliche Slogans (48) + NLS-H2 ohne „Hospital“
 
 Siehe `docs/PLAN.md`.
 
