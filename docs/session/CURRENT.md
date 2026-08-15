@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · HUB-01 Startseite Praxis-Einstieg live_verified
+Stand: 2026-08-15 · HUB-02 NLS Diagnostik-Einstieg live_verified
 
 ## Massgabe
 
@@ -68,6 +68,9 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 23. ~~HWG-01~~ Start-Tagline ohne „heilen“
 24. ~~CONTENT-01~~ Starttexte + Slogan/Slider Kernseiten
 25. ~~CONTENT-01b~~ restliche Slogans (48) + NLS-H2 ohne „Hospital“
+26. ~~HUB-01~~ Startseite Einstieg (Termin + Grenzen + Themenlinks)
+27. ~~pagespeed.de~~ Mobil 79 / Desktop 97 · Archiv `PAGESPEED-2026-08-15.md`
+28. ~~HUB-02~~ NLS als Diagnostik-Einstieg (Hinweis + Kindlinks)
 
 Siehe `docs/PLAN.md`.
 

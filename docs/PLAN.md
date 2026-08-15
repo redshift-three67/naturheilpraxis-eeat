@@ -82,6 +82,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 7. ~~CONTENT-01b Slogans + NLS-H2~~  
 8. ~~KONTRAST-01 · Start-Absätze/Fett · NLS-Fließtext (Felder 3–7)~~  
 9. ~~HUB-01 Startseite Einstieg (Termin + Grenzen + Themenlinks)~~  
-10. Offen: nächster Hub Diagnostik · Bildunterschriften Metatron
+10. ~~pagespeed.de Startseite~~ Mobil 79 / Desktop 97 (LCP mobil 4,91 s)  
+11. ~~HUB-02 Diagnostik~~ NLS-Feld 7: Hinweis + Kindlinks  
+12. Offen: nächster Hub Bioresonanz · Bildunterschriften Metatron · BIT-H2 „Hospital“
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
