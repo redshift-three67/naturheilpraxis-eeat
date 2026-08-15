@@ -53,4 +53,33 @@ a.eeat-anamnese-btn,
 .uk-slideshow .el-link {
   color: #2a2622 !important;
 }
+
+/* B5-TYPE-01: H1 kleiner, Gewicht für ältere Leser */
+h1.uk-heading-medium,
+h1.uk-heading-small,
+.uk-section-muted h1 {
+  font-size: 36px !important;
+  font-weight: 500 !important;
+  line-height: 1.25 !important;
+}
+@media (max-width: 639px) {
+  h1.uk-heading-medium,
+  h1.uk-heading-small,
+  .uk-section-muted h1 {
+    font-size: 30px !important;
+  }
+}
+.uk-section p,
+.uk-section li,
+.uk-section .uk-panel,
+.uk-section .uk-text-lead {
+  font-weight: 400 !important;
+  line-height: 1.55 !important;
+}
+#eeat-disclaimer-author,
+#eeat-disclaimer-author p {
+  font-size: 16.5px !important;
+  font-weight: 400 !important;
+  line-height: 1.55 !important;
+}
 </style>

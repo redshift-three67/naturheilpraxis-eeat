@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · zur **Besprechung**, noch nicht ausgeführt  
+Stand: 2026-08-15 · Welle 1 live_verified (B5-TYPE-01, UX-04, UX-05)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 **B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
@@ -65,9 +65,9 @@ Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in 
 
 | ID | Schritt | Inhalt | Prio |
 |----|---------|--------|------|
-| **B5-TYPE-01** | H1 kleiner, Schrift fetter | H1 Desk **36 px / 500**, Mobil **30 px / 500**. Fließtext 18 px bleiben, Gewicht **400**, `line-height` 1,55. Disclaimer 16–17 px / 400. HFCM #11 ergänzen. | hoch |
-| **UX-04** | Abstand Termin + Anamnese | `margin-top` 10 px → **18–20 px**. Beide Buttons gleiche Breite (Termin 450, Anamnese ebenfalls 450 bzw. 100 % der Karte). Mehr Innenabstand im Anamnese-Button (14/20 statt 11/16). HFCM #8. | hoch |
-| **UX-05** | Kontakt PE + Anamnese mittig | Warten bis PE-Bild echte Breite hat (`data-src`/`load`). Wrapper: Spalte, `margin-left/right: auto`, `text-align: center`. Kein `width` aus 0-px-Bild. Tablet+Mobil prüfen. HFCM #8. | hoch |
+| **B5-TYPE-01** | ~~H1 36/30, Gewicht 400/500~~ live | hoch |
+| **UX-04** | ~~Abstand 21 px, Button 450, Padding 14/20~~ live | hoch |
+| **UX-05** | ~~PE+Button gleiche Breite nach Bild-Load~~ live · Tablet/Desk = rechte Kontaktspalte | hoch |
 
 ### Welle 2 – Responsiveness und Bilder (hoch)
 

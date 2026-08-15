@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · VERF-01…15 done · neuer Plan zur Besprechung (B5 + UX/Speed)
+Stand: 2026-08-15 · Welle 1 live_verified (B5-TYPE-01 · UX-04 · UX-05)
 
 ## Massgabe
 
@@ -100,12 +100,15 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 55. ~~VERF-13~~ Manuell: Physiotherapie
 56. ~~VERF-14/14b~~ IMT-Unterseite
 57. ~~VERF-15~~ NLS-Anwendungsliste ohne Keyword-Fett
+58. ~~B5-TYPE-01~~ H1 36/30, Fließtext 400
+59. ~~UX-04~~ Abstand Termin/Anamnese 21 px
+60. ~~UX-05~~ PE+Anamnese gleiche Breite nach Bild-Load
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
 Siehe `docs/PLAN.md` (konsolidiert 15.08., B5-IDs, Wellen 1–5, noch nicht ausgeführt).
 
-Nächste Live-Schritte nur nach Freigabe: B5-TYPE-01 → UX-04 → UX-05.
+Welle 1 erledigt. Nächste Freigabe: Welle 2 RESP-01 + B5-IMG (Slider/Bilder).
 
 Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
 Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).
