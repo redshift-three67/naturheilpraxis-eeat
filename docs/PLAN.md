@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · Welle 1 live_verified (B5-TYPE-01, UX-04, UX-05)  
+Stand: 2026-08-15 · Welle 1+2 live_verified  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 **B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
@@ -73,9 +73,9 @@ Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in 
 
 | ID | Schritt | Inhalt | Prio |
 |----|---------|--------|------|
-| **RESP-01** | Slider Tablet/Laptop | SPEED-01 von 959 auf **1199 px**. `max-height` 320 Mobil / 380 Tablet / nicht 46 vh von 1024. Hero darf auf 768 nicht 646 px hoch sein. HFCM #9. | hoch |
-| **B5-IMG-01** | Hero-Datei an Viewport | Mobil nicht 1583–1920 px laden. `sizes` + YOO-srcset prüfen; LCP nur Folie 1 `eager`/`high`; Folie 2–n `lazy` + kleineres srcset. | hoch |
-| **B5-IMG-02** | Inhaltbilder | Karten/Portraits: max Anzeigebreite begrenzen; `width`/`height` im Markup gegen CLS; Qualität YOO-WebP prüfen (nicht 1600er Datei für 260 px Karte). | mittel-hoch |
+| **RESP-01** | ~~Slider 320/380 bis 1399 px~~ live | hoch |
+| **B5-IMG-01** | ~~sizes 100vw, Folie 1 eager, 2–n lazy~~ live · Mobil 488 w statt 1583 | hoch |
+| **B5-IMG-02** | ~~Inhaltbilder sizes+lazy~~ live (teilweise; Markup-width bleibt YOO) | mittel-hoch |
 
 **Bilder besser einbinden (Technik, kein Plugin-Wettlauf):**
 
