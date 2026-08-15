@@ -25,7 +25,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 
 ### Rest A (optional, nicht blockierend)
 
-- APP-05: YOOtheme-Slider-CTA **manuell** (eine Folie) – CDP-Builder unzuverlässig
+- ~~APP-05/07: YOOtheme-Slider-CTA eine Folie~~ done (Duplikat, nicht „Eintrag einfügen“)
 - Kontaktseite: ein Satz + gleicher Link
 - App-Seite: Impressum/Datenschutz der Praxis sichtbar halten
 - Menü-Label in WP „NLS Diagnostik / Metatron Hospital System“ umbenennen (Admin-Menü 12)
@@ -54,7 +54,8 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | Autoplay-Interval / Pause prüfen | weniger Main-Thread |
 
 **Paket SLIDER-01:** ~~Untertitel HWG + CTA Psychotherapie-Ziel~~ done  
-**Paket SPEED-01:** ~~Kenburns mobil aus + Höhe~~ done (HFCM #9). Offen: WebP/Kompression der Folienbilder.
+**Paket SPEED-01:** ~~Kenburns mobil aus + Höhe~~ done (HFCM #9).  
+**Paket SPEED-02:** ~~WebP bereits via YOO-Cache; LCP eager~~ done.
 
 ## C – Mobile UX / weitere QuickWins
 
@@ -63,7 +64,7 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 | UX-01 | ~~Footer-Legal auf XS sichtbar~~ (HFCM #10) | done |
 | UX-02 | ~~Cookie-Banner First Screen kompakter~~ (HFCM #10, 109 px) | done |
 | UX-03 | „Jetzt Termin buchen“ = ProvenExpert extern – bleibt, Anamnese darunter (done) | — |
-| QW-SITEMAP | RM-Sitemap an / `sitemap_index.xml` live; **robots.txt-Datei im Root** blockiert die Zeile | Wiedervorlage Plesk |
+| QW-SITEMAP | RM-Sitemap an / `sitemap_index.xml` live; **robots.txt physisch weiter `sitemap.xml`** (Check 15.08. 09:28) | Wiedervorlage Plesk |
 | QW-SPEED-PLUGINS | Async JavaScript + Speed Booster Pack aktiv – nach SPEED-01 testen | mittel |
 | QW-NOINDEX-PLUGIN | 0/110 Regeln, nur Warnung – später deinstallieren | niedrig |
 | QW-MENU-METATRON | ~~Menüpunkt „Metatron Hospital System“~~ → NLS-Diagnostik | done |
@@ -73,9 +74,9 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 ## Reihenfolge (verbindlich)
 
 1. ~~APP · SPEED-01 · QW-MENU-METATRON · SLIDER-01~~
-2. **QW-SITEMAP** Modul an, `sitemap_index.xml` live – **robots.txt physisch** noch auf alte `sitemap.xml` (Plesk-Wiedervorlage)
+2. **QW-SITEMAP** weiter Plesk: Live-robots zeigt `sitemap.xml` (statisch 53 URLs). Soll: `sitemap_index.xml` (64 URLs).
 3. ~~UX-01/02 Cookie + Footer mobil~~
-4. CONTENT-01
-5. Optional Slider-Anamnese-Folie manuell · Bild-WebP/Kompression
+4. ~~Slider-Anamnese-Folie + SPEED-02 WebP/LCP~~
+5. CONTENT-01
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.

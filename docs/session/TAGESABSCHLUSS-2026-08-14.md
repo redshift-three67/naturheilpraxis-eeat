@@ -68,7 +68,7 @@
 | APP-03 | Footer-Reihenfolge nach Kontakt; Submenü nach „Praxis offen“ | done |
 | APP-04 | Leiste unter „Jetzt Termin buchen“ + ProvenExpert | done |
 | APP-05 | Button-Stil wie Termin-Karte, kleiner, zweizeilig | done |
-| APP-05-Slider | Anamnese als Slider-Folie | **offen (manuell YOOtheme)** |
+| APP-05-Slider | Anamnese als Slider-Folie | done 2026-08-15 (APP-07) |
 
 ### Phase 5 – Slider / Speed
 
@@ -76,8 +76,8 @@
 |---------|--------|--------|
 | SPEED-01 | HFCM #9: Kenburns mobil aus, Höhe ~388px | done |
 | SLIDER-01 | Untertitel ohne „Sanft Heilen“; Psych-CTA → `/psychotherapie-augsburg/` | done |
-| SPEED-02 | Folienbilder WebP/Kompression | offen |
-| SLIDER-Anamnese | eine Folie manuell | offen |
+| SPEED-02 | Folienbilder WebP/Kompression | done 2026-08-15 (YOO-WebP + LCP eager) |
+| SLIDER-Anamnese | eine Folie manuell | done 2026-08-15 (APP-07) |
 
 ### Phase 6 – Sitemap / Betrieb
 

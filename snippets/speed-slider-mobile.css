@@ -14,3 +14,25 @@
   }
 }
 </style>
+<script>
+(function () {
+  function apply() {
+    var img = document.querySelector('.uk-slideshow-items > *:first-child img');
+    if (img) {
+      img.loading = 'eager';
+      img.setAttribute('loading', 'eager');
+      img.fetchPriority = 'high';
+      img.setAttribute('fetchpriority', 'high');
+    }
+    document.querySelectorAll('a[href*="naturheilpraxis-rauch.lovable.app"]').forEach(function (a) {
+      if (!/\bnoopener\b/.test(a.rel || '')) a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener';
+    });
+  }
+  apply();
+  document.addEventListener('DOMContentLoaded', apply);
+  window.addEventListener('load', apply);
+  setTimeout(apply, 50);
+  setTimeout(apply, 400);
+  setTimeout(apply, 1200);
+})();
+</script>
