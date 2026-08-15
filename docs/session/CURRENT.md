@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Audit Kontrast/Struktur/Hubs (keine Inhalts-Writes)
+Stand: 2026-08-15 · KONTRAST-01 + Start-Struktur + NLS-Fließtext live_verified
 
 ## Massgabe
 

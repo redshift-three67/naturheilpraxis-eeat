@@ -1,0 +1,56 @@
+<style id="eeat-contrast-readability">
+/* Beige-Leisten: dunkle Schrift statt Weiß (1.96 → ~7.7) */
+h1.uk-heading-medium,
+h1.uk-heading-small,
+h2.uk-heading-small.uk-font-primary,
+h2.uk-font-primary,
+.uk-section-muted h1,
+.uk-section-muted h2.uk-heading-small {
+  color: #2a2622 !important;
+}
+.eeat-anamnese-btn {
+  color: #2a2622 !important;
+}
+.eeat-anamnese-btn:hover { color: #2a2622 !important; }
+
+/* Petrol-Fließtext: deckendes Dunkel statt 60%-Weiß (3.2 → ~4.7) */
+.uk-section p,
+.uk-section li,
+.uk-section em,
+.uk-section strong,
+.uk-section .uk-panel,
+.uk-section .uk-text-lead,
+.uk-section h2,
+.uk-section h3,
+.uk-h3, h2.uk-h2, h2.uk-h3, h3.uk-h3 {
+  color: #2a2622 !important;
+  opacity: 1 !important;
+}
+a.eeat-anamnese-btn,
+#eeat-online-anamnese .eeat-anamnese-btn,
+#eeat-online-anamnese-pe .eeat-anamnese-btn {
+  color: #2a2622 !important;
+}
+
+/* Slider-Overlay etwas dunkler, Titel hell lesbar */
+.uk-slideshow .el-item .uk-overlay,
+.uk-slideshow .el-item .uk-position-bottom,
+.uk-slideshow .el-item .uk-position-center,
+.uk-slideshow .el-item .uk-position-center-right,
+.uk-slideshow .el-item .uk-position-center-left {
+  background-color: rgba(35, 70, 76, 0.82) !important;
+}
+.uk-slideshow .el-title {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+.uk-slideshow .el-meta {
+  color: #ffe9b0 !important;
+  opacity: 1 !important;
+}
+.uk-slideshow a.uk-button,
+.uk-slideshow .el-content,
+.uk-slideshow .el-link {
+  color: #2a2622 !important;
+}
+</style>
