@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · VERF-01…10 live_verified
+Stand: 2026-08-15 · VERF-01…15 live_verified (Verfahrenstexte Kern abgeschlossen)
 
 ## Massgabe
 
@@ -95,6 +95,11 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 50. ~~VERF-08~~ Schmerz: Injektion gekürzt, ohne Indikationsliste
 51. ~~VERF-09~~ Bioresonanz: Trikombin gekürzt, HUB-03 behalten
 52. ~~VERF-10~~ Manuell: IMT-Block gekürzt, Technikliste behalten
+53. ~~VERF-11~~ Manuell: Osteopathie
+54. ~~VERF-12~~ Manuell: Lowen / Biovalent
+55. ~~VERF-13~~ Manuell: Physiotherapie
+56. ~~VERF-14/14b~~ IMT-Unterseite
+57. ~~VERF-15~~ NLS-Anwendungsliste ohne Keyword-Fett
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 

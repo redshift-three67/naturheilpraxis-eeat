@@ -108,6 +108,9 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 33. ~~VERF-08~~ Schmerz / Injektion
 34. ~~VERF-09~~ Bioresonanz / Trikombin (Hub behalten)
 35. ~~VERF-10~~ Manuell / IMT-Definition
-36. Offen: restliche Manuell-Blöcke (Osteopathie, Lowen, Physio) · IMT-Unterseite · NLS-Fett · TTFB Hosting
+36. ~~VERF-11…13~~ Manuell: Osteopathie, Lowen, Physiotherapie
+37. ~~VERF-14/14b~~ IMT-Unterseite
+38. ~~VERF-15~~ NLS-Anwendungsliste ohne Keyword-Fett
+39. Offen: Long-Tail-Unterseiten (Microkinesie, Dorn, weitere IMT/Lowen-Seiten) · Rest-Fett in NLS-Intro · TTFB Hosting · Speed-Plugins testen · QW-NOINDEX deinstallieren · QW-TITELCASE · externe Sichtbarkeit (GBP)
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
