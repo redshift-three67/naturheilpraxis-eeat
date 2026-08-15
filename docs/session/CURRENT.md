@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-15 · Welle 2 live_verified (RESP-01 · B5-IMG)
+Stand: 2026-08-15 · Welle 3 SPEED-03 nach Plesk (TTFB ~0,25 s)
 
 ## Massgabe
 
@@ -104,12 +104,13 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 59. ~~UX-04~~ Abstand Termin/Anamnese 21 px
 60. ~~UX-05~~ PE+Anamnese gleiche Breite nach Bild-Load
 61. ~~RESP-01 / B5-IMG~~ Slider 320/380, sizes 100vw, Folie 2–n lazy
+62. ~~SPEED-03~~ nach Plesk: TTFB 255 ms · Mobil 81 · Desktop 98
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
 Siehe `docs/PLAN.md` (konsolidiert 15.08., B5-IDs, Wellen 1–5, noch nicht ausgeführt).
 
-Welle 1+2 erledigt. Nächste Freigabe: Welle 3 B5-CACHE / TTFB Plesk + pagespeed.de.
+Welle 1–3: TTFB-Ziel erreicht. Nächste Freigabe: Welle 4 (NLS-Restfett / Long-Tail) oder optional nginx-HIT nachziehen.
 
 Audit ~68 URLs: notwendige Werbe-/Claim-Titel und -Metas der Hauptseiten sind bereinigt.  
 Nicht nötig (Unterseiten/Legal/dünne Auto-Metas, IMT/Lowen-Strukturseiten, Rank-Math-Großschreibung).

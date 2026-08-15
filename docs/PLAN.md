@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · Welle 1+2 live_verified  
+Stand: 2026-08-15 · Welle 1–3 gemessen (Plesk TTFB ok, nginx HTML weiter MISS)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`
 
 **B5** = Ableitung von der öffentlichen Struktur/Technik von buerofuenf.de (keine Inhalte, kein Design-Klon).  
@@ -90,9 +90,9 @@ Ein Live-Schritt nach dem anderen. Hoch/mittel aus der alten Tabelle stecken in 
 
 | ID | Schritt | Inhalt | Prio |
 |----|---------|--------|------|
-| **B5-CACHE / TTFB** | Plesk nginx microcache oder gleichwertig, PHP-OPcache, `cache-control` für HTML kurz | hoch |
-| **QW-SPEED-PLUGINS** | Async JS + Speed Booster **nur Test**, Default bleibt aus (Schema/HFCM) | mittel |
-| **SPEED-03** | Nach Welle 2: pagespeed.de erneut (Mobil LCP/TTFB) | hoch zur Kontrolle |
+| **B5-CACHE / TTFB** | ~~curl TTFB 0,25–0,28 s~~ (Ziel &lt; 0,4 s). `x-cache-status` bleibt **MISS**, `max-age=0`. Gewinn = PHP 8.2 / OPcache, nicht HTML-Proxy-HIT. | hoch |
+| **QW-SPEED-PLUGINS** | Async JS + Speed Booster **nur Test**, Default bleibt aus | mittel |
+| **SPEED-03** | ~~pagespeed.de 20:11~~ Mobil 81 / TTFB 255 ms / LCP 4,82 s · Desktop 98 / TTFB 244 ms | hoch |
 
 ### Welle 4 – Rest EEAT/Content (mittel)
 
