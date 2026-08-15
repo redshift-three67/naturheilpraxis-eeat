@@ -98,7 +98,11 @@ Schema-Bereinigung SCHEMA-01…04 · Metas/Titel META-01…06 · Anamnese APP-01
 23. ~~HOME-LIST~~ NLS-Diagnostik nach Nesterov  
 24. ~~NLS-LOWER~~ Gerätename ohne Hospital-System; Hinweisbild statt „Diagnose erstellt“  
 25. ~~SPEED-CHECK~~ Brotli bereits an; TTFB = Hosting/Plesk, nicht dieses Repo  
-26. ~~VERF-01~~ Naturheilkunde / klassische Homöopathie (Hahnemann), ohne zweiten Disclaimer-Satz
-27. Offen: nächste Verfahrenstexte (Komplex-Homöopathie auf derselben Seite) · NLS-Fett in der Anwendungsliste · TTFB auf dem Webhost
+26. ~~VERF-01~~ Naturheilkunde / klassische Homöopathie (Hahnemann)
+27. ~~VERF-02~~ Naturheilkunde / Komplex-Homöopathie
+28. ~~VERF-03~~ Phytotherapie
+29. ~~VERF-04~~ NAET
+30. ~~VERF-05~~ Injektion / Neuraltherapie
+31. Offen: nächste Verfahrenstexte (Schmerz, dann Bioresonanz/IMT) · NLS-Fett · TTFB Hosting
 
 Keine Parallel-Writes. Ein logischer Schritt · Prewrite · CDP · Verify · Archiv.
