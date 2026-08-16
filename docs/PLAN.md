@@ -1,176 +1,129 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-16 · Freigabe: **Hubs lokal** + **Kindseiten-EEAT an Hubs** (Texte, H1, Metas)  
-CDP `127.0.0.1:9224` · Repo `naturheilpraxis-eeat` · `docs/WORKFLOW.md`  
-YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 + Rank Math
+Stand: 2026-08-17  
+Quellen: Live-Wellen 1–16 + WV · B5- und Polinacea-Masterpläne (`archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`)  
+CDP `127.0.0.1:9224` · Repo `naturheilpraxis-eeat` · `docs/WORKFLOW.md`
 
-**B5** = Struktur/Technik (kein Klon von buerofuenf.de oder der Konkurrenz).
-
----
-
-## Auftrag (jetzt gültig)
-
-1. Hubs lokal googletauglich für **Augsburg und Umkreis** (Ost/Hochzoll/Friedberg).  
-2. Die 48 Kindseiten in **allem, was bisher nicht gleich war**, an die Hubs ziehen: kurze Absätze wie VERF, eine sachliche H1, Metas 120–160, kein Claim. Technik ist schon sitewide gleich.  
-3. Hebel an der **sichtbaren Top-Gruppe** ausrichten, nicht an neuen URLs.
-
-**Welle 12–15 live.** Geo sobald Pin da.  
-Nächster Live-Block: **Welle 16** (Manuell + Lowen).
+YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 + Rank Math  
+**B5** = Struktur/Technik, kein Inhaltsklon. **Polinacea** = gleiche Branche, Innenstadt – Lage nicht imitieren.
 
 ---
 
-## Top-Gruppe „Heilpraktiker Augsburg“ (Deine Links, live geprüft 16.08.)
+## Auftrag (gültig)
 
-Hinweis: `polinacea-heilpraktikerin.de` löst nicht auf. Live ist **`polinacea-heilpraktiker.de`**.  
-`naturheilunde-am-hessingpark.de` = **`naturheilkunde-am-hessingpark.de`**.
+1. Lokal glaubwürdig für **Augsburg-Ost / Hochzoll / Friedberg**, nicht „zentral Augsburg“.  
+2. Eine Sprache auf Hubs und Kindseiten (Wellen 13–16 live).  
+3. Keine neuen Thin-URLs, kein Glossar, kein Product/Service-Schema, kein zweites Disclaimer.
 
-| Praxis | Lage | Was die Seite lokal tut | Für uns relevant |
-|--------|------|-------------------------|------------------|
-| Polinacea / Schrott | Stettenstr. 28, **86150 Innenstadt** | Title „Heilpraktikerin in Augsburg“, **keine H1**, nur WebSite-Schema | Innenstadt-Query; wir nicht „zentral“ imitieren |
-| Ruhl | Neuburger Str. 229, **86169 Hammerschmiede** | Ästhetik+NH, Sprechzeiten + Karte sichtbar, kein Medical-Schema | Stadtteil + Zeiten sichtbar = Local-Hebel |
-| Ruf / Schwerd-Ruf | 86150 | **H1: Praxis-Schließung 12.06.25**, verweist auf Prüfer/Lechhausen | Kein aktiver Gegner; Rest-Ranking möglich |
-| Hessingpark | **86199** (Göggingen / Hessing) | Standort im Title/H1, Osteopathie+NH | Stadtteil-Marke; unser Gegenstück = **Hochzoll** |
-| Prüfer | **86167 Lechhausen** | H1 „Ihre Heilpraktikerin in Augsburg“, Familie, Meta mit Infekt/Allergie/Schmerz | Stadt + Familie; **keine** Symptom-Metas kopieren (HWG) |
-| Julia Schmid | Maximilianstr. 47, **86150**, Ästhetik | H1 mit Augsburg, Beauty-Fokus | Anderes Angebot; Innenstadt |
-| Gaigl `naturheilpraxis-augsburg.de` | Jakoberstr. 5, **86152 Innenstadt** | **Exact-Match-Domain** + H1 „Heilpraktiker in Augsburg“, „zentral“ | Stärkster reiner KW-Title; Domain nicht nachbauen |
-
-Gemeinsam: **Stadt im Title und meist in der H1**, Lage (Innenstadt, Stadtteil oder Landmarke), schlanke Startseite, Breadcrumbs. Fast niemand hat `MedicalClinic`+`Physician`. Mehrere sitzen **innenstadt-west/nord**; wir sitzen **86163 Hochzoll (Ost)**.
-
-Umkreis, der zu uns gehört (nicht die Innenstadt gewinnen): **Hochzoll, Friedberg, Lechhausen-Ost, Hochzoll-Süd, Grenzbereich Hammerschmiede nur als areaServed, nicht als Fake-Standort**.
+**Inhaltlich erledigt:** Wellen 1–16, Cluster #13, Legal #14, Slogans #15.
 
 ---
 
-## Hebel, priorisiert Augsburg lokal + Umkreis
+## Filter aus den beiden Analysen
 
-| Prio | Hebel | Warum gegen diese Top-Gruppe | Wer |
-|------|-------|------------------------------|-----|
-| 1 | **GBP + Maps-Pin auf 19a Hochzoll** | Local Pack ist Entfernung. Falscher Pin = Innenstadt-Konkurrenz auf deren Terrain | **Du** |
-| 2 | **Schema-Geo = Praxis, nicht Stadtmitte** | Ist-Wert `48.3665, 10.8944` = Augsburg-Zentroid (latlong.net), **nicht** Hochzoll (~48.35 / ~10.95) | Wir nach Deinem Pin |
-| 3 | **openingHours + areaServed** im Schema | Ruhl zeigt Zeiten; wir haben sie nur im Footer. Area: Augsburg, Hochzoll, Friedberg | Wir (Welle 12) |
-| 4 | **Hub-H1/Title mit Augsburg, Lage Hochzoll wo natürlich** | So arbeiten Gaigl/Prüfer/Polinacea. Nicht jede Lowen-URL | Wir |
-| 5 | **Google-Bewertungen** | Maps schlägt Jameda/ProvenExpert für lokal | **Du** |
-| 6 | **Kindseiten = Hub-EEAT** (kurze Absätze, 1 H1, Meta) | Top-Sites sind dünn, aber widerspruchsfrei. Lange Claim-Kinder unterlaufen den Hub | Wir ab Welle 13 |
-| 7 | NAP-Altlast Seefelder Str. 20 | Widerspricht GBP | **Du** |
-| 8 | Mobil-LCP | Die meisten Konkurrenten sind leichter; LCP bei uns noch CSS/JS | später, mit Exclude |
+Übernommen nur bei **Nutzen + Beleg + stabiler Umsetzung** (HFCM oder ein bestehendes Feld).
 
-Nicht: Domainwechsel, „zentral Augsburg“, Symptom-Metas wie Prüfer, Product-Schema, Glossar, Award-Leiste.
-
-SEM: Ads erst nach Welle 13-Kern (Naturheilkunde + Diagnostik-Kinder sauber). Landings = Start + 7 Hubs, nicht 7 Lowen-URLs.
+| Übernehmen | Nicht übernehmen |
+|------------|------------------|
+| Schema nur sichtbare Daten (`priceRange` / `medicalSpecialty` prüfen) | Neue Pillar `/heilpraktiker-augsburg/` (Start ist die Pillar) |
+| Eine FAQ „Notfall 112 / Arzt“, im **bestehenden** #7 | Eigene `/notfallhinweis/` oder zweiter Body-Disclaimer |
+| Skip-Link (WCAG, live fehlend) | 48 Kindseiten mit Risiko-/Kosten-Blöcken |
+| Kosten-FAQ ohne Preise, nach Deiner Bestätigung | Ratgeber-Farm, Leitlinien-Listen ohne Primärquelle |
+| Apple/Bing/NAP/Reviews bei Dir | Service-Schema, ProfessionalService statt Clinic |
+| GBP/Pin/Geo 19a (schon WV) | Rank Math Pro / Yoast / zweites SEO |
+| Ads nur Start + 7 Hubs | Case Studies, Awards, Orts-Klone, Review-Markup |
+| llms.txt optional **später** | BreadcrumbList ohne sichtbare Breadcrumbs |
 
 ---
 
-## Kindseiten: was schon gleich ist / was jetzt angeglichen wird
+## Wiedervorlage (alles noch Offen, im Auge behalten)
 
-**Schon gleich (sitewide, nicht nochmal bauen):** Schema, Disclaimer/NAP/FAQ, Anamnese, Footer/Cookie, Typo/Kontrast, Slider-Höhe/Bilder, Responsiveness, Cluster HFCM #13.
+### Nach der Pause – klein, bei uns, Freigabe nötig
 
-**Jetzt umsetzen (Freigabe „was nicht gleich ist“):**
+| ID | Inhalt | Bedingung |
+|----|--------|-----------|
+| **W17-FAQ-NOTFALL** | Eine FAQ in HFCM #7: Website ist kein Notfallweg; 112 / kassenärztlicher Notdienst | Freigabe Wortlaut |
+| **W17-SKIP** | Skip-Link „Zum Inhalt“ sitewide (HFCM) | Freigabe |
+| **W17-SCHEMA-HYG** | `priceRange` und `medicalSpecialty` aus HFCM #6 nehmen, wenn sie nirgends sichtbar sind | Freigabe |
+| **W17-FAQ-KOSTEN** | Eine FAQ: Privatleistung, Erstattung bei Versicherung klären – **keine** Preise | Nur wenn Du den Satz bestätigst |
+| **WV-VERSUS-SLUG** | 301 `/bioresonanz-versus-elektroakupunktur/` → sprechender Slug | Nur mit Redirect-Freigabe |
+| **WV-RM** | NAET-Article-JSON-LD „loszuwerden“ – Feld in Rank Math Free nicht gefunden | Nicht still Article abschalten |
 
-| Stück | Hub-Massstab | Kind heute | Welle |
-|-------|--------------|------------|-------|
-| Fließtext | 2–4 kurze Absätze, kein „heilt“, kein zweiter Disclaimer, wenig Fett | oft alt, lang, Claims | 13–16 |
-| Eine H1 | Verfahren, kein Outcome, nicht gesplittet | Restlisten aus 6–10 | mit Textwelle |
-| Title/Meta | `Verfahren \| Naturheilpraxis Rauch`, Meta 120–160, Umlaute, Ort nur wenn natürlich | Dorn 12, Urin 27, ASCII, `DIE HÄNDE` | mit Textwelle |
-| Diagnostik-Wort | Hinweisdiagnostik / Untersuchung, nicht „Diagnose sichert“ | H1 „Diagnose – Urin/Labor“ | mit Textwelle |
-
-Qualität = VERF auf den Hubs (Hahnemann, Phyto, IMT). Near-Duplicates bleiben: eine lange NAET-URL, die zweite Ergänzung; EAV ≠ Voll-Verfahren; Lowen je ein Aspekt.
-
----
-
-## Offen bei Dir
-
-1. **GBP:** Friedrich-Deffner-Straße 19a, 86163 Augsburg-Hochzoll, 0821 2621462, `https://rauch-heilpraktiker.de`, Kategorie Heilpraktiker. Keine Heilversprechen.  
-2. **Maps-Pin** auf der 19a? Bitte **Breite/Länge** schicken.  
-3. **Öffnungszeiten** bestätigen (Footer: Mo–Fr 10–19, Mittag 12:30–13) oder korrigieren.  
-4. **areaServed** bestätigen oder streichen: Augsburg, Hochzoll, Friedberg (Vorschlag).  
-5. Verzeichnisse: NAP = Impressum; **Seefelder Str. 20** weg.  
-6. Fünf tote `/download/…`-Dateien hochladen oder Buttons entfernen.  
-7. Corona-Menüpunkt: lassen oder raus (`noindex` ist schon).  
-8. Patienten um **Google-Rezension** bitten.
-
----
-
-## Wellen ab jetzt
-
-### Welle 12 – Hubs lokal
-
-**Live:** `archive/2026-08-16/WELLE-12.md`. Geo bewusst offen.
-
-Ohne Deinen Pin erledigt:
+### Bei Dir (Local Pack, höherer Hebel als W17)
 
 | ID | Inhalt |
 |----|--------|
-| **LOC-HOURS** | `openingHoursSpecification` aus bestätigten Zeiten (Default = Footer) |
-| **LOC-AREA** | `areaServed` Augsburg, Hochzoll, Friedberg – sobald Du nicht widersprichst |
-| **HUB-H1-SZ** | eine H1 `/schmerztherapie-augsburg/` |
-| **NLS-HOSP** | „Hospital“ auf NLS entfernen |
-| **RM-ARTICLE** | sichtbare Meta sauber + Hochzoll; Article-JSON-LD noch alter Satz (Feld nicht gefunden) |
-| **HUB-HOCHZOLL** | Hochzoll sichtbar wo es fehlt (Start/Kontakt/Schmerz), ohne Keyword-Stopfen |
+| **GBP-PIN** | Maps-Pin **19a** + Breite/Länge an uns |
+| **GBP-NAP** | GBP = Impressum; Kategorie Heilpraktiker; keine Heilversprechen im Profilnamen |
+| **NAP-SEE** | Seefelder Str. 20 überall weg |
+| **HOURS** | Footer-Zeiten bestätigen oder korrigieren (Mo–Fr 10–12:30 und 13–19) |
+| **AREA** | areaServed Augsburg / Hochzoll / Friedberg belassen oder streichen |
+| **REVIEWS** | Neutral um Google-Bewertung bitten, keine Textvorlage |
+| **CITATIONS** | Apple Business Connect, Bing Places, seriöse Profile = dieselbe NAP |
+| **DL** | Fünf tote `/download/…` hochladen oder Buttons entfernen |
+| **CORONA** | Menüpunkt lassen oder raus (`noindex` ist) |
 
-Mit Pin:
+### Blockiert / später
 
 | ID | Inhalt |
 |----|--------|
-| **LOC-GEO** | HFCM #6 Koordinaten der **19a**, nicht Stadtmitte |
+| **LOC-GEO** | Schema-Koordinaten der 19a – **nach Pin** |
+| **SPEED** | Mobil-LCP (CSS/JS); Cache-Plugin nur mit Exclude (Formulare, Consent, Admin) |
+| **LLMS** | `/llms.txt` optional, nur NAP + Hubs, keine Claims |
+| **SEM** | Ads-Pilot nach Pin/NAP; Landings = Start + 7 Hubs |
+| **QUALI** | Fortbildungen/Werdegang nur mit von Dir gelieferten Nachweisen |
 
-### Welle 13 – Naturheilkunde-Kinder + HWG (10) · Text + H1 + Meta
+---
 
-**Live:** `archive/2026-08-16/WELLE-13.md`. Hauptfelder = Hub-VERF. Restpanel Hahnemann/Heilmed und NAET-Article-JSON noch Feinschliff.
+## Empfehlung für den nächsten Live-Schritt
 
-`/klassische-homoeopathie/` (wie VERF-01) · Komplex · Phyto · NAET lang + kurz · Darm · Orthomolekular · Injektion · Heilmeditation · Hypnose.
+**Nicht** noch eine Kindseiten-Textwelle.  
+**Zuerst Du:** Pin + NAP (das schlägt jede FAQ).  
+**Dann wir, eine kleine Welle 17** (nur HFCM, rollbackbar): Notfall-FAQ + Skip-Link + Schema-Hygiene. Kosten-FAQ nur mit Deinem Satz.
 
-### Welle 14 – Hinweisdiagnostik-Kinder (10)
-
-**Live:** `archive/2026-08-16/WELLE-14.md`.
-
-Gesundheitsdiagnostik (H1 fehlt) · Hinweis-Einstieg · EAV · Voll-Verfahren unterscheiden · Frequenz · Iris · Vital · Vieva · Urin · Stuhl.
-
-### Welle 15 – BIT / Bioresonanz / Schmerz / Qigong (10)
-
-**Live:** `archive/2026-08-16/WELLE-15.md`.
-
-Labor · BIT · Informationstherapie · Vergleich · Nadeln · 150-MHz · Kinesiologie · Entstehung Schmerz · Qigong ×2.
-
-### Welle 16 – Manuell + Lowen (18, zwei Schreibblöcke)
-
-**Live:** `archive/2026-08-16/WELLE-16.md`.
-
-Micro ×2 · Dorn · Osteo · Physio ×2 · IMT-Kinder (Hauptseite VERF-14 geprüft) · Rehab · 7 Lowen.
-
-Ablauf unverändert: Prewrite → eine URL → Verify → Archiv. Nach jeder 10er-Welle Halt.
+Reihenfolge nach Nutzen:
 
 ```mermaid
 flowchart LR
-  w12["12 Hubs lokal"] --> w13["13 NH-Kinder Texte"]
-  w13 --> w14["14 Diagnostik-Kinder"]
-  w14 --> w15["15 BIT Bio Schmerz Qigong"]
-  w15 --> w16["16 Manuell Lowen"]
-  w16 --> wv["Wiedervorlage nach Wellen"]
-  du["GBP Pin NAP Reviews"] -.-> wv
+  du["Pin NAP Reviews Downloads"] --> geo["LOC-GEO 19a"]
+  w17["Welle 17 HFCM: Notfall Skip Schema"] --> halt["Halt"]
+  halt --> slug["Versus-Slug nur mit Freigabe"]
+  du -.-> halt
 ```
 
 ---
 
-## Wiedervorlage nach Wellenabschluss (nach Welle 16, nicht früher)
+## Lage gegen „Heilpraktiker Augsburg“ (unverändert 16.08.)
 
-Bewusst nicht in den Textwellen 13–16. Gleicher Stapel wie Pin/GBP – einmal nachziehen, Freigabe wie üblich.
+Wir sitzen **86163 Hochzoll**. Polinacea/Gaigl/Schmid/Prüfer-West sind Innenstadt oder anderes Stadtteil-Terrain. Nicht „zentral“ kopieren. Umkreis: Hochzoll, Friedberg, Lechhausen-Ost.
 
-| ID | Was | Wer | Stand 16.08. |
-|----|-----|-----|----------------|
-| **WV-H2** | Slider-/Grid-H2 „Sanft Heilen“ / „Naturheilkundlich begleiten – Stark im Leben“ | Wir | **live** HFCM #15 |
-| **WV-VERSUS** | Slug + Bild-`title`/`alt` „versus“. Redirect nur mit Freigabe | Wir | **Alts live**; Slug offen |
-| **WV-DISC** | Disclaimer nur HFCM #7, kein zweiter Body-Disclaimer | Wir | **live** (Hahnemann-Hinweispanel weg) |
-| **WV-RM** | Rank-Math-Article-JSON-LD Altlast | Wir | **offen** (kein Feld) |
-| **WV-W13** | Hahnemann Eigenversuch; Heilmeditation „Hölle“ | Wir | **live** |
-| **LOC-GEO** | Schema-Koordinaten der **19a** | Wir, sobald Pin da | offen |
-| **GBP-PIN** | Maps-Pin auf 19a + Breite/Länge | **Du** | offen |
-| **GBP-NAP** | GBP + Verzeichnisse = Impressum; Seefelder Str. 20 weg; Rezensionen | **Du** | offen |
-
-Details Pin/NAP/Downloads/Corona: Abschnitt **Offen bei Dir**.
+Hebel 1–2 bleiben GBP/Pin und Schema-Geo. Kindseiten-EEAT (Hebel 6) ist live.
 
 ---
 
 ## Erledigt (nicht zurückdrehen)
 
-Wellen 1–16 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
+Wellen 1–16 · HUB-01…07 · VERF-01…18 · Cluster #13 · Legal #14 · Slogans #15 · Schema/Disclaimer/Typo/Speed-Grundlagen · Hours/areaServed im Schema (Geo offen).
 
-**Als Nächstes:** Pause. Danach nur noch Offen: Versus-Slug (Freigabe), WV-RM Article-JSON, Pin/GBP/`LOC-GEO`. Siehe `archive/2026-08-16/WV-NACH-WELLEN.md`.
+Historie der Wellen: `archive/2026-08-15/` und `archive/2026-08-16/` (WELLE-12…16, WV-NACH-WELLEN).
+
+---
+
+## Offen bei Dir (Checkliste)
+
+1. GBP: Friedrich-Deffner-Straße 19a, 86163 Augsburg-Hochzoll, 0821 2621462, `https://rauch-heilpraktiker.de`.  
+2. Pin auf der 19a + **Breite/Länge**.  
+3. Öffnungszeiten bestätigen.  
+4. areaServed bestätigen oder streichen.  
+5. Seefelder Str. 20 weg.  
+6. Downloads oder Buttons.  
+7. Corona-Menü.  
+8. Google-Rezension bitten.  
+9. Apple Business Connect / Bing Places gleiche NAP.  
+10. Optional: Kosten-Satz und Notfall-Wortlaut gegenzeichnen, Fortbildungsnachweise.
+
+---
+
+## Wellen 12–16 (Archiv, abgeschlossen)
+
+**12** Hubs lokal ohne Geo · **13** NH-Kinder · **14** Hinweisdiagnostik · **15** BIT/Bio/Schmerz/Qigong · **16** Manuell/Lowen.

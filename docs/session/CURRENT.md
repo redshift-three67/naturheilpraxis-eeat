@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 15 BIT / Bioresonanz / Schmerz / Qigong live
+Stand: 2026-08-17 · Wellen 1–16 + WV live · Plan nach B5/Polinacea-Analysen konsolidiert
 
 ## Massgabe
 
@@ -135,6 +135,6 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 
 **Welle 16 live. WV-H2/DISC/W13/versus-Alts live.** Geo und Versus-Slug weiter offen.
 
-**Als Nächstes:** Pause. Danach: Versus-Slug nur mit Freigabe, WV-RM, Pin/GBP/`LOC-GEO`.
+**Als Nächstes:** Empfehlung = Du Pin/NAP; wir nur nach Freigabe **Welle 17** (Notfall-FAQ + Skip-Link + Schema-Hygiene). Siehe `docs/PLAN.md` 17.08.
 
-Audit Sitemap 64 URLs: Hubs + Trust sitzen. Legal/Utility = Welle 11.
+Audit Sitemap 64 URLs. Auswertung der Fremdpläne: `archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`.
