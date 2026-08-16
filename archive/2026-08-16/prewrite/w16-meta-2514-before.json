@@ -1,0 +1,8 @@
+{
+  "id": 2514,
+  "slug": "haende",
+  "before": {
+    "title": "%title% %sep% %sitename%",
+    "desc": ""
+  }
+}

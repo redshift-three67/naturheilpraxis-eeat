@@ -1,0 +1,8 @@
+{
+  "id": 2540,
+  "slug": "koerper",
+  "before": {
+    "title": "%title% %sep% %sitename%",
+    "desc": ""
+  }
+}

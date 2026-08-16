@@ -122,6 +122,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 77. ~~WELLE-13~~ 10 NH-Kinder Hub-VERF-Texte + H1 Darm/Ortho/NAET + 3 Metas
 78. ~~WELLE-14~~ 10 Hinweisdiagnostik-Kinder Texte/H1/Meta
 79. ~~WELLE-15~~ 10 BIT/Bioresonanz/Schmerz/Qigong Texte/H1/Meta
+80. ~~WELLE-16~~ 18 Manuell/Lowen Texte/H1/Meta (IMT-Hauptseite geprüft)
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
@@ -129,8 +130,8 @@ Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6�
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Welle 15 live.** Nächste: **Welle 16** (Manuell + Lowen). Geo weiter offen.
+**Welle 16 live.** Kindseiten-Texte 13–16 auf Hub-Niveau. Geo weiter offen.
 
-**Wiedervorlage nach Welle 16** (nicht jetzt): WV-H2 Sanft-Heilen/Grid, WV-VERSUS Slug/Bildtitel, WV-DISC nur HFCM #7 prüfen, WV-RM Article-JSON, WV-W13 Restpanels, plus Pin/GBP/NAP (`docs/PLAN.md`).
+**Als Nächstes: Wiedervorlage nach Wellen** (`docs/PLAN.md`): WV-H2, WV-VERSUS, WV-DISC, WV-RM, WV-W13, plus Pin/GBP/NAP/`LOC-GEO`.
 
-Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut Wellen 13–15 auf Hub-Niveau. Rest: Welle 16 Manuell/Lowen. Legal/Utility = Welle 11.
+Audit Sitemap 64 URLs: Hubs + Trust sitzen. Legal/Utility = Welle 11.

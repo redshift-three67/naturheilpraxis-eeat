@@ -130,9 +130,11 @@ Gesundheitsdiagnostik (H1 fehlt) · Hinweis-Einstieg · EAV · Voll-Verfahren un
 
 Labor · BIT · Informationstherapie · Vergleich · Nadeln · 150-MHz · Kinesiologie · Entstehung Schmerz · Qigong ×2.
 
-### Welle 16 – Manuell + Lowen (18, in zwei 9er-Blöcken wenn zu groß)
+### Welle 16 – Manuell + Lowen (18, zwei Schreibblöcke)
 
-Micro ×2 · Dorn-Meta · Osteo-H1 · Physio ×2 · IMT-Kinder (Hauptseite nur prüfen) · Rehab · 7 Lowen (H1 „sanft und zielsicher“, ASCII, `DIE HÄNDE`).
+**Live:** `archive/2026-08-16/WELLE-16.md`.
+
+Micro ×2 · Dorn · Osteo · Physio ×2 · IMT-Kinder (Hauptseite VERF-14 geprüft) · Rehab · 7 Lowen.
 
 Ablauf unverändert: Prewrite → eine URL → Verify → Archiv. Nach jeder 10er-Welle Halt.
 
@@ -169,6 +171,6 @@ Details Pin/NAP/Downloads/Corona: Abschnitt **Offen bei Dir**.
 
 ## Erledigt (nicht zurückdrehen)
 
-Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed · Wellen 12–15.
+Wellen 1–16 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** Welle 16 (Manuell + Lowen, ggf. zwei 9er-Blöcke). Pin/GBP und die Wiedervorlage-Tabelle **nach** Welle 16.
+**Als Nächstes:** Wiedervorlage nach Wellen (WV-H2, WV-VERSUS, WV-DISC, WV-RM, WV-W13) plus Pin/GBP/`LOC-GEO`. Keine weitere Kindseiten-Textwelle.
