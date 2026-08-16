@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 12 Hubs lokal live (Geo wartet auf Pin)
+Stand: 2026-08-16 · Welle 13 Kind-Texte Naturheilkunde live
 
 ## Massgabe
 
@@ -119,6 +119,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 74. ~~WELLE-10 Cluster~~ HFCM #13 + 8 Lowen/Rehab; Texte unverändert
 75. ~~WELLE-11 Legal~~ H1 Doku, Metas, Corona noindex, HFCM #14, Anamnese→Lovable
 76. ~~WELLE-12~~ Hours+areaServed, Schmerz eine H1, NLS-Alt, Meta Hochzoll; Geo offen
+77. ~~WELLE-13~~ 10 NH-Kinder Hub-VERF-Texte + H1 Darm/Ortho/NAET + 3 Metas
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
@@ -126,7 +127,6 @@ Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6�
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Welle 12 live.** Nächste: **Welle 13** (10 Naturheilkunde-Kinder: Text+H1+Meta wie Hubs).  
-Geo-Koordinaten sobald Dein Maps-Pin da ist.
+**Welle 13 live.** Nächste: **Welle 14** (10 Diagnostik-Kinder). Geo weiter offen.
 
 Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut noch Bestand. Legal/Utility = Welle 11 leicht.

@@ -114,6 +114,8 @@ Mit Pin:
 
 ### Welle 13 – Naturheilkunde-Kinder + HWG (10) · Text + H1 + Meta
 
+**Live:** `archive/2026-08-16/WELLE-13.md`. Hauptfelder = Hub-VERF. Restpanel Hahnemann/Heilmed und NAET-Article-JSON noch Feinschliff.
+
 `/klassische-homoeopathie/` (wie VERF-01) · Komplex · Phyto · NAET lang + kurz · Darm · Orthomolekular · Injektion · Heilmeditation · Hypnose.
 
 ### Welle 14 – Hinweisdiagnostik-Kinder (10)
@@ -145,4 +147,4 @@ flowchart LR
 
 Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** „Welle 13 go“ (erste 10 Kind-Texte). Pin/Zeiten weiter parallel.
+**Als Nächstes:** „Welle 14 go“ (Diagnostik-Kinder). Pin weiter parallel.
