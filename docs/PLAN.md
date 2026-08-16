@@ -142,13 +142,33 @@ flowchart LR
   w13 --> w14["14 Diagnostik-Kinder"]
   w14 --> w15["15 BIT Bio Schmerz Qigong"]
   w15 --> w16["16 Manuell Lowen"]
-  du["GBP Pin NAP Reviews Downloads"] -.-> w12
+  w16 --> wv["Wiedervorlage nach Wellen"]
+  du["GBP Pin NAP Reviews"] -.-> wv
 ```
+
+---
+
+## Wiedervorlage nach Wellenabschluss (nach Welle 16, nicht früher)
+
+Bewusst nicht in den Textwellen 13–16. Gleicher Stapel wie Pin/GBP – einmal nachziehen, Freigabe wie üblich.
+
+| ID | Was | Wer |
+|----|-----|-----|
+| **WV-H2** | Slider-/Grid-H2 sitewide: „Sanft Heilen“, „Naturheilkundlich begleiten – Stark im Leben“ und gleiche Slogans auf Kindseiten | Wir |
+| **WV-VERSUS** | Slug `/bioresonanz-versus-elektroakupunktur/` + alte Bild-`title`/`alt` „versus“. Redirect nur mit Freigabe | Wir |
+| **WV-DISC** | Disclaimer weiter **nur HFCM #7**. Nach den Wellen einmal sitewide prüfen, dass kein zweiter Disclaimer in Bodies nachgerutscht ist | Wir |
+| **WV-RM** | Rank-Math-Article-JSON-LD Altlast („sanfte Medizin“, NAET „loszuwerden“) – Feld in Welle 12 nicht gefunden | Wir |
+| **WV-W13** | Hahnemann-Panel Eigenversuch/Chinarinde; Heilmeditation „Hölle“ (Kacheln nicht als Text getroffen) | Wir |
+| **LOC-GEO** | Schema-Koordinaten der **19a**, nicht Stadtmitte | Wir, sobald Pin da |
+| **GBP-PIN** | Maps-Pin auf 19a + Breite/Länge | **Du** |
+| **GBP-NAP** | GBP + Verzeichnisse = Impressum; Seefelder Str. 20 weg; Rezensionen | **Du** |
+
+Details Pin/NAP/Downloads/Corona: Abschnitt **Offen bei Dir**.
 
 ---
 
 ## Erledigt (nicht zurückdrehen)
 
-Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
+Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed · Wellen 12–15.
 
-**Als Nächstes:** Welle 16 (Manuell + Lowen, ggf. zwei 9er-Blöcke). Pin weiter parallel.
+**Als Nächstes:** Welle 16 (Manuell + Lowen, ggf. zwei 9er-Blöcke). Pin/GBP und die Wiedervorlage-Tabelle **nach** Welle 16.

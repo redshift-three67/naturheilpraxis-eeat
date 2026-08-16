@@ -27,12 +27,16 @@ Prewrite: `prewrite/w15-*-frontend-before.html`, `w15-*-text-before.json`, `w15-
 
 weinende Kinder · bestmögliche Therapie (nur noch verneint) · DNA-Resonanz/Heilprozesse · 95 %-Erfolgsquote / Krebs-Liste · Nosoden-Heilmittel · Testampullen · Grenzenlos-Akupunktur · Idealfall beseitigen · Heilmethode/medizinisch anerkannt (Qigong).
 
-## Rest (nicht im Fließtext)
+## Rest → Wiedervorlage nach Welle 16
 
-- Vergleichs-URL und Bild-`title`/`alt` enthalten noch das Wort „versus“ (Slug, nicht H1/Meta).  
-- Slider-/Grid-H2 sitewide („Sanft Heilen“, „Naturheilkundlich begleiten“) unverändert.  
-- Rank-Math-Article-JSON-LD kann alte Sätze halten (wie Welle 12/13).  
-- BIT: ein älterer Lead-Satz vor den drei neuen Absätzen, bereits ohne Claim.
+Nicht in dieser Welle. Steht in `docs/PLAN.md` unter **Wiedervorlage nach Wellenabschluss**, zusammen mit Pin/GBP:
+
+- **WV-H2** Slider-/Grid-H2 sitewide („Sanft Heilen“, „Naturheilkundlich begleiten“)  
+- **WV-VERSUS** Slug + Bild-`title`/`alt` „versus“  
+- **WV-DISC** Disclaimer nur HFCM #7 – nach Wellen sitewide prüfen  
+- Rank-Math-Article-JSON-LD und Welle-13-Restfelder: **WV-RM** / **WV-W13**
+
+BIT: ein älterer Lead-Satz vor den drei neuen Absätzen, bereits ohne Claim (kein eigener Punkt).
 
 ## Rollback
 

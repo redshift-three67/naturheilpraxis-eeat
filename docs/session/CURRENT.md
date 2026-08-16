@@ -131,4 +131,6 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 
 **Welle 15 live.** Nächste: **Welle 16** (Manuell + Lowen). Geo weiter offen.
 
+**Wiedervorlage nach Welle 16** (nicht jetzt): WV-H2 Sanft-Heilen/Grid, WV-VERSUS Slug/Bildtitel, WV-DISC nur HFCM #7 prüfen, WV-RM Article-JSON, WV-W13 Restpanels, plus Pin/GBP/NAP (`docs/PLAN.md`).
+
 Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut Wellen 13–15 auf Hub-Niveau. Rest: Welle 16 Manuell/Lowen. Legal/Utility = Welle 11.
