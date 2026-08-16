@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 13 Kind-Texte Naturheilkunde live
+Stand: 2026-08-16 · Welle 14 begonnen; WP-Login für CDP 9224 nötig
 
 ## Massgabe
 
