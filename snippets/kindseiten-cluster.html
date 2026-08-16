@@ -28,7 +28,8 @@
   var PSY = [
     { href: "/hypnotherapie-augsburg/", label: "Hypnotherapie" },
     { href: "/heilmeditation/", label: "Heilmeditation" },
-    { href: "/zhineng-qigong/", label: "Zhineng Qigong" }
+    { href: "/zhineng-qigong/", label: "Zhineng Qigong" },
+    { href: "/zhineng-qigong-nach-dr-pang-ming/", label: "Zhineng Qigong nach Dr. Pang Ming" }
   ];
   var DIAG = [
     { href: "/hinweisdiagnostik-in-der-naturheilkunde/", label: "Hinweisdiagnostik" },
@@ -40,7 +41,20 @@
     { href: "/vieva-pro-herzratenvariabilitaet/", label: "Vieva Pro" },
     { href: "/diagnose-urinuntersuchung/", label: "Urinuntersuchung" },
     { href: "/diagnostik-stuhluntersuchung/", label: "Stuhluntersuchung" },
-    { href: "/naturheilkundliche-gesundheitsdiagnostik/", label: "Gesundheitsdiagnostik" }
+    { href: "/diagnose-labordiagnose-biodiagnostik/", label: "Labor- und Biodiagnostik" },
+    { href: "/naturheilkundliche-gesundheitsdiagnostik/", label: "Gesundheitsdiagnostik" },
+    { href: "/biophysikalische-informationstherapie-bit/", label: "BIT" },
+    { href: "/diagnostik-informationstherapie/", label: "Informationstherapie" }
+  ];
+  var BIO = [
+    { href: "/bioresonanz-versus-elektroakupunktur/", label: "Bioresonanz und Elektroakupunktur" },
+    { href: "/akupunktur-ohne-nadeln/", label: "Akupunktur ohne Nadeln" },
+    { href: "/150-mhz-befeldung-nach-broers-3/", label: "150-MHz-Befeldung" }
+  ];
+  var SCHMERZ = [
+    { href: "/kinesiologie/", label: "Kinesiologie" },
+    { href: "/schmerztherapie-entstehung-von-schmerz/", label: "Entstehung von Schmerz" },
+    { href: "/injektionstherapie/", label: "Injektionstherapie" }
   ];
   var MAP = {
     "/klassische-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
@@ -74,7 +88,29 @@
     "/vieva-pro-herzratenvariabilitaet/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
     "/diagnose-urinuntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
     "/diagnostik-stuhluntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
-    "/naturheilkundliche-gesundheitsdiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG }
+    "/naturheilkundliche-gesundheitsdiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnose-labordiagnose-biodiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/biophysikalische-informationstherapie-bit/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnostik-informationstherapie/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/bioresonanz-versus-elektroakupunktur/": {
+      hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" },
+      extra: { href: "/elektroakupunktur-nach-dr-voll-3/", label: "Elektroakupunktur" },
+      items: BIO
+    },
+    "/akupunktur-ohne-nadeln/": { hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" }, items: BIO },
+    "/150-mhz-befeldung-nach-broers-3/": {
+      hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" },
+      extra: { href: "/hinweisdiagnostik-frequenztherapie/", label: "Frequenztherapie als Hinweisdiagnostik" },
+      items: BIO
+    },
+    "/kinesiologie/": {
+      hub: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" },
+      extra: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      items: SCHMERZ
+    },
+    "/schmerztherapie-entstehung-von-schmerz/": { hub: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" }, items: SCHMERZ },
+    "/zhineng-qigong/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/zhineng-qigong-nach-dr-pang-ming/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY }
   };
 
   var path = location.pathname.replace(/\/?$/, "/") || "/";
