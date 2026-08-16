@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-15 · **Welle 1–5 live** · **Welle 6 Cluster live** (Texte unverändert, H1/Claims zur Absprache)  
+Stand: 2026-08-16 · **Welle 1–7 live** (6A H1/Meta · 7 Diagnostik-Cluster) · **nächste Freigabe: Welle 8**  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`  
 YMYL/HWG: keine Heilversprechen · Disclaimer/Autor nur sitewide (HFCM #7) · Schema nur HFCM #6 + Rank Math
 
@@ -104,7 +104,7 @@ flowchart TB
 
 ### Welle 6 – Naturheilkunde-Kinder + höchste HWG-Last (10)
 
-**Live:** Cluster HFCM #13, Texte unangetastet. Archiv `WELLE-6.md`.
+**Live:** Cluster HFCM #13. **6A:** drei H1 + NAET-Title + Heilmeditation-Meta (`archive/2026-08-16/WELLE-6A.md`). Fließtexte sonst unangetastet. Archiv `WELLE-6.md`.
 
 Hub `/naturheilkunde/` ist fertig; die Kinder widersprechen ihm im **Wortlaut** noch – der Wortlaut bleibt bis zur Absprache / Adwords-Phase.
 
@@ -124,6 +124,8 @@ Hub `/naturheilkunde/` ist fertig; die Kinder widersprechen ihm im **Wortlaut** 
 Nach Welle 6: Hub Naturheilkunde und seine öffentlichen Kinder sagen **dasselbe** in derselben Tonlage.
 
 ### Welle 7 – Hinweisdiagnostik-Cluster (10)
+
+**Live:** Cluster an HUB-02 `/nls-diagnostik/`. Texte unverändert. Archiv `archive/2026-08-16/WELLE-7.md`.
 
 Google und HWG: Diagnostik nicht als Krankheitssicherung darstellen.
 
@@ -222,8 +224,6 @@ Pagespeed-Referenz (Startseite, 15.08.2026 22:11): Mobil 81 / LCP 4,82 s / TTFB 
 
 ## Freigabe
 
-**Jetzt zur Besprechung:** Welle 6 in der Tabelle oben, URL für URL, gleicher Standard.
-
-Nicht starten ohne „Welle 6 go“. Innerhalb der Welle keine Parallel-Writes. Nach den 10 URLs: Archiv `WELLE-6.md` und Halt.
+**Nächste Freigabe:** Welle 8 (BIT / Bioresonanz / Schmerz / Qigong), gleiches Muster: Archiv → Cluster → Texte stehen.
 
 Optional parallel (nicht im 10er-Takt, Betreiber): GBP-NAP = `Friedrich-Deffner-Straße 19a, 86163 Augsburg`, Tel `0821 2621462`.

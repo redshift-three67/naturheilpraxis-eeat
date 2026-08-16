@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://rauch-heilpraktiker.de/die-phytotherapie/",
+    "h1": "Phytotherapie",
+    "forbid": [
+      "Heilmittel",
+      "leisten kann",
+      "gezielte Behandlung"
+    ],
+    "title": "Phytotherapie Augsburg | Naturheilpraxis Heilpraktiker Rauch",
+    "meta": "Die Phytotherapie arbeitet mit Pflanzen als Heilmitteln. Phytotherapie bzw. die sog. Pflanzenheilkunde gehört sicherlich zu den ältesten Therapieverfahren.",
+    "h1s": [
+      "Phytotherapie"
+    ],
+    "disc": true,
+    "cluster": true,
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/hypnotherapie-augsburg/",
+    "h1": "Hypnotherapie",
+    "forbid": [
+      "leisten kann",
+      "Was die"
+    ],
+    "title": "Hypnotherapie Augsburg | Naturheilpraxis Heilpraktiker Rauch",
+    "meta": "Hypnotherapie in der Naturheilpraxis Rauch in Augsburg. Hypnose ist im therapeutischen Sinn ein schöpferischer Zustand des Lernens und der Neuorientierung.",
+    "h1s": [
+      "Hypnotherapie"
+    ],
+    "disc": true,
+    "cluster": true,
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/injektionstherapie/",
+    "h1": "Injektionstherapie",
+    "forbid": [
+      "gezielte Behandlung"
+    ],
+    "title": "Injektionstherapie | Naturheilpraxis Rauch",
+    "meta": "Injektionsbehandlungen sind z.B. in der Schmerztherapie eine angewandte Therapieform. Die Injektionstherapie kann sehr gezielt eingesetzt werden.",
+    "h1s": [
+      "Injektionstherapie"
+    ],
+    "disc": true,
+    "cluster": true,
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/heilmeditation/",
+    "h1": "Heilmeditation",
+    "title": "Heilmeditation in der Naturheilpraxis Rauch",
+    "metaHas": "Informationen zum Verfahren",
+    "metaForbid": [
+      "Gesundung"
+    ],
+    "meta": "Heilmeditation in der Naturheilpraxis Rauch in Augsburg – Informationen zum Verfahren und zur Terminvereinbarung.",
+    "h1s": [
+      "Heilmeditation"
+    ],
+    "disc": true,
+    "cluster": true,
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+    "title": "NAET | Naturheilpraxis Rauch",
+    "meta": "NAET nach Nambudripad in der Naturheilpraxis Rauch in Augsburg – Informationen zur Methode und Terminvereinbarung.",
+    "h1s": [
+      "Allergie Behandlung mit NAET"
+    ],
+    "disc": true,
+    "cluster": true,
+    "errs": []
+  }
+]

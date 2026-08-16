@@ -30,6 +30,18 @@
     { href: "/heilmeditation/", label: "Heilmeditation" },
     { href: "/zhineng-qigong/", label: "Zhineng Qigong" }
   ];
+  var DIAG = [
+    { href: "/hinweisdiagnostik-in-der-naturheilkunde/", label: "Hinweisdiagnostik" },
+    { href: "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/", label: "EAV nach Dr. Voll" },
+    { href: "/elektroakupunktur-nach-dr-voll-3/", label: "Elektroakupunktur" },
+    { href: "/hinweisdiagnostik-frequenztherapie/", label: "Frequenztherapie" },
+    { href: "/hinweisdiagnostik-irisdiagnose/", label: "Irisdiagnose" },
+    { href: "/vital-und-naehrstoffanalyse/", label: "Vital- und Nährstoffanalyse" },
+    { href: "/vieva-pro-herzratenvariabilitaet/", label: "Vieva Pro" },
+    { href: "/diagnose-urinuntersuchung/", label: "Urinuntersuchung" },
+    { href: "/diagnostik-stuhluntersuchung/", label: "Stuhluntersuchung" },
+    { href: "/naturheilkundliche-gesundheitsdiagnostik/", label: "Gesundheitsdiagnostik" }
+  ];
   var MAP = {
     "/klassische-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
     "/die-komplex-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
@@ -48,7 +60,21 @@
       items: NH
     },
     "/heilmeditation/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
-    "/hypnotherapie-augsburg/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY }
+    "/hypnotherapie-augsburg/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/hinweisdiagnostik-in-der-naturheilkunde/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/elektroakupunktur-nach-dr-voll-3/": {
+      hub: { href: "/nls-diagnostik/", label: "Diagnostik" },
+      extra: { href: "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/", label: "EAV als Hinweisdiagnostik" },
+      items: DIAG
+    },
+    "/hinweisdiagnostik-frequenztherapie/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/hinweisdiagnostik-irisdiagnose/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/vital-und-naehrstoffanalyse/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/vieva-pro-herzratenvariabilitaet/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnose-urinuntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnostik-stuhluntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/naturheilkundliche-gesundheitsdiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG }
   };
 
   var path = location.pathname.replace(/\/?$/, "/") || "/";

@@ -1,0 +1,91 @@
+<style id="eeat-cluster-css">
+#eeat-cluster {
+  max-width: 1100px;
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.5rem 0.35rem;
+  border-top: 1px solid #ddd;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #2a2622;
+}
+#eeat-cluster p { margin: 0 0 0.45rem 0; color: #2a2622; }
+#eeat-cluster a { color: #2a2622; text-decoration: underline; }
+#eeat-cluster a[aria-current="page"] { text-decoration: none; font-weight: 500; }
+</style>
+<nav id="eeat-cluster" hidden aria-label="Themenübersicht"></nav>
+<script>
+(function () {
+  var HOST = "https://rauch-heilpraktiker.de";
+  var NH = [
+    { href: "/klassische-homoeopathie/", label: "Klassische Homöopathie" },
+    { href: "/die-komplex-homoeopathie/", label: "Komplex-Homöopathie" },
+    { href: "/die-phytotherapie/", label: "Phytotherapie" },
+    { href: "/naet-methode-allergie-behandlung/", label: "NAET" },
+    { href: "/naturheilkundliche-darmsanierung/", label: "Darmsanierung" },
+    { href: "/injektionstherapie/", label: "Injektionstherapie" },
+    { href: "/orthomolekulare-therapie/", label: "Orthomolekulare Therapie" }
+  ];
+  var PSY = [
+    { href: "/hypnotherapie-augsburg/", label: "Hypnotherapie" },
+    { href: "/heilmeditation/", label: "Heilmeditation" },
+    { href: "/zhineng-qigong/", label: "Zhineng Qigong" }
+  ];
+  var MAP = {
+    "/klassische-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/die-komplex-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/die-phytotherapie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/naet-methode-allergie-behandlung/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/allergiebehandlung-mit-naet/": {
+      hub: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      extra: { href: "/naet-methode-allergie-behandlung/", label: "Ausführlicher zur NAET-Methode" },
+      items: NH
+    },
+    "/naturheilkundliche-darmsanierung/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/orthomolekulare-therapie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/injektionstherapie/": {
+      hub: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      extra: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" },
+      items: NH
+    },
+    "/heilmeditation/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/hypnotherapie-augsburg/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY }
+  };
+
+  var path = location.pathname.replace(/\/?$/, "/") || "/";
+  var cfg = MAP[path];
+  var nav = document.getElementById("eeat-cluster");
+  if (!cfg || !nav) return;
+
+  function a(href, label, current) {
+    var el = document.createElement("a");
+    el.href = HOST + href;
+    el.textContent = label;
+    if (current) el.setAttribute("aria-current", "page");
+    return el;
+  }
+
+  var p1 = document.createElement("p");
+  p1.appendChild(document.createTextNode("Übersicht: "));
+  p1.appendChild(a(cfg.hub.href, cfg.hub.label, false));
+  if (cfg.extra) {
+    p1.appendChild(document.createTextNode(" · "));
+    p1.appendChild(a(cfg.extra.href, cfg.extra.label, false));
+  }
+  nav.appendChild(p1);
+
+  var p2 = document.createElement("p");
+  p2.appendChild(document.createTextNode("Weitere Verfahren: "));
+  var shown = 0;
+  cfg.items.forEach(function (it) {
+    if (it.href === path) return;
+    if (shown) p2.appendChild(document.createTextNode(" · "));
+    p2.appendChild(a(it.href, it.label, false));
+    shown += 1;
+  });
+  if (shown) nav.appendChild(p2);
+
+  nav.hidden = false;
+  var disc = document.getElementById("eeat-disclaimer-author");
+  if (disc && disc.parentNode) disc.parentNode.insertBefore(nav, disc);
+})();
+</script>
