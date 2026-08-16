@@ -1,0 +1,7 @@
+{
+  "id": 1060,
+  "before": {
+    "title": "%title% %sep% %sitename%",
+    "desc": ""
+  }
+}

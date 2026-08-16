@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://rauch-heilpraktiker.de/impressum/",
+    "h1has": "Impressum",
+    "nap": true,
+    "index": true,
+    "title": "Impressum | Naturheilpraxis Rauch",
+    "meta": "Impressum Heilpraktiker Rauch - Bioresonanz, NLS Diagnostik, Elektroakupunktur + Biophysikalischer Informationstherapie und holistischen Therapieformen.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Heilpraktiker Rauch – Impressum"
+    ],
+    "disc": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/datenschutzerklaerung/",
+    "metaHas": "personenbezogener Daten",
+    "index": true,
+    "title": "Datenschutzerklärung | Naturheilpraxis Rauch",
+    "meta": "Datenschutzerklärung der Naturheilpraxis Rauch in Augsburg – Angaben zur Verarbeitung personenbezogener Daten.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Heilpraktiker Rauch – Datenschutzerklärung"
+    ],
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/datenschutzerklaerung-tools/",
+    "metaHas": "Werkzeugen",
+    "index": true,
+    "title": "Datenschutzerklärung Tools | Naturheilpraxis Rauch",
+    "meta": "Hinweise zu eingesetzten Werkzeugen und Diensten auf rauch-heilpraktiker.de in der Naturheilpraxis Rauch.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Datenschutzerklärung Tools – Naturheilpraxis"
+    ],
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/heilpraktiker-rechtshinweise/",
+    "metaHas": "Heilpraktiker",
+    "index": true,
+    "title": "Heilpraktiker Rechtshinweise | Naturheilpraxis Rauch",
+    "meta": "Rechtliche Hinweise zur Tätigkeit als Heilpraktiker in der Naturheilpraxis Rauch in Augsburg.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Heilpraktiker Rauch – Rechtshinweise"
+    ],
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+    "metaForbid": [
+      "holistische",
+      "Sanfte"
+    ],
+    "metaHas": "ersetzen keine ärztliche",
+    "index": true,
+    "title": "Rechtshinweise Therapieverfahren und Erkrankungen - Rauch",
+    "meta": "Rechtliche Hinweise zu Therapieverfahren in der Naturheilpraxis Rauch in Augsburg. Die Verfahren ersetzen keine ärztliche Behandlung.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Rechtliche Hinweise – Therapieverfahren + Erkrankungen"
+    ],
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/gesundheitsrelevante-dokumentation/",
+    "h1": [
+      "Gesundheitsrelevante Dokumentation"
+    ],
+    "h1Forbid": "Impressum",
+    "metaForbid": [
+      "Tierstall"
+    ],
+    "index": true,
+    "title": "Gesundheitsrelevante Dokumentation | Naturheilpraxis Rauch",
+    "meta": "Hinweise und Links zur gesundheitsrelevanten Dokumentation in der Naturheilpraxis Rauch in Augsburg.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/corona-praxis-offen/",
+    "index": false,
+    "notice": true,
+    "title": "Corona Praxis offen | Naturheilpraxis Rauch",
+    "meta": "Historischer Hinweis zur Praxiserreichbarkeit. Die Naturheilpraxis Rauch in Augsburg ist geöffnet. Aktuelle Fragen über Kontakt.",
+    "robots": "follow, noindex",
+    "h1": [
+      "Heilpraktiker Rauch – Corona Hinweis"
+    ],
+    "disc": true,
+    "nap": true,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  },
+  {
+    "url": "https://rauch-heilpraktiker.de/downloadbereich-naturheilpraxis-rauch/",
+    "lovableAnamnese": true,
+    "metaHas": "Online-Anamnesebogen",
+    "index": true,
+    "title": "Downloadbereich - Naturheilpraxis Rauch",
+    "meta": "Downloadbereich der Naturheilpraxis Rauch: Hinweise zur Patientenaufnahme. Der Online-Anamnesebogen ist verlinkt.",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "h1": [
+      "Downloadbereich – Anamnese – Erstinformation"
+    ],
+    "disc": true,
+    "nap": true,
+    "notice": false,
+    "clusterHidden": true,
+    "anamneseHrefs": [
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/",
+      "https://naturheilpraxis-rauch.lovable.app/"
+    ],
+    "errs": []
+  }
+]
