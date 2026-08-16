@@ -81,6 +81,10 @@
     document.querySelectorAll('a[href*="naturheilpraxis-rauch.lovable.app"]').forEach(function (a) {
       if (!/\bnoopener\b/.test(a.rel || '')) a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener';
     });
+    document.querySelectorAll('img[alt*="Hospital"], img[src*="Hospital"]').forEach(function (img) {
+      var a = img.getAttribute('alt') || '';
+      if (/Hospital/i.test(a)) img.setAttribute('alt', a.replace(/Metatron\s*Hospital/gi, 'NLS').replace(/Hospital/gi, 'NLS'));
+    });
     var w = window.innerWidth || document.documentElement.clientWidth;
     var max = w <= 639 ? 320 : w <= 1399 ? 380 : null;
     if (max) {

@@ -14,7 +14,8 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 2. Die 48 Kindseiten in **allem, was bisher nicht gleich war**, an die Hubs ziehen: kurze Absätze wie VERF, eine sachliche H1, Metas 120–160, kein Claim. Technik ist schon sitewide gleich.  
 3. Hebel an der **sichtbaren Top-Gruppe** ausrichten, nicht an neuen URLs.
 
-Nächster Live-Block: **Welle 12** (Hubs lokal) nach „Welle 12 go“. Texte der Kinder erst ab **Welle 13**, wieder in 10er-Schritten.
+**Welle 12 live** (Hours, areaServed, Schmerz-H1, NLS-Alt, Meta Hochzoll). Geo sobald Pin da.  
+Nächster Live-Block: **Welle 13** (Naturheilkunde-Kinder Texte/H1/Meta).
 
 ---
 
@@ -90,9 +91,11 @@ Qualität = VERF auf den Hubs (Hahnemann, Phyto, IMT). Near-Duplicates bleiben: 
 
 ## Wellen ab jetzt
 
-### Welle 12 – Hubs lokal (nächster Live-Schritt)
+### Welle 12 – Hubs lokal
 
-Ohne Deinen Pin machbar:
+**Live:** `archive/2026-08-16/WELLE-12.md`. Geo bewusst offen.
+
+Ohne Deinen Pin erledigt:
 
 | ID | Inhalt |
 |----|--------|
@@ -100,7 +103,7 @@ Ohne Deinen Pin machbar:
 | **LOC-AREA** | `areaServed` Augsburg, Hochzoll, Friedberg – sobald Du nicht widersprichst |
 | **HUB-H1-SZ** | eine H1 `/schmerztherapie-augsburg/` |
 | **NLS-HOSP** | „Hospital“ auf NLS entfernen |
-| **RM-ARTICLE** | Rank-Math-Article ohne „sanfte Medizin“ / „NLS Diagnose“ |
+| **RM-ARTICLE** | sichtbare Meta sauber + Hochzoll; Article-JSON-LD noch alter Satz (Feld nicht gefunden) |
 | **HUB-HOCHZOLL** | Hochzoll sichtbar wo es fehlt (Start/Kontakt/Schmerz), ohne Keyword-Stopfen |
 
 Mit Pin:
@@ -142,4 +145,4 @@ flowchart LR
 
 Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** „Welle 12 go“. Pin/Zeiten parallel schicken, sobald vorhanden.
+**Als Nächstes:** „Welle 13 go“ (erste 10 Kind-Texte). Pin/Zeiten weiter parallel.

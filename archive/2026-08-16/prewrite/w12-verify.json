@@ -1,0 +1,77 @@
+{
+  "home": {
+    "h1": [
+      "Heilpraktiker Augsburg – Naturheilpraxis Peter Rauch"
+    ],
+    "meta": "Heilpraktiker in Augsburg-Hochzoll – Naturheilpraxis Peter Rauch. Bioresonanz, NLS-Diagnostik, Elektroakupunktur und klassische Naturheilverfahren.",
+    "hochzoll": true,
+    "hours": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "12:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "13:00",
+        "closes": "19:00"
+      }
+    ],
+    "area": [
+      {
+        "@type": "City",
+        "name": "Augsburg"
+      },
+      {
+        "@type": "Place",
+        "name": "Augsburg-Hochzoll"
+      },
+      {
+        "@type": "City",
+        "name": "Friedberg"
+      }
+    ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "48.3665",
+      "longitude": "10.8944"
+    },
+    "articleDesc": "Naturheilpraxis für sanfte, ganzheitliche Medizin. Ihr Heilpraktiker Augsburg Peter Rauch. Bioresonanz, Naturheilkunde, NLS Diagnose und Elektroakupunktur.",
+    "types": [
+      "Article",
+      "MedicalClinic",
+      "Physician",
+      "FAQPage"
+    ]
+  },
+  "schmerz": {
+    "h1": [
+      "Schmerztherapie Augsburg",
+      ""
+    ],
+    "h2": [
+      "Schmerztherapie Augsburg",
+      "Schmerzentstehung",
+      "Schmerztherapie Augsburg, Hochzoll"
+    ],
+    "hochzoll": true
+  },
+  "nls": {
+    "visibleHospital": true,
+    "altHospital": []
+  }
+}

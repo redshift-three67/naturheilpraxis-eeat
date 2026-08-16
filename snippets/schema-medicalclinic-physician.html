@@ -1,3 +1,4 @@
+<!-- eeat-schema MedicalClinic Physician -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -25,6 +26,25 @@
       "image": "https://rauch-heilpraktiker.de/wp-content/uploads/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3.jpg",
       "priceRange": "€€",
       "medicalSpecialty": ["Naturopathy", "Complementary and Alternative Medicine"],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "12:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "13:00",
+          "closes": "19:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Augsburg" },
+        { "@type": "Place", "name": "Augsburg-Hochzoll" },
+        { "@type": "City", "name": "Friedberg" }
+      ],
       "founder": { "@id": "https://rauch-heilpraktiker.de/#physician" }
     },
     {
