@@ -120,6 +120,8 @@ Mit Pin:
 
 ### Welle 14 – Hinweisdiagnostik-Kinder (10)
 
+**Live:** `archive/2026-08-16/WELLE-14.md`.
+
 Gesundheitsdiagnostik (H1 fehlt) · Hinweis-Einstieg · EAV · Voll-Verfahren unterscheiden · Frequenz · Iris · Vital · Vieva · Urin · Stuhl.
 
 ### Welle 15 – BIT / Bioresonanz / Schmerz / Qigong (10)
@@ -147,4 +149,4 @@ flowchart LR
 
 Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** „Welle 14 go“ (Diagnostik-Kinder). Pin weiter parallel.
+**Als Nächstes:** „Welle 15 go“ (BIT / Bioresonanz / Schmerz / Qigong). Pin weiter parallel.

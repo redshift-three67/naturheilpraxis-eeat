@@ -1,19 +1,28 @@
-# Welle 14 · Hinweisdiagnostik-Kinder (unterbrochen)
+# Welle 14 · Hinweisdiagnostik-Kinder
 
-**Datum:** 2026-08-16 · CDP 9224
+**Datum:** 2026-08-16 · CDP 9224 · live_verified
 
-## Live bisher
+## Direktive
 
-`/naturheilkundliche-gesundheitsdiagnostik/` – erster Textblock auf Hub-Maß (Hinweisverfahren). Alter Satz „Sanfte Heilung…“ noch in einem zweiten Feld. **Keine H1**.
+Hinweisdiagnostik, keine Diagnose-Zusage, kein zweiter Disclaimer. EAV-Hinweisseite und Voll-Verfahrensseite getrennt.
 
-## Blocker
+## Live
 
-WordPress-Session abgelaufen (`wp-login.php?reauth=1`). Neue Admin-Navigation nicht möglich. Bestehende Customizer-Tabs ohne Builder-Kacheln.
+| URL | Text | H1 | Meta |
+|-----|------|----|------|
+| `/naturheilkundliche-gesundheitsdiagnostik/` | Hinweisverfahren | **Naturheilkundliche Gesundheitsdiagnostik** | neu |
+| `/hinweisdiagnostik-in-der-naturheilkunde/` | Gutenberg 3 Absätze | ok | neu |
+| `/hinweisdiagnostik-eav-…/` | Gutenberg, Hinweis | EAV nach Dr. Voll | ok |
+| `/elektroakupunktur-nach-dr-voll-3/` | Verfahren, Link zur EAV-Hinweisseite | **Elektroakupunktur nach Dr. Voll** | ok |
+| `/hinweisdiagnostik-frequenztherapie/` | Gutenberg | ok | neu |
+| `/hinweisdiagnostik-irisdiagnose/` | Gutenberg | ok | neu |
+| `/vital-und-naehrstoffanalyse/` | YOO; „Abnehmen“-Feld geleert | **Vital- und Nährstoffanalyse** | neu |
+| `/vieva-pro-herzratenvariabilitaet/` | HRV als Hinweis | **Vieva Pro** | neu |
+| `/diagnose-urinuntersuchung/` | Untersuchung, nicht Diagnose | **Urinuntersuchung** | neu |
+| `/diagnostik-stuhluntersuchung/` | Laborhinweise | **Stuhluntersuchung** | neu |
 
-## Offen in dieser Welle (nach erneutem Login)
+Prewrite: `w14-*-gutenberg-before.json`, `w14-*-text-before.json`, `w14-meta-*-before.json`. Texte: `w14-texts/`.
 
-Die übrigen 9 URLs inkl. H1/Meta – Texte liegen unter `/tmp/w14/` und werden nach Login nach `archive/2026-08-16/w14-texts/` übernommen.
+## Rollback
 
-## Rollback der einen URL
-
-Feldstand `prewrite/w14-naturheilkundliche-gesundheitsdiagnostik-text-before.json`.
+Gutenberg-Raw bzw. YOO-Felder aus den Prewrites.
