@@ -154,16 +154,16 @@ flowchart LR
 
 Bewusst nicht in den Textwellen 13–16. Gleicher Stapel wie Pin/GBP – einmal nachziehen, Freigabe wie üblich.
 
-| ID | Was | Wer |
-|----|-----|-----|
-| **WV-H2** | Slider-/Grid-H2 sitewide: „Sanft Heilen“, „Naturheilkundlich begleiten – Stark im Leben“ und gleiche Slogans auf Kindseiten | Wir |
-| **WV-VERSUS** | Slug `/bioresonanz-versus-elektroakupunktur/` + alte Bild-`title`/`alt` „versus“. Redirect nur mit Freigabe | Wir |
-| **WV-DISC** | Disclaimer weiter **nur HFCM #7**. Nach den Wellen einmal sitewide prüfen, dass kein zweiter Disclaimer in Bodies nachgerutscht ist | Wir |
-| **WV-RM** | Rank-Math-Article-JSON-LD Altlast („sanfte Medizin“, NAET „loszuwerden“) – Feld in Welle 12 nicht gefunden | Wir |
-| **WV-W13** | Hahnemann-Panel Eigenversuch/Chinarinde; Heilmeditation „Hölle“ (Kacheln nicht als Text getroffen) | Wir |
-| **LOC-GEO** | Schema-Koordinaten der **19a**, nicht Stadtmitte | Wir, sobald Pin da |
-| **GBP-PIN** | Maps-Pin auf 19a + Breite/Länge | **Du** |
-| **GBP-NAP** | GBP + Verzeichnisse = Impressum; Seefelder Str. 20 weg; Rezensionen | **Du** |
+| ID | Was | Wer | Stand 16.08. |
+|----|-----|-----|----------------|
+| **WV-H2** | Slider-/Grid-H2 „Sanft Heilen“ / „Naturheilkundlich begleiten – Stark im Leben“ | Wir | **live** HFCM #15 |
+| **WV-VERSUS** | Slug + Bild-`title`/`alt` „versus“. Redirect nur mit Freigabe | Wir | **Alts live**; Slug offen |
+| **WV-DISC** | Disclaimer nur HFCM #7, kein zweiter Body-Disclaimer | Wir | **live** (Hahnemann-Hinweispanel weg) |
+| **WV-RM** | Rank-Math-Article-JSON-LD Altlast | Wir | **offen** (kein Feld) |
+| **WV-W13** | Hahnemann Eigenversuch; Heilmeditation „Hölle“ | Wir | **live** |
+| **LOC-GEO** | Schema-Koordinaten der **19a** | Wir, sobald Pin da | offen |
+| **GBP-PIN** | Maps-Pin auf 19a + Breite/Länge | **Du** | offen |
+| **GBP-NAP** | GBP + Verzeichnisse = Impressum; Seefelder Str. 20 weg; Rezensionen | **Du** | offen |
 
 Details Pin/NAP/Downloads/Corona: Abschnitt **Offen bei Dir**.
 
@@ -173,4 +173,4 @@ Details Pin/NAP/Downloads/Corona: Abschnitt **Offen bei Dir**.
 
 Wellen 1–16 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** Wiedervorlage nach Wellen (WV-H2, WV-VERSUS, WV-DISC, WV-RM, WV-W13) plus Pin/GBP/`LOC-GEO`. Keine weitere Kindseiten-Textwelle.
+**Als Nächstes:** Pause. Danach nur noch Offen: Versus-Slug (Freigabe), WV-RM Article-JSON, Pin/GBP/`LOC-GEO`. Siehe `archive/2026-08-16/WV-NACH-WELLEN.md`.

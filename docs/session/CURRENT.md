@@ -123,6 +123,9 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 78. ~~WELLE-14~~ 10 Hinweisdiagnostik-Kinder Texte/H1/Meta
 79. ~~WELLE-15~~ 10 BIT/Bioresonanz/Schmerz/Qigong Texte/H1/Meta
 80. ~~WELLE-16~~ 18 Manuell/Lowen Texte/H1/Meta (IMT-Hauptseite geprüft)
+81. ~~WV-H2 / WV-DISC / WV-W13~~ HFCM #15 + Hahnemann/Heilmed-Reste
+82. ~~WV-VERSUS Alts~~ live; Slug offen
+83. WV-RM Article-JSON weiter offen (kein Rank-Math-Feld)
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
@@ -130,8 +133,8 @@ Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6�
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Welle 16 live.** Kindseiten-Texte 13–16 auf Hub-Niveau. Geo weiter offen.
+**Welle 16 live. WV-H2/DISC/W13/versus-Alts live.** Geo und Versus-Slug weiter offen.
 
-**Als Nächstes: Wiedervorlage nach Wellen** (`docs/PLAN.md`): WV-H2, WV-VERSUS, WV-DISC, WV-RM, WV-W13, plus Pin/GBP/NAP/`LOC-GEO`.
+**Als Nächstes:** Pause. Danach: Versus-Slug nur mit Freigabe, WV-RM, Pin/GBP/`LOC-GEO`.
 
 Audit Sitemap 64 URLs: Hubs + Trust sitzen. Legal/Utility = Welle 11.
