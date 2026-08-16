@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 8 Cluster live (BIT / Bioresonanz / Schmerz / Qigong)
+Stand: 2026-08-16 · Welle 9 Cluster live (Manuell / IMT / Micro / Physio)
 
 ## Massgabe
 
@@ -115,6 +115,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 70. ~~WELLE-6A~~ H1 Phytotherapie / Hypno / Injektion; Meta Heilmeditation; Title NAET
 71. ~~WELLE-7 Cluster~~ HFCM #13 + 10 Hinweisdiagnostik-URLs; Texte unverändert
 72. ~~WELLE-8 Cluster~~ HFCM #13 + 10 BIT/Bioresonanz/Schmerz/Qigong; Texte unverändert
+73. ~~WELLE-9 Cluster~~ HFCM #13 + 10 Manuell/IMT/Micro/Physio; IMT-Text unverändert
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
 
@@ -122,7 +123,7 @@ Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6�
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Welle 6–8 erledigt.** Nächste Freigabe: **Welle 9** (Manuell IMT / Micro / Physio), gleiches Muster.  
+**Welle 6–9 erledigt.** Nächste Freigabe: **Welle 10** (Lowen-Cluster, 8 URLs), gleiches Muster.  
 Hahnemann-Fließtext und übrige Kindseiten-Wortlaute bleiben bis Adwords / Einzel-Freigabe.
 
 Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut noch Bestand. Legal/Utility = Welle 11 leicht.

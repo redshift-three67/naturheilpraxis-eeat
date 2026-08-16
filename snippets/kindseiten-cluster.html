@@ -56,6 +56,18 @@
     { href: "/schmerztherapie-entstehung-von-schmerz/", label: "Entstehung von Schmerz" },
     { href: "/injektionstherapie/", label: "Injektionstherapie" }
   ];
+  var MAN = [
+    { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+    { href: "/imt-denk-und-behandlungsansaetze/", label: "IMT Denk- und Behandlungsansätze" },
+    { href: "/imt-behandlungsmoeglichkeiten/", label: "IMT Behandlungsmöglichkeiten" },
+    { href: "/integrative-manual-therapy-die-begruender/", label: "IMT Begründer" },
+    { href: "/microkinesi-therapie/", label: "Microkinesie" },
+    { href: "/microkinesi-behandlungsmoeglichkeiten/", label: "Microkinesie Möglichkeiten" },
+    { href: "/dorntherapie/", label: "Dorntherapie" },
+    { href: "/osteopathie-techniken/", label: "Osteopathie" },
+    { href: "/physiotherapie-allgemeines/", label: "Physiotherapie" },
+    { href: "/physiotherapie-taetigkeitsfelder/", label: "Physiotherapie Tätigkeitsfelder" }
+  ];
   var MAP = {
     "/klassische-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
     "/die-komplex-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
@@ -110,7 +122,37 @@
     },
     "/schmerztherapie-entstehung-von-schmerz/": { hub: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" }, items: SCHMERZ },
     "/zhineng-qigong/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
-    "/zhineng-qigong-nach-dr-pang-ming/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY }
+    "/zhineng-qigong-nach-dr-pang-ming/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/microkinesi-therapie/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/microkinesi-behandlungsmoeglichkeiten/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/microkinesi-therapie/", label: "Microkinesie" },
+      items: MAN
+    },
+    "/dorntherapie/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/osteopathie-techniken/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/physiotherapie-allgemeines/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/physiotherapie-taetigkeitsfelder/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/physiotherapie-allgemeines/", label: "Physiotherapie Allgemeines" },
+      items: MAN
+    },
+    "/integrative-manual-therapy-imt/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/imt-denk-und-behandlungsansaetze/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/imt-behandlungsmoeglichkeiten/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/integrative-manual-therapy-die-begruender/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    }
   };
 
   var path = location.pathname.replace(/\/?$/, "/") || "/";
