@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 11 Legal/Utility live
+Stand: 2026-08-16 · Plan konsolidiert (Kind-Parität, Local, Top-10, Offen-bei-Dir)
 
 ## Massgabe
 

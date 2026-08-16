@@ -1,237 +1,185 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-16 · **Welle 1–11 live** · Kindseiten-Cluster + Legal abgeschlossen  
-Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`  
-YMYL/HWG: keine Heilversprechen · Disclaimer/Autor nur sitewide (HFCM #7) · Schema nur HFCM #6 + Rank Math
+Stand: 2026-08-16 · Welle 1–11 live  
+Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · CDP `127.0.0.1:9224` · `docs/WORKFLOW.md`  
+YMYL/HWG: keine Heilversprechen · Disclaimer/Autor nur HFCM #7 · Schema nur HFCM #6 + Rank Math
 
-**B5** = strukturelle/technische Ableitung von der öffentlichen Site buerofuenf.de (keine Inhalte, kein Design-Klon).
-
----
-
-## Lage nach Welle 1–5
-
-Sitemap: **64** https-URLs (`page-sitemap.xml`). Davon sind **nicht** mehr der Engpass:
-
-| Schicht | Status | Was schon sitzt |
-|---------|--------|-----------------|
-| Technik / Trust | live | HFCM #6 Schema, #7 Disclaimer+NAP+3 FAQ, #8–12 UX/Speed/Typo/Kontakt |
-| 7 Hubs + Start + Kontakt | live | HUB-01…07, VERF-01…18 **auf den Hubs** |
-| Speed | live | TTFB ~0,25 s · Mobil 81 / Desktop 98 · LCP weiter CSS/JS, nicht TTFB |
-| Titel/Metas Kern | live | META-01…06 auf Hauptseiten |
-
-**Offen und sichtbar für Google:** die **48 Kindseiten**. Auf den Hubs stehen bereits die gekürzten Verfahrenstexte; die zugehörigen Unter-URLs haben oft noch den alten Wortlaut (Beispiel: Hahnemann auf `/naturheilkunde/` ist VERF-01, `/klassische-homoeopathie/` ist unverändert). Das ist der nächste Block.
-
-Nicht in den 10er-Content-Wellen als Volltext: 8 Legal/Utility (Impressum, Datenschutz, Corona, Download, Rechtshinweise). Die bekommen **Welle 11** (leicht: H1/Meta/NAP/Aktualität).
-
-Extern unverändert: GBP/Verzeichnisse (Betreiber). Optional später: nginx HTML-HIT, Render-blocking CSS nur mit Exclude-Liste.
+**B5** = Struktur/Technik von buerofuenf.de, kein Inhalts- oder Design-Klon.
 
 ---
 
-## Kindseiten-Standard (gilt für jede URL gleich)
+## Kurzantwort auf a–c
 
-Massstab ist **nicht** „kürzer um jeden Preis“, sondern dieselbe Qualität wie HUB/VERF.
-
-### Inhalt und Recht (Google YMYL + HWG)
-
-1. **Eine H1**, die das Verfahren oder die Diagnostik benennt – kein Werbesatz, kein gesplittetes H1 (`Was die | Hypnotherapie | leisten kann`).
-2. **2–4 kurze Absätze:** Herkunft/Begriff → was in der Praxis stattfindet → Grenze (ohne zweiten Disclaimer-Satz).
-3. **Keine Heilversprechen:** `heilt`, `geheilt`, `Heilung garantiert`, `ohne Nebenwirkung`, `sanft heilen`, Outcome-Titel. Diagnostik heisst **Hinweisdiagnostik**, wo das rechtlich zutrifft.
-4. **Keine Indikationskataloge** als Behandlungsversprechen (Symptomlisten nur, wenn sie erklären, *worüber gesprochen wird*, nicht *was geheilt wird*).
-5. **Trust nicht duplizieren:** Hinweis, Autor, NAP, FAQ bleiben HFCM #7. Kein zweiter Legal-Satz im Fließtext.
-6. **Erfahrung ohne Erfindung:** Praxisbezug (Augsburg, Heilpraktiker Rauch) nur, wo er stimmt. Keine neuen Titel, Auszeichnungen, Studien, die nicht belegt sind.
-
-### Struktur (B5, nur was hier hilft)
-
-| ID | Auf jeder Kindseite | Nicht tun |
-|----|---------------------|-----------|
-| **B5-CLUSTER** | Sichtbarer Link **zurück zum Hub** + 2–4 Geschwister derselben Familie | Neue Glossar-URLs, Keyword-Farm |
-| **B5-H1** | Eine klare H1; Größe erbt HFCM #11 | Zweite H1 in Hero/Slider |
-| **B5-TYPE** | Fließtext 400 / Zeile ≥ 1,55 (sitewide) | Seite-eigene Schrift-Hacks |
-| **B5-FAQ** | Nur wenn die Antwort **sichtbar** im HTML steht | FAQPage pro Kindseite |
-| **B5-NAP** | bleibt sitewide | Adresse in jedem Verfahrenstext |
-| **B5-IMG** | erbt HFCM #9 (`sizes`, lazy) | 1920-px-Helden neu anlegen |
-
-**Nicht B5:** Product-Schema, Award-Leiste, GTM-First, 100 Lexikon-URLs.
-
-### Titel und Meta (Playbook `04-ymyl-titles-metas`)
-
-- Muster: `Verfahren | Naturheilpraxis Rauch` (Ort nur wenn natürlich, Umlaute gesetzt).
-- Meta **120–160 Zeichen**, sachlich, kein Claim. Dünne Autos (`Dorntherapie` = 12 Zeichen) ersetzen.
-- Kein neues JSON-LD pro Kindseite (bleibt MedicalClinic+Physician + Rank-Math WebPage).
-
-### Technik / Ablauf
-
-- Prewrite → **eine URL** live (YOO-Feld per Inhalt finden, nicht leeres Feld 8–10) → Cache-Bust-Verify → Archiv → erst dann die nächste URL.
-- Nach Speichern: `process.exit(0)`, kein `page.close()`.
-- Nach **10 URLs** stoppen: Wellenprotokoll, Freigabe für die nächste 10.
-- Rollback: Feldstand aus `archive/2026-08-15/prewrite/` (bzw. Tagesordner).
-
-### Near-Duplicates (vor dem Schreiben entscheiden, nicht zwei Lange pflegen)
-
-| Paar | Empfehlung |
-|------|------------|
-| `/naet-methode-allergie-behandlung/` (1722 Wörter) vs `/allergiebehandlung-mit-naet/` | Erste URL = Verfahrenstext; zweite = kurzer Ergänzungstext + Link zur ersten. Kein 301 ohne Freigabe. |
-| `/elektroakupunktur-nach-dr-voll-3/` vs `/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/` | EAV = Hinweisdiagnostik; Voll-Seite = Verfahren ohne Diagnose-Claim. Texte **unterscheiden**, nicht kopieren. |
-| Sieben Lowen-URLs | Jede Seite **ein** Aspekt, kurz; kein siebentes Mal dieselbe Methode. |
+| Frage | Lage |
+|-------|------|
+| **a) 48 Kindseiten = Hub-Niveau?** | **Technik, Trust, Typo, Kontrast, Slider-Höhe/Bilder, Cluster: ja (sitewide).** Verfahrenstext, viele H1/Metas, Absatzlänge: **nein** – bewusst stehen gelassen bis Adwords/Einzel-Freigabe. |
+| **b) Hubs lokal googletauglich?** | Kern sitzt (Title/H1 „Heilpraktiker Augsburg“, NAP, MedicalClinic+Geo). **Lücken:** GBP/Verzeichnisse (Betreiber), Schema-Geo = Stadtmitte statt Hochzoll, keine `openingHours`, Rest-H1 auf Schmerz-Hub, NLS noch „Hospital“ im Markup. |
+| **c) Top-10 „Heilpraktiker Augsburg“** | Sichtbare Konkurrenz gewinnt über **Stadtteil + Maps/Bewertungen + eine klare H1**, nicht über mehr Unterseiten. Nächster Hebel bei uns: lokales Profil + Geo/Öffnungszeiten + Hub-Feinschliff, nicht neue Glossar-URLs. |
 
 ---
 
-## Wellen 6–11 (48 Kindseiten + 8 Legal)
+## a) Kindseiten vs. Hubs – was schon gleich ist
 
-Priorität: **YMYL-Risiko** und **sichtbarer Bruch zum schon fertigen Hub**. Cluster bleiben zusammen (B5-CLUSTER), damit interne Links nach der Welle stimmen.
+Alles über HFCM #6–#14 gilt **sitewide**, also auch auf den 48 Kindseiten. Live-Stichprobe 14 Kinder + 8 Hubs (16.08.): Disclaimer, MedicalClinic/Physician, Slider-Markup, `follow, index` überall gleich.
+
+| Schicht | Hubs | 48 Kindseiten | Gleich? |
+|---------|------|---------------|---------|
+| Schema MedicalClinic + Physician + Geo | HFCM #6 | erbt | **ja** |
+| Disclaimer, Autor, NAP, 3 FAQ | HFCM #7 | erbt | **ja** |
+| Anamnese-Button, Footer, Cookie | #8 / #10 | erbt | **ja** |
+| Slider-Höhe, `sizes`, lazy/eager | #9 | erbt | **ja** |
+| Schrift H1 36/500, Fließ 400, Zeile ≥ 1,55, Kontrast | #11 | erbt | **ja** |
+| Responsiveness / Farben | #9+#11 | erbt | **ja** |
+| Cluster Hub + Geschwister | – | HFCM #13 | **ja (Kinder)** |
+| Rank Math Title-Muster Kern | META-01…06 | nur Teil (6A) | **teilweise** |
+| Kurze VERF-Absätze, weniger Fett, keine Claims | VERF-01…18 **auf Hubs** | alter Wortlaut | **nein** |
+| Eine werbefreie H1 | meist | 6A: 3 Stück; Rest oft Claim/Split/fehlend | **nein** |
+
+**Nicht nachziehbar ohne Text-Freigabe:** Absätze kürzen, „heilt“/Indikationslisten, Hahnemann-Kind vs. Hub, Heilmeditation-Seitenname, zweite H1s (BIT, 150-MHz, Osteo, Lowen „sanft und zielsicher“).
+
+**Stabil nachziehbar (nächste Live-Welle, wenn frei):** dünne Metas, restliche Claim-H1s, fehlende H1 `/naturheilkundliche-gesundheitsdiagnostik/`, Title-ASCII (`Koerper`, `Behandlungsmoeglichkeiten`, `DIE HÄNDE`), Hub-Schmerz zweite H1.
+
+---
+
+## b) Hubs – lokale SEO / SEM / E-E-A-T
+
+### Was schon googletauglich ist
+
+- Start-Title und H1: **Heilpraktiker Augsburg – Naturheilpraxis Peter Rauch**
+- Sichtbare NAP + Tel, Autor, FAQ (entspricht sichtbarem HTML → FAQPage)
+- `MedicalClinic` + `Physician` + PLZ 86163 + `addressLocality` Augsburg
+- ProvenExpert-Widget, Jameda-Profil (19 Bewertungen, 5 Sterne – extern)
+- Hubs mit Kindlinks (B5-Cluster), keine Keyword-Farm
+- TTFB ~0,25 s · Desktop ~98 · Mobil ~81 (LCP weiter CSS/JS)
+
+### Gefundene Lücken (lokal)
+
+| ID | Fund | Wirkung | Wer |
+|----|------|---------|-----|
+| **LOC-GEO** | Schema-Geo `48.3665, 10.8944` = **Augsburg-Zentrum** (latlong.net-Stadtmitte), nicht Friedrich-Deffner-Straße / Hochzoll | Local Pack / Entfernung falsch | Live (nach Pin-Bestätigung) |
+| **LOC-HOURS** | Keine `openingHours` / `openingHoursSpecification` im JSON-LD (im Footer stehen Mo–Fr 10–19, Mittag 12:30–13) | Maps/Knowledge | Live |
+| **LOC-AREA** | Kein `areaServed` (Augsburg, Hochzoll, Friedberg …) | Umkreis | Live |
+| **LOC-GBP** | Google-Unternehmensprofil nicht hier prüfbar | stärkster Local-Hebel | **Betreiber** |
+| **LOC-NAP-EXT** | Alte Adresse **Seefelder Str. 20** noch in Verzeichnissen (z. B. jobs-in-augsburg) | NAP-Konflikt | **Betreiber** |
+| **HUB-H1-SZ** | `/schmerztherapie-augsburg/` zwei H1 | Hierarchie | Live |
+| **NLS-HOSP** | `/nls-diagnostik/` Markup enthält noch „Hospital“ | YMYL/Trust | Live |
+| **RM-ARTICLE** | Rank-Math-Article-Description Home noch „sanfte, ganzheitliche Medizin“ / „NLS Diagnose“ | Schema-Claim | Live |
+| **SEM** | Keine Ads-Phase; Landings = Hubs + saubere Kinder erst nach Text-Freigabe | später | Freigabe |
+
+SEM jetzt: keine Kampagne starten, solange Kindtexte und Corona-Historie/Downloads nicht sitzen. Für Ads später nur Hubs + 1 URL pro Verfahren, nicht 7 Lowen-URLs.
+
+---
+
+## c) Bild der sichtbaren Top-Setzer „Heilpraktiker Augsburg“
+
+Kein Zugriff auf die Live-SERP-Position 1–10 von Google. Das **sichtbare Wettbewerbsset**, das für diese Anfrage durchgängig auftaucht:
+
+| Praxis / URL | Was sie für lokal tun |
+|--------------|------------------------|
+| Haimerl `heilpraktiker-haimerl-augsburg.de` | Keyword in Domain + H1 „Heilpraktiker Augsburg“ |
+| Köpf `heilpraktiker-koepf-augsburg.de` | Domain + Stadtteil **Göggingen** in H1 |
+| Boehm `erikboehm.de` | Enge Nische Osteopathie, Name als Marke |
+| Weis `therapiepraxis-weis.de` | H1 mit Augsburg + Gersthofen, `MedicalBusiness` |
+| Hessingpark | Standortmarke im Title |
+| Wagner, augsburg-heilpraktikerin.de, Lachmair, Prüfer, Wenninger | Domain/Ort oder Stadtteil |
+| Portale | Jameda, Gelbe Seiten, Doctolib, werkenntdenbesten (Rauch dort gelistet) |
+
+**Was die Setzer nicht besser können als wir:** fachliches Schema, Disclaimer, Hub-Tiefe, TTFB.
+
+**Was sie oft besser haben:** eine einzige lokale H1, Stadtteil, **Google-Bewertungen/Maps-Pin**, schlanke Startseite, manchmal Breadcrumbs.
+
+Domain nicht auf Keyword umbauen. Stadt und Hochzoll gehören in **Start + Hubs + GBP**, nicht in jede Lowen-Unterseite.
+
+### Maßnahmen, die den Seitenwert für diesen Query wirklich heben
+
+1. **GBP + NAP überall gleich** (höchste Local-Priorität).  
+2. **Schema-Geo auf die Praxis**, plus Öffnungszeiten und `areaServed`.  
+3. **Google-Bewertungen** (Jameda reicht Google Maps nicht).  
+4. Hub-Feinschliff (eine H1 Schmerz, NLS ohne Hospital, Article-Text ohne Claim).  
+5. Kind-H1/Metas nachziehen (ohne Fließtext), damit der Cluster nicht durch dünne Snippets unterlaufen wird.  
+6. Mobil-LCP (render-blocking) nur mit Exclude-Liste, nicht als Default-Plugin.  
+7. Keine 100 neuen URLs, keine Award-Leiste, kein Product-Schema.
+
+---
+
+## Offen bei Dir (Betreiber)
+
+Bitte abarbeiten und kurz Rückmeldung; wir fassen das dann gegen Live.
+
+### Pflicht lokal
+
+1. **Google-Unternehmensprofil**  
+   Name, **Friedrich-Deffner-Straße 19a, 86163 Augsburg (Hochzoll)**, Tel **0821 2621462**, Website `https://rauch-heilpraktiker.de`, Kategorie Heilpraktiker/Naturheilpraxis.  
+   Keine Heilversprechen im GBP-Text. Öffnungszeiten = Footer (Mo–Fr 10–19, Mittag 12:30–13:00) oder korrigieren und uns die gültigen Zeiten geben.  
+   Maps-Pin prüfen: sitzt er auf der 19a, nicht in der Innenstadt?
+
+2. **NAP in Verzeichnissen angleichen oder löschen lassen**  
+   Gleiche Straße/Tel wie Impressum. Bekannte Altlast: **Seefelder Str. 20**.  
+   Nur gezielt: Gelbe Seiten, Das Örtliche, Jameda (Adresse), ProvenExpert. Kein Massen-Listing.
+
+3. **Schema-Geo bestätigen**  
+   Bitte den Google-Maps-Pin der Praxis öffnen und uns **Breite/Länge** schicken (oder bestätigen: Hochzoll, nicht Königsplatz). Danach setzen wir HFCM #6.
+
+### Downloads / Altseiten
+
+4. Fünf tote `/download/…`-URLs (Erstinformation, Corona-Auskunft, Vereinbarung, Datenschutz-PDF, Neuaufnahme): **Dateien neu hochladen** oder Buttons im Downloadbereich entfernen. 404-Solution schickt sie derzeit auf die Startseite.  
+   Anamnese-DOC existiert: `/wp-content/uploads/peter/Anamnese_Peter_Rauch_Heilpraktiker.doc`. Button zeigt bereits auf Lovable.
+
+5. **Corona-Seite** ist `noindex` + historischer Hinweis. Wenn die URL aus Menü/Download weg soll: sagen, wir nehmen den Menüpunkt raus.
+
+### Bewertungen / Sichtbarkeit
+
+6. Patienten um **Google-Rezension** bitten (nicht nur ProvenExpert/Jameda).  
+7. Optional: gleiche NAP in Facebook-Impressum.
+
+---
+
+## Nächste Live-Schritte (wir, nach Freigabe)
+
+Kein Parallel-Write. Reihenfolge = Wirkung für „Heilpraktiker Augsburg“.
+
+### Welle 12 – Local-Quick-Wins Hubs (hoch)
+
+| ID | Schritt | Voraussetzung |
+|----|---------|----------------|
+| **LOC-GEO** | HFCM #6: echte Praxis-Koordinaten | Pin von Dir |
+| **LOC-HOURS** | `openingHoursSpecification` wie Footer | Zeiten bestätigen oder korrigieren |
+| **LOC-AREA** | `areaServed`: Augsburg, Hochzoll, ggf. Friedberg | Freigabe der Ortsteile |
+| **HUB-H1-SZ** | eine H1 auf `/schmerztherapie-augsburg/` | – |
+| **NLS-HOSP** | letztes „Hospital“ auf NLS | – |
+| **RM-ARTICLE** | Rank-Math-Article-Description ohne „sanfte Medizin“ / „NLS Diagnose“ | – |
+
+### Welle 13 – Kind-H1/Meta (mittel, kein Fließtext)
+
+Dieselbe Akkuranz wie 6A, nur Felder die **kein** Verfahrenstext sind:
+
+- Fehlende H1 Gesundheitsdiagnostik  
+- H1 ohne Outcome: BIT, 150-MHz, Osteo, Lowen Biovalent, Physio „Was kann sie?“, Urin/Labor „Diagnose“ → Untersuchung/Hinweis  
+- Dünne Metas: Dorn (12), Urin (27), viele Lowen (26–38), Hinweisdiagnostik-Autos  
+- Title-ASCII / `DIE HÄNDE` / `Behandlungsmoeglichkeiten`  
+- Optional: sichtbare Breadcrumbs = Cluster-Text (kein Extra-FAQ)
+
+### Welle 14 – Texte / Ads (nur nach Einzel-Freigabe)
+
+Hahnemann-Kind und übrige Fließtexte wie VERF auf den Hubs. Erst dann Google Ads auf Hubs + wenige Landings.
+
+### Nicht tun
+
+Product-Schema, Glossar-Farm, Domainwechsel, Lovable als Ranking-Site, Speed-Plugin ohne Exclude, zweiten Disclaimer, FAQPage pro Kind.
+
+---
+
+## Erledigt (nicht zurückdrehen)
+
+TQW · SCHEMA-01…04 · META-01…06 · HUB-01…07 · VERF-01…18 · Wellen 1–5 (Typo, UX, Bilder, TTFB, NAP/FAQ) · Welle 6–10 Cluster · 6A drei H1 + NAET/Heilmeditation-Meta · Welle 11 Legal (Doku-H1, Metas, Corona noindex, HFCM #14).
 
 ```mermaid
 flowchart TB
-  subgraph done["Welle 1–5 · erledigt"]
-    W1["Typo / UX / PE"]
-    W2["Slider / Bilder"]
-    W3["Plesk TTFB"]
-    W4["NLS / Micro / Dorn / NAP / FAQ"]
-    W5["noindex / Titelcase / Kontakt"]
-    W1 --> W2 --> W3 --> W4 --> W5
-  end
-  subgraph next["Kindseiten · 10er-Schritte"]
-    W6["Welle 6 · Naturheilkunde + hohe HWG"]
-    W7["Welle 7 · Hinweisdiagnostik"]
-    W8["Welle 8 · BIT / Bioresonanz / Schmerz / Qigong"]
-    W9["Welle 9 · Manuell IMT / Micro / Physio"]
-    W10["Welle 10 · Lowen-Cluster"]
-    W11["Welle 11 · Legal / Utility leicht"]
-    W6 --> W7 --> W8 --> W9 --> W10 --> W11
-  end
-  done --> next
+  done["Welle 1–11 live"] --> w12["Welle 12 Local-QW Hubs"]
+  w12 --> w13["Welle 13 Kind H1/Meta"]
+  w13 --> w14["Welle 14 Texte/Ads nach Freigabe"]
+  op["Offen bei Dir: GBP NAP Geo Downloads Reviews"] -.-> w12
 ```
 
-### Welle 6 – Naturheilkunde-Kinder + höchste HWG-Last (10)
-
-**Live:** Cluster HFCM #13. **6A:** drei H1 + NAET-Title + Heilmeditation-Meta (`archive/2026-08-16/WELLE-6A.md`). Fließtexte sonst unangetastet. Archiv `WELLE-6.md`.
-
-Hub `/naturheilkunde/` ist fertig; die Kinder widersprechen ihm im **Wortlaut** noch – der Wortlaut bleibt bis zur Absprache / Adwords-Phase.
-
-| # | URL | Warum zuerst | Live-Befund |
-|---|-----|----------------|-------------|
-| 1 | `/klassische-homoeopathie/` | Direkter Bruch zu VERF-01 | 1200 Wörter, alter Hahnemann inkl. „heilt“ |
-| 2 | `/die-komplex-homoeopathie/` | Geschwister, gleicher Hub | 761 Wörter |
-| 3 | `/die-phytotherapie/` | H1 „Pflanzen als Heilmittel“ | 2 H1 |
-| 4 | `/naet-methode-allergie-behandlung/` | Längste Kindseite | 1722 Wörter |
-| 5 | `/allergiebehandlung-mit-naet/` | Near-Duplicate | kürzer halten, auf #4 verweisen |
-| 6 | `/naturheilkundliche-darmsanierung/` | Hub-Kind, 2 H1 | 1001 Wörter |
-| 7 | `/orthomolekulare-therapie/` | Lang + YMYL-Nährstoffe | 1515 Wörter |
-| 8 | `/injektionstherapie/` | Hub-Kind, Claim-H1 | „gezielte Behandlung“ |
-| 9 | `/heilmeditation/` | Höchstes HWG-Risiko im Titel | Meta „Gesundung von Körper…“ |
-| 10 | `/hypnotherapie-augsburg/` | 3 H1, Outcome-Titel | „Was die Hypnotherapie leisten kann“ |
-
-Nach Welle 6: Hub Naturheilkunde und seine öffentlichen Kinder sagen **dasselbe** in derselben Tonlage.
-
-### Welle 7 – Hinweisdiagnostik-Cluster (10)
-
-**Live:** Cluster an HUB-02 `/nls-diagnostik/`. Texte unverändert. Archiv `archive/2026-08-16/WELLE-7.md`.
-
-Google und HWG: Diagnostik nicht als Krankheitssicherung darstellen.
-
-| # | URL | Besonderheit |
-|---|-----|--------------|
-| 1 | `/naturheilkundliche-gesundheitsdiagnostik/` | **0 H1**, 13 Risky-Treffer |
-| 2 | `/hinweisdiagnostik-in-der-naturheilkunde/` | Einstieg, Meta nur 39 Zeichen |
-| 3 | `/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/` | EAV-Kanone |
-| 4 | `/elektroakupunktur-nach-dr-voll-3/` | H1 „Therapie- und Diagnostik“ trennen |
-| 5 | `/hinweisdiagnostik-frequenztherapie/` | dünne Meta |
-| 6 | `/hinweisdiagnostik-irisdiagnose/` | dünne Meta |
-| 7 | `/vital-und-naehrstoffanalyse/` | 11 Risky, Meta 26 Zeichen |
-| 8 | `/vieva-pro-herzratenvariabilitaet/` | 2 H1 |
-| 9 | `/diagnose-urinuntersuchung/` | Titel „Diagnose“ → Hinweis/Untersuchung prüfen |
-| 10 | `/diagnostik-stuhluntersuchung/` | wie #9 |
-
-### Welle 8 – BIT / Bioresonanz / Schmerz / Qigong (10)
-
-**Live:** Cluster HFCM #13. Texte unverändert. Archiv `archive/2026-08-16/WELLE-8.md`.
-
-| # | URL | Besonderheit |
-|---|-----|--------------|
-| 1 | `/diagnose-labordiagnose-biodiagnostik/` | Rest Diagnostik |
-| 2 | `/biophysikalische-informationstherapie-bit/` | 2 H1, Titel schon META-sauber |
-| 3 | `/diagnostik-informationstherapie/` | Elternseite BIT |
-| 4 | `/bioresonanz-versus-elektroakupunktur/` | 2 H1, Vergleich ohne Sieger-Claim |
-| 5 | `/akupunktur-ohne-nadeln/` | Trikombin-Kind zu HUB-03 |
-| 6 | `/150-mhz-befeldung-nach-broers-3/` | **18 Risky**, 2 H1 |
-| 7 | `/kinesiologie/` | 2 H1; hängt an Schmerz- und NH-Hub |
-| 8 | `/schmerztherapie-entstehung-von-schmerz/` | Meta 38 Zeichen |
-| 9 | `/zhineng-qigong/` | Psych-/Körperverfahren |
-| 10 | `/zhineng-qigong-nach-dr-pang-ming/` | Begründer-Seite, kurz halten |
-
-### Welle 9 – Manuell: IMT, Microkinesie, Dorn, Osteo, Physio (10)
-
-**Live:** Cluster HFCM #13 an HUB-06. Texte unverändert. Archiv `archive/2026-08-16/WELLE-9.md`.
-
-| # | URL | Besonderheit |
-|---|-----|--------------|
-| 1 | `/microkinesi-therapie/` | Hub-Text ist VERF-17; Kind noch alt |
-| 2 | `/microkinesi-behandlungsmoeglichkeiten/` | 1108 Wörter, ASCII im Title |
-| 3 | `/dorntherapie/` | Meta **12 Zeichen** |
-| 4 | `/osteopathie-techniken/` | 2 H1, „Harmonische Schmerzbehandlung“ |
-| 5 | `/physiotherapie-allgemeines/` | |
-| 6 | `/physiotherapie-taetigkeitsfelder/` | H1 „Was kann sie?“ |
-| 7 | `/integrative-manual-therapy-imt/` | **nur Gegenprüfen** (VERF-14/14b schon live) |
-| 8 | `/imt-denk-und-behandlungsansaetze/` | 1665 Wörter |
-| 9 | `/imt-behandlungsmoeglichkeiten/` | 5 Risky |
-| 10 | `/integrative-manual-therapy-die-begruender/` | Meta 42 Zeichen |
-
-### Welle 10 – Lowen-Cluster (8)
-
-**Live:** Cluster HFCM #13. Texte unverändert. Archiv `archive/2026-08-16/WELLE-10.md`.
-
-Sieben Facetten plus Rehabilitation. Jede URL ein Aspekt, gleicher Ton wie HUB-06.
-
-| # | URL | Besonderheit |
-|---|-----|--------------|
-| 1 | `/funktionelle-strukturelle-rehabilitation/` | IMT-Rehab |
-| 2 | `/lowen-systems-allgemeines/` | Title ≠ H1 |
-| 3 | `/lowen-systems-biovalent-system/` | H1 „sanft und zielsicher“ |
-| 4 | `/lowen-systems-begruender-frank-lowen/` | Personenseite, keine Heilaussage |
-| 5 | `/lowen-systems-und-die-koerper-rhythmen/` | Title ASCII `Koerper`, Meta 38 |
-| 6 | `/arbeit-mit-den-regulatoren/` | Meta 26 |
-| 7 | `/lowen-systems-und-die-koerpersysteme/` | Meta 35 |
-| 8 | `/lowen-systems-und-die-haende/` | Title-Rest `DIE HÄNDE` |
-
-### Welle 11 – Legal / Utility (leicht, 8)
-
-**Live:** Archiv `archive/2026-08-16/WELLE-11.md`. HFCM #14. Corona noindex. H1 Dokumentation korrigiert.
-
-Kein Verfahrenstext. Nur Konsistenz, damit Trust-Seiten Google und HWG nicht unterlaufen.
-
-| URL | Arbeit |
-|-----|--------|
-| `/impressum/` | NAP gegen HFCM #7 / Schema |
-| `/datenschutzerklaerung/` | unangetastet ausser offensichtlicher Widerspruch |
-| `/datenschutzerklaerung-tools/` | Meta 26 Zeichen |
-| `/heilpraktiker-rechtshinweise/` | Meta 28; Claims prüfen |
-| `/rechtshinweise-therapieverfahren/` | behalten, Ton an #7 angleichen falls nötig |
-| `/gesundheitsrelevante-dokumentation/` | **H1 lautet „Impressum“** – korrigieren |
-| `/corona-praxis-offen/` | Freigabe: aktualisieren oder `noindex` (veraltete YMYL-Lage) |
-| `/downloadbereich-naturheilpraxis-rauch/` | Anamnese-Links auf Lovable-App prüfen |
-
----
-
-## Was schon erledigt ist (nicht zurückdrehen)
-
-TQW-01…04 · SCHEMA-01…04 · META-01…06 · NOINDEX-01 · APP-01…07 · SPEED-01/02/03 · SLIDER-01 · UX-01/02/04/05 · QW-SITEMAP · HWG-01 · CONTENT-01/01b · KONTRAST-01 · HUB-01…07 · VERF-01…18 · B5-TYPE-01 · RESP-01 · B5-IMG · B5-NAP-01 · B5-FAQ-01 · QW-NOINDEX · QW-TITELCASE · HFCM #12 Kontakt.
-
-### Welle 1–5 (Referenz)
-
-| Welle | Inhalt | Status |
-|-------|--------|--------|
-| 1 | B5-TYPE-01, UX-04, UX-05 | live |
-| 2 | RESP-01, B5-IMG-01/02 | live |
-| 3 | Plesk TTFB, SPEED-03 Mobil 81 / Desktop 98 | live |
-| 4 | NLS-Restfett, Micro/Dorn, NAP, FAQ | live |
-| 5 | noindex aus, Titelcase aus, Kontakt-Satz; GBP extern | live (GBP offen) |
-
-Pagespeed-Referenz (Startseite, 15.08.2026 22:11): Mobil 81 / LCP 4,82 s / TTFB 255 ms · Desktop 98 / TTFB 244 ms. Kindseiten erben dasselbe CSS/JS; kein neues Speed-Plugin in Welle 6–10.
-
----
-
-## Freigabe
-
-**Nächster Block (nicht in den 10er-Wellen):** Adwords-Textphase nach Einzel-Freigabe; GBP durch Betreiber; fünf tote `/download/…`-Links ersetzen oder entfernen.
-
-Optional parallel (nicht im 10er-Takt, Betreiber): GBP-NAP = `Friedrich-Deffner-Straße 19a, 86163 Augsburg`, Tel `0821 2621462`.
+**Als Nächstes von Dir:** Punkte 1–3 (GBP, Verzeichnisse, Maps-Koordinaten/Zeiten).  
+**Als Nächstes von uns nach „Welle 12 go“:** Geo/Hours/Area sobald der Pin da ist; HUB-H1-SZ, NLS-HOSP, RM-ARTICLE sofort möglich.
