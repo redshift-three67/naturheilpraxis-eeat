@@ -1,6 +1,6 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-16 · **Welle 1–9 live** · **nächste Freigabe: Welle 10**  
+Stand: 2026-08-16 · **Welle 1–10 live** · **nächste Freigabe: Welle 11** (Legal/Utility)  
 Massgabe: Repo `redshift-three67/naturheilpraxis-eeat` · Live CDP `127.0.0.1:9224` · ein Schritt nach `docs/WORKFLOW.md`  
 YMYL/HWG: keine Heilversprechen · Disclaimer/Autor nur sitewide (HFCM #7) · Schema nur HFCM #6 + Rank Math
 
@@ -178,6 +178,8 @@ Google und HWG: Diagnostik nicht als Krankheitssicherung darstellen.
 
 ### Welle 10 – Lowen-Cluster (8)
 
+**Live:** Cluster HFCM #13. Texte unverändert. Archiv `archive/2026-08-16/WELLE-10.md`.
+
 Sieben Facetten plus Rehabilitation. Jede URL ein Aspekt, gleicher Ton wie HUB-06.
 
 | # | URL | Besonderheit |
@@ -228,6 +230,6 @@ Pagespeed-Referenz (Startseite, 15.08.2026 22:11): Mobil 81 / LCP 4,82 s / TTFB 
 
 ## Freigabe
 
-**Nächste Freigabe:** Welle 10 (Lowen-Cluster, 8 URLs), gleiches Muster: Archiv → Cluster → Texte stehen.
+**Nächste Freigabe:** Welle 11 (Legal / Utility, 8 URLs, leicht: H1/Meta/NAP/Aktualität, kein Verfahrenstext).
 
 Optional parallel (nicht im 10er-Takt, Betreiber): GBP-NAP = `Friedrich-Deffner-Straße 19a, 86163 Augsburg`, Tel `0821 2621462`.
