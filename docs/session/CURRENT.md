@@ -1,6 +1,6 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-16 · Welle 14 Hinweisdiagnostik-Kinder live
+Stand: 2026-08-16 · Welle 15 BIT / Bioresonanz / Schmerz / Qigong live
 
 ## Massgabe
 
@@ -121,13 +121,14 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 76. ~~WELLE-12~~ Hours+areaServed, Schmerz eine H1, NLS-Alt, Meta Hochzoll; Geo offen
 77. ~~WELLE-13~~ 10 NH-Kinder Hub-VERF-Texte + H1 Darm/Ortho/NAET + 3 Metas
 78. ~~WELLE-14~~ 10 Hinweisdiagnostik-Kinder Texte/H1/Meta
+79. ~~WELLE-15~~ 10 BIT/Bioresonanz/Schmerz/Qigong Texte/H1/Meta
 
-CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern.
+CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
 Siehe `docs/PLAN.md` (konsolidiert 15.08. Abend: Kindseiten-Standard + Welle 6–11).
 
 Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional nginx-HIT. Speed-Plugin nur mit Exclude-Liste.
 
-**Welle 14 live.** Nächste: **Welle 15** (BIT / Bioresonanz / Schmerz / Qigong). Geo weiter offen.
+**Welle 15 live.** Nächste: **Welle 16** (Manuell + Lowen). Geo weiter offen.
 
-Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut noch Bestand. Legal/Utility = Welle 11 leicht.
+Audit Sitemap 64 URLs: Hubs + Trust sitzen. Kindseiten-Wortlaut Wellen 13–15 auf Hub-Niveau. Rest: Welle 16 Manuell/Lowen. Legal/Utility = Welle 11.

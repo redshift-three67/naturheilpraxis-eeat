@@ -1,0 +1,8 @@
+{
+  "id": 5318,
+  "slug": "labor",
+  "before": {
+    "title": "%title% %sep% %sitename%",
+    "desc": ""
+  }
+}

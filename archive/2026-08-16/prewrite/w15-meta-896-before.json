@@ -1,0 +1,8 @@
+{
+  "id": 896,
+  "slug": "vergleich",
+  "before": {
+    "title": "%title% %sep% %sitename%",
+    "desc": ""
+  }
+}

@@ -14,8 +14,8 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 2. Die 48 Kindseiten in **allem, was bisher nicht gleich war**, an die Hubs ziehen: kurze Absätze wie VERF, eine sachliche H1, Metas 120–160, kein Claim. Technik ist schon sitewide gleich.  
 3. Hebel an der **sichtbaren Top-Gruppe** ausrichten, nicht an neuen URLs.
 
-**Welle 12 live** (Hours, areaServed, Schmerz-H1, NLS-Alt, Meta Hochzoll). Geo sobald Pin da.  
-Nächster Live-Block: **Welle 13** (Naturheilkunde-Kinder Texte/H1/Meta).
+**Welle 12–15 live.** Geo sobald Pin da.  
+Nächster Live-Block: **Welle 16** (Manuell + Lowen).
 
 ---
 
@@ -126,7 +126,9 @@ Gesundheitsdiagnostik (H1 fehlt) · Hinweis-Einstieg · EAV · Voll-Verfahren un
 
 ### Welle 15 – BIT / Bioresonanz / Schmerz / Qigong (10)
 
-Labor · BIT-H1 · Informationstherapie · Vergleich · Nadeln · 150-MHz-H1 · Kinesiologie · Entstehung Schmerz · Qigong ×2.
+**Live:** `archive/2026-08-16/WELLE-15.md`.
+
+Labor · BIT · Informationstherapie · Vergleich · Nadeln · 150-MHz · Kinesiologie · Entstehung Schmerz · Qigong ×2.
 
 ### Welle 16 – Manuell + Lowen (18, in zwei 9er-Blöcken wenn zu groß)
 
@@ -149,4 +151,4 @@ flowchart LR
 
 Wellen 1–11 · HUB-01…07 · VERF-01…18 auf Hubs · Cluster #13 · Legal #14 · Schema/Disclaimer/Typo/Speed.
 
-**Als Nächstes:** „Welle 15 go“ (BIT / Bioresonanz / Schmerz / Qigong). Pin weiter parallel.
+**Als Nächstes:** Welle 16 (Manuell + Lowen, ggf. zwei 9er-Blöcke). Pin weiter parallel.
