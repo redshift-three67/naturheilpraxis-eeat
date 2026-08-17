@@ -3,19 +3,16 @@ h1:empty, h2:empty, h3:empty, h4:empty { display: none !important; }
 </style>
 <script>
 (function () {
-  var SLOGAN = /^(Sanft\s*Heilen|Naturheilkundlich begleiten)(\s*[–\-—]\s*Stark im Leben!?|\s*[–\-—]\s*Stark im Leben…)?$/i;
+  var SLOGAN = /^(Sanft\s*Heilen)(\s*[–\-—]\s*Stark im Leben!?)?$/i;
   function textOf(el) {
     return (el.textContent || '').replace(/\s+/g, ' ').trim();
   }
   function hideSlogans() {
     document.querySelectorAll('h1, h2, h3, p, .el-title, .uk-panel, .uk-slideshow .uk-overlay, .uk-slideshow .el-content').forEach(function (el) {
       if (el.closest('#eeat-disclaimer-author, #eeat-cluster, footer, .tm-footer, #eeat-local-bar')) return;
+      if (el.classList && el.classList.contains('eeat-slogan')) return;
       var t = textOf(el);
-      if (
-        SLOGAN.test(t) ||
-        /^Sanft\s*heilen\.?$/i.test(t) ||
-        (/Naturheilkundlich begleiten/i.test(t) && /Stark im Leben/i.test(t) && t.length < 90)
-      ) {
+      if (SLOGAN.test(t) || /^Sanft\s*heilen\.?$/i.test(t)) {
         el.setAttribute('hidden', '');
         el.style.display = 'none';
       }

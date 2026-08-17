@@ -18,6 +18,50 @@
 (function () {
   var src = document.getElementById('eeat-online-anamnese');
   if (!src) return;
+  function placeAfterZiel() {
+    if (location.pathname !== '/') return false;
+    var ziel = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
+      return /Ziel der Arbeit ist mehr/i.test((p.textContent || '').replace(/\s+/g, ' '));
+    });
+    if (!ziel) return false;
+    var pair = document.getElementById('eeat-cta-pair');
+    if (!pair) {
+      pair = document.createElement('div');
+      pair.id = 'eeat-cta-pair';
+    }
+    var terminHref = 'https://www.provenexpert.com/naturheilpraxis-rauch/?mode=preview#appointment';
+    var existing = document.querySelector('a[href*="provenexpert.com"][href*="appointment"], a[href*="provenexpert.com/naturheilpraxis-rauch"]');
+    if (existing && existing.href) terminHref = existing.href;
+    var terminBtn = pair.querySelector('.eeat-termin-btn');
+    if (!terminBtn) {
+      terminBtn = document.createElement('a');
+      terminBtn.className = 'eeat-anamnese-btn eeat-termin-btn';
+      terminBtn.href = terminHref;
+      terminBtn.target = '_blank';
+      terminBtn.rel = 'noopener';
+      terminBtn.innerHTML = '<span class="eeat-anamnese-l1">Jetzt Termin buchen</span>';
+      pair.appendChild(terminBtn);
+    }
+    if (src.parentNode !== pair) pair.appendChild(src);
+    src.style.margin = '0';
+    if (ziel.nextElementSibling !== pair) {
+      ziel.insertAdjacentElement('afterend', pair);
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('h3, .el-title'), function (el) {
+      if (el.closest('#eeat-cta-pair')) return;
+      if (!/^Jetzt\s+Termin\s+buchen$/i.test((el.textContent || '').replace(/\s+/g, ' ').trim())) return;
+      var card = el.closest('a.el-item, .uk-card, .uk-margin-small');
+      if (card) card.style.display = 'none';
+    });
+    return true;
+  }
+  if (location.pathname === '/' || location.pathname === '') {
+    placeAfterZiel();
+    document.addEventListener('DOMContentLoaded', placeAfterZiel);
+    setTimeout(placeAfterZiel, 400);
+    setTimeout(placeAfterZiel, 1200);
+    return;
+  }
   function after(el, node) {
     if (!el || !el.parentNode) return false;
     el.parentNode.insertBefore(node, el.nextSibling);

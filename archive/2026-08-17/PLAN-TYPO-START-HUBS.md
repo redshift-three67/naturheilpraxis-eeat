@@ -55,6 +55,10 @@ Schriften live: **Ubuntu** (Titel) + **Open Sans** (Text). Farben: `#2a2622` auf
 
 Diese Tokens **einmal** in HFCM (Typo-Datei). Danach keine Einzel-px-Wellen mehr.
 
+## Status 17.08. (A1–A4 live)
+
+Slogan sichtbar · Bar mit SVG-Icons links unter dem Slogan (H1-Kante) · eine Skala nur `html.eeat-type-a` (Start+7 Hubs) · Welcome-Absatz kein H2 · „So läuft…“ 16,5 px · CTA-Paar nach Ziel-Satz (Start). Kindseiten unverändert.
+
 ## Wellen
 
 ```mermaid

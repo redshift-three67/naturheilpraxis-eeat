@@ -110,7 +110,7 @@ Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch:
 **17.08. live (ohne GBP):** Hub-Titles/H1 mit Augsburg (NLS, Bioresonanz, Naturheilkunde, Manuell, BIT). Start-Lage-Satz + FAQ „Wo liegt die Praxis?“ (Hochzoll / 19a / Friedberg / Lechhausen-Ost).  
 **Mobil 1–5 live:** Aktionszeile Anrufen/Route/Zeiten unter H1 (Start+Hubs), #7 Maps+Tel 44 px, NLS ohne Hospital/Hunter im Erstbild, leere/11-px-Überschriften, Cookie/Slider-Tap 44 px.
 
-**Nächste Serie (Freigabe):** Typo/Erstkontakt Start+Hubs – Plan `archive/2026-08-17/PLAN-TYPO-START-HUBS.md`. Slogan bleibt. Bar unter Slogan, Icons, links. CTA nach Ziel-Satz. Eine Schrift-Skala, dann Kinder.
+**Typo A1–A4 live** (Start+Hubs). Kind-Wellen derselben Skala danach. Nicht in der Serie (nach Durchsicht): neue Schriftfamilie, Rebrand.
 
 ---
 
