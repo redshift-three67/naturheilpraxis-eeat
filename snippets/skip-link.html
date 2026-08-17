@@ -1,0 +1,31 @@
+<style id="eeat-skip-link">
+#eeat-skip {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 100000;
+  padding: 0.5rem 0.85rem;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  transform: translateY(-140%);
+}
+#eeat-skip:focus {
+  transform: none;
+  outline: 2px solid #8ec760;
+  outline-offset: 2px;
+}
+</style>
+<a id="eeat-skip" href="#content">Zum Inhalt</a>
+<script>
+(function () {
+  var a = document.getElementById("eeat-skip");
+  if (!a) return;
+  var t = document.getElementById("content") || document.querySelector("main, .tm-page, .uk-section-default, .uk-section") || document.body;
+  if (t && t.id !== "content") {
+    if (!t.id) t.id = "eeat-main";
+    a.setAttribute("href", "#" + t.id);
+  }
+})();
+</script>

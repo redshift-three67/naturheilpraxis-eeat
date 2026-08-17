@@ -42,9 +42,9 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 
 | ID | Inhalt | Bedingung |
 |----|--------|-----------|
-| **W17-FAQ-NOTFALL** | Eine FAQ in HFCM #7: Website ist kein Notfallweg; 112 / kassenärztlicher Notdienst | Freigabe Wortlaut |
-| **W17-SKIP** | Skip-Link „Zum Inhalt“ sitewide (HFCM) | Freigabe |
-| **W17-SCHEMA-HYG** | `priceRange` und `medicalSpecialty` aus HFCM #6 nehmen, wenn sie nirgends sichtbar sind | Freigabe |
+| **W17-FAQ-NOTFALL** | FAQ „Was tun im Notfall?“ in HFCM #7 | **live** 17.08. |
+| **W17-SKIP** | Skip-Link HFCM #16 | **live** 17.08. |
+| **W17-SCHEMA-HYG** | `priceRange` / `medicalSpecialty` entfernt | **live** 17.08. |
 | **W17-FAQ-KOSTEN** | Eine FAQ: Privatleistung, Erstattung bei Versicherung klären – **keine** Preise | Nur wenn Du den Satz bestätigst |
 | **WV-VERSUS-SLUG** | 301 `/bioresonanz-versus-elektroakupunktur/` → sprechender Slug | Nur mit Redirect-Freigabe |
 | **WV-RM** | NAET-Article-JSON-LD „loszuwerden“ – Feld in Rank Math Free nicht gefunden | Nicht still Article abschalten |

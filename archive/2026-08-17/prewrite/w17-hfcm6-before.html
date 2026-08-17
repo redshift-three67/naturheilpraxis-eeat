@@ -1,0 +1,61 @@
+<!-- eeat-schema MedicalClinic Physician -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://rauch-heilpraktiker.de/#clinic",
+      "name": "Naturheilpraxis Rauch",
+      "alternateName": "Heilpraktiker Peter Rauch Augsburg",
+      "url": "https://rauch-heilpraktiker.de",
+      "telephone": "+49-821-2621462",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Friedrich-Deffner-Strasse 19a",
+        "addressLocality": "Augsburg",
+        "postalCode": "86163",
+        "addressRegion": "BY",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "48.339465",
+        "longitude": "10.948931"
+      },
+      "image": "https://rauch-heilpraktiker.de/wp-content/uploads/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3.jpg",
+      "priceRange": "€€",
+      "medicalSpecialty": ["Naturopathy", "Complementary and Alternative Medicine"],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "12:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "13:00",
+          "closes": "19:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Augsburg" },
+        { "@type": "Place", "name": "Augsburg-Hochzoll" },
+        { "@type": "City", "name": "Friedberg" }
+      ],
+      "founder": { "@id": "https://rauch-heilpraktiker.de/#physician" }
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://rauch-heilpraktiker.de/#physician",
+      "name": "Peter Rauch",
+      "jobTitle": "Heilpraktiker",
+      "worksFor": { "@id": "https://rauch-heilpraktiker.de/#clinic" },
+      "url": "https://rauch-heilpraktiker.de",
+      "telephone": "+49-821-2621462"
+    }
+  ]
+}
+</script>
