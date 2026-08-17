@@ -107,6 +107,8 @@ Wir sitzen **86163 Hochzoll**. Innenstadt nicht imitieren. Natürlicher Umkreis:
 
 Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch: Start bleibt die Pillar; Hubs nur `[Verfahren] Augsburg`, nicht zweites „Heilpraktiker Augsburg“.
 
+**17.08. live (ohne GBP):** Hub-Titles/H1 mit Augsburg (NLS, Bioresonanz, Naturheilkunde, Manuell, BIT). Start-Lage-Satz + FAQ „Wo liegt die Praxis?“ (Hochzoll / 19a / Friedberg / Lechhausen-Ost).
+
 ---
 
 ## Erledigt (nicht zurückdrehen)

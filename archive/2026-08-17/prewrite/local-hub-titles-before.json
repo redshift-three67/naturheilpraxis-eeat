@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-17",
+  "step": "LOCAL-HUB titles/H1 + Lage",
+  "pages": [
+    {
+      "id": 797,
+      "slug": "/nls-diagnostik/",
+      "title": "NLS-Diagnostik | Hinweisdiagnostik | Naturheilpraxis Rauch",
+      "h1": "NLS Diagnostik – Heilpraktiker",
+      "desc": "NLS-Diagnostik in Augsburg – sanfte Hinweisdiagnostik in der Naturheilpraxis Rauch. Information und Terminvereinbarung."
+    },
+    {
+      "id": 896,
+      "slug": "/bioresonanz-und-elektroakupunktur/",
+      "title": "Bioresonanz und Elektroakupunktur | Naturheilpraxis Rauch",
+      "h1": "Bioresonanz und Elektroakupunktur",
+      "desc": "Bioresonanz und Elektroakupunktur nach Voll in der Naturheilpraxis Rauch in Augsburg – zwei Hinweisverfahren im Vergleich, ohne Diagnosezusage."
+    },
+    {
+      "id": 2213,
+      "slug": "/naturheilkunde/",
+      "title": "Naturheilkunde | Naturheilpraxis Rauch",
+      "h1": "Naturheilkunde Therapieverfahren",
+      "desc": "Zur Naturheilkunde gehört die Klassische- und die Komplex Homöopathie, Phytotherapie. Übersicht naturheilkundliche Therapieverfahren der Naturheilpraxis Rauch."
+    },
+    {
+      "id": 2192,
+      "slug": "/manuelle-therapieverfahren-uebersicht/",
+      "title": "Manuelle Therapieverfahren | Naturheilpraxis Rauch",
+      "h1": "Manuelle Therapieverfahren – Allgemein",
+      "desc": "Übersicht manueller Therapieverfahren in der Naturheilpraxis Rauch in Augsburg."
+    },
+    {
+      "id": 717,
+      "slug": "/biophysikalische-informationstherapie-bit/",
+      "title": "Biophysikalische Informationstherapie | Naturheilpraxis Rauch",
+      "h1": "Biophysikalische Informationstherapie",
+      "desc": "Biophysikalische Informationstherapie (BIT) in der Naturheilpraxis Rauch in Augsburg – ergänzendes Verfahren der Erfahrungsheilkunde nach Anamnese."
+    }
+  ],
+  "skip": [
+    { "id": 1368, "note": "Psychotherapie Augsburg schon im Title/H1" },
+    { "id": 2318, "note": "Schmerztherapie Augsburg schon im Title/H1" },
+    { "id": 17, "note": "Start schon Heilpraktiker Augsburg" }
+  ],
+  "hfcm7_nap_line": "Naturheilpraxis Rauch, Friedrich-Deffner-Straße 19a, 86163 Augsburg (Hochzoll)"
+}

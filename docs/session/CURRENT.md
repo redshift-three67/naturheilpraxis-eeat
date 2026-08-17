@@ -128,6 +128,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 83. WV-RM Article-JSON weiter offen (kein Rank-Math-Feld)
 84. ~~SPEED-LCP~~ HFCM #9: Preload + erstes Folien-`src`/`eager`/`high`
 85. ~~CACHE~~ WP Super Cache Simple + Excludes; andere Speed-Plugins bleiben aus
+86. ~~LOCAL-HUB~~ Titles/H1 mit Augsburg (5 URLs); Start-Lage + FAQ Wo liegt die Praxis?
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
@@ -140,6 +141,6 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 **Welle 18 live** (Versus-Slug+301, Kosten-FAQ, Article-Claim im DOM weg, Slider 240).  
 **SPEED-LCP live:** HFCM #9 Preload erstes Folienbild + `src`/`eager`/`high`; OD-SVG-Preload wird entfernt.  
 **CACHE live:** WP Super Cache Simple; Exclude `/kontakt`, `/anamnese`, `wp-json`, GET, Login. Autoptimize/AssetCleanUp/Async/SpeedBooster bleiben aus.  
-Wiedervorlage: Fortbildungen, llms.txt, Ads. Du: GBP/Pin, Kataloge, Downloads, Plesk-Cache-Control Statik.
+Wiedervorlage: Fortbildungen, llms.txt, Ads. Du: GBP-Stunden + Pin, Kataloge, Downloads.
 
 Audit Sitemap 64 URLs. Auswertung der Fremdpläne: `archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`.
