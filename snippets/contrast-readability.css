@@ -119,10 +119,30 @@ html.eeat-type-a p.eeat-lead {
   line-height: 1.55 !important;
   color: #2a2622 !important;
 }
-html.eeat-type-a .uk-slideshow .el-title {
-  font-size: 22px !important;
+html.eeat-type-a .uk-slideshow .el-meta,
+html.eeat-type-a .uk-slideshow .el-meta.uk-h2 {
+  font-size: 28px !important;
   font-weight: 500 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 0.12em !important;
+}
+html.eeat-type-a .uk-slideshow .el-title {
+  font-size: 18px !important;
+  font-weight: 400 !important;
   line-height: 1.25 !important;
+  margin: 0 0 0.2em !important;
+  color: #fff !important;
+}
+html.eeat-home .eeat-intro-center,
+html.eeat-home .eeat-intro-center p,
+html.eeat-home #eeat-ablauf,
+html.eeat-home #eeat-ablauf p {
+  text-align: center !important;
+}
+html.eeat-home #eeat-cta-pair {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 html.eeat-type-a #eeat-cta-pair {
   display: flex;
@@ -184,8 +204,44 @@ html.eeat-type-a .uk-grid > * > p:first-child {
   html.eeat-type-a h2.uk-h3 {
     font-size: 21px !important;
   }
+  html.eeat-type-a .uk-slideshow .el-meta,
+  html.eeat-type-a .uk-slideshow .el-meta.uk-h2 {
+    font-size: 16px !important;
+  }
   html.eeat-type-a .uk-slideshow .el-title {
-    font-size: 20px !important;
+    font-size: 13px !important;
+  }
+  html.eeat-type-a .uk-slideshow .el-link.uk-button,
+  html.eeat-type-a .uk-slideshow a.uk-button,
+  html.eeat-type-a .uk-slideshow .el-content a {
+    min-height: 34px !important;
+    padding: 4px 10px !important;
+    font-size: 12px !important;
+  }
+  html.eeat-type-a .uk-slideshow .uk-overlay,
+  html.eeat-type-a .uk-slideshow .uk-position-bottom,
+  html.eeat-type-a .uk-slideshow .uk-position-bottom-left,
+  html.eeat-type-a .uk-slideshow .uk-position-bottom-right,
+  html.eeat-type-a .uk-slideshow .uk-position-center-left,
+  html.eeat-type-a .uk-slideshow .uk-position-center-right {
+    padding: 8px 10px !important;
+    max-height: 46% !important;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+  html.eeat-type-a .uk-slideshow .el-meta,
+  html.eeat-type-a .uk-slideshow .el-meta.uk-h2 {
+    font-size: 22px !important;
+  }
+  html.eeat-type-a .uk-slideshow .el-title {
+    font-size: 15px !important;
+  }
+  html.eeat-type-a .uk-slideshow .el-link.uk-button,
+  html.eeat-type-a .uk-slideshow a.uk-button {
+    min-height: 38px !important;
+    font-size: 13px !important;
+    padding: 6px 12px !important;
   }
 }
 @media (min-width: 960px) {
@@ -219,6 +275,23 @@ html.eeat-type-a .uk-grid > * > p:first-child {
       el.removeAttribute('hidden');
       el.style.removeProperty('display');
     }
+  }
+  function markIntroCenter() {
+    if (location.pathname !== '/' && location.pathname !== '') return;
+    var start = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
+      return /Ich begleite meine Patientinnen/i.test(p.textContent || '');
+    });
+    if (!start) return;
+    var el = start;
+    var hops = 0;
+    while (el && hops < 12) {
+      el.classList.add('eeat-intro-center');
+      if (/Themen zum Weiterlesen/i.test(el.textContent || '') && el !== start) break;
+      el = el.nextElementSibling;
+      hops += 1;
+    }
+    var pair = document.getElementById('eeat-cta-pair');
+    if (pair) pair.classList.add('eeat-intro-center');
   }
   function markAblauf() {
     document.querySelectorAll('div.uk-h3').forEach(function (d) {
@@ -262,14 +335,17 @@ html.eeat-type-a .uk-grid > * > p:first-child {
     }
   }
   markSlogan();
+  markIntroCenter();
   demoteLongH2();
   markSpecial();
   document.addEventListener('DOMContentLoaded', function () {
     markSlogan();
+    markIntroCenter();
     demoteLongH2();
     markSpecial();
   });
   setTimeout(markSlogan, 400);
+  setTimeout(markIntroCenter, 450);
   setTimeout(demoteLongH2, 500);
   setTimeout(markSpecial, 500);
 })();

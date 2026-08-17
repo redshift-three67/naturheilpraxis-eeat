@@ -26,6 +26,7 @@ Nicht in dieser Welle (nach allen Wellen + Durchsicht): neue Schriftfamilie, Far
 2. B-e2 neue Seite + Cluster/Bar-Pfad + Footer-Link + Themen-Link.  
 3. Verify Mobil 390 / Desktop 1280, Start + 1–2 Hubs + neue Seite.  
 4. **Kind-Skala live 17.08.:** `eeat-type-a` gilt für alle Frontend-Seiten. Local-Bar weiter nur Start+Hubs. Bild+Text-Raster unverändert.
+5. **Slider/Intro live:** Overlay-Schrift proportional (mobil 16/13/12, Cover ~44 % statt 61 %). NLS-Folie: „NLS – Diagnostik“ / „Metatron Hospital“. Seiten-H2: „mit dem Metatron Hospital System“. Start-Block „Ich begleite … Themen“ zentriert.
 
 ## Anamnese-Hub (Inhalt, HWG)
 
