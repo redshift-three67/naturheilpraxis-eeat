@@ -45,9 +45,9 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 | **W17-FAQ-NOTFALL** | FAQ „Was tun im Notfall?“ in HFCM #7 | **live** 17.08. |
 | **W17-SKIP** | Skip-Link HFCM #16 | **live** 17.08. |
 | **W17-SCHEMA-HYG** | `priceRange` / `medicalSpecialty` entfernt | **live** 17.08. |
-| **W17-FAQ-KOSTEN** | Eine FAQ: Privatleistung, Erstattung bei Versicherung klären – **keine** Preise | Nur wenn Du den Satz bestätigst |
-| **WV-VERSUS-SLUG** | 301 `/bioresonanz-versus-elektroakupunktur/` → sprechender Slug | Nur mit Redirect-Freigabe |
-| **WV-RM** | NAET-Article-JSON-LD „loszuwerden“ – Feld in Rank Math Free nicht gefunden | Nicht still Article abschalten |
+| **W17-FAQ-KOSTEN** | FAQ „Wie sind die Kosten?“ Privatleistung, keine Preise | **live** 17.08. |
+| **WV-VERSUS-SLUG** | `/bioresonanz-und-elektroakupunktur/` + 301 von versus | **live** 17.08. |
+| **WV-RM** | Seiten-Schema-Standard **Keiner**; „loszuwerden“ im DOM per HFCM #15 entfernt (Quelltext-Article bleibt) | **live** 17.08. |
 
 ### Bei Dir (Local Pack, höherer Hebel als W17)
 
@@ -79,7 +79,7 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 
 **Nicht** noch eine Kindseiten-Textwelle.  
 **Zuerst Du:** Pin + NAP (das schlägt jede FAQ).  
-**Dann wir, eine kleine Welle 17** (nur HFCM, rollbackbar): Notfall-FAQ + Skip-Link + Schema-Hygiene. Kosten-FAQ nur mit Deinem Satz.
+**Welle 17 live** (Notfall-FAQ, Skip-Link, Schema-Hygiene). Kosten-FAQ weiter nur mit Deinem Satz.
 
 Reihenfolge nach Nutzen:
 

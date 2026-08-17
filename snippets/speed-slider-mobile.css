@@ -13,9 +13,9 @@
   .uk-slideshow,
   .uk-slideshow-items,
   .uk-slideshow-items > * {
-    min-height: 220px !important;
-    height: 320px !important;
-    max-height: 320px !important;
+    min-height: 180px !important;
+    height: 240px !important;
+    max-height: 240px !important;
   }
 }
 @media (min-width: 640px) and (max-width: 1399px) {
@@ -86,7 +86,7 @@
       if (/Hospital/i.test(a)) img.setAttribute('alt', a.replace(/Metatron\s*Hospital/gi, 'NLS').replace(/Hospital/gi, 'NLS'));
     });
     var w = window.innerWidth || document.documentElement.clientWidth;
-    var max = w <= 639 ? 320 : w <= 1399 ? 380 : null;
+    var max = w <= 639 ? 240 : w <= 1399 ? 380 : null;
     if (max) {
       document.querySelectorAll('.uk-slideshow, .uk-slideshow-items, .uk-slideshow-items > *').forEach(function (el) {
         if (el.offsetHeight > max + 2) {

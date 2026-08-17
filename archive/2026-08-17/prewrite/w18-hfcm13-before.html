@@ -1,0 +1,242 @@
+<style id="eeat-cluster-css">
+#eeat-cluster {
+  max-width: 1100px;
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.5rem 0.35rem;
+  border-top: 1px solid #ddd;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #2a2622;
+}
+#eeat-cluster p { margin: 0 0 0.45rem 0; color: #2a2622; }
+#eeat-cluster a { color: #2a2622; text-decoration: underline; }
+#eeat-cluster a[aria-current="page"] { text-decoration: none; font-weight: 500; }
+</style>
+<nav id="eeat-cluster" hidden aria-label="Themenübersicht"></nav>
+<script>
+(function () {
+  var HOST = "https://rauch-heilpraktiker.de";
+  var NH = [
+    { href: "/klassische-homoeopathie/", label: "Klassische Homöopathie" },
+    { href: "/die-komplex-homoeopathie/", label: "Komplex-Homöopathie" },
+    { href: "/die-phytotherapie/", label: "Phytotherapie" },
+    { href: "/naet-methode-allergie-behandlung/", label: "NAET" },
+    { href: "/naturheilkundliche-darmsanierung/", label: "Darmsanierung" },
+    { href: "/injektionstherapie/", label: "Injektionstherapie" },
+    { href: "/orthomolekulare-therapie/", label: "Orthomolekulare Therapie" }
+  ];
+  var PSY = [
+    { href: "/hypnotherapie-augsburg/", label: "Hypnotherapie" },
+    { href: "/heilmeditation/", label: "Heilmeditation" },
+    { href: "/zhineng-qigong/", label: "Zhineng Qigong" },
+    { href: "/zhineng-qigong-nach-dr-pang-ming/", label: "Zhineng Qigong nach Dr. Pang Ming" }
+  ];
+  var DIAG = [
+    { href: "/hinweisdiagnostik-in-der-naturheilkunde/", label: "Hinweisdiagnostik" },
+    { href: "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/", label: "EAV nach Dr. Voll" },
+    { href: "/elektroakupunktur-nach-dr-voll-3/", label: "Elektroakupunktur" },
+    { href: "/hinweisdiagnostik-frequenztherapie/", label: "Frequenztherapie" },
+    { href: "/hinweisdiagnostik-irisdiagnose/", label: "Irisdiagnose" },
+    { href: "/vital-und-naehrstoffanalyse/", label: "Vital- und Nährstoffanalyse" },
+    { href: "/vieva-pro-herzratenvariabilitaet/", label: "Vieva Pro" },
+    { href: "/diagnose-urinuntersuchung/", label: "Urinuntersuchung" },
+    { href: "/diagnostik-stuhluntersuchung/", label: "Stuhluntersuchung" },
+    { href: "/diagnose-labordiagnose-biodiagnostik/", label: "Labor- und Biodiagnostik" },
+    { href: "/naturheilkundliche-gesundheitsdiagnostik/", label: "Gesundheitsdiagnostik" },
+    { href: "/biophysikalische-informationstherapie-bit/", label: "BIT" },
+    { href: "/diagnostik-informationstherapie/", label: "Informationstherapie" }
+  ];
+  var BIO = [
+    { href: "/bioresonanz-versus-elektroakupunktur/", label: "Bioresonanz und Elektroakupunktur" },
+    { href: "/akupunktur-ohne-nadeln/", label: "Akupunktur ohne Nadeln" },
+    { href: "/150-mhz-befeldung-nach-broers-3/", label: "150-MHz-Befeldung" }
+  ];
+  var SCHMERZ = [
+    { href: "/kinesiologie/", label: "Kinesiologie" },
+    { href: "/schmerztherapie-entstehung-von-schmerz/", label: "Entstehung von Schmerz" },
+    { href: "/injektionstherapie/", label: "Injektionstherapie" }
+  ];
+  var MAN = [
+    { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+    { href: "/imt-denk-und-behandlungsansaetze/", label: "IMT Denk- und Behandlungsansätze" },
+    { href: "/imt-behandlungsmoeglichkeiten/", label: "IMT Behandlungsmöglichkeiten" },
+    { href: "/integrative-manual-therapy-die-begruender/", label: "IMT Begründer" },
+    { href: "/microkinesi-therapie/", label: "Microkinesie" },
+    { href: "/microkinesi-behandlungsmoeglichkeiten/", label: "Microkinesie Möglichkeiten" },
+    { href: "/dorntherapie/", label: "Dorntherapie" },
+    { href: "/osteopathie-techniken/", label: "Osteopathie" },
+    { href: "/physiotherapie-allgemeines/", label: "Physiotherapie" },
+    { href: "/physiotherapie-taetigkeitsfelder/", label: "Physiotherapie Tätigkeitsfelder" },
+    { href: "/funktionelle-strukturelle-rehabilitation/", label: "IMT Rehabilitation" },
+    { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" }
+  ];
+  var LOWEN = [
+    { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+    { href: "/lowen-systems-biovalent-system/", label: "Biovalent System" },
+    { href: "/lowen-systems-begruender-frank-lowen/", label: "Frank Lowen" },
+    { href: "/lowen-systems-und-die-koerper-rhythmen/", label: "Körper-Rhythmen" },
+    { href: "/arbeit-mit-den-regulatoren/", label: "Regulatoren" },
+    { href: "/lowen-systems-und-die-koerpersysteme/", label: "Körpersysteme" },
+    { href: "/lowen-systems-und-die-haende/", label: "Hände" }
+  ];
+  var MAP = {
+    "/klassische-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/die-komplex-homoeopathie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/die-phytotherapie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/naet-methode-allergie-behandlung/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/allergiebehandlung-mit-naet/": {
+      hub: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      extra: { href: "/naet-methode-allergie-behandlung/", label: "Ausführlicher zur NAET-Methode" },
+      items: NH
+    },
+    "/naturheilkundliche-darmsanierung/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/orthomolekulare-therapie/": { hub: { href: "/naturheilkunde/", label: "Naturheilkunde" }, items: NH },
+    "/injektionstherapie/": {
+      hub: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      extra: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" },
+      items: NH
+    },
+    "/heilmeditation/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/hypnotherapie-augsburg/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/hinweisdiagnostik-in-der-naturheilkunde/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/elektroakupunktur-nach-dr-voll-3/": {
+      hub: { href: "/nls-diagnostik/", label: "Diagnostik" },
+      extra: { href: "/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/", label: "EAV als Hinweisdiagnostik" },
+      items: DIAG
+    },
+    "/hinweisdiagnostik-frequenztherapie/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/hinweisdiagnostik-irisdiagnose/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/vital-und-naehrstoffanalyse/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/vieva-pro-herzratenvariabilitaet/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnose-urinuntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnostik-stuhluntersuchung/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/naturheilkundliche-gesundheitsdiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnose-labordiagnose-biodiagnostik/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/biophysikalische-informationstherapie-bit/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/diagnostik-informationstherapie/": { hub: { href: "/nls-diagnostik/", label: "Diagnostik" }, items: DIAG },
+    "/bioresonanz-versus-elektroakupunktur/": {
+      hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" },
+      extra: { href: "/elektroakupunktur-nach-dr-voll-3/", label: "Elektroakupunktur" },
+      items: BIO
+    },
+    "/akupunktur-ohne-nadeln/": { hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" }, items: BIO },
+    "/150-mhz-befeldung-nach-broers-3/": {
+      hub: { href: "/bioresonanz-therapie/", label: "Bioresonanz" },
+      extra: { href: "/hinweisdiagnostik-frequenztherapie/", label: "Frequenztherapie als Hinweisdiagnostik" },
+      items: BIO
+    },
+    "/kinesiologie/": {
+      hub: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" },
+      extra: { href: "/naturheilkunde/", label: "Naturheilkunde" },
+      items: SCHMERZ
+    },
+    "/schmerztherapie-entstehung-von-schmerz/": { hub: { href: "/schmerztherapie-augsburg/", label: "Schmerztherapie" }, items: SCHMERZ },
+    "/zhineng-qigong/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/zhineng-qigong-nach-dr-pang-ming/": { hub: { href: "/psychotherapie-augsburg/", label: "Psychotherapie" }, items: PSY },
+    "/microkinesi-therapie/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/microkinesi-behandlungsmoeglichkeiten/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/microkinesi-therapie/", label: "Microkinesie" },
+      items: MAN
+    },
+    "/dorntherapie/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/osteopathie-techniken/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/physiotherapie-allgemeines/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/physiotherapie-taetigkeitsfelder/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/physiotherapie-allgemeines/", label: "Physiotherapie Allgemeines" },
+      items: MAN
+    },
+    "/integrative-manual-therapy-imt/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: MAN },
+    "/imt-denk-und-behandlungsansaetze/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/imt-behandlungsmoeglichkeiten/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/integrative-manual-therapy-die-begruender/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/funktionelle-strukturelle-rehabilitation/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/integrative-manual-therapy-imt/", label: "Integrative Manual Therapy" },
+      items: MAN
+    },
+    "/lowen-systems-allgemeines/": { hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" }, items: LOWEN },
+    "/lowen-systems-biovalent-system/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    },
+    "/lowen-systems-begruender-frank-lowen/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    },
+    "/lowen-systems-und-die-koerper-rhythmen/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    },
+    "/arbeit-mit-den-regulatoren/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    },
+    "/lowen-systems-und-die-koerpersysteme/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    },
+    "/lowen-systems-und-die-haende/": {
+      hub: { href: "/manuelle-therapieverfahren-uebersicht/", label: "Manuelle Verfahren" },
+      extra: { href: "/lowen-systems-allgemeines/", label: "Lowen Systems" },
+      items: LOWEN
+    }
+  };
+
+  var path = location.pathname.replace(/\/?$/, "/") || "/";
+  var cfg = MAP[path];
+  var nav = document.getElementById("eeat-cluster");
+  if (!cfg || !nav) return;
+
+  function a(href, label, current) {
+    var el = document.createElement("a");
+    el.href = HOST + href;
+    el.textContent = label;
+    if (current) el.setAttribute("aria-current", "page");
+    return el;
+  }
+
+  var p1 = document.createElement("p");
+  p1.appendChild(document.createTextNode("Übersicht: "));
+  p1.appendChild(a(cfg.hub.href, cfg.hub.label, false));
+  if (cfg.extra) {
+    p1.appendChild(document.createTextNode(" · "));
+    p1.appendChild(a(cfg.extra.href, cfg.extra.label, false));
+  }
+  nav.appendChild(p1);
+
+  var p2 = document.createElement("p");
+  p2.appendChild(document.createTextNode("Weitere Verfahren: "));
+  var shown = 0;
+  cfg.items.forEach(function (it) {
+    if (it.href === path) return;
+    if (shown) p2.appendChild(document.createTextNode(" · "));
+    p2.appendChild(a(it.href, it.label, false));
+    shown += 1;
+  });
+  if (shown) nav.appendChild(p2);
+
+  nav.hidden = false;
+  var disc = document.getElementById("eeat-disclaimer-author");
+  if (disc && disc.parentNode) disc.parentNode.insertBefore(nav, disc);
+})();
+</script>

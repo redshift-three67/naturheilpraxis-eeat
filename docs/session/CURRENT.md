@@ -135,6 +135,6 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 
 **Welle 16 live. WV-H2/DISC/W13/versus-Alts live.** Geo und Versus-Slug weiter offen.
 
-**Welle 17 live.** Als Nächstes: Du Kataloge/GBP; Kosten-FAQ nur mit Satz; Versus-Slug mit Freigabe.
+**Welle 18 live** (Versus-Slug+301, Kosten-FAQ, Article-Claim im DOM weg, Slider 240). Wiedervorlage: Fortbildungen, Cache, llms.txt, Ads. Du: GBP/Pin, Kataloge, Downloads.
 
 Audit Sitemap 64 URLs. Auswertung der Fremdpläne: `archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`.

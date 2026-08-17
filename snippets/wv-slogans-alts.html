@@ -30,9 +30,19 @@
       });
     });
   }
+  function cleanJsonLd() {
+    document.querySelectorAll('script.rank-math-schema, script[type="application/ld+json"]').forEach(function (s) {
+      var t = s.textContent || '';
+      if (!/loszuwerden|sanfte,? ganzheitliche Medizin/i.test(t)) return;
+      s.textContent = t
+        .replace(/Der neue Weg um damit verbundene Krankheitsbeschwerden loszuwerden/g, '')
+        .replace(/sanfte,? ganzheitliche Medizin/gi, '');
+    });
+  }
   function run() {
     hideSlogans();
     cleanAttrs();
+    cleanJsonLd();
   }
   run();
   document.addEventListener('DOMContentLoaded', run);
