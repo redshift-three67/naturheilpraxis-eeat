@@ -94,11 +94,18 @@ flowchart LR
 
 ---
 
-## Lage gegen „Heilpraktiker Augsburg“ (unverändert 16.08.)
+## Lage gegen „Heilpraktiker Augsburg“ (SERP 17.08., Google.de, pws=0)
 
-Wir sitzen **86163 Hochzoll**. Polinacea/Gaigl/Schmid/Prüfer-West sind Innenstadt oder anderes Stadtteil-Terrain. Nicht „zentral“ kopieren. Umkreis: Hochzoll, Friedberg, Lechhausen-Ost.
+**Local Pack (3er-Karte):** 1 Palat 4,9/19 · 2 soomia/Schedler 5,0/41 · **3 Naturheilpraxis Rauch 4,9/54**, 19a. Darunter ChiMed, Arendt, Prüfer.  
+Rauch zeigt im Pack **keine** Öffnungszeiten; Palat/soomia schon („Geöffnet“). Filterchip „Jetzt geöffnet“ würde uns verlieren.  
+**Maps** (Stadtmitte 48,37/10,89): Palat · Polina 5,0/103 · **Rauch** · Gaigl · soomia · Schybaj am Dom.
 
-Hebel 1–2 bleiben GBP/Pin und Schema-Geo. Kindseiten-EEAT (Hebel 6) ist live.
+**Organisch Seite 1 (Rauch nicht dabei):** Polinacea · Doctolib · Natural Medical Coach · Gaigl · Prüfer · Arendt · Paracelsus-Schule · Nejedli · Hessingpark.  
+Related: Innenstadt, Lechhausen, Darm, Kinder, Psychotherapie, Ausbildung. Chips: Innenstadt / Jetzt geöffnet / Lechhausen.
+
+Wir sitzen **86163 Hochzoll**. Innenstadt nicht imitieren. Natürlicher Umkreis: Hochzoll, Friedberg, Lechhausen-Ost.
+
+Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch: Start bleibt die Pillar; Hubs nur `[Verfahren] Augsburg`, nicht zweites „Heilpraktiker Augsburg“.
 
 ---
 
