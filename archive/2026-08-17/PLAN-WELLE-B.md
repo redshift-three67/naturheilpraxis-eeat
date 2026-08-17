@@ -25,7 +25,7 @@ Nicht in dieser Welle (nach allen Wellen + Durchsicht): neue Schriftfamilie, Far
 1. B-a/c/d/b2/f/g + B-b1 + B-e1 an bestehenden Snippets (ein Live-Batch CSS/JS).  
 2. B-e2 neue Seite + Cluster/Bar-Pfad + Footer-Link + Themen-Link.  
 3. Verify Mobil 390 / Desktop 1280, Start + 1–2 Hubs + neue Seite.  
-4. Kind-Abstände nur dort, wo doppelte Leerräume stören – **ohne** Bildkacheln.
+4. **Kind-Skala live 17.08.:** `eeat-type-a` gilt für alle Frontend-Seiten. Local-Bar weiter nur Start+Hubs. Bild+Text-Raster unverändert.
 
 ## Anamnese-Hub (Inhalt, HWG)
 

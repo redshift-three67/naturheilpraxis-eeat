@@ -83,7 +83,8 @@ h1.uk-heading-small,
   line-height: 1.55 !important;
 }
 
-/* Welle A: eine Skala nur Start + Hubs (html.eeat-type-a) */
+/* Eine Skala: Start, Hubs und Kindseiten (html.eeat-type-a) */
+html.eeat-type-a h1,
 html.eeat-type-a h1.uk-heading-medium,
 html.eeat-type-a h1.uk-heading-small,
 html.eeat-type-a .uk-section-muted h1 {
@@ -173,6 +174,7 @@ html.eeat-type-a .uk-grid > * > p:first-child {
   margin-bottom: 0.8em !important;
 }
 @media (max-width: 639px) {
+  html.eeat-type-a h1,
   html.eeat-type-a h1.uk-heading-medium,
   html.eeat-type-a h1.uk-heading-small,
   html.eeat-type-a .uk-section-muted h1 {
@@ -187,6 +189,7 @@ html.eeat-type-a .uk-grid > * > p:first-child {
   }
 }
 @media (min-width: 960px) {
+  html.eeat-type-a h1,
   html.eeat-type-a h1.uk-heading-medium,
   html.eeat-type-a h1.uk-heading-small,
   html.eeat-type-a .uk-section-muted h1 {
@@ -200,9 +203,23 @@ html.eeat-type-a .uk-grid > * > p:first-child {
 </style>
 <script>
 (function () {
-  if (!/^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$|\/online-anamnesebogen\/?$/.test(location.pathname)) return;
+  if (/^\/wp-admin|\/wp-login|\/wp-json/.test(location.pathname)) return;
   document.documentElement.classList.add('eeat-type-a');
   if (location.pathname === '/' || location.pathname === '') document.documentElement.classList.add('eeat-home');
+  function markSlogan() {
+    var nodes = document.querySelectorAll('h1, h2, h3, p, .uk-panel');
+    for (var i = 0; i < nodes.length; i++) {
+      var el = nodes[i];
+      if (el.querySelector && el.querySelector('h1')) continue;
+      if (el.closest && el.closest('.uk-slideshow')) continue;
+      var t = (el.textContent || '').replace(/\s+/g, ' ').trim();
+      if (!/Naturheilkundlich begleiten/i.test(t) || !/Stark im Leben/i.test(t)) continue;
+      if (t.length > 72) continue;
+      el.classList.add('eeat-slogan');
+      el.removeAttribute('hidden');
+      el.style.removeProperty('display');
+    }
+  }
   function markAblauf() {
     document.querySelectorAll('div.uk-h3').forEach(function (d) {
       if (/So l\u00e4uft ein Termin|So laeuft ein Termin|So läuft ein Termin/i.test(d.textContent || '')) {
@@ -235,19 +252,24 @@ html.eeat-type-a .uk-grid > * > p:first-child {
       if (p.closest('.uk-grid')) return;
       if (!(p.textContent || '').replace(/\s+/g, '').trim()) p.style.display = 'none';
     });
-    var themen = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
-      return /Themen zum Weiterlesen/i.test(p.textContent || '');
-    });
-    if (themen && themen.innerHTML.indexOf('/online-anamnesebogen/') === -1) {
-      themen.insertAdjacentHTML('beforeend', ' · <a href="https://rauch-heilpraktiker.de/online-anamnesebogen/">Anamnesebogen</a>');
+    if (location.pathname === '/' || location.pathname === '') {
+      var themen = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
+        return /Themen zum Weiterlesen/i.test(p.textContent || '');
+      });
+      if (themen && themen.innerHTML.indexOf('/online-anamnesebogen/') === -1) {
+        themen.insertAdjacentHTML('beforeend', ' · <a href="https://rauch-heilpraktiker.de/online-anamnesebogen/">Anamnesebogen</a>');
+      }
     }
   }
+  markSlogan();
   demoteLongH2();
   markSpecial();
   document.addEventListener('DOMContentLoaded', function () {
+    markSlogan();
     demoteLongH2();
     markSpecial();
   });
+  setTimeout(markSlogan, 400);
   setTimeout(demoteLongH2, 500);
   setTimeout(markSpecial, 500);
 })();

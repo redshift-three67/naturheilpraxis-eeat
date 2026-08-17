@@ -111,7 +111,7 @@ Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch:
 **Mobil 1–5 live:** Aktionszeile Anrufen/Route/Zeiten unter H1 (Start+Hubs), #7 Maps+Tel 44 px, NLS ohne Hospital/Hunter im Erstbild, leere/11-px-Überschriften, Cookie/Slider-Tap 44 px.
 
 **Typo A1–A4 live.** **Welle B live:** Slogan fett + H1-Kante; Bar 13–14 px links; Ziel wie Fokus; unteres Termin-Duplikat aus; Footer-Legal ohne Pipes; Hub `/online-anamnesebogen/`. Plan: `archive/2026-08-17/PLAN-WELLE-B.md`.  
-Kind-Wellen derselben Skala danach. Nach Durchsicht: neue Schriftfamilie, Rebrand.
+**Kind-Skala live:** `eeat-type-a` auf allen Frontend-Seiten (H1 28/36, Slogan 17/700, Fließtext 16,5). Local-Bar bleibt Start+Hubs. Bildraster unangetastet. Nach Durchsicht: neue Schriftfamilie, Rebrand.
 
 ---
 

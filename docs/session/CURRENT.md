@@ -132,6 +132,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 87. ~~MOB-1-5~~ Local-Bar Anrufen/Route/Zeiten; #7 Maps; NLS Hospital/Hunter; leere/11px-H; Tap 44 px
 88. ~~TYPO-A~~ Slogan sichtbar; Bar Icons links darunter; Skala Start+Hubs; CTA nach Ziel-Satz
 89. ~~WELLE-B~~ Slogan fett/fluchtend; Bar kleiner; Ziel=Fokus; Termin-Duplikat weg; Footer-Legal; Hub /online-anamnesebogen/
+90. ~~KIND-SKALA~~ Typo-Skala + Slogan 17/700 + Absatzrhythmus auf alle Frontend-Seiten; Bar nur Hubs
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
