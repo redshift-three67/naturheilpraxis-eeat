@@ -16,9 +16,8 @@
   }
   if (path === "/downloadbereich-naturheilpraxis-rauch/") {
     document.querySelectorAll('a[href*="/download/anamnese-bogen"]').forEach(function (a) {
-      a.href = "https://naturheilpraxis-rauch.lovable.app/";
-      a.target = "_blank";
-      a.rel = "noopener";
+      a.href = "https://rauch-heilpraktiker.de/online-anamnesebogen/";
+      a.removeAttribute("target");
     });
   }
 })();

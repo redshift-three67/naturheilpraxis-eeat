@@ -7,17 +7,57 @@
 #eeat-online-anamnese-pe{display:block;width:100%;margin:1.15rem auto 0;padding:0;text-align:center}
 #eeat-online-anamnese-pe .eeat-anamnese-btn{width:100%}
 #eeat-pe-stack{display:flex;flex-direction:column;align-items:center;margin:0 auto;text-align:center;width:100%;max-width:100%;flex:0 0 100%}
+.eeat-ana-slider{margin:0 0 1rem;overflow:hidden}
+.eeat-ana-slider,.eeat-ana-slider .uk-slideshow-items,.eeat-ana-slider .uk-slideshow-items>*{height:320px;max-height:320px}
+.eeat-ana-slider .eeat-ana-slide{position:relative;height:320px;max-height:320px;overflow:hidden}
+.eeat-ana-slider img{width:100%;height:100%;object-fit:cover;object-position:center}
+.eeat-ana-slider .uk-overlay{padding:10px 14px}
+@media (max-width:639px){
+.eeat-ana-slider,.eeat-ana-slider .uk-slideshow-items,.eeat-ana-slider .uk-slideshow-items>*,.eeat-ana-slider .eeat-ana-slide{height:240px;max-height:240px}
+}
 </style>
 <div id="eeat-online-anamnese" class="eeat-anamnese-wrap">
-  <a class="eeat-anamnese-btn" href="https://naturheilpraxis-rauch.lovable.app/" target="_blank" rel="noopener">
+  <a class="eeat-anamnese-btn" href="https://rauch-heilpraktiker.de/online-anamnesebogen/">
     <span class="eeat-anamnese-l1">Online-Anamnesebogen</span>
     <span class="eeat-anamnese-l2">Patientenaufnahme vor dem Termin</span>
   </a>
 </div>
 <script>
 (function () {
+  var HUB = 'https://rauch-heilpraktiker.de/online-anamnesebogen/';
+  function remapToHub() {
+    document.querySelectorAll('a[href*="lovable.app"]').forEach(function (a) {
+      if (a.classList.contains('eeat-anamnese-app-link')) return;
+      if (!/anamnes/i.test((a.textContent || '') + a.href)) return;
+      a.href = HUB;
+      a.removeAttribute('target');
+    });
+  }
+  remapToHub();
+  document.addEventListener('DOMContentLoaded', remapToHub);
+  setTimeout(remapToHub, 400);
   var src = document.getElementById('eeat-online-anamnese');
   if (!src) return;
+  if (/\/online-anamnesebogen\/?$/.test(location.pathname)) {
+    if (src.parentNode) src.parentNode.removeChild(src);
+    function initAnaSlider() {
+      var el = document.querySelector('.eeat-ana-slider');
+      if (!el || !window.UIkit || !UIkit.slideshow) return;
+      if (!el.__uikit__) {
+        UIkit.slideshow(el, {
+          animation: 'fade',
+          autoplay: true,
+          'autoplay-interval': 6500,
+          'min-height': 240,
+          'max-height': 320,
+        });
+      }
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAnaSlider);
+    else initAnaSlider();
+    setTimeout(initAnaSlider, 400);
+    return;
+  }
   function placeAfterZiel() {
     if (location.pathname !== '/') return false;
     var ziel = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
@@ -58,11 +98,24 @@
     });
     return true;
   }
+  function remapSliderToHub() {
+    document.querySelectorAll('.uk-slideshow a[href*="lovable.app"]').forEach(function (a) {
+      if (!/anamnes/i.test((a.textContent || '') + a.href)) return;
+      a.href = HUB;
+      a.removeAttribute('target');
+    });
+  }
   if (location.pathname === '/' || location.pathname === '') {
     placeAfterZiel();
-    document.addEventListener('DOMContentLoaded', placeAfterZiel);
+    remapSliderToHub();
+    document.addEventListener('DOMContentLoaded', function () {
+      placeAfterZiel();
+      remapSliderToHub();
+    });
     setTimeout(placeAfterZiel, 400);
+    setTimeout(remapSliderToHub, 400);
     setTimeout(placeAfterZiel, 1200);
+    setTimeout(remapSliderToHub, 1200);
     return;
   }
   function after(el, node) {

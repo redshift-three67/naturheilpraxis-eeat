@@ -135,6 +135,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 90. ~~KIND-SKALA~~ Typo-Skala + Slogan 17/700 + Absatzrhythmus auf alle Frontend-Seiten; Bar nur Hubs
 91. ~~SLIDER/INTRO~~ Overlay mobil skaliert; NLS-Layer Metatron Hospital; H2 Hospital System; Start-Intro zentriert
 92. ~~CTA/BNI/FAQ~~ Start-CTAs mittig; BNI max 72/110; FAQ-Link Anamnese-Hub; leere Absätze aus
+93. ~~ANA-MENU-FAQ~~ Menü/CTA auf `/online-anamnesebogen/`; App nur vom Hub; Hub-Slider; FAQ 01–06 strukturiert
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 

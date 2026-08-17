@@ -1,0 +1,124 @@
+<style id="eeat-ux-mobile">
+a[href*="bni.de"] img,
+img[alt*="BNI"],
+img[data-src*="BNI-Unternehmen"] {
+  max-width: 110px !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+}
+@media (max-width: 639px) {
+  a[href*="bni.de"] img,
+  img[alt*="BNI"],
+  img[data-src*="BNI-Unternehmen"] {
+    max-width: 72px !important;
+  }
+}
+#nav_menu-7 .uk-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px 0;
+  padding: 10px 8px 14px;
+}
+#nav_menu-7 .uk-nav > li { width: auto; list-style: none; }
+#nav_menu-7 a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  color: #2a2622 !important;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.3;
+}
+#nav_menu-7 a:hover,
+#nav_menu-7 a:focus {
+  outline: 2px solid #8ec760;
+  outline-offset: 2px;
+}
+#nav_menu-7 li + li::before {
+  content: "·";
+  color: #666;
+  font-weight: 400;
+  margin: 0 2px 0 6px;
+}
+@media (max-width: 639px) {
+  .uk-visible\@s:has(#nav_menu-7),
+  #nav_menu-7.uk-visible\@s {
+    display: block !important;
+  }
+  #nav_menu-7.uk-card {
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 10px 12px 18px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #nav_menu-7 .uk-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px 8px;
+  }
+  #nav_menu-7 .uk-nav > li { width: auto; }
+  .cc-window.cc-banner {
+    padding: 8px 14px 10px !important;
+    font-size: 13px !important;
+    line-height: 1.35 !important;
+  }
+  .cc-window.cc-banner .cc-message {
+    margin: 0 0 4px !important;
+    display: block !important;
+  }
+  .cc-window.cc-banner .cc-link { font-size: 16px !important; }
+  .cc-window.cc-banner .cc-btn,
+  .cc-window.cc-banner .cc-compliance .cc-btn {
+    min-height: 44px !important;
+    min-width: 44px !important;
+    padding: 10px 16px !important;
+    font-size: 16px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .uk-slideshow a.uk-button,
+  .uk-slideshow .uk-button,
+  .uk-slideshow .el-content a {
+    min-height: 44px !important;
+    padding: 10px 14px !important;
+    font-size: 16px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1.25 !important;
+  }
+}
+</style>
+<script>
+(function () {
+  function bni() {
+    document.querySelectorAll('a[href*="bni.de"] img, img[alt*="BNI"]').forEach(function (img) {
+      img.setAttribute('sizes', '(max-width: 639px) 72px, 110px');
+      img.style.maxWidth = window.innerWidth < 640 ? '72px' : '110px';
+      img.style.height = 'auto';
+    });
+  }
+  function legal() {
+    document.querySelectorAll("#nav_menu-7 a").forEach(function (a) {
+      var t = (a.textContent || "").replace(/\s*\|\s*$/g, "").replace(/^\s*\|\s*/g, "").trim();
+      if (t) a.textContent = t;
+      if (/lovable\.app/i.test(a.href) && /anamnes/i.test(a.textContent + a.href)) {
+        a.href = "https://rauch-heilpraktiker.de/online-anamnesebogen/";
+        a.removeAttribute("target");
+      }
+    });
+  }
+  bni();
+  legal();
+  document.addEventListener("DOMContentLoaded", function () { bni(); legal(); });
+  setTimeout(function () { bni(); legal(); }, 400);
+  setTimeout(bni, 1400);
+})();
+</script>

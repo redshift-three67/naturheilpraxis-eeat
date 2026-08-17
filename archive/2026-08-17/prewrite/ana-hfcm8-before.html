@@ -1,0 +1,128 @@
+<style>
+.eeat-anamnese-wrap{display:block;width:100%;max-width:none;flex:0 0 100%;margin:1.15rem auto 0;padding:0;text-align:center}
+.eeat-anamnese-btn{display:block;width:100%;max-width:450px;margin-left:auto;margin-right:auto;box-sizing:border-box;background:#bebaa0;color:#2a2622!important;text-decoration:none!important;padding:14px 20px;border:2px solid #8ec760;box-shadow:2px 3px 6px rgba(25,20,17,.35);font-family:"Open Sans",sans-serif;line-height:1.3;text-align:center}
+.eeat-anamnese-btn:hover{filter:brightness(1.06);color:#2a2622!important}
+.eeat-anamnese-l1{display:block;font-size:16px;font-weight:400}
+.eeat-anamnese-l2{display:block;font-size:12px;font-weight:400;opacity:.88;margin-top:3px}
+#eeat-online-anamnese-pe{display:block;width:100%;margin:1.15rem auto 0;padding:0;text-align:center}
+#eeat-online-anamnese-pe .eeat-anamnese-btn{width:100%}
+#eeat-pe-stack{display:flex;flex-direction:column;align-items:center;margin:0 auto;text-align:center;width:100%;max-width:100%;flex:0 0 100%}
+</style>
+<div id="eeat-online-anamnese" class="eeat-anamnese-wrap">
+  <a class="eeat-anamnese-btn" href="https://naturheilpraxis-rauch.lovable.app/" target="_blank" rel="noopener">
+    <span class="eeat-anamnese-l1">Online-Anamnesebogen</span>
+    <span class="eeat-anamnese-l2">Patientenaufnahme vor dem Termin</span>
+  </a>
+</div>
+<script>
+(function () {
+  var src = document.getElementById('eeat-online-anamnese');
+  if (!src) return;
+  function placeAfterZiel() {
+    if (location.pathname !== '/') return false;
+    var ziel = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
+      return /Ziel der Arbeit ist mehr/i.test((p.textContent || '').replace(/\s+/g, ' '));
+    });
+    if (!ziel) return false;
+    var pair = document.getElementById('eeat-cta-pair');
+    if (!pair) {
+      pair = document.createElement('div');
+      pair.id = 'eeat-cta-pair';
+    }
+    var terminHref = 'https://www.provenexpert.com/naturheilpraxis-rauch/?mode=preview#appointment';
+    var existing = document.querySelector('a[href*="provenexpert.com"][href*="appointment"], a[href*="provenexpert.com/naturheilpraxis-rauch"]');
+    if (existing && existing.href) terminHref = existing.href;
+    var terminBtn = pair.querySelector('.eeat-termin-btn');
+    if (!terminBtn) {
+      terminBtn = document.createElement('a');
+      terminBtn.className = 'eeat-anamnese-btn eeat-termin-btn';
+      terminBtn.href = terminHref;
+      terminBtn.target = '_blank';
+      terminBtn.rel = 'noopener';
+      terminBtn.innerHTML = '<span class="eeat-anamnese-l1">Jetzt Termin buchen</span>';
+      pair.appendChild(terminBtn);
+    }
+    if (src.parentNode !== pair) pair.appendChild(src);
+    src.style.margin = '0';
+    ziel.style.visibility = 'visible';
+    if (ziel.parentElement) ziel.parentElement.style.visibility = 'visible';
+    pair.style.visibility = 'visible';
+    if (ziel.nextElementSibling !== pair) {
+      ziel.insertAdjacentElement('afterend', pair);
+    }
+    Array.prototype.forEach.call(document.querySelectorAll('h3, .el-title, a'), function (el) {
+      if (el.closest('#eeat-cta-pair')) return;
+      if (!/Jetzt\s+Termin\s+buchen/i.test((el.textContent || '').replace(/\s+/g, ' '))) return;
+      var card = el.closest('a.el-item, .uk-card, .uk-margin-small, .uk-margin');
+      if (card && !card.querySelector('#eeat-cta-pair')) card.style.setProperty('display', 'none', 'important');
+    });
+    return true;
+  }
+  if (location.pathname === '/' || location.pathname === '') {
+    placeAfterZiel();
+    document.addEventListener('DOMContentLoaded', placeAfterZiel);
+    setTimeout(placeAfterZiel, 400);
+    setTimeout(placeAfterZiel, 1200);
+    return;
+  }
+  function after(el, node) {
+    if (!el || !el.parentNode) return false;
+    el.parentNode.insertBefore(node, el.nextSibling);
+    return true;
+  }
+  function peImg() {
+    return document.querySelector('img[data-src*="provenexpert"], img[src*="provenexpert"], img[alt*="Kundenbewertungen"]');
+  }
+  var termin = Array.prototype.find.call(document.querySelectorAll('h3, a, .el-title'), function (el) {
+    return /Jetzt\s+Termin\s+buchen/i.test((el.textContent || '').replace(/\s+/g, ' '));
+  });
+  var pe = peImg();
+  if (termin) {
+    var card = termin.closest('a.el-item, .uk-card, .uk-margin-small') || termin.parentElement;
+    after(card, src);
+  }
+  if (pe) {
+    var wrap = pe.closest('a') || pe.parentElement;
+    if (termin) {
+      var clone = src.cloneNode(true);
+      clone.id = 'eeat-online-anamnese-pe';
+      after(wrap, clone);
+    } else {
+      after(wrap, src);
+    }
+    var stack = document.getElementById('eeat-pe-stack');
+    if (!stack && wrap && wrap.parentNode) {
+      stack = document.createElement('div');
+      stack.id = 'eeat-pe-stack';
+      wrap.parentNode.insertBefore(stack, wrap);
+      stack.appendChild(wrap);
+      var peBtn = document.getElementById('eeat-online-anamnese-pe');
+      if (peBtn) stack.appendChild(peBtn);
+    }
+  }
+  function fitPeWidth() {
+    var img = peImg();
+    var box = document.getElementById('eeat-online-anamnese-pe');
+    var stack = document.getElementById('eeat-pe-stack');
+    if (!img || !box) return;
+    var w = Math.round(img.getBoundingClientRect().width);
+    if (w < 80) return;
+    box.style.width = w + 'px';
+    box.style.maxWidth = '100%';
+    box.style.marginLeft = 'auto';
+    box.style.marginRight = 'auto';
+    if (stack) {
+      stack.style.width = '100%';
+      stack.style.maxWidth = '100%';
+    }
+  }
+  if (pe) {
+    pe.addEventListener('load', fitPeWidth);
+    if (window.MutationObserver) {
+      new MutationObserver(fitPeWidth).observe(pe, { attributes: true, attributeFilter: ['src', 'srcset', 'class', 'style', 'data-src'] });
+    }
+  }
+  window.addEventListener('resize', fitPeWidth);
+  [200, 600, 1400, 2800].forEach(function (t) { setTimeout(fitPeWidth, t); });
+})();
+</script>

@@ -1,0 +1,25 @@
+<div id="eeat-w11-corona" style="display:none;max-width:1100px;margin:1rem auto 0;padding:0.85rem 1.5rem;border:1px solid #ddd;font-size:1rem;line-height:1.55;color:#2a2622;">
+  <p style="margin:0;">Dieser Corona-Hinweis ist ein historischer Praxistext und nicht mehr aktuell. Die Naturheilpraxis Rauch ist geöffnet. Aktuelle Fragen bitte über <a href="https://rauch-heilpraktiker.de/kontakt/">Kontakt</a> oder telefonisch unter <a href="tel:+498212621462">0821 2621462</a>.</p>
+</div>
+<script>
+(function () {
+  var path = location.pathname.replace(/\/?$/, "/") || "/";
+  if (path === "/corona-praxis-offen/") {
+    var box = document.getElementById("eeat-w11-corona");
+    if (box) {
+      box.style.display = "block";
+      var disc = document.getElementById("eeat-disclaimer-author");
+      var main = document.querySelector(".tm-main, main, article");
+      if (main && main.firstElementChild) main.insertBefore(box, main.firstElementChild);
+      else if (disc && disc.parentNode) disc.parentNode.insertBefore(box, disc);
+    }
+  }
+  if (path === "/downloadbereich-naturheilpraxis-rauch/") {
+    document.querySelectorAll('a[href*="/download/anamnese-bogen"]').forEach(function (a) {
+      a.href = "https://naturheilpraxis-rauch.lovable.app/";
+      a.target = "_blank";
+      a.rel = "noopener";
+    });
+  }
+})();
+</script>

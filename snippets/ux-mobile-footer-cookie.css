@@ -109,7 +109,10 @@ img[data-src*="BNI-Unternehmen"] {
     document.querySelectorAll("#nav_menu-7 a").forEach(function (a) {
       var t = (a.textContent || "").replace(/\s*\|\s*$/g, "").replace(/^\s*\|\s*/g, "").trim();
       if (t) a.textContent = t;
-      if (/lovable\.app/i.test(a.href) && /anamnes/i.test(a.textContent + a.href)) {
+    });
+    document.querySelectorAll(".uk-navbar a, .tm-header a, #tm-mobile a, #nav_menu-7 a, nav a").forEach(function (a) {
+      if (a.classList.contains("eeat-anamnese-app-link")) return;
+      if (/lovable\.app/i.test(a.href) && /anamnes/i.test((a.textContent || "") + a.href)) {
         a.href = "https://rauch-heilpraktiker.de/online-anamnesebogen/";
         a.removeAttribute("target");
       }
