@@ -112,7 +112,8 @@ Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch:
 
 **Typo A1–A4 live.** **Welle B live:** Slogan fett + H1-Kante; Bar 13–14 px links; Ziel wie Fokus; unteres Termin-Duplikat aus; Footer-Legal ohne Pipes; Hub `/online-anamnesebogen/`. Plan: `archive/2026-08-17/PLAN-WELLE-B.md`.  
 **Kind-Skala live:** `eeat-type-a` auf allen Frontend-Seiten (H1 28/36, Slogan 17/700, Fließtext 16,5). Local-Bar bleibt Start+Hubs. Bildraster unangetastet. Nach Durchsicht: neue Schriftfamilie, Rebrand.  
-**ANA-MENU-FAQ live:** Menüpunkt und interne Anamnese-Links auf `/online-anamnesebogen/`; App erst vom Hub; Slider auf der Hub-Seite; FAQ als nummerierte Karten (E-E-A-T, ein Disclaimer).
+**ANA-MENU-FAQ live:** Menüpunkt und interne Anamnese-Links auf `/online-anamnesebogen/`; App erst vom Hub; Slider auf der Hub-Seite; FAQ als nummerierte Karten (E-E-A-T, ein Disclaimer).  
+**Slider/Leer/Hub-Punkt live:** Anamnese nutzt den Slider von `/bioresonanz-therapie/`; leere YOO-Panels zu; Hub-Links im Menü mit 6-px-Kreis.
 
 ---
 

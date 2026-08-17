@@ -335,13 +335,47 @@ html.eeat-type-a .uk-grid > * > p:first-child {
       if (/Therapieverfahren von Peter Rauch/i.test(t) && t.length < 120) el.classList.add('eeat-h-verfahren');
       if (/Weitere m[\u00f6o]gliche Therapieverfahren/i.test(t) && t.length < 140) el.classList.add('eeat-h-weitere');
     });
-    document.querySelectorAll('.uk-section p, .uk-section h2.uk-h3, .uk-section h3.uk-h3').forEach(function (el) {
-      if (el.closest('.uk-grid, .uk-slideshow, #eeat-cta-pair, #eeat-local-bar')) return;
-      if (!(el.textContent || '').replace(/\s+/g, '').trim() && !el.querySelector('img, iframe, svg')) {
-        el.style.setProperty('display', 'none', 'important');
-        el.style.setProperty('margin', '0', 'important');
-        el.style.setProperty('padding', '0', 'important');
-        el.style.setProperty('min-height', '0', 'important');
+    function isEmptyBlock(el) {
+      if (!el || el.closest('.uk-slideshow, #eeat-cta-pair, #eeat-local-bar, header, footer, nav, .uk-navbar')) return false;
+      var cell = el.closest('.uk-grid > *');
+      if (cell && cell.querySelector('img, iframe, svg, video, .uk-slideshow')) return false;
+      if (el.querySelector('img, iframe, svg, video, canvas, form, input, .uk-slideshow')) return false;
+      var raw = (el.innerHTML || '').replace(/<br\s*\/?>/gi, '').replace(/&nbsp;/gi, '').replace(/\u00a0/g, '');
+      var t = (el.textContent || '').replace(/\u00a0/g, ' ').replace(/\s+/g, '').trim();
+      return !t && !/<img|<iframe|<svg|<video|<canvas|<form|<input/i.test(raw);
+    }
+    function collapse(el) {
+      el.style.setProperty('display', 'none', 'important');
+      el.style.setProperty('margin', '0', 'important');
+      el.style.setProperty('padding', '0', 'important');
+      el.style.setProperty('min-height', '0', 'important');
+      el.style.setProperty('height', '0', 'important');
+      el.style.setProperty('overflow', 'hidden', 'important');
+      el.setAttribute('aria-hidden', 'true');
+    }
+    document.querySelectorAll('.uk-section p, .uk-section h2, .uk-section h3, .uk-section h4, .uk-panel, article p, article h2, article h3').forEach(function (el) {
+      if (isEmptyBlock(el)) collapse(el);
+    });
+    document.querySelectorAll('.uk-panel, .uk-margin').forEach(function (el) {
+      if (el.closest('.uk-slideshow, header, footer, nav')) return;
+      var cell = el.closest('.uk-grid > *');
+      if (cell && cell.querySelector('img, iframe, svg, video, .uk-slideshow')) return;
+      var kids = [...el.children].filter(function (c) { return getComputedStyle(c).display !== 'none'; });
+      if (!kids.length && isEmptyBlock(el)) collapse(el);
+    });
+    document.querySelectorAll('.uk-grid > *').forEach(function (cell) {
+      if (cell.closest('.uk-slideshow, header, footer, nav')) return;
+      if (cell.querySelector('img, iframe, svg, video, .uk-slideshow')) return;
+      var vis = [...cell.children].filter(function (c) { return getComputedStyle(c).display !== 'none'; });
+      var t = (cell.textContent || '').replace(/\u00a0/g, ' ').replace(/\s+/g, '').trim();
+      if (!t && !vis.length) collapse(cell);
+    });
+    document.querySelectorAll('.uk-section p, .uk-section h2, .uk-section h3, .uk-panel, article p').forEach(function (el) {
+      if (el.closest('.uk-slideshow')) return;
+      var cs = getComputedStyle(el);
+      if (cs.visibility === 'hidden' && (el.textContent || '').replace(/\s+/g, '').trim()) {
+        el.style.setProperty('visibility', 'visible', 'important');
+        el.style.setProperty('opacity', '1', 'important');
       }
     });
     document.querySelectorAll('.uk-section br').forEach(function (br) {

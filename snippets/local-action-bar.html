@@ -65,6 +65,38 @@ html.eeat-type-a h2.eeat-slogan {
   #eeat-local-bar a,
   #eeat-local-bar .eeat-local-hours { font-size: 13px; padding: 7px 10px 7px 8px; }
 }
+.tm-header .uk-navbar-dropdown a.eeat-hub-link,
+#tm-mobile a.eeat-hub-link,
+.uk-offcanvas a.eeat-hub-link {
+  position: relative;
+}
+.tm-header .uk-navbar-dropdown a.eeat-hub-link::before,
+#tm-mobile a.eeat-hub-link::before,
+.uk-offcanvas a.eeat-hub-link::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 7px 0 0;
+  border-radius: 50%;
+  background: #8ec760;
+  vertical-align: middle;
+  flex: 0 0 6px;
+}
+.uk-navbar-nav > li > a.eeat-hub-link {
+  position: relative;
+  padding-left: 14px;
+}
+.uk-navbar-nav > li > a.eeat-hub-link::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8ec760;
+}
 </style>
 <nav id="eeat-local-bar" aria-label="Praxis erreichen">
   <a href="tel:+498212621462">
@@ -84,6 +116,26 @@ html.eeat-type-a h2.eeat-slogan {
 (function () {
   var ok = /^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$|\/online-anamnesebogen\/?$/.test(location.pathname);
   var bar = document.getElementById("eeat-local-bar");
+  function markHubs() {
+    var hubs = {
+      "/nls-diagnostik/": 1,
+      "/bioresonanz-und-elektroakupunktur/": 1,
+      "/naturheilkunde/": 1,
+      "/psychotherapie-augsburg/": 1,
+      "/manuelle-therapieverfahren-uebersicht/": 1,
+      "/schmerztherapie-augsburg/": 1,
+      "/online-anamnesebogen/": 1
+    };
+    document.querySelectorAll(".uk-navbar a, #tm-mobile a, .uk-offcanvas a").forEach(function (a) {
+      var href = a.getAttribute("href") || "";
+      if (href.indexOf("#tm-mobile") !== -1) return;
+      if (/^\s*Menü\s*$/i.test(a.textContent || "")) return;
+      var path = (a.pathname || "").replace(/\/?$/, "/") || "/";
+      if (hubs[path]) a.classList.add("eeat-hub-link");
+    });
+  }
+  markHubs();
+  document.addEventListener("DOMContentLoaded", markHubs);
   if (!ok) {
     if (bar && bar.parentNode) bar.parentNode.removeChild(bar);
     return;

@@ -1,0 +1,133 @@
+<style id="eeat-local-bar-css">
+#eeat-local-bar {
+  display: none;
+  width: 100%;
+  max-width: none;
+  margin: 0.5rem 0 0.25rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+#eeat-local-bar.is-on {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 8px;
+}
+#eeat-local-bar a,
+#eeat-local-bar .eeat-local-hours {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 12px 8px 10px;
+  border: 1px solid #2a2622;
+  color: #2a2622 !important;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  background: #fff;
+  box-sizing: border-box;
+}
+#eeat-local-bar a:focus,
+#eeat-local-bar a:hover {
+  outline: 2px solid #8ec760;
+  outline-offset: 2px;
+}
+#eeat-local-bar svg {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+#eeat-local-bar .eeat-local-hours {
+  border-style: dashed;
+}
+html.eeat-type-a .eeat-slogan,
+html.eeat-type-a .uk-section .eeat-slogan,
+html.eeat-type-a .uk-panel.eeat-slogan,
+html.eeat-type-a h2.eeat-slogan {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  color: #2a2622 !important;
+  margin: 0.35rem 0 0 !important;
+  display: block !important;
+}
+@media (max-width: 639px) {
+  html.eeat-type-a .eeat-slogan,
+  html.eeat-type-a .uk-section .eeat-slogan,
+  html.eeat-type-a h2.eeat-slogan { font-size: 17px !important; font-weight: 700 !important; }
+  #eeat-local-bar a,
+  #eeat-local-bar .eeat-local-hours { font-size: 13px; padding: 7px 10px 7px 8px; }
+}
+</style>
+<nav id="eeat-local-bar" aria-label="Praxis erreichen">
+  <a href="tel:+498212621462">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.35 1.9.66 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.31 1.85.53 2.81.66A2 2 0 0 1 22 16.92z"/></svg>
+    Anrufen
+  </a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Friedrich-Deffner-Stra%C3%9Fe+19a%2C+86163+Augsburg" target="_blank" rel="noopener">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    Route
+  </a>
+  <span class="eeat-local-hours">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    Mo–Fr 10–12:30 / 13–19
+  </span>
+</nav>
+<script>
+(function () {
+  var ok = /^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$|\/online-anamnesebogen\/?$/.test(location.pathname);
+  var bar = document.getElementById("eeat-local-bar");
+  if (!ok) {
+    if (bar && bar.parentNode) bar.parentNode.removeChild(bar);
+    return;
+  }
+  document.documentElement.classList.add("eeat-type-a");
+  function textOf(el) {
+    return (el.textContent || "").replace(/\s+/g, " ").trim();
+  }
+  function sloganEl() {
+    var nodes = document.querySelectorAll("h1, h2, h3, p, .uk-panel");
+    var best = null;
+    var bestLen = 1e9;
+    for (var i = 0; i < nodes.length; i++) {
+      var el = nodes[i];
+      if (el.id === "eeat-local-bar" || (el.closest && el.closest("#eeat-local-bar"))) continue;
+      if (el.querySelector && el.querySelector("h1")) continue;
+      var t = textOf(el);
+      if (!/Naturheilkundlich begleiten/i.test(t) || !/Stark im Leben/i.test(t)) continue;
+      if (t.length > 72) continue;
+      if (t.length < bestLen) {
+        best = el;
+        bestLen = t.length;
+      }
+    }
+    return best;
+  }
+  function place() {
+    var h1 = document.querySelector("h1");
+    var s = sloganEl();
+    if (s) {
+      s.classList.add("eeat-slogan");
+      s.removeAttribute("hidden");
+      s.style.removeProperty("display");
+    }
+    var anchor = s || h1;
+    if (!anchor || !bar) return;
+    if (anchor.nextElementSibling === bar && bar.classList.contains("is-on")) return;
+    anchor.insertAdjacentElement("afterend", bar);
+    bar.classList.add("is-on");
+  }
+  place();
+  document.addEventListener("DOMContentLoaded", place);
+  window.addEventListener("load", place);
+  setTimeout(place, 200);
+  setTimeout(place, 800);
+})();
+</script>
