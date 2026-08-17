@@ -1,4 +1,6 @@
-<style id="eeat-wv-slogans"></style>
+<style id="eeat-wv-slogans">
+h1:empty, h2:empty, h3:empty, h4:empty { display: none !important; }
+</style>
 <script>
 (function () {
   var SLOGAN = /^(Sanft\s*Heilen|Naturheilkundlich begleiten)(\s*[–\-—]\s*Stark im Leben!?|\s*[–\-—]\s*Stark im Leben…)?$/i;
@@ -6,12 +8,48 @@
     return (el.textContent || '').replace(/\s+/g, ' ').trim();
   }
   function hideSlogans() {
-    document.querySelectorAll('h1, h2, h3, .el-title, .uk-slideshow .uk-overlay, .uk-slideshow .el-content').forEach(function (el) {
-      if (el.closest('#eeat-disclaimer-author, #eeat-cluster, footer, .tm-footer')) return;
-      if (SLOGAN.test(textOf(el))) {
+    document.querySelectorAll('h1, h2, h3, p, .el-title, .uk-panel, .uk-slideshow .uk-overlay, .uk-slideshow .el-content').forEach(function (el) {
+      if (el.closest('#eeat-disclaimer-author, #eeat-cluster, footer, .tm-footer, #eeat-local-bar')) return;
+      var t = textOf(el);
+      if (
+        SLOGAN.test(t) ||
+        /^Sanft\s*heilen\.?$/i.test(t) ||
+        (/Naturheilkundlich begleiten/i.test(t) && /Stark im Leben/i.test(t) && t.length < 90)
+      ) {
         el.setAttribute('hidden', '');
         el.style.display = 'none';
       }
+    });
+  }
+  function hideEmptyHeadings() {
+    document.querySelectorAll('h1, h2, h3, h4').forEach(function (h) {
+      if (!textOf(h)) {
+        h.setAttribute('hidden', '');
+        h.style.display = 'none';
+      }
+    });
+  }
+  function demoteTinyHeadings() {
+    document.querySelectorAll('h2, h3').forEach(function (h) {
+      if (h.closest('.uk-slideshow, #eeat-disclaimer-author, #eeat-cluster')) return;
+      var fs = parseFloat(window.getComputedStyle(h).fontSize);
+      if (!(fs < 14) || !textOf(h)) return;
+      var p = document.createElement('p');
+      p.className = h.className;
+      p.innerHTML = h.innerHTML;
+      h.parentNode.replaceChild(p, h);
+    });
+  }
+  function cleanHospitalTitles() {
+    document.querySelectorAll('.uk-slideshow .el-title, .uk-slideshow h2, .uk-slideshow h3, h2, h3').forEach(function (el) {
+      var t = el.innerHTML;
+      if (!/Hospital|Hunter/i.test(t)) return;
+      var n = t
+        .replace(/NLS-Diagnostik\s*[–\-—]\s*Metatron Hospital/gi, 'NLS-Diagnostik')
+        .replace(/Metatron\s*Hospital/gi, 'NLS-Diagnostik')
+        .replace(/\s*[–\-—]\s*vormals Metatron Hunter/gi, '')
+        .replace(/Metatron Hunter/gi, 'NLS');
+      if (n !== t) el.innerHTML = n;
     });
   }
   function cleanAttrs() {
@@ -41,6 +79,9 @@
   }
   function run() {
     hideSlogans();
+    hideEmptyHeadings();
+    demoteTinyHeadings();
+    cleanHospitalTitles();
     cleanAttrs();
     cleanJsonLd();
   }
@@ -49,5 +90,6 @@
   window.addEventListener('load', run);
   setTimeout(run, 400);
   setTimeout(run, 1500);
+  setTimeout(run, 2800);
 })();
 </script>

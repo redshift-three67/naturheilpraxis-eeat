@@ -1,0 +1,72 @@
+<style id="eeat-local-bar-css">
+#eeat-local-bar {
+  display: none;
+  max-width: 1100px;
+  margin: 0.65rem auto 0.35rem;
+  padding: 0 1.25rem;
+}
+#eeat-local-bar.is-on {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: stretch;
+}
+#eeat-local-bar a,
+#eeat-local-bar .eeat-local-hours {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid #2a2622;
+  color: #2a2622 !important;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.25;
+  background: #fff;
+  box-sizing: border-box;
+}
+#eeat-local-bar a:focus {
+  outline: 2px solid #8ec760;
+  outline-offset: 2px;
+}
+#eeat-local-bar .eeat-local-hours {
+  border-style: dashed;
+  font-weight: 400;
+}
+@media (max-width: 639px) {
+  #eeat-local-bar.is-on {
+    padding: 0 0.85rem;
+  }
+  #eeat-local-bar a,
+  #eeat-local-bar .eeat-local-hours {
+    flex: 1 1 30%;
+    min-width: 96px;
+  }
+}
+</style>
+<nav id="eeat-local-bar" aria-label="Praxis erreichen">
+  <a href="tel:+498212621462">Anrufen</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Friedrich-Deffner-Stra%C3%9Fe+19a%2C+86163+Augsburg" target="_blank" rel="noopener">Route</a>
+  <span class="eeat-local-hours">Mo–Fr 10–12:30 / 13–19</span>
+</nav>
+<script>
+(function () {
+  var ok = /^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$/.test(location.pathname);
+  var bar = document.getElementById("eeat-local-bar");
+  if (!ok || !bar) {
+    if (bar && bar.parentNode) bar.parentNode.removeChild(bar);
+    return;
+  }
+  function place() {
+    var h1 = document.querySelector("h1");
+    if (!h1 || bar.classList.contains("is-on") && h1.nextElementSibling === bar) return;
+    h1.insertAdjacentElement("afterend", bar);
+    bar.classList.add("is-on");
+  }
+  place();
+  document.addEventListener("DOMContentLoaded", place);
+  window.addEventListener("load", place);
+  setTimeout(place, 400);
+})();
+</script>

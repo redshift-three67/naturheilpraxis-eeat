@@ -1,0 +1,53 @@
+<style id="eeat-wv-slogans"></style>
+<script>
+(function () {
+  var SLOGAN = /^(Sanft\s*Heilen|Naturheilkundlich begleiten)(\s*[–\-—]\s*Stark im Leben!?|\s*[–\-—]\s*Stark im Leben…)?$/i;
+  function textOf(el) {
+    return (el.textContent || '').replace(/\s+/g, ' ').trim();
+  }
+  function hideSlogans() {
+    document.querySelectorAll('h1, h2, h3, .el-title, .uk-slideshow .uk-overlay, .uk-slideshow .el-content').forEach(function (el) {
+      if (el.closest('#eeat-disclaimer-author, #eeat-cluster, footer, .tm-footer')) return;
+      if (SLOGAN.test(textOf(el))) {
+        el.setAttribute('hidden', '');
+        el.style.display = 'none';
+      }
+    });
+  }
+  function cleanAttrs() {
+    document.querySelectorAll('img').forEach(function (img) {
+      ['alt', 'title'].forEach(function (attr) {
+        var v = img.getAttribute(attr);
+        if (!v) return;
+        var n = v
+          .replace(/Sanft\s*Heilen(\s*Stark im Leben)?/gi, '')
+          .replace(/Bioresonanz versus Elektroakupunktur/gi, 'Bioresonanz und Elektroakupunktur')
+          .replace(/\s*[-–]\s*$/g, '')
+          .replace(/^\s*[-–]\s*/g, '')
+          .replace(/\s{2,}/g, ' ')
+          .trim();
+        if (n !== v) img.setAttribute(attr, n);
+      });
+    });
+  }
+  function cleanJsonLd() {
+    document.querySelectorAll('script.rank-math-schema, script[type="application/ld+json"]').forEach(function (s) {
+      var t = s.textContent || '';
+      if (!/loszuwerden|sanfte,? ganzheitliche Medizin/i.test(t)) return;
+      s.textContent = t
+        .replace(/Der neue Weg um damit verbundene Krankheitsbeschwerden loszuwerden/g, '')
+        .replace(/sanfte,? ganzheitliche Medizin/gi, '');
+    });
+  }
+  function run() {
+    hideSlogans();
+    cleanAttrs();
+    cleanJsonLd();
+  }
+  run();
+  document.addEventListener('DOMContentLoaded', run);
+  window.addEventListener('load', run);
+  setTimeout(run, 400);
+  setTimeout(run, 1500);
+})();
+</script>

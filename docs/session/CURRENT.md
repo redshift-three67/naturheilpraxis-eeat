@@ -129,6 +129,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 84. ~~SPEED-LCP~~ HFCM #9: Preload + erstes Folien-`src`/`eager`/`high`
 85. ~~CACHE~~ WP Super Cache Simple + Excludes; andere Speed-Plugins bleiben aus
 86. ~~LOCAL-HUB~~ Titles/H1 mit Augsburg (5 URLs); Start-Lage + FAQ Wo liegt die Praxis?
+87. ~~MOB-1-5~~ Local-Bar Anrufen/Route/Zeiten; #7 Maps; NLS Hospital/Hunter; leere/11px-H; Tap 44 px
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
