@@ -47,14 +47,32 @@
   }
 }
 </style>
+<link id="eeat-lcp-preload" rel="preload" as="image" fetchpriority="high" href="/wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-b4177a22.jpeg" imagesrcset="/wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-b4177a22.jpeg 768w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-a2d2c22c.jpeg 947w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-525731a2.jpeg 1024w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-6beb5584.jpeg 1366w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-5d460ce9.jpeg 1600w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-e21846ab.jpeg 1894w" imagesizes="100vw">
 <script>
 (function () {
+  function dropWrongPreload() {
+    document.querySelectorAll('link[rel="preload"][as="image"]').forEach(function (l) {
+      var h = l.getAttribute('href') || '';
+      if (/section-dark-background|uikit-themes\/master-florence/.test(h) || l.getAttribute('data-od-added-tag') !== null) {
+        l.parentNode && l.parentNode.removeChild(l);
+      }
+    });
+  }
   function apply() {
+    dropWrongPreload();
     var slides = document.querySelectorAll('.uk-slideshow-items > *');
     slides.forEach(function (li, i) {
       var img = li.querySelector('img');
       if (!img) return;
       if (i === 0) {
+        var ds = img.getAttribute('data-src');
+        if (ds && !img.getAttribute('src')) img.setAttribute('src', ds);
+        var dss = img.getAttribute('data-srcset');
+        if (dss && !img.getAttribute('srcset')) img.setAttribute('srcset', dss);
+        var dw = img.getAttribute('data-width');
+        var dh = img.getAttribute('data-height');
+        if (dw && !img.getAttribute('width')) img.setAttribute('width', dw);
+        if (dh && !img.getAttribute('height')) img.setAttribute('height', dh);
         img.loading = 'eager';
         img.setAttribute('loading', 'eager');
         img.fetchPriority = 'high';

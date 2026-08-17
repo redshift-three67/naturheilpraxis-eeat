@@ -126,6 +126,8 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 81. ~~WV-H2 / WV-DISC / WV-W13~~ HFCM #15 + Hahnemann/Heilmed-Reste
 82. ~~WV-VERSUS Alts~~ live; Slug offen
 83. WV-RM Article-JSON weiter offen (kein Rank-Math-Feld)
+84. ~~SPEED-LCP~~ HFCM #9: Preload + erstes Folien-`src`/`eager`/`high`
+85. ~~CACHE~~ WP Super Cache Simple + Excludes; andere Speed-Plugins bleiben aus
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 
@@ -135,6 +137,9 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 
 **Welle 16 live. WV-H2/DISC/W13/versus-Alts live.** Geo und Versus-Slug weiter offen.
 
-**Welle 18 live** (Versus-Slug+301, Kosten-FAQ, Article-Claim im DOM weg, Slider 240). Wiedervorlage: Fortbildungen, Cache, llms.txt, Ads. Du: GBP/Pin, Kataloge, Downloads.
+**Welle 18 live** (Versus-Slug+301, Kosten-FAQ, Article-Claim im DOM weg, Slider 240).  
+**SPEED-LCP live:** HFCM #9 Preload erstes Folienbild + `src`/`eager`/`high`; OD-SVG-Preload wird entfernt.  
+**CACHE live:** WP Super Cache Simple; Exclude `/kontakt`, `/anamnese`, `wp-json`, GET, Login. Autoptimize/AssetCleanUp/Async/SpeedBooster bleiben aus.  
+Wiedervorlage: Fortbildungen, llms.txt, Ads. Du: GBP/Pin, Kataloge, Downloads, Plesk-Cache-Control Statik.
 
 Audit Sitemap 64 URLs. Auswertung der Fremdpläne: `archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`.

@@ -68,10 +68,11 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 | ID | Inhalt |
 |----|--------|
 | **LOC-GEO** | Schema-Koordinaten der 19a | **live** 48.339465, 10.948931 (17.08.) |
-| **SPEED** | Mobil-LCP (CSS/JS); Cache-Plugin nur mit Exclude (Formulare, Consent, Admin) |
-| **LLMS** | `/llms.txt` optional, nur NAP + Hubs, keine Claims |
-| **SEM** | Ads-Pilot nach Pin/NAP; Landings = Start + 7 Hubs |
-| **QUALI** | Fortbildungen/Werdegang nur mit von Dir gelieferten Nachweisen |
+| **SPEED-LCP** | Slider 240 px + LCP-Preload + erstes Folien-`src` (HFCM #9) | **live** 17.08. |
+| **CACHE** | WP Super Cache, Simple, Exclude Kontakt/wp-json/GET/Login | **live** 17.08. |
+| **LLMS** | `/llms.txt` optional, nur NAP + Hubs, keine Claims | Wiedervorlage |
+| **SEM** | Ads-Pilot nach Pin/NAP; Landings = Start + 7 Hubs | Wiedervorlage |
+| **QUALI** | Fortbildungen/Werdegang nur mit von Dir gelieferten Nachweisen | Wiedervorlage |
 
 ---
 
@@ -79,7 +80,7 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 
 **Nicht** noch eine Kindseiten-Textwelle.  
 **Zuerst Du:** Pin + NAP (das schlägt jede FAQ).  
-**Welle 17 live** (Notfall-FAQ, Skip-Link, Schema-Hygiene). Kosten-FAQ weiter nur mit Deinem Satz.
+**Welle 17–18 live. LCP-Preload + Super Cache live.** Offen bei Dir: GBP-Zugang/Pin, Kataloge, Downloads, Corona, Reviews, Plesk-Cache-Control für Statik. Wiedervorlage: Fortbildungen, llms.txt, Ads.
 
 Reihenfolge nach Nutzen:
 

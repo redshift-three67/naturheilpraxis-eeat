@@ -1,0 +1,127 @@
+<style id="eeat-speed-slider-mobile">
+@media (prefers-reduced-motion: reduce) {
+  .uk-slideshow .uk-animation-kenburns { animation: none !important; transform: none !important; }
+}
+/* RESP-01: Slider bis Laptop, nicht nur <960 */
+@media (max-width: 1399px) {
+  .uk-slideshow .uk-animation-kenburns {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+@media (max-width: 639px) {
+  .uk-slideshow,
+  .uk-slideshow-items,
+  .uk-slideshow-items > * {
+    min-height: 180px !important;
+    height: 240px !important;
+    max-height: 240px !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 1399px) {
+  .uk-slideshow,
+  .uk-slideshow-items,
+  .uk-slideshow-items > * {
+    min-height: 260px !important;
+    height: 380px !important;
+    max-height: 380px !important;
+  }
+}
+@media (max-width: 1399px) {
+  .uk-slideshow,
+  .uk-slideshow-items,
+  .uk-slideshow-items > * {
+    overflow: hidden !important;
+  }
+  .uk-slideshow img,
+  .uk-slideshow .uk-cover,
+  .uk-slideshow [uk-cover] {
+    object-fit: cover !important;
+    width: 100% !important;
+    max-height: 100% !important;
+  }
+  .uk-card img,
+  .el-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+</style>
+<script>
+(function () {
+  function apply() {
+    var slides = document.querySelectorAll('.uk-slideshow-items > *');
+    slides.forEach(function (li, i) {
+      var img = li.querySelector('img');
+      if (!img) return;
+      if (i === 0) {
+        img.loading = 'eager';
+        img.setAttribute('loading', 'eager');
+        img.fetchPriority = 'high';
+        img.setAttribute('fetchpriority', 'high');
+      } else {
+        img.loading = 'lazy';
+        img.setAttribute('loading', 'lazy');
+        img.fetchPriority = 'low';
+        img.setAttribute('fetchpriority', 'low');
+      }
+      /* YOO setzt sizes auf 150vh → Mobil lädt 1583px. Hero ist vollbreit. */
+      img.setAttribute('sizes', '100vw');
+    });
+    document.querySelectorAll('.uk-section img, .uk-card img, .el-image img').forEach(function (img) {
+      if (img.closest('.uk-slideshow')) return;
+      if (!img.getAttribute('sizes')) {
+        img.setAttribute('sizes', '(max-width: 639px) 92vw, (max-width: 959px) 46vw, 360px');
+      }
+      if (img.getAttribute('loading') !== 'eager' && img.fetchPriority !== 'high') {
+        img.loading = 'lazy';
+        img.setAttribute('loading', 'lazy');
+      }
+    });
+    document.querySelectorAll('a[href*="naturheilpraxis-rauch.lovable.app"]').forEach(function (a) {
+      if (!/\bnoopener\b/.test(a.rel || '')) a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener';
+    });
+    document.querySelectorAll('img[alt*="Hospital"], img[src*="Hospital"]').forEach(function (img) {
+      var a = img.getAttribute('alt') || '';
+      if (/Hospital/i.test(a)) img.setAttribute('alt', a.replace(/Metatron\s*Hospital/gi, 'NLS').replace(/Hospital/gi, 'NLS'));
+    });
+    var w = window.innerWidth || document.documentElement.clientWidth;
+    var max = w <= 639 ? 240 : w <= 1399 ? 380 : null;
+    if (max) {
+      document.querySelectorAll('.uk-slideshow, .uk-slideshow-items, .uk-slideshow-items > *').forEach(function (el) {
+        if (el.offsetHeight > max + 2) {
+          el.style.setProperty('height', max + 'px', 'important');
+          el.style.setProperty('max-height', max + 'px', 'important');
+          el.style.setProperty('overflow', 'hidden', 'important');
+        }
+      });
+    }
+  }
+  var mo;
+  var ticking = false;
+  function watch() {
+    if (mo || !window.MutationObserver) return;
+    var nodes = document.querySelectorAll('.uk-slideshow, .uk-slideshow-items');
+    if (!nodes.length) return;
+    mo = new MutationObserver(function () { apply(); });
+    nodes.forEach(function (el) {
+      mo.observe(el, { attributes: true, attributeFilter: ['style', 'class'] });
+    });
+  }
+  function run() {
+    if (ticking) return;
+    ticking = true;
+    apply();
+    watch();
+    ticking = false;
+  }
+  run();
+  document.addEventListener('DOMContentLoaded', run);
+  window.addEventListener('load', run);
+  window.addEventListener('resize', run);
+  setTimeout(run, 50);
+  setTimeout(run, 400);
+  setTimeout(run, 1200);
+  setTimeout(run, 2500);
+})();
+</script>

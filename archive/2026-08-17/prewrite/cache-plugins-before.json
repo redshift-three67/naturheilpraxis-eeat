@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-17",
+  "step": "CACHE-01 WP Super Cache",
+  "page_cache_plugin": null,
+  "html_cache_control": "max-age=0",
+  "x_cache_status": "MISS",
+  "inactive_speed_plugins": [
+    "autoptimize",
+    "wp-asset-clean-up",
+    "async-javascript",
+    "speed-booster-pack",
+    "optimole-wp"
+  ],
+  "active_perf": [
+    "performance-lab",
+    "optimization-detective",
+    "image-prioritizer",
+    "auto-sizes",
+    "shortpixel-image-optimiser"
+  ],
+  "note": "Kein Page-Cache-Plugin installiert. Autoptimize/AssetCleanUp/Async/SpeedBooster bleiben AUS."
+}
