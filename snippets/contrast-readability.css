@@ -138,6 +138,39 @@ html.eeat-type-a #eeat-cta-pair .eeat-termin-btn {
   margin: 0;
   text-align: center;
   min-height: 44px;
+  visibility: visible !important;
+}
+html.eeat-type-a #eeat-cta-pair {
+  visibility: visible !important;
+}
+html.eeat-type-a .eeat-ziel,
+html.eeat-type-a p.eeat-ziel,
+html.eeat-type-a div.uk-h3 > p.eeat-ziel,
+html.eeat-type-a .eeat-fokus,
+html.eeat-type-a h2.eeat-fokus,
+html.eeat-type-a h3.eeat-fokus {
+  font-size: 21px !important;
+  font-weight: 500 !important;
+  line-height: 1.35 !important;
+  margin: 0.65em 0 !important;
+}
+html.eeat-type-a .eeat-h-verfahren,
+html.eeat-type-a h2.eeat-h-verfahren,
+html.eeat-type-a h3.eeat-h-verfahren,
+html.eeat-type-a h3.el-title.eeat-h-verfahren,
+html.eeat-type-a .eeat-h-weitere,
+html.eeat-type-a h2.eeat-h-weitere,
+html.eeat-type-a h3.eeat-h-weitere {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 1.3 !important;
+}
+html.eeat-type-a .uk-section p {
+  margin-top: 0 !important;
+  margin-bottom: 0.8em !important;
+}
+html.eeat-type-a .uk-grid > * > p:first-child {
+  margin-bottom: 0.8em !important;
 }
 @media (max-width: 639px) {
   html.eeat-type-a h1.uk-heading-medium,
@@ -167,8 +200,9 @@ html.eeat-type-a #eeat-cta-pair .eeat-termin-btn {
 </style>
 <script>
 (function () {
-  if (!/^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$/.test(location.pathname)) return;
+  if (!/^\/$|\/nls-diagnostik\/?$|\/bioresonanz-und-elektroakupunktur\/?$|\/naturheilkunde\/?$|\/psychotherapie-augsburg\/?$|\/manuelle-therapieverfahren-uebersicht\/?$|\/schmerztherapie-augsburg\/?$|\/online-anamnesebogen\/?$/.test(location.pathname)) return;
   document.documentElement.classList.add('eeat-type-a');
+  if (location.pathname === '/' || location.pathname === '') document.documentElement.classList.add('eeat-home');
   function markAblauf() {
     document.querySelectorAll('div.uk-h3').forEach(function (d) {
       if (/So l\u00e4uft ein Termin|So laeuft ein Termin|So läuft ein Termin/i.test(d.textContent || '')) {
@@ -189,8 +223,32 @@ html.eeat-type-a #eeat-cta-pair .eeat-termin-btn {
       h.parentNode.replaceChild(p, h);
     });
   }
+  function markSpecial() {
+    document.querySelectorAll('h2, h3, p, div.uk-h3').forEach(function (el) {
+      var t = (el.textContent || '').replace(/\s+/g, ' ').trim();
+      if (/zentrale Fokus der therapeutischen Arbeit/i.test(t) && t.length < 160) el.classList.add('eeat-fokus');
+      if (/^Ziel der Arbeit ist mehr/i.test(t) && t.length < 160) el.classList.add('eeat-ziel');
+      if (/Therapieverfahren von Peter Rauch/i.test(t) && t.length < 120) el.classList.add('eeat-h-verfahren');
+      if (/Weitere m[\u00f6o]gliche Therapieverfahren/i.test(t) && t.length < 140) el.classList.add('eeat-h-weitere');
+    });
+    document.querySelectorAll('.uk-section p').forEach(function (p) {
+      if (p.closest('.uk-grid')) return;
+      if (!(p.textContent || '').replace(/\s+/g, '').trim()) p.style.display = 'none';
+    });
+    var themen = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
+      return /Themen zum Weiterlesen/i.test(p.textContent || '');
+    });
+    if (themen && themen.innerHTML.indexOf('/online-anamnesebogen/') === -1) {
+      themen.insertAdjacentHTML('beforeend', ' · <a href="https://rauch-heilpraktiker.de/online-anamnesebogen/">Anamnesebogen</a>');
+    }
+  }
   demoteLongH2();
-  document.addEventListener('DOMContentLoaded', demoteLongH2);
+  markSpecial();
+  document.addEventListener('DOMContentLoaded', function () {
+    demoteLongH2();
+    markSpecial();
+  });
   setTimeout(demoteLongH2, 500);
+  setTimeout(markSpecial, 500);
 })();
 </script>

@@ -44,14 +44,17 @@
     }
     if (src.parentNode !== pair) pair.appendChild(src);
     src.style.margin = '0';
+    ziel.style.visibility = 'visible';
+    if (ziel.parentElement) ziel.parentElement.style.visibility = 'visible';
+    pair.style.visibility = 'visible';
     if (ziel.nextElementSibling !== pair) {
       ziel.insertAdjacentElement('afterend', pair);
     }
-    Array.prototype.forEach.call(document.querySelectorAll('h3, .el-title'), function (el) {
+    Array.prototype.forEach.call(document.querySelectorAll('h3, .el-title, a'), function (el) {
       if (el.closest('#eeat-cta-pair')) return;
-      if (!/^Jetzt\s+Termin\s+buchen$/i.test((el.textContent || '').replace(/\s+/g, ' ').trim())) return;
-      var card = el.closest('a.el-item, .uk-card, .uk-margin-small');
-      if (card) card.style.display = 'none';
+      if (!/Jetzt\s+Termin\s+buchen/i.test((el.textContent || '').replace(/\s+/g, ' '))) return;
+      var card = el.closest('a.el-item, .uk-card, .uk-margin-small, .uk-margin');
+      if (card && !card.querySelector('#eeat-cta-pair')) card.style.setProperty('display', 'none', 'important');
     });
     return true;
   }
