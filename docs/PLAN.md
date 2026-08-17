@@ -67,7 +67,7 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 
 | ID | Inhalt |
 |----|--------|
-| **LOC-GEO** | Schema-Koordinaten der 19a – **nach Pin** |
+| **LOC-GEO** | Schema-Koordinaten der 19a | **live** 48.339465, 10.948931 (17.08.) |
 | **SPEED** | Mobil-LCP (CSS/JS); Cache-Plugin nur mit Exclude (Formulare, Consent, Admin) |
 | **LLMS** | `/llms.txt` optional, nur NAP + Hubs, keine Claims |
 | **SEM** | Ads-Pilot nach Pin/NAP; Landings = Start + 7 Hubs |
@@ -112,7 +112,7 @@ Historie der Wellen: `archive/2026-08-15/` und `archive/2026-08-16/` (WELLE-12�
 ## Offen bei Dir (Checkliste)
 
 1. GBP: Friedrich-Deffner-Straße 19a, 86163 Augsburg-Hochzoll, 0821 2621462, `https://rauch-heilpraktiker.de`.  
-2. Pin auf der 19a + **Breite/Länge**.  
+2. ~~Pin-Koordinaten~~ live im Schema (48.339465 / 10.948931). GBP-Pin selbst setzen, sobald der Zugang da ist.  
 3. Öffnungszeiten bestätigen.  
 4. areaServed bestätigen oder streichen.  
 5. Seefelder Str. 20 weg.  
