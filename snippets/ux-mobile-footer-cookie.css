@@ -1,4 +1,19 @@
 <style id="eeat-ux-mobile">
+a[href*="bni.de"] img,
+img[alt*="BNI"],
+img[data-src*="BNI-Unternehmen"] {
+  max-width: 110px !important;
+  width: auto !important;
+  height: auto !important;
+  display: block;
+}
+@media (max-width: 639px) {
+  a[href*="bni.de"] img,
+  img[alt*="BNI"],
+  img[data-src*="BNI-Unternehmen"] {
+    max-width: 72px !important;
+  }
+}
 #nav_menu-7 .uk-nav {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +98,13 @@
 </style>
 <script>
 (function () {
+  function bni() {
+    document.querySelectorAll('a[href*="bni.de"] img, img[alt*="BNI"]').forEach(function (img) {
+      img.setAttribute('sizes', '(max-width: 639px) 72px, 110px');
+      img.style.maxWidth = window.innerWidth < 640 ? '72px' : '110px';
+      img.style.height = 'auto';
+    });
+  }
   function legal() {
     document.querySelectorAll("#nav_menu-7 a").forEach(function (a) {
       var t = (a.textContent || "").replace(/\s*\|\s*$/g, "").replace(/^\s*\|\s*/g, "").trim();
@@ -93,8 +115,10 @@
       }
     });
   }
+  bni();
   legal();
-  document.addEventListener("DOMContentLoaded", legal);
-  setTimeout(legal, 400);
+  document.addEventListener("DOMContentLoaded", function () { bni(); legal(); });
+  setTimeout(function () { bni(); legal(); }, 400);
+  setTimeout(bni, 1400);
 })();
 </script>

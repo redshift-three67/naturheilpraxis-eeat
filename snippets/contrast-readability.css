@@ -139,11 +139,6 @@ html.eeat-home #eeat-ablauf,
 html.eeat-home #eeat-ablauf p {
   text-align: center !important;
 }
-html.eeat-home #eeat-cta-pair {
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 html.eeat-type-a #eeat-cta-pair {
   display: flex;
   flex-direction: column;
@@ -151,6 +146,18 @@ html.eeat-type-a #eeat-cta-pair {
   gap: 10px;
   margin: 0.85rem 0 1rem;
   max-width: 450px;
+}
+html.eeat-home #eeat-cta-pair {
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  max-width: 450px;
+}
+html.eeat-home #eeat-cta-pair .eeat-anamnese-wrap,
+html.eeat-home #eeat-cta-pair .eeat-anamnese-btn {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 html.eeat-type-a #eeat-cta-pair .eeat-anamnese-btn,
 html.eeat-type-a #eeat-cta-pair .eeat-termin-btn {
@@ -189,6 +196,13 @@ html.eeat-type-a h3.eeat-h-weitere {
 html.eeat-type-a .uk-section p {
   margin-top: 0 !important;
   margin-bottom: 0.8em !important;
+}
+html.eeat-type-a h2.uk-h3:empty,
+html.eeat-type-a h3.uk-h3:empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
 }
 html.eeat-type-a .uk-grid > * > p:first-child {
   margin-bottom: 0.8em !important;
@@ -321,9 +335,19 @@ html.eeat-type-a .uk-grid > * > p:first-child {
       if (/Therapieverfahren von Peter Rauch/i.test(t) && t.length < 120) el.classList.add('eeat-h-verfahren');
       if (/Weitere m[\u00f6o]gliche Therapieverfahren/i.test(t) && t.length < 140) el.classList.add('eeat-h-weitere');
     });
-    document.querySelectorAll('.uk-section p').forEach(function (p) {
-      if (p.closest('.uk-grid')) return;
-      if (!(p.textContent || '').replace(/\s+/g, '').trim()) p.style.display = 'none';
+    document.querySelectorAll('.uk-section p, .uk-section h2.uk-h3, .uk-section h3.uk-h3').forEach(function (el) {
+      if (el.closest('.uk-grid, .uk-slideshow, #eeat-cta-pair, #eeat-local-bar')) return;
+      if (!(el.textContent || '').replace(/\s+/g, '').trim() && !el.querySelector('img, iframe, svg')) {
+        el.style.setProperty('display', 'none', 'important');
+        el.style.setProperty('margin', '0', 'important');
+        el.style.setProperty('padding', '0', 'important');
+        el.style.setProperty('min-height', '0', 'important');
+      }
+    });
+    document.querySelectorAll('.uk-section br').forEach(function (br) {
+      var n = br.nextSibling;
+      while (n && n.nodeType === 3 && !(n.nodeValue || '').trim()) n = n.nextSibling;
+      if (n && n.nodeName === 'BR') br.style.display = 'none';
     });
     if (location.pathname === '/' || location.pathname === '') {
       var themen = Array.prototype.find.call(document.querySelectorAll('p'), function (p) {
