@@ -259,6 +259,24 @@ Typo-Endstand (Tokens, keine Pixel-Religion):
 
 ---
 
+## Phase 14 – Google Business (19.08.2026)
+
+Betreiber im Live-Profil. Kein Website-Write.
+
+| ID | Schritt | Was ein Entwickler wissen muss | Archiv |
+|----|---------|--------------------------------|--------|
+| GBP-DUP | Kein Seefelder-Profil | Nicht mergen | `archive/2026-08-19/GBP-PROFIL.md` |
+| GBP-PIN | Pin 19a Hochzoll | Ziel `48.339465, 10.948931` | dasselbe |
+| GBP-HOURS | Mo–Fr 10:00–12:30 und 13:00–19:00 | Zwei Intervalle = Site/#6/#17 | dasselbe |
+| GBP-AREA | 86163 Pflicht; 86316 behalten; 86165 optional | Nicht nur Friedberg; Adresse bleibt sichtbar | dasselbe |
+| GBP-CAT | Haupt Heilpraktiker, Neben Naturheilpraktiker | Kein Arzt/Psychotherapeut/Wellness | dasselbe |
+| GBP-ATTR | Planung/Parken/Zahlung wahr; Notfallhilfe aus | Site: 112 / 116 117 | dasselbe |
+| GBP-ADS | 1–2 Wochen Pause | Erst Pack „Geöffnet“ prüfen | `08-uebertragbare-erkenntnisse.md` |
+
+Detail: `07-google-business.md`.
+
+---
+
 ## Plesk / Hosting (Betreiber, parallel)
 
 | ID | Wer | Was |

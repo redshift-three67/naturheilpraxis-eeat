@@ -127,16 +127,17 @@ Historie der Wellen: `archive/2026-08-15/` und `archive/2026-08-16/` (WELLE-12�
 
 ## Offen bei Dir (Checkliste)
 
-1. GBP: Friedrich-Deffner-Straße 19a, 86163 Augsburg-Hochzoll, 0821 2621462, `https://rauch-heilpraktiker.de`.  
-2. ~~Pin-Koordinaten~~ live im Schema (48.339465 / 10.948931). GBP-Pin selbst setzen, sobald der Zugang da ist.  
-3. Öffnungszeiten bestätigen.  
-4. areaServed bestätigen oder streichen.  
-5. Seefelder Str. 20 weg.  
+1. ~~GBP NAP/Pin/Zeiten/Kategorien/Einzugsgebiet/Attribute~~ **19.08.** Profil live; Detail `docs/entwickler-handover-eeat-2026-08/07-google-business.md`.  
+2. ~~Pin-Koordinaten~~ live im Schema und Profil (48.339465 / 10.948931, 19a).  
+3. ~~Öffnungszeiten~~ Mo–Fr 10–12:30 / 13–19 im Profil = Site. Pack in 1–2 Wochen auf „Geöffnet“ prüfen.  
+4. areaServed in #6 nur ändern, wenn der GBP-Umkreis abweicht.  
+5. ~~Seefelder Str. 20~~ kein GBP-Duplikat (19.08.).  
 6. Downloads oder Buttons.  
 7. Corona-Menü.  
 8. Google-Rezension bitten.  
 9. Apple Business Connect / Bing Places gleiche NAP.  
-10. Optional: Kosten-Satz und Notfall-Wortlaut gegenzeichnen, Fortbildungsnachweise.
+10. Optional: Kosten-Satz und Notfall-Wortlaut gegenzeichnen, Fortbildungsnachweise.  
+11. Ads-Pilot erst nach Pack-Check (Search, Start+Hubs).
 
 ---
 

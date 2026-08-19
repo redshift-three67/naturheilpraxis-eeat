@@ -2,28 +2,28 @@
 
 On-page E-E-A-T ist im Wesentlichen **durch**. Das Folgende ist bewusst offen oder verboten.
 
-## Beim Betreiber (höherer Hebel als jede Seitenänderung)
+## GBP (19.08. erledigt)
+
+Pin 19a, Zeiten, Einzugsgebiet (nicht nur Friedberg), Hauptkategorie Heilpraktiker, Neben Naturheilpraktiker, Attribute wahr / keine Notfallhilfe. Kein Seefelder-Duplikat. Siehe `07-google-business.md`.
+
+## Beim Betreiber (kein Blocker)
 
 | ID | Thema | Warum |
 |----|--------|--------|
-| GBP-PIN | Maps-Pin auf 19a | Schema hat 48.339465 / 10.948931; der sichtbare Pin muss im Unternehmensprofil sitzen |
-| GBP-NAP | Name, Kategorie Heilpraktiker, Adresse 19a, Tel, URL | Local Pack |
-| HOURS | Profil-Stunden = Site (Mo–Fr 10–12:30 / 13–19) | Pack zeigt bei Rauch keine Zeiten |
-| NAP-SEE | Seefelder Str. 20 überall weg | Falscher Standort |
-| AREA | areaServed bestätigen oder aus #6 streichen | Augsburg / Hochzoll / Friedberg |
 | REVIEWS | Neutral um Bewertung bitten, keine Textvorlage | 4,9/54 schon da, Pflege |
 | CITATIONS | Apple Business Connect, Bing Places = dieselbe NAP | Konsistenz |
 | DL | Fünf tote `/download/…` hochladen oder Buttons entfernen | 404 → Start |
 | CORONA | Menüpunkt lassen oder raus | Seite ist noindex |
+| AREA-SCHEMA | areaServed in HFCM #6 nur anfassen, wenn GBP-Umkreis abweicht | Site und Profil sollen gleich bleiben |
 
 ## Wiedervorlage (nicht jetzt)
 
 | ID | Thema | Bedingung |
 |----|--------|-----------|
-| FONT | Neue Schriftfamilie | Nach Durchsicht aller Wellen |
+| FONT | Neue Schriftfamilie | **Kein E-E-A-T-Rest.** Nur optisches Rebrand, bewusst nicht in der Serie |
 | REBRAND | Farbe/CI | Nach Durchsicht |
 | LLMS | `/llms.txt` nur NAP + Hubs, keine Claims | Optional |
-| SEM | Ads-Pilot | Nach Pin/NAP; Landings nur Start + Hubs |
+| SEM | Ads-Pilot Search, Start+Hubs | Nach 1–2 Wochen Pack-Check; siehe `08-uebertragbare-erkenntnisse.md` |
 | QUALI | Fortbildungen/Werdegang | Nur mit gelieferten Nachweisen |
 | WV-RM | Rank-Math-Article-JSON Rohquelle | Kein Feld gefunden; DOM ist sauber |
 

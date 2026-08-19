@@ -18,6 +18,7 @@ Alle Phasen sind **live_verified**, sofern nicht als „Betreiber“ oder „Wie
 | 11 | Hygiene Welle 17–18 | 17.08. | Notfall, Skip, Slug, Kosten, LCP 240 | #16 Skip, Versus-301, FAQ Kosten/Notfall |
 | 12 | Lokal, Mobil, Typo A/B | 17.08. | Hochzoll sichtbar, Mobil nutzbar, eine Skala | Local-Bar, Hub-Titles, Typo A, Welle B, Kind-Skala |
 | 13 | Anamnese-Hub, FAQ, Menü | 17.08. | App nur über Unterseite; FAQ als Karten | Seite 6705, Menü 12/39, FAQ 01–06, Slider-Klon Bioresonanz |
+| 14 | Google Business | 19.08. | Profil = Site; Pack-Hebel Zeiten/Pin/Kategorie | 19a, Stunden, 86163+Friedberg, Heilpraktiker + Naturheilpraktiker, Attribute wahr |
 
 ## Abhängigkeit (grob)
 

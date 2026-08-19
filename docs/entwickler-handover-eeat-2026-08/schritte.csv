@@ -98,3 +98,9 @@ phase,phase_name,id,date,status,ort,kurz,archiv
 12,Lokal-Mobil-Typo,CTA-BNI,2026-08-17,live,HFCM#8#10,CTAs mittig BNI 72/110,docs/session/CURRENT.md
 13,Anamnese-FAQ,ANA-MENU-FAQ,2026-08-17,live,WP+HFCM#7#8,Menü=Hub FAQ-Karten,archive/2026-08-17/ANA-MENU-FAQ.md
 13,Anamnese-FAQ,SLIDER-GAPS-HUB,2026-08-17,live,WP+HFCM#8#11#17,Bio-Slider-Klon Leerblöcke Hub-Punkt,archive/2026-08-17/SLIDER-GAPS-HUBMARK.md
+14,Google-Business,GBP-DUP,2026-08-19,live,GBP,kein Seefelder-Profil,archive/2026-08-19/GBP-PROFIL.md
+14,Google-Business,GBP-PIN,2026-08-19,live,GBP,Pin 19a Hochzoll,archive/2026-08-19/GBP-PROFIL.md
+14,Google-Business,GBP-HOURS,2026-08-19,live,GBP,Mo-Fr 10-12:30 und 13-19,archive/2026-08-19/GBP-PROFIL.md
+14,Google-Business,GBP-AREA,2026-08-19,live,GBP,86163 plus Friedberg nicht nur 86316,archive/2026-08-19/GBP-PROFIL.md
+14,Google-Business,GBP-CAT,2026-08-19,live,GBP,Haupt Heilpraktiker Neben Naturheilpraktiker,archive/2026-08-19/GBP-PROFIL.md
+14,Google-Business,GBP-ATTR,2026-08-19,live,GBP,Attribute wahr keine Notfallhilfe,archive/2026-08-19/GBP-PROFIL.md
