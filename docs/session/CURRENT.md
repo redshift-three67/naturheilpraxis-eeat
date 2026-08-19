@@ -137,6 +137,7 @@ noindex-SEO-Plugin: **0/110 Optionen an** – nur Konflikt-Warnung, keine global
 92. ~~CTA/BNI/FAQ~~ Start-CTAs mittig; BNI max 72/110; FAQ-Link Anamnese-Hub; leere Absätze aus
 93. ~~ANA-MENU-FAQ~~ Menü/CTA auf `/online-anamnesebogen/`; App nur vom Hub; Hub-Slider; FAQ 01–06 strukturiert
 94. ~~SLIDER-GAPS-HUB~~ Anamnese-Slider = Klon `/bioresonanz-therapie/`; leere Panels zu; Hub-Punkt im Menü
+95. ~~HANDOVER-DOK~~ Entwickler-Ordner `docs/entwickler-handover-eeat-2026-08/` (Phasen 0–13, CSV, HFCM-Karte)
 
 CDP-Hinweis: nach „Layout speichern“ `process.exit(0)` – kein `page.close()`. Der „hängende Customizer“ war Playwright beim Schließen des Tabs, nicht ein fehlgeschlagenes Speichern. Untere YOO-Textkacheln erst nach `scrollTop = scrollHeight` sichtbar.
 

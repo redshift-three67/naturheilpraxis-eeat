@@ -1,0 +1,100 @@
+phase,phase_name,id,date,status,ort,kurz,archiv
+0,Fundament,SESSION-CDP,2026-08-14,live,Server,CDP 9224 exklusiv,archive/2026-08-14/SESSION-START-CDP.md
+0,Fundament,SESSION-LOGIN,2026-08-14,live,WP,Admin Redshift-Three,archive/2026-08-14/SESSION-ADMIN-LOGIN.md
+0,Fundament,CHECKPOINT,2026-08-14,live,Repo,Restore-Punkt,archive/2026-08-14/CHECKPOINT-2026-08-14.md
+0,Fundament,TQW-01,2026-08-14,live,Plesk,robots Sitemap https,archive/2026-08-15/QW-SITEMAP-done.md
+1,Schema-Trust,SCHEMA-01,2026-08-14,live,WP-Plugin,snip pro aus,archive/2026-08-14/SCHEMA-01-snip-pro-deactivate.md
+1,Schema-Trust,SCHEMA-02,2026-08-14,live,WP-Plugin,Schema-Plugin aus,archive/2026-08-14/SCHEMA-02-schema-plugin-deactivate.md
+1,Schema-Trust,SCHEMA-03,2026-08-14,live,WP-Plugin,Rank Math an,archive/2026-08-14/SCHEMA-03-rankmath-activate.md
+1,Schema-Trust,SCHEMA-04,2026-08-14,live,Rank Math,Lokales SEO aus,archive/2026-08-14/SCHEMA-04-local-seo-off.md
+1,Schema-Trust,TQW-02,2026-08-14,live,HFCM#6,MedicalClinic+Physician,archive/2026-08-14/TQW-02-schema-medicalclinic-physician.md
+1,Schema-Trust,TQW-03,2026-08-14,live,Rank Math,Meta Descriptions,archive/2026-08-14/TQW-03-rankmath-meta-descriptions.md
+1,Schema-Trust,TQW-04,2026-08-14,live,HFCM#7,Disclaimer+Autor,archive/2026-08-14/TQW-04-disclaimer-autorenbox.md
+2,Meta-Index,META-01,2026-08-14,live,Rank Math,NLS-Titel,archive/2026-08-14/META-01-nls-title.md
+2,Meta-Index,NOINDEX-01,2026-08-14,live,Rank Math,EAV+BIT index,archive/2026-08-14/NOINDEX-01-eav-bit-index.md
+2,Meta-Index,META-02,2026-08-14,live,Rank Math,Umlaute+BIT-Titel,archive/2026-08-14/META-02-umlaute.md
+2,Meta-Index,META-03,2026-08-14,live,Rank Math,NLS-Keywords,archive/2026-08-14/META-03-nls-keywords.md
+2,Meta-Index,META-04,2026-08-14,live,Rank Math,YMYL-Titel,archive/2026-08-14/META-04-ymyl-titles.md
+2,Meta-Index,META-05,2026-08-14,live,Rank Math,8 Werbetitel,archive/2026-08-14/META-05-werbetitel.md
+2,Meta-Index,META-06,2026-08-14,live,Rank Math,5 Claim-Metas,archive/2026-08-14/META-06-metas.md
+2,Meta-Index,QW-SITEMAP,2026-08-15,live,Plesk,sitemap_index 64 URLs,archive/2026-08-15/QW-SITEMAP-done.md
+2,Meta-Index,QW-NOINDEX,2026-08-15,live,WP-Plugin,noindex-Plugin aus,docs/session/CURRENT.md
+3,Anamnese,APP-01,2026-08-14,live,WP-Menü39,Footer-Link (später Hub),archive/2026-08-14/APP-01-footer-anamnese.md
+3,Anamnese,APP-02,2026-08-14,live,HFCM#8,Button sichtbar,archive/2026-08-14/APP-02-anamnese-sichtbar.md
+3,Anamnese,APP-03-04,2026-08-14,live,WP-Menü12+39,Menüplatz,archive/2026-08-14/APP-03-04-anamnese-plaetze.md
+3,Anamnese,APP-05,2026-08-14,live,HFCM#8,Button-Stil,archive/2026-08-14/APP-05-SPEED-01-QW-METATRON.md
+3,Anamnese,APP-06,2026-08-15,live,HFCM#8,Rahmen+PE-Breite,archive/2026-08-15/APP-06-anamnese-rahmen.md
+3,Anamnese,APP-07,2026-08-15,live,YOO,Home-Slider-Folie,archive/2026-08-15/APP-07-slider-anamnese.md
+3,Anamnese,KONTAKT,2026-08-15,live,HFCM#12,Kontakt-Satz,snippets/kontakt-anamnese-satz.html
+3,Anamnese,WELLE-B-e2,2026-08-17,live,WP-6705,Hub /online-anamnesebogen/,archive/2026-08-17/PLAN-WELLE-B.md
+4,Speed-UX,SPEED-01,2026-08-14,live,HFCM#9,Kenburns aus Slider-Höhe,archive/2026-08-14/APP-05-SPEED-01-QW-METATRON.md
+4,Speed-UX,SPEED-02,2026-08-15,live,HFCM#9,WebP LCP eager/high,archive/2026-08-15/SPEED-02-webp-lcp.md
+4,Speed-UX,UX-01,2026-08-15,live,HFCM#10,Footer-Legal XS,archive/2026-08-15/UX-01-02-footer-cookie.md
+4,Speed-UX,UX-02,2026-08-15,live,HFCM#10,Cookie-Banner Höhe,archive/2026-08-15/UX-01-02-footer-cookie.md
+4,Speed-UX,SLIDER-01,2026-08-14,live,YOO,Untertitel/Psycho-CTA,archive/2026-08-14/QW-SITEMAP-SLIDER-01.md
+4,Speed-UX,SPEED-03,2026-08-15,live,Plesk+HFCM,TTFB 255 Mobil 81,archive/2026-08-15/SPEED-03-after-plesk.md
+4,Speed-UX,SPEED-LCP,2026-08-17,live,HFCM#9,Preload erstes Folienbild,archive/2026-08-17/SPEED-LCP-CACHE.md
+4,Speed-UX,CACHE,2026-08-17,live,WP Super Cache,Simple+Excludes,archive/2026-08-17/SPEED-LCP-CACHE.md
+5,Hubs-HWG,HWG-01,2026-08-15,live,YOO,Tagline ohne heilen,archive/2026-08-15/HWG-01-tagline.md
+5,Hubs-HWG,CONTENT-01,2026-08-15,live,YOO,Starttexte+Slogan,archive/2026-08-15/CONTENT-01.md
+5,Hubs-HWG,CONTENT-01b,2026-08-15,live,YOO+#15,48 Slogans,archive/2026-08-15/CONTENT-01b-slogans-metatron.md
+5,Hubs-HWG,HUB-01,2026-08-15,live,YOO,Start-Einstieg,archive/2026-08-15/HUB-01-startseite.md
+5,Hubs-HWG,HUB-02,2026-08-15,live,YOO,NLS-Einstieg,archive/2026-08-15/HUB-02-diagnostik.md
+5,Hubs-HWG,HUB-03,2026-08-15,live,YOO,Bioresonanz-Einstieg,archive/2026-08-15/HUB-03-bioresonanz.md
+5,Hubs-HWG,HUB-04,2026-08-15,live,YOO,Naturheilkunde-Einstieg,archive/2026-08-15/HUB-04-naturheilkunde.md
+5,Hubs-HWG,HUB-05,2026-08-15,live,YOO,Psychotherapie-Einstieg,archive/2026-08-15/HUB-05-psychotherapie.md
+5,Hubs-HWG,HUB-06,2026-08-15,live,YOO,Manuell-Einstieg,archive/2026-08-15/HUB-06-manuell.md
+5,Hubs-HWG,HUB-07,2026-08-15,live,YOO,Schmerz-Einstieg,archive/2026-08-15/HUB-07-schmerz.md
+6,NLS-Kontrast,SLIDER-NLS,2026-08-15,live,YOO+#15,Metatron Hospital nur Slider,archive/2026-08-15/SLIDER-NLS-METATRON.md
+6,NLS-Kontrast,BIT-H2,2026-08-15,live,YOO+#15,BIT-H2 ohne Hospital-Claim,archive/2026-08-15/BIT-H2-HOSPITAL.md
+6,NLS-Kontrast,NLS-CAPTION,2026-08-15,live,YOO,Grid-Titel NLS-Diagnostik,archive/2026-08-15/NLS-CAPTION-METATRON.md
+6,NLS-Kontrast,HOME-NLS-CARD,2026-08-15,live,YOO,Karte ohne schnell präzise,archive/2026-08-15/HOME-NLS-CARD.md
+6,NLS-Kontrast,HOME-LIST,2026-08-15,live,YOO,Liste NLS-Diagnostik,archive/2026-08-15/HOME-LIST-HOSPITAL.md
+6,NLS-Kontrast,NLS-LOWER,2026-08-15,live,YOO,ohne Diagnose erstellt,archive/2026-08-15/NLS-LOWER-HOSPITAL.md
+6,NLS-Kontrast,KONTRAST,2026-08-15,live,HFCM#11,AA 7 Hubs,archive/2026-08-15/KONTRAST-STRUKTUR-NLS.md
+7,VERF,VERF-01,2026-08-15,live,YOO,Hahnemann gekürzt,archive/2026-08-15/VERF-01.md
+7,VERF,VERF-02,2026-08-15,live,YOO,Komplex-Homöopathie,archive/2026-08-15/VERF-02.md
+7,VERF,VERF-03,2026-08-15,live,YOO,Phytotherapie,archive/2026-08-15/VERF-03.md
+7,VERF,VERF-04,2026-08-15,live,YOO,NAET ohne Symptomkatalog,archive/2026-08-15/VERF-04.md
+7,VERF,VERF-05,2026-08-15,live,YOO,Injektion,archive/2026-08-15/VERF-05.md
+7,VERF,VERF-06,2026-08-15,live,YOO,Schmerz Kinesiologie,archive/2026-08-15/VERF-06.md
+7,VERF,VERF-07,2026-08-15,live,YOO,Schmerz Homöopathie,archive/2026-08-15/VERF-07.md
+7,VERF,VERF-08,2026-08-15,live,YOO,Schmerz Injektion,archive/2026-08-15/VERF-08.md
+7,VERF,VERF-09,2026-08-15,live,YOO,Trikombin,archive/2026-08-15/VERF-09.md
+7,VERF,VERF-10,2026-08-15,live,YOO,IMT-Block,archive/2026-08-15/VERF-10.md
+7,VERF,VERF-11-15,2026-08-15,live,YOO,Osteo Lowen Physio IMT NLS,archive/2026-08-15/VERF-11-15.md
+7,VERF,VERF-16,2026-08-15,live,YOO,NLS-Intro,archive/2026-08-15/prewrite/verf-16-nls-fett-intro-before.json
+7,VERF,VERF-17-18,2026-08-15,live,YOO,Microkinesie Dorn,archive/2026-08-15/prewrite/verf-17-microkinesi-before.json
+8,Typo-CTA,B5-TYPE-01,2026-08-15,live,HFCM#11,H1 36/30 Fließ 400,archive/2026-08-15/B5-TYPE-01.md
+8,Typo-CTA,UX-04-05,2026-08-15,live,HFCM#8,Abstand+PE-Breite,archive/2026-08-15/UX-04-05.md
+8,Typo-CTA,RESP-01,2026-08-15,live,HFCM#9,Slider sizes lazy,archive/2026-08-15/WELLE-2-RESP-IMG.md
+8,Typo-CTA,B5-NAP-FAQ,2026-08-15,live,HFCM#7,NAP+erste FAQ,docs/session/CURRENT.md
+8,Typo-CTA,QW-TITELCASE,2026-08-15,live,Rank Math,Title-Case aus,docs/session/CURRENT.md
+9,Cluster-Legal,WELLE-6,2026-08-15,live,HFCM#13,10 NH/Psycho-Kinder Cluster,archive/2026-08-15/WELLE-6.md
+9,Cluster-Legal,WELLE-6A,2026-08-16,live,RM+H1,H1/Meta 5 URLs,archive/2026-08-16/WELLE-6A.md
+9,Cluster-Legal,WELLE-7,2026-08-16,live,HFCM#13,10 Hinweisdiagnostik,archive/2026-08-16/WELLE-7.md
+9,Cluster-Legal,WELLE-8,2026-08-16,live,HFCM#13,10 BIT/Bio/Schmerz/Qigong,archive/2026-08-16/WELLE-8.md
+9,Cluster-Legal,WELLE-9,2026-08-16,live,HFCM#13,10 Manuell/IMT,archive/2026-08-16/WELLE-9.md
+9,Cluster-Legal,WELLE-10,2026-08-16,live,HFCM#13,8 Lowen/Rehab,archive/2026-08-16/WELLE-10.md
+9,Cluster-Legal,WELLE-11,2026-08-16,live,HFCM#14+RM,Legal Corona noindex,archive/2026-08-16/WELLE-11.md
+10,Kind-Texte,WELLE-12,2026-08-16,live,HFCM#6+#9,Hours areaServed Schmerz-H1,archive/2026-08-16/WELLE-12.md
+10,Kind-Texte,WELLE-13,2026-08-16,live,YOO,10 NH-Kinder Texte,archive/2026-08-16/WELLE-13.md
+10,Kind-Texte,WELLE-14,2026-08-16,live,YOO,10 Hinweisdiagnostik-Texte,archive/2026-08-16/WELLE-14.md
+10,Kind-Texte,WELLE-15,2026-08-16,live,YOO,10 BIT/Bio/Schmerz-Texte,archive/2026-08-16/WELLE-15.md
+10,Kind-Texte,WELLE-16,2026-08-16,live,YOO,18 Manuell/Lowen-Texte,archive/2026-08-16/WELLE-16.md
+11,Hygiene,WV-H2,2026-08-16,live,HFCM#15,Sanft-Heilen-H2 aus,archive/2026-08-16/WV-NACH-WELLEN.md
+11,Hygiene,WV-DISC,2026-08-16,live,YOO+#7,kein zweiter Disclaimer,archive/2026-08-16/WV-NACH-WELLEN.md
+11,Hygiene,WV-W13,2026-08-16,live,YOO,Hahnemann/Heilmed-Reste,archive/2026-08-16/WV-NACH-WELLEN.md
+11,Hygiene,WV-VERSUS-ALTS,2026-08-16,live,HFCM#15,versus→und in Alts,archive/2026-08-16/WV-NACH-WELLEN.md
+11,Hygiene,WELLE-17,2026-08-17,live,HFCM#6#7#16,Notfall Skip Schema-Hyg,archive/2026-08-17/WELLE-17.md
+11,Hygiene,WELLE-18,2026-08-17,live,WP+#7#9#13#15,Versus-301 Kosten LCP240,archive/2026-08-17/WELLE-18.md
+11,Hygiene,LOC-GEO,2026-08-17,live,HFCM#6,Koordinaten 19a,docs/PLAN.md
+12,Lokal-Mobil-Typo,LOCAL-HUB,2026-08-17,live,RM+H1,Hub-Titles in Augsburg,archive/2026-08-17/LOCAL-HUB-LAGE.md
+12,Lokal-Mobil-Typo,MOB-1-5,2026-08-17,live,HFCM#17,Local-Bar 44px,archive/2026-08-17/MOB-LOCAL-A11Y.md
+12,Lokal-Mobil-Typo,TYPO-A,2026-08-17,live,HFCM#8#11#17,Skala CTA nach Ziel,archive/2026-08-17/PLAN-TYPO-START-HUBS.md
+12,Lokal-Mobil-Typo,WELLE-B,2026-08-17,live,HFCM#8#10#11#17,Slogan fett Hub-URL,archive/2026-08-17/PLAN-WELLE-B.md
+12,Lokal-Mobil-Typo,KIND-SKALA,2026-08-17,live,HFCM#11,eeat-type-a sitewide,docs/session/CURRENT.md
+12,Lokal-Mobil-Typo,SLIDER-INTRO,2026-08-17,live,HFCM#11#15,Overlay NLS-Layer Intro,docs/session/CURRENT.md
+12,Lokal-Mobil-Typo,CTA-BNI,2026-08-17,live,HFCM#8#10,CTAs mittig BNI 72/110,docs/session/CURRENT.md
+13,Anamnese-FAQ,ANA-MENU-FAQ,2026-08-17,live,WP+HFCM#7#8,Menü=Hub FAQ-Karten,archive/2026-08-17/ANA-MENU-FAQ.md
+13,Anamnese-FAQ,SLIDER-GAPS-HUB,2026-08-17,live,WP+HFCM#8#11#17,Bio-Slider-Klon Leerblöcke Hub-Punkt,archive/2026-08-17/SLIDER-GAPS-HUBMARK.md

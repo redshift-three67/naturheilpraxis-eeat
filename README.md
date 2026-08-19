@@ -10,7 +10,8 @@ Dieses Repository ist die **verbindliche Referenz** für Status, Snippets, Workf
 
 **Tagesabschluss 2026-08-14:** [`docs/session/TAGESABSCHLUSS-2026-08-14.md`](docs/session/TAGESABSCHLUSS-2026-08-14.md)  
 **Nächste Session:** [`docs/session/PROMPT-FORTSETZUNG.md`](docs/session/PROMPT-FORTSETZUNG.md)  
-**Checkpoint:** [`archive/2026-08-14/CHECKPOINT-2026-08-14.md`](archive/2026-08-14/CHECKPOINT-2026-08-14.md)
+**Checkpoint:** [`archive/2026-08-14/CHECKPOINT-2026-08-14.md`](archive/2026-08-14/CHECKPOINT-2026-08-14.md)  
+**Entwickler-Übergabe (Phasen/Schritte 14.–17.08.):** [`docs/entwickler-handover-eeat-2026-08/README.md`](docs/entwickler-handover-eeat-2026-08/README.md)
 
 ## Arbeitsmodus (ab 2026-08-14)
 
