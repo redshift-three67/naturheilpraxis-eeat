@@ -18,6 +18,8 @@
 4. Bei Site-Änderung: `docs/SCHEMA-STRATEGY.md` + `snippets/`  
 5. Archive nur bei Rollback oder Nachvollzug: `archive/YYYY-MM-DD/`
 
+Live-Tiefenanalyse mit Frontend-Verifikation: `docs/LIVE-ANALYSE-2026-08-28.md` (bestätigt Phasen 0–14 live; neue Kleinbefunde → Tabelle unten).
+
 Nächstes **anderes** Projekt: sunclinic.ch → zuerst  
 `docs/entwickler-handover-eeat-2026-08/08-uebertragbare-erkenntnisse.md`  
 CDP **9225**, Rauch-Snippets nicht kopieren.
@@ -51,7 +53,11 @@ Handoff-Tabellen: `docs/entwickler-handover-eeat-2026-08/01-phasenuebersicht.md`
 | **DL** | Betreiber | Tote `/download/…` hochladen oder Buttons weg |
 | **CORONA** | Betreiber | Menüpunkt lassen oder raus (Seite ist noindex) |
 | **QUALI** | Betreiber | Fortbildungen nur mit Nachweisen |
-| **WV-RM** | unberührt | Rank-Math-Article-JSON roh; sichtbarer Claim im DOM weg |
+| **WV-RM** | unberührt | Rank-Math-Article-JSON roh; sichtbarer Claim im DOM weg. **28.08. live bestätigt:** rohe description enthält „sanfte, ganzheitliche Medizin"/„NLS Diagnose" (→ WVRM2 in der Analyse) |
+| **OGA** | Wiedervorlage | `og:image:alt` der Startseite = „…_Sanft_Heilen_Stark_im_Leben" – Rank-Math-Social-Feld setzen (1 Write) |
+| **ODP** | Wiedervorlage | SVG-Preload (`data-od-added-tag`) noch live – Plugin „Optimization Detective" nicht in der Plugin-Doku; klären (dokumentieren oder aus) |
+| **UCASE** | Wiedervorlage | `/NLS-DIAGNOSTIK/` → 200 mit korrektem lowercase-Canonical; 301 optional |
+| **GAP-AUTOR** | Wiedervorlage | Keine Autor-/Werdegang-Seite in der Sitemap; größter offener E-E-A-T-Hebel, blocked an QUALI-Nachweise |
 | **FONT / REBRAND / LLMS** | Wiedervorlage | bewusst nicht jetzt |
 
 ## Nächster Schritt (genau einer)
