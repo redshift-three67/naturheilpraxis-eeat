@@ -7,6 +7,8 @@ Direktive für alle Änderungen an rauch-heilpraktiker.de.
 ## Massgabe
 
 - Repository **redshift-three67/naturheilpraxis-eeat** = Single Source of Truth für **diese** Domain
+- Aktueller Status (erledigt/offen/nächster Schritt): `docs/STATUS.md`
+- Nach Doku- oder Snippet-Änderung: **git push origin main**, sonst driftet lokal von GitHub
 - Ab 2026-08-14: Ausführung **Chrome CDP Live** auf dem Debian-Server (Grok Build)
 - Vor CDP: Port-Kollisionen ausschliessen
 

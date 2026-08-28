@@ -1,0 +1,69 @@
+# STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
+
+**Stand:** 2026-08-20  
+**Domain:** https://rauch-heilpraktiker.de  
+**Repo:** https://github.com/redshift-three67/naturheilpraxis-eeat · Branch `main`  
+**Diese Datei ist die aktuelle Wahrheit für erledigt / offen / nächster Schritt.**  
+Ältere Dateien (`CURRENT.md` mit Datum 14.–17.08., `PROMPT-FORTSETZUNG.md` historisch) **nicht** als offenen Auftrag lesen.
+
+## Phase jetzt
+
+**PAUSE / Messung.** Keine Site-Writes. Keine Ads. Keine neue Schrift. Keine Breitenberger-Inhaltswelle.
+
+## Lesereihenfolge (LLM)
+
+1. Diese Datei  
+2. `docs/WORKFLOW.md`  
+3. `docs/entwickler-handover-eeat-2026-08/README.md`  
+4. Bei Site-Änderung: `docs/SCHEMA-STRATEGY.md` + `snippets/`  
+5. Archive nur bei Rollback oder Nachvollzug: `archive/YYYY-MM-DD/`
+
+Nächstes **anderes** Projekt: sunclinic.ch → zuerst  
+`docs/entwickler-handover-eeat-2026-08/08-uebertragbare-erkenntnisse.md`  
+CDP **9225**, Rauch-Snippets nicht kopieren.
+
+## Erledigt (nicht zurückdrehen, nicht erneut bauen)
+
+| Block | Inhalt |
+|-------|--------|
+| Schema | HFCM **#6** 1× MedicalClinic+Physician; Geo 48.339465 / 10.948931; Hours; areaServed. #5 OFF. snip pro / Schema-Plugin OFF. Rank Math Local SEO OFF |
+| Disclaimer | Nur HFCM **#7**; FAQ 01–06 + FAQPage; NAP Hochzoll 19a |
+| Meta/Index | Rank Math Titles/Metas YMYL; Sitemap `sitemap_index.xml` (64 https); noindex-Plugin aus; Corona-Seite noindex |
+| Hubs | HUB-01…07; Titles/H1 `[Verfahren] in Augsburg`; Start = Pillar „Heilpraktiker Augsburg“ |
+| Texte | VERF-01…18; Wellen 13–16 Kindseiten; Cluster HFCM **#13** |
+| Anamnese | Hub `/online-anamnesebogen/` (WP 6705); Menü 12+39 → Hub; App nur `.eeat-anamnese-app-link`; Slider = Klon `/bioresonanz-therapie/` |
+| UX/Typo | Eine Skala `eeat-type-a`; Local-Bar Start+Hubs; 44 px; leere Panels zu; Hub-Punkt im Menü |
+| Speed | HFCM **#9** LCP; Super Cache Simple + Excludes; Kenburns mobil aus; Slider mobil 240 |
+| Legal | HFCM **#14** Corona-Hinweis; Versus-Slug + 301 |
+| GBP 19.08. | Pin 19a, Zeiten Mo–Fr 10–12:30/13–19, Einzugsgebiet nicht nur Friedberg (86163 + 86316 + 86165), Haupt Heilpraktiker, Neben Naturheilpraktiker, Attribute wahr, keine Notfallhilfe, kein Seefelder-Duplikat |
+| Beschlüsse | Hochzoll/Friedberg/Lechhausen **nicht** in Titles stopfen. Breitenberger-Maschine **nicht** bauen. Neue Schrift **kein** E-E-A-T-Rest |
+
+Handoff-Tabellen: `docs/entwickler-handover-eeat-2026-08/01-phasenuebersicht.md` und `02-schritte-detailliert.md` · CSV `schritte.csv`.
+
+## Offen (kein Site-Write ohne neuen Auftrag)
+
+| ID | Wer | Was |
+|----|-----|-----|
+| **GSC-PACK** | Auftraggeber + Auswertung | 28-Tage GSC (Suchanfragen, Seiten, Start-Queries, Mobil) + 2 Pack-Screens `heilpraktiker augsburg` |
+| **SEM** | danach entscheiden | Such-Pilot nur wenn Pack/GSC es tragen; Start+Hubs; keine Heilzusagen |
+| **REVIEWS** | Betreiber | Neutral um Bewertung bitten, keine Vorlage |
+| **CITATIONS** | Betreiber | Apple/Bing = dieselbe NAP |
+| **DL** | Betreiber | Tote `/download/…` hochladen oder Buttons weg |
+| **CORONA** | Betreiber | Menüpunkt lassen oder raus (Seite ist noindex) |
+| **QUALI** | Betreiber | Fortbildungen nur mit Nachweisen |
+| **WV-RM** | unberührt | Rank-Math-Article-JSON roh; sichtbarer Claim im DOM weg |
+| **FONT / REBRAND / LLMS** | Wiedervorlage | bewusst nicht jetzt |
+
+## Nächster Schritt (genau einer)
+
+1. Auftraggeber liefert GSC-Ausschnitte + Pack-Screens (Anleitung in der Session 20.08., nicht im Code).  
+2. LLM/Entwickler wertet aus: greift die Pillar, haben Hubs Impressionen, zeigt das Pack Zeiten?  
+3. **Nur dann** Ads-Ja/Nein oder ein gezielter Site-Fix. Sonst weiter Pause.
+
+## Verbote (weiter gültig)
+
+Kein zweites Disclaimer, keine Pillar `/heilpraktiker-augsburg/`, kein Hub-Title „Heilpraktiker Augsburg“, kein Product/Service-Schema, keine Ratgeber-Farm, keine Symptom-Money-Pages, CDP 9224 nicht mit 9223/9225 teilen, `?s=1` nicht als Cache-Bust.
+
+## CDP / Live-Änderung (nur nach Auftrag)
+
+Port `127.0.0.1:9224`. Prewrite → ein Schritt → Verify → Archiv + diese STATUS-Datei + `CURRENT.md` + Push nach GitHub.

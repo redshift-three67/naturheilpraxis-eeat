@@ -1,0 +1,35 @@
+{
+  "sectionKeys": [
+    "layout",
+    "styler",
+    "builder-templates",
+    "settings",
+    "builder"
+  ],
+  "panelKeys": [
+    "site",
+    "header",
+    "mobile",
+    "top",
+    "sidebar",
+    "bottom",
+    "footer-builder",
+    "advanced",
+    "api-key",
+    "about",
+    "system-post",
+    "system-blog",
+    "site-media",
+    "navbar-items",
+    "social-links",
+    "top-media",
+    "bottom-media",
+    "builder-parallax",
+    "cookie",
+    "favicon",
+    "custom-code",
+    "external-services",
+    "systemcheck"
+  ],
+  "hits": []
+}

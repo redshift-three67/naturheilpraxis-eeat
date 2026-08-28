@@ -6,6 +6,8 @@ E-E-A-T / SEO für **https://rauch-heilpraktiker.de** (Naturheilpraxis Peter Rau
 
 Dieses Repository ist die **verbindliche Referenz** für Status, Snippets, Workflow und Archive.
 
+**Aktueller Status (LLM + Entwickler):** [`docs/STATUS.md`](docs/STATUS.md) · [`AGENTS.md`](AGENTS.md)
+
 **Knowledge-Basis (mehrere Projekte):** https://github.com/redshift-three67/eeat-optimierung  
 
 **Tagesabschluss 2026-08-14:** [`docs/session/TAGESABSCHLUSS-2026-08-14.md`](docs/session/TAGESABSCHLUSS-2026-08-14.md)  

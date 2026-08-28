@@ -33,6 +33,7 @@ Phase 0 → 1 Schema/Disclaimer
        → 11 Hygiene
        → 12 Lokal/Mobil/Typo
        → 13 Anamnese-Hub + FAQ
+       → 14 GBP
 ```
 
 ## Was bewusst **nicht** eine eigene Phase war

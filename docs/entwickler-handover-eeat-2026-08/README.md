@@ -1,6 +1,6 @@
 # Entwickler-Übergabe – E-E-A-T-Optimierung rauch-heilpraktiker.de
 
-**Stand der Dokumentation:** 2026-08-19  
+**Stand der Dokumentation:** 2026-08-20  
 **Live-Zeitraum der Arbeiten:** 2026-08-14 bis 2026-08-19 (On-page bis 17.08., GBP 19.08.)  
 **Live-Domain:** https://rauch-heilpraktiker.de  
 **Repo (Single Source of Truth):** https://github.com/redshift-three67/naturheilpraxis-eeat  
@@ -10,10 +10,12 @@ Dieser Ordner ist die **gesonderte, lesbare Gesamtdarstellung** aller erfolgreic
 
 ## Dateien in diesem Ordner
 
+**LLM zuerst:** `docs/STATUS.md` (erledigt / offen / nächster Schritt).
+
 | Datei | Inhalt |
 |-------|--------|
 | [00-leitbild-und-rahmen.md](00-leitbild-und-rahmen.md) | Auftrag, YMYL/HWG, Arbeitsmodus, Verbote |
-| [01-phasenuebersicht.md](01-phasenuebersicht.md) | Phasen 0–13 als Übersichtstabelle |
+| [01-phasenuebersicht.md](01-phasenuebersicht.md) | Phasen 0–14 als Übersichtstabelle |
 | [02-schritte-detailliert.md](02-schritte-detailliert.md) | Jeder erfolgreiche Schritt mit Ort, Artefakt, Archiv |
 | [03-hfcm-und-snippets.md](03-hfcm-und-snippets.md) | Live-HFCM-IDs, kanonische Snippets, Änderungsregeln |
 | [04-urls-und-cluster.md](04-urls-und-cluster.md) | Start, Hubs, Kindseiten, Anamnese-App, Menüs |

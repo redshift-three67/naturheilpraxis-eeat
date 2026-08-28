@@ -1,7 +1,8 @@
 # Umsetzungsplan – rauch-heilpraktiker.de (konsolidiert)
 
-Stand: 2026-08-17  
-Quellen: Live-Wellen 1–16 + WV · B5- und Polinacea-Masterpläne (`archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`)  
+Stand: 2026-08-20  
+**Aktuelle Wahrheit erledigt/offen/nächster Schritt:** `docs/STATUS.md`  
+Quellen: Live-Wellen 1–16 + WV · GBP 19.08. · B5/Polinacea (`archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`)  
 CDP `127.0.0.1:9224` · Repo `naturheilpraxis-eeat` · `docs/WORKFLOW.md`
 
 YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 + Rank Math  
@@ -15,7 +16,8 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 2. Eine Sprache auf Hubs und Kindseiten (Wellen 13–16 live).  
 3. Keine neuen Thin-URLs, kein Glossar, kein Product/Service-Schema, kein zweites Disclaimer.
 
-**Inhaltlich erledigt:** Wellen 1–16, Cluster #13, Legal #14, Slogans #15.
+**Inhaltlich erledigt:** Wellen 1–18, Cluster #13, Legal #14, Slogans #15, Typo A/B, Anamnese-Hub, GBP-Profil.  
+**Nicht bauen:** Breitenberger-Inhaltsmaschine (`docs/07-breitenberger-inhaltsmaschine.md`).
 
 ---
 
@@ -49,19 +51,25 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 | **WV-VERSUS-SLUG** | `/bioresonanz-und-elektroakupunktur/` + 301 von versus | **live** 17.08. |
 | **WV-RM** | Seiten-Schema-Standard **Keiner**; „loszuwerden“ im DOM per HFCM #15 entfernt (Quelltext-Article bleibt) | **live** 17.08. |
 
-### Bei Dir (Local Pack, höherer Hebel als W17)
+### GBP (19.08. live, nicht erneut setzen)
 
 | ID | Inhalt |
 |----|--------|
-| **GBP-PIN** | Maps-Pin **19a** + Breite/Länge an uns |
-| **GBP-NAP** | GBP = Impressum; Kategorie Heilpraktiker; keine Heilversprechen im Profilnamen |
-| **NAP-SEE** | Seefelder Str. 20 überall weg |
-| **HOURS** | Footer-Zeiten bestätigen oder korrigieren (Mo–Fr 10–12:30 und 13–19) |
-| **AREA** | areaServed Augsburg / Hochzoll / Friedberg belassen oder streichen |
+| **GBP-PIN** | Pin 19a / Schema 48.339465, 10.948931 |
+| **GBP-NAP** | Heilpraktiker (Haupt), Naturheilpraktiker (Neben); Tel/URL = Site |
+| **NAP-SEE** | Kein Seefelder-Duplikat |
+| **HOURS** | Mo–Fr 10:00–12:30 und 13:00–19:00 |
+| **AREA** | 86163 + 86316 Friedberg + 86165 Lechhausen; nicht nur Friedberg |
+
+### Beim Betreiber (kein Site-Write)
+
+| ID | Inhalt |
+|----|--------|
 | **REVIEWS** | Neutral um Google-Bewertung bitten, keine Textvorlage |
 | **CITATIONS** | Apple Business Connect, Bing Places, seriöse Profile = dieselbe NAP |
 | **DL** | Fünf tote `/download/…` hochladen oder Buttons entfernen |
 | **CORONA** | Menüpunkt lassen oder raus (`noindex` ist) |
+| **GSC-PACK** | 28-Tage GSC + Pack-Screens; danach Ads-Ja/Nein |
 
 ### Blockiert / später
 
@@ -71,25 +79,22 @@ YMYL/HWG: keine Heilversprechen · Disclaimer nur HFCM #7 · Schema nur HFCM #6 
 | **SPEED-LCP** | Slider 240 px + LCP-Preload + erstes Folien-`src` (HFCM #9) | **live** 17.08. |
 | **CACHE** | WP Super Cache, Simple, Exclude Kontakt/wp-json/GET/Login | **live** 17.08. |
 | **LLMS** | `/llms.txt` optional, nur NAP + Hubs, keine Claims | Wiedervorlage |
-| **SEM** | Ads-Pilot nach Pin/NAP; Landings = Start + 7 Hubs | Wiedervorlage |
+| **SEM** | Ads-Pilot nach GSC+Pack; nur Search; Landings = Start + Hubs | Wiedervorlage |
 | **QUALI** | Fortbildungen/Werdegang nur mit von Dir gelieferten Nachweisen | Wiedervorlage |
 
 ---
 
-## Empfehlung für den nächsten Live-Schritt
+## Empfehlung für den nächsten Schritt
 
-**Nicht** noch eine Kindseiten-Textwelle.  
-**Zuerst Du:** Pin + NAP (das schlägt jede FAQ).  
-**Welle 17–18 live. LCP-Preload + Super Cache live.** Offen bei Dir: GBP-Zugang/Pin, Kataloge, Downloads, Corona, Reviews, Plesk-Cache-Control für Statik. Wiedervorlage: Fortbildungen, llms.txt, Ads.
-
-Reihenfolge nach Nutzen:
+**Keine Site-Welle.** Messung: GSC 28 Tage + Local Pack „heilpraktiker augsburg“ (Zeiten/Geöffnet).  
+GBP ist gesetzt. Ads erst nach dieser Messung. Detail: `docs/STATUS.md`.
 
 ```mermaid
 flowchart LR
-  du["Pin NAP Reviews Downloads"] --> geo["LOC-GEO 19a"]
-  w17["Welle 17 HFCM: Notfall Skip Schema"] --> halt["Halt"]
-  halt --> slug["Versus-Slug nur mit Freigabe"]
-  du -.-> halt
+  gbp["GBP 19.08. live"] --> mess["GSC + Pack"]
+  mess --> ads{"Ads-Pilot?"}
+  ads -->|nein| pause["Weiter Pause"]
+  ads -->|ja| search["Nur Search Start+Hubs"]
 ```
 
 ---
@@ -105,7 +110,7 @@ Related: Innenstadt, Lechhausen, Darm, Kinder, Psychotherapie, Ausbildung. Chips
 
 Wir sitzen **86163 Hochzoll**. Innenstadt nicht imitieren. Natürlicher Umkreis: Hochzoll, Friedberg, Lechhausen-Ost.
 
-Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch: Start bleibt die Pillar; Hubs nur `[Verfahren] Augsburg`, nicht zweites „Heilpraktiker Augsburg“.
+Hebel jetzt: Pack auf „Geöffnet“ prüfen · GSC lesen · optional Ads. Organisch: Start bleibt die Pillar; Hubs nur `[Verfahren] Augsburg`, nicht zweites „Heilpraktiker Augsburg“. Ortsteile nicht in Titles.
 
 **17.08. live (ohne GBP):** Hub-Titles/H1 mit Augsburg (NLS, Bioresonanz, Naturheilkunde, Manuell, BIT). Start-Lage-Satz + FAQ „Wo liegt die Praxis?“ (Hochzoll / 19a / Friedberg / Lechhausen-Ost).  
 **Mobil 1–5 live:** Aktionszeile Anrufen/Route/Zeiten unter H1 (Start+Hubs), #7 Maps+Tel 44 px, NLS ohne Hospital/Hunter im Erstbild, leere/11-px-Überschriften, Cookie/Slider-Tap 44 px.
@@ -113,13 +118,14 @@ Hebel jetzt: GBP-Stunden + Pin (Pack halten/heben) · Reviews · NAP. Organisch:
 **Typo A1–A4 live.** **Welle B live:** Slogan fett + H1-Kante; Bar 13–14 px links; Ziel wie Fokus; unteres Termin-Duplikat aus; Footer-Legal ohne Pipes; Hub `/online-anamnesebogen/`. Plan: `archive/2026-08-17/PLAN-WELLE-B.md`.  
 **Kind-Skala live:** `eeat-type-a` auf allen Frontend-Seiten (H1 28/36, Slogan 17/700, Fließtext 16,5). Local-Bar bleibt Start+Hubs. Bildraster unangetastet. Nach Durchsicht: neue Schriftfamilie, Rebrand.  
 **ANA-MENU-FAQ live:** Menüpunkt und interne Anamnese-Links auf `/online-anamnesebogen/`; App erst vom Hub; Slider auf der Hub-Seite; FAQ als nummerierte Karten (E-E-A-T, ein Disclaimer).  
-**Slider/Leer/Hub-Punkt live:** Anamnese nutzt den Slider von `/bioresonanz-therapie/`; leere YOO-Panels zu; Hub-Links im Menü mit 6-px-Kreis.
+**Slider/Leer/Hub-Punkt live:** Anamnese nutzt den Slider von `/bioresonanz-therapie/`; leere YOO-Panels zu; Hub-Links im Menü mit 6-px-Kreis.  
+**GBP 19.08. live:** Pin 19a, Zeiten, PLZ 86163/Friedberg/Lechhausen, Heilpraktiker + Naturheilpraktiker. Pack-Zeiten in GSC-Fenster prüfen.
 
 ---
 
 ## Erledigt (nicht zurückdrehen)
 
-Wellen 1–16 · HUB-01…07 · VERF-01…18 · Cluster #13 · Legal #14 · Slogans #15 · Schema/Disclaimer/Typo/Speed-Grundlagen · Hours/areaServed im Schema (Geo offen).
+Wellen 1–18 · HUB-01…07 · VERF-01…18 · Cluster #13 · Legal #14 · Slogans #15 · Schema/Disclaimer/Typo/Speed · Hours/areaServed/Geo 19a · GBP-Profil 19.08.
 
 Historie der Wellen: `archive/2026-08-15/` und `archive/2026-08-16/` (WELLE-12…16, WV-NACH-WELLEN).
 

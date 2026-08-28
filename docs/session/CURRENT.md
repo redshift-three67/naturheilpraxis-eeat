@@ -1,13 +1,14 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
-Stand: 2026-08-17 · Wellen 1–16 + WV live · Plan nach B5/Polinacea-Analysen konsolidiert
+Stand: 2026-08-20 · Phasen 0–14 live · **PAUSE / Messung**  
+**Aktuelle Wahrheit:** `docs/STATUS.md` · Handoff: `docs/entwickler-handover-eeat-2026-08/`
 
 ## Massgabe
 
 **GitHub Repository `redshift-three67/naturheilpraxis-eeat` ist die alleinige Referenz.**  
 **Knowledge-Basis:** https://github.com/redshift-three67/eeat-optimierung  
 **Tagesabschluss:** `docs/session/TAGESABSCHLUSS-2026-08-14.md`  
-**Nächster Session-Prompt:** `docs/session/PROMPT-FORTSETZUNG.md`  
+**Nächster Session-Prompt:** `docs/session/PROMPT-FORTSETZUNG.md` (Stand 20.08., nicht den 14.08.-Auftrag)  
 **Restore:** `archive/2026-08-14/CHECKPOINT-2026-08-14.md`  
 Handoff-Historie: `docs/session/HANDOFF-2026-08-14.md`
 
@@ -151,6 +152,7 @@ Wellen 1–5 im Repo/WP erledigt. Offen nur extern: GBP/NAP-Abgleich. Optional n
 **Welle 18 live** (Versus-Slug+301, Kosten-FAQ, Article-Claim im DOM weg, Slider 240).  
 **SPEED-LCP live:** HFCM #9 Preload erstes Folienbild + `src`/`eager`/`high`; OD-SVG-Preload wird entfernt.  
 **CACHE live:** WP Super Cache Simple; Exclude `/kontakt`, `/anamnese`, `wp-json`, GET, Login. Autoptimize/AssetCleanUp/Async/SpeedBooster bleiben aus.  
-Wiedervorlage: Fortbildungen, llms.txt, Ads. Du: GBP-Stunden + Pin, Kataloge, Downloads.
+Wiedervorlage: Fortbildungen, llms.txt, Ads nach GSC+Pack. Downloads, Corona-Menü, Reviews, Apple/Bing.  
+**GBP 19.08. live.** **Breitenberger nicht bauen.** Nächster Schritt: `docs/STATUS.md`.
 
 Audit Sitemap 64 URLs. Auswertung der Fremdpläne: `archive/2026-08-17/ANALYSEN-B5-POLINACEA.md`.
