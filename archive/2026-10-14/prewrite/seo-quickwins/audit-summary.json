@@ -1,0 +1,24 @@
+{
+  "page_urls": 64,
+  "old_sitemap_urls": 53,
+  "all_current_https_same_host": true,
+  "issues": [],
+  "diagnostics": [
+    {
+      "url": "https://rauch-heilpraktiker.de/naturheilkundliche-gesundheitsdiagnostik/",
+      "status": 200,
+      "final_url": "https://rauch-heilpraktiker.de/naturheilkundliche-gesundheitsdiagnostik/",
+      "canonical": "https://rauch-heilpraktiker.de/naturheilkundliche-gesundheitsdiagnostik/",
+      "noindex": false,
+      "title": "Naturheilkundliche Gesundheitsdiagnostik | Naturheilpraxis Rauch",
+      "h1_count": 1,
+      "h1": "Naturheilkundliche Gesundheitsdiagnostik",
+      "issue": ""
+    }
+  ],
+  "only_old_urls": [
+    "https://rauch-heilpraktiker.de/bioresonanz-versus-elektroakupunktur/",
+    "https://rauch-heilpraktiker.de/corona-praxis-offen/"
+  ],
+  "only_current_count": 13
+}

@@ -1,0 +1,70 @@
+heading "Öffnungszeiten" [level=2]
+    - region:
+      - heading "Öffnungszeiten" [level=3]
+      - button "Öffnungszeiten bearbeiten":
+      - generic: Ihre Änderung wird derzeit überprüft. Das dauert in der Regel bis zu 10 Minuten.
+      - 'button "Weitere Informationen: ausstehende Änderungen"':
+        - generic: Weitere Informationen
+      - heading "Aktuell" [level=4]
+      - list:
+        - generic "Geöffnet ohne Angabe der Öffnungszeiten":
+          - generic: Geöffnet ohne Angabe der Öffnungszeiten
+      - generic: Sonntag
+      - generic: Geschlossen
+      - generic: Montag
+      - generic: Geschlossen
+      - generic: Dienstag
+      - generic: Geschlossen
+      - generic: Mittwoch
+      - generic: Geschlossen
+      - generic: Donnerstag
+      - generic: Geschlossen
+      - generic: Freitag
+      - generic: Geschlossen
+      - generic: Samstag
+      - generic: Geschlossen
+      - heading "Ausstehend" [level=4]
+      - list:
+        - generic "Geöffnet ohne Angabe der Öffnungszeiten wurde entfernt":
+          - deletion: Geöffnet ohne Angabe der Öffnungszeiten
+        - generic "„Geöffnet mit Angabe der Öffnungszeiten“ wurde aktualisiert":
+          - insertion: Geöffnet mit Angabe der Öffnungszeiten
+      - generic: Sonntag
+      - generic: Geschlossen
+      - generic: Montag
+      - list:
+        - generic "„10:00–12:30“ wurde aktualisiert":
+          - insertion: 10:00–12:30
+        - generic "„13:00–19:00“ wurde aktualisiert":
+          - insertion: 13:00–19:00
+      - generic: Dienstag
+      - list:
+        - generic "„10:00–12:30“ wurde aktualisiert":
+          - insertion: 10:00–12:30
+        - generic "„13:00–19:00“ wurde aktualisiert":
+          - insertion: 13:00–19:00
+      - generic: Mittwoch
+      - list:
+        - generic "„10:00–12:30“ wurde aktualisiert":
+          - insertion: 10:00–12:30
+        - generic "„13:00–19:00“ wurde aktualisiert":
+          - insertion: 13:00–19:00
+      - generic: Donnerstag
+      - list:
+        - generic "„10:00–12:30“ wurde aktualisiert":
+          - insertion: 10:00–12:30
+        - generic "„13:00–19:00“ wurde aktualisiert":
+          - insertion: 13:00–19:00
+      - generic: Freitag
+      - list:
+        - generic "„10:00–12:30“ wurde aktualisiert":
+          - insertion: 10:00–12:30
+        - generic "„13:00–19:00“ wurde aktualisiert":
+          - insertion: 13:00–19:00
+      - generic: Samstag
+      - generic: Geschlossen
+    - region:
+      - heading "Spezielle Öffnungszeiten" [level=3]
+      - button "Spezielle Öffnungszeiten bearbeiten":
+      - generic: Hinzufügen
+    -

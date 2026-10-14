@@ -1,0 +1,5 @@
+URL https://rauch-heilpraktiker.de/naturheilkundliche-gesundheitsdiagnostik/
+Live-Test 14.10.2026 23:23: URL ist für Google verfügbar; Seite kann indexiert werden.
+Ein Indexierungsantrag versucht. GSC: Beim Senden deiner Indexierungsanfrage ist ein Problem aufgetreten.
+Es konnte keine Verbindung zum reCAPTCHA-Dienst hergestellt werden.
+Keine Bestätigung einer erfolgreichen Einreichung. Kein CAPTCHA gelöst.

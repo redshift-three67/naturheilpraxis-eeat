@@ -1,0 +1,59 @@
+
+  - generic: Neue Sitemap hinzufügen
+  - textbox "Sitemap-URL eingeben" [active]
+  - generic: Sitemap-URL eingeben
+  - button "Senden" [disabled]:
+    - generic: Senden
+  - heading "Eingereichte Sitemaps" [level=1]:
+    - generic: Eingereichte Sitemaps
+  - button "Tabellenzeilen filtern":
+    - generic: 
+  - table:
+    - rowgroup:
+      - row "Sitemap Typ Eingereicht Zuletzt gelesen Status Erkannte Seiten Erkannte Videos":
+        - columnheader "Sitemap":
+          - text: Sitemap
+        - columnheader "Typ":
+          - text: Typ
+        - columnheader "Eingereicht":
+          - text: Eingereicht
+        - columnheader "Zuletzt gelesen":
+          - text: Zuletzt gelesen
+        - columnheader "Status":
+          - text: Status
+        - columnheader "Erkannte Seiten":
+          - text: Erkannte Seiten
+        - columnheader "Erkannte Videos":
+          - text: Erkannte Videos
+        - columnheader
+    - rowgroup:
+      - row "https://rauch-heilpraktiker.de/sitemap.xml Sitemap 11.05.2023 03.10.2026 Erfolgreich 53 0":
+        - cell "https://rauch-heilpraktiker.de/sitemap.xml"
+        - cell "Sitemap"
+        - cell "11.05.2023"
+        - cell "03.10.2026"
+        - cell "Erfolgreich":
+          - generic: Erfolgreich
+        - cell "53"
+        - cell "0"
+        - cell:
+          - button:
+            - generic: 
+  - generic: "Zeilen pro Seite:"
+  - listbox "Anzahl der Zeilen pro Seite":
+    - option "5"
+    - option "10" [selected]
+    - option "25"
+    - option "50"
+    - option "100"
+    - option "250"
+    - option "500"
+  - generic: 1 bis 1 von 1
+  - generic: 
+  - generic: 
+- generic: Sitemaps
+- generic: Hier kannst du Sitemaps sehen, die Google auf deiner Website gefunden hat, und neue Sitemaps einreichen.
+- generic: Weitere Informationen
+- generic "Weitere Informationen"
+- generic: Ok
+- generic "Ok"

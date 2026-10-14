@@ -1,5 +1,13 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## SEO-Quickwins am 14.10.2026
+
+Aktuelle Sitemap mit 64 geprüften Seiten einmal in GSC eingereicht. Detailbericht: fehlerfrei verarbeitet, noch 0 Seiten; Übersicht weiterhin Abruffehler. Verarbeitung der untergeordneten Sitemap bleibt offen. Praxiszeiten nach Betreiberbestätigung gespeichert: Mo–Fr 10:00–12:30 und 13:00–19:00, Sa/So geschlossen; Google-Prüfung ausstehend, Termin erforderlich erhalten. Diagnose-Hub: Google-Live-Test bestanden; ein Indexierungsantrag wegen reCAPTCHA-Verbindungsfehler gescheitert, keine erfolgreiche Einreichung behaupten.
+
+Nächster gezielter Schritt: Freigaben/Verarbeitung kontrollieren, GSC-Leistung auswerten und gültige Download-Dokumente zuordnen. Bericht: [SEO-Quickwins](reviews/2026-10-14-seo-quickwins.md). Keine Plugin-/Schema-/Inhaltsänderungen in diesem Batch. Frühere Aussagen „nur alte Sitemap“ und „keine Profiländerung“ unten sind durch diesen Stand ersetzt. Der alte Mailrelay-Editor wurde bereits ohne Speichern geschlossen.
+
+
+
 ## Mailrelay-Antworten: weiterer Live-Schritt am 14.10.2026
 
 Fünf rohe SMTP-Fehlerwerte in JSON-Antworten durch einen festen String ersetzt. Antwortstruktur und Transport bleiben erhalten. Original: fünf Canary-Offenlegungen in sieben Szenarien; Patch: sieben Szenarien bestanden, vollständige PHP-Grammatik geprüft. Vorheriger Stand zusätzlich verschlüsselt gesichert; Live-Quelltext nach Speichern erneut abgeglichen, GET 405. Alter Editor vom Nutzer ohne Speichern geschlossen; neuer Prüfeditor abschließend geschlossen.

@@ -1,0 +1,15 @@
+
+  - generic: Zuletzt gelesen
+  - generic: 14.10.26
+  - generic: Erkannte Seiten
+  - generic: "0"
+  - generic: Erkannte Videos
+  - generic: "0"
+  - button "Seitenindexierung ansehen" [disabled]:
+    - generic: 
+    - text: Seitenindexierung ansehen
+  - button "Indexierung von Videoseiten ansehen" [disabled]:
+    - generic: 
+    - text: Indexierung von Videoseiten ansehen
+  - generic: 
+  - generic: Sitemap-Index wurde ohne Fehler verarbeitet
