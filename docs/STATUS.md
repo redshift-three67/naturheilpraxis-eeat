@@ -1,5 +1,18 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+
+## Aktueller Zusatzstand 14.10.2026
+
+- Provider-Backups: täglich; erfolgreiche komplette Wiederherstellung vom Betreiber bestätigt.
+- Mailrelay: zentrale Datei-Debugprotokollierung gezielt abgeschaltet und live erneut eingelesen; unveränderte verschlüsselte Sicherung außerhalb Git vorhanden.
+- Regressionstest: Original FAIL, Ersatzfunktion PASS (11 Prüfungen). Vollständige Datei mit PHP 8.2 im Speicher syntaktisch geprüft, außerhalb der Loggerfunktion identisch.
+- Relay-GET: 405. Log-HEAD: 403; keine Log-Inhalte öffentlich abgerufen. Kein vollständiger Versandtest.
+- WordPress, GSC und Unternehmensprofil sind über Chrome erreichbar. GSC: nur alte sitemap.xml eingereicht; Diagnose-Hub derzeit nicht indexiert. Weitere Optimierungen bisher nicht umgesetzt.
+- Details und Grenzen: [Mailrelay-Prüfbericht](reviews/2026-10-14-mailrelay-debuglog.md).
+- Alten ursprünglichen Editor ohne Speichern schließen; seine Browsersteuerung war abgebrochen. Verifiziert ist die Speicherung über den frischen Tab.
+
+Die folgenden Abschnitte dokumentieren den historischen Stand vom 20.08.2026. Bei abweichenden aktuellen Messungen gilt der neue Prüfbericht.
+
 **Stand:** 2026-08-20  
 **Domain:** https://rauch-heilpraktiker.de  
 **Repo:** https://github.com/redshift-three67/naturheilpraxis-eeat · Branch `main`  

@@ -1,5 +1,16 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
+
+## Aktueller Zusatzstand 14.10.2026
+
+Gezielter, vom Betreiber freigegebener Mailrelay-Sicherheitsfix live: nur zentrale Datei-Debugfunktion deaktiviert. Vorher verschlüsselte Live-Sicherung außerhalb Git; tägliche Provider-Backups und erfolgreiche Komplettwiederherstellung durch Betreiber bestätigt.
+
+Originalfunktion verletzt den Regressionstest; Ersatzfunktion besteht 11 Prüfungen. Vollständige PHP-Datei syntaktisch im Speicher geprüft, vor und nach Speichern Hash-Abgleich; außerhalb der Loggerfunktion unverändert. Öffentliche Methodenantwort 405; öffentlicher Log-HEAD 403. Kein vollständiger Versandtest und keine Loglöschung.
+
+Bericht: [Mailrelay 14.10.2026](../reviews/2026-10-14-mailrelay-debuglog.md). WordPress, GSC und Unternehmensprofil per Chrome geprüft. Weitere Optimierungsschritte noch nicht umgesetzt. Der Betreiber soll den alten ursprünglichen Editor ohne Speichern schließen; gespeichert und verifiziert wurde über einen frischen Tab.
+
+Die folgenden Angaben einschließlich Umgebung, Pluginstatus und nächster Schritte sind historischer Stand vom 20.08.2026.
+
 Stand: 2026-08-20 · Phasen 0–14 live · **PAUSE / Messung**  
 **Aktuelle Wahrheit:** `docs/STATUS.md` · Handoff: `docs/entwickler-handover-eeat-2026-08/`
 
