@@ -1,5 +1,15 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
+
+## Ranking-Erstauswertung und Quickwin-Verifizierung
+
+Verglichen wurden 16.09.–12.10.2026 und 20.08.–15.09.2026, je 27 Tage. Deutschland: Klicks 65→52, Impressionen 2.853→1.940. Exakte Anfrage heilpraktiker augsburg: Startseite als einzige Zielseite; mobil Impressionen 356→143, Durchschnittsposition 2,7→5,0. Das belegt den mobilen Schwerpunkt, aber keinen mobilen Technikfehler. Leistungsseiten für Bioresonanz/Naturheilkunde sind gegenüber der Startseite schwach sichtbar; uneinheitliche Diagnostik-Linkziele sind frisch belegt. Keine pauschale Kannibalisierungs- oder Abstrafungsdiagnose.
+
+Sitemap nun in GSC erfolgreich mit 64 erkannten Seiten, früherer Statuswiderspruch aufgelöst. Bestätigte Praxiszeiten stehen nach Reload als aktueller Profilstand ohne Ausstehendhinweis; öffentliche Wochenübersicht nicht vollständig separat geprüft. GSC meldet keine manuellen Maßnahmen und keine Sicherheitsprobleme. Vollständiger Bericht: [Ranking-Erstauswertung](../reviews/2026-10-14-ranking-erstauswertung.md).
+
+Nächste Priorität: mobile Hauptquery zeitlich und öffentlich vertiefen, danach eindeutige Seitenrollen und gesicherte Linkkorrekturen. Keine weiteren Live-Inhaltsänderungen in diesem Arbeitspaket.
+
+
 Planpriorität ergänzt: Rankingverluste zunächst je Suchanfrage, URL und Zeitraum belegen und mit reproduzierbar erhobenen organischen Top Ten vergleichen; Maps getrennt. Erste GSC-Werte sind keine Verlustzeitreihe. Siehe [Ursachenanalyse und Wettbewerbsplan](../reviews/2026-10-14-rankingverlust-plan.md).
 
 Betreiberbeobachtung ergänzt: länger bestehender Rückgang, aktuell Seite 3. GSC 4,9 ist ein impressionsbasierter Zeitraumdurchschnitt und widerlegt dies nicht. Direkte Google-Desktop-Stichprobe: Rauch in separater lokaler Liste, nicht in den allgemeinen Webtreffern auf Seite 1; Details und Grenzen im verlinkten Rankingplan.

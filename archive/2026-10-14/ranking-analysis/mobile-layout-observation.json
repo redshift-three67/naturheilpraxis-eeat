@@ -1,0 +1,18 @@
+{
+  "testedWidth": 390,
+  "testedHeight": 844,
+  "viewportMeta": "width=device-width, initial-scale=1",
+  "innerWidth": 390,
+  "documentClientWidth": 375,
+  "documentScrollWidth": 375,
+  "h1WithinContentWidth": true,
+  "mobileMenuOpens": true,
+  "menuDiagnostikTarget": "https://rauch-heilpraktiker.de/diagnostik-informationstherapie/",
+  "limits": [
+    "Angemeldete WordPress-Sitzung mit Adminleiste",
+    "Viewportprüfung ohne Smartphone-User-Agent- oder Touch-Emulation",
+    "Kein öffentlicher Core-Web-Vitals-/Ladezeitnachweis",
+    "Keine Aussage über Ursache des mobilen Rankingverlusts"
+  ],
+  "sessionOnlyCookieChoice": "Ablehnen"
+}

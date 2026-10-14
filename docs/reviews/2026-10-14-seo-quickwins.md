@@ -1,5 +1,9 @@
 # SEO-Quickwins – 14.10.2026
 
+
+Fortschreibung: Die frische Folgekontrolle zeigt den Sitemap-Index erfolgreich mit 64 erkannten Seiten; die Praxiszeiten stehen als aktueller Profilstand ohne Ausstehendhinweis. Die frühere Unsicherheit im folgenden Ablaufprotokoll ist damit überholt. Siehe [Ranking-Erstauswertung](2026-10-14-ranking-erstauswertung.md).
+
+
 ## Ergebnis und Abgrenzung
 
 Vom Betreiber freigegebener nächster Schritt nach den Mailrelay-Sicherheitskorrekturen: aktuelle Sitemap in GSC einreichen, bestätigte Praxiszeiten im Google-Unternehmensprofil ergänzen und den Diagnostik-Hub mit Googles Live-Test prüfen. Die vorhandene WordPress-Instanz bleibt die operative Grundlage; keine Migration, Pluginupdates oder medizinischen Inhaltsänderungen in diesem Batch.

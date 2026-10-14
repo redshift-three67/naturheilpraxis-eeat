@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-14",
+  "source": "GSC Web; ungefilterter Ländermix; 362 sichtbare Queryzeilen ausgewertet, nur acht relevante generische lokale Queries gespeichert",
+  "periods": {
+    "current": [
+      "2026-09-16",
+      "2026-10-12"
+    ],
+    "previous": [
+      "2026-08-20",
+      "2026-09-15"
+    ],
+    "inclusiveDays": 27
+  },
+  "columns": [
+    "query",
+    "clicks_current",
+    "clicks_previous",
+    "clicks_delta",
+    "impressions_current",
+    "impressions_previous",
+    "impressions_delta",
+    "ctr_current",
+    "ctr_previous",
+    "ctr_delta",
+    "position_current",
+    "position_previous",
+    "position_delta"
+  ],
+  "rows": [
+    [
+      "heilpraktiker augsburg",
+      "3",
+      "5",
+      "-2",
+      "248",
+      "557",
+      "-309",
+      "1,2 %",
+      "0,9 %",
+      "0,3 %",
+      "5,9",
+      "4,4",
+      "1,5"
+    ],
+    [
+      "bioresonanztherapie augsburg",
+      "1",
+      "0",
+      "1",
+      "12",
+      "22",
+      "-10",
+      "8,3 %",
+      "0 %",
+      "8,3 %",
+      "1",
+      "1,8",
+      "-0,8"
+    ],
+    [
+      "naturheilpraxis augsburg",
+      "0",
+      "0",
+      "0",
+      "71",
+      "118",
+      "-47",
+      "0 %",
+      "0 %",
+      "0 %",
+      "8,7",
+      "8,6",
+      "0,2"
+    ],
+    [
+      "bioresonanz augsburg",
+      "0",
+      "0",
+      "0",
+      "53",
+      "79",
+      "-26",
+      "0 %",
+      "0 %",
+      "0 %",
+      "18,8",
+      "23,4",
+      "-4,6"
+    ],
+    [
+      "heilpraktikerin augsburg",
+      "0",
+      "0",
+      "0",
+      "39",
+      "48",
+      "-9",
+      "0 %",
+      "0 %",
+      "0 %",
+      "6,7",
+      "5,2",
+      "1,6"
+    ],
+    [
+      "augsburg heilpraktiker",
+      "0",
+      "0",
+      "0",
+      "36",
+      "13",
+      "23",
+      "0 %",
+      "0 %",
+      "0 %",
+      "21,9",
+      "17,8",
+      "4,1"
+    ],
+    [
+      "naturheilkunde augsburg",
+      "0",
+      "0",
+      "0",
+      "9",
+      "18",
+      "-9",
+      "0 %",
+      "0 %",
+      "0 %",
+      "15,2",
+      "11,2",
+      "4"
+    ],
+    [
+      "nls diagnostik augsburg",
+      "0",
+      "0",
+      "0",
+      "0",
+      "7",
+      "-7",
+      "0 %",
+      "0 %",
+      "0 %",
+      "0",
+      "24,3",
+      "-24,3"
+    ]
+  ],
+  "allCountriesTotals": {
+    "clicks": [
+      57,
+      67
+    ],
+    "impressions": [
+      2166,
+      3340
+    ],
+    "ctr": [
+      "2.6%",
+      "2.0%"
+    ],
+    "averagePosition": [
+      12,
+      15.7
+    ]
+  },
+  "germanyTotals": {
+    "clicks": [
+      52,
+      65
+    ],
+    "impressions": [
+      1940,
+      2853
+    ],
+    "ctr": [
+      "2.7%",
+      "2.3%"
+    ],
+    "averagePosition": [
+      12.4,
+      14.3
+    ]
+  },
+  "dataQuality": {
+    "operatorQueries": 6,
+    "operatorImpressions": [
+      112,
+      107
+    ],
+    "notAllIrrelevantQueriesCovered": true,
+    "rawQueriesNotSaved": true
+  },
+  "limits": [
+    "Keine lokale Augsburg-Rangmessung",
+    "Keine Daten vor 20.08.2026 bestätigt",
+    "Nur sichtbare Queryzeilen; anonymisierte Queries können fehlen",
+    "27 Tage haben leicht unterschiedlichen Wochentagsmix",
+    "Keine historischen Verlustursachen bewiesen"
+  ]
+}

@@ -1,0 +1,4 @@
+Sitemap-Übersicht frisch geladen: sitemap_index.xml, Typ Sitemap-Index, eingereicht14.10.2026, zuletzt gelesen14.10.2026, Erfolgreich,64erkannteSeiten. Alte sitemap.xml weiterhinErfolgreich53.
+ManuelleMaßnahmen: KeineProblemeerkannt.
+Sicherheitsprobleme: KeineProblemeerkannt. Kein vollständiger Security-Scan.
+GBP nach Reload und Abbrechen des ohne Eingaben geöffneten Editors: aktuelle Zeiten Mo–Fr10:00–12:30/13:00–19:00,Sa/So geschlossen; kein Ausstehendhinweis mehr. Öffentliche Ausspielung nicht vollständig separat geprüft.

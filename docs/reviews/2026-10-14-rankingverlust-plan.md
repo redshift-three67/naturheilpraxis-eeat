@@ -1,5 +1,9 @@
 # Rankingverluste und Wettbewerbsvergleich – priorisierte Planung, 14.10.2026
 
+
+Fortschreibung: Die [Ranking-Erstauswertung](2026-10-14-ranking-erstauswertung.md) enthält inzwischen den tatsächlichen 27-Tage-Vergleich, Deutschland-/Geräte- und Zielseitenschnitte sowie aktualisierte Prioritäten. Die folgenden Abschnitte halten den ursprünglichen Planstand fest.
+
+
 ## Auftrag und Position im Gesamtplan
 
 Die Ursachenanalyse steht nach den eindeutig begründeten Sicherheits-/Nutzerkorrekturen und vor größeren SEO-Text-, URL- oder Strukturänderungen. Sie bildet die Grundlage für die Optimierung der bestehenden WordPress-Seite und für eine später sachlich begründete Weiterentwicklung. Der Ordner naturheilpraxis-eeat dokumentiert bereits durchgeführte Arbeiten an derselben Live-Instanz; er ist kein Beweis für eine noch ausstehende vollständige Migration.

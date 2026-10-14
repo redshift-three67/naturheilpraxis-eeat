@@ -1,0 +1,46 @@
+heading "Öffnungszeiten" [level=2]
+    - region [active]:
+      - heading "Öffnungszeiten" [level=3]
+      - button "Öffnungszeiten bearbeiten":
+      - list:
+        - generic "Geöffnet mit Angabe der Öffnungszeiten":
+          - generic: Geöffnet mit Angabe der Öffnungszeiten
+      - generic: Sonntag
+      - generic: Geschlossen
+      - generic: Montag
+      - list:
+        - generic "10:00–12:30":
+          - generic: 10:00–12:30
+        - generic "13:00–19:00":
+          - generic: 13:00–19:00
+      - generic: Dienstag
+      - list:
+        - generic "10:00–12:30":
+          - generic: 10:00–12:30
+        - generic "13:00–19:00":
+          - generic: 13:00–19:00
+      - generic: Mittwoch
+      - list:
+        - generic "10:00–12:30":
+          - generic: 10:00–12:30
+        - generic "13:00–19:00":
+          - generic: 13:00–19:00
+      - generic: Donnerstag
+      - list:
+        - generic "10:00–12:30":
+          - generic: 10:00–12:30
+        - generic "13:00–19:00":
+          - generic: 13:00–19:00
+      - generic: Freitag
+      - list:
+        - generic "10:00–12:30":
+          - generic: 10:00–12:30
+        - generic "13:00–19:00":
+          - generic: 13:00–19:00
+      - generic: Samstag
+      - generic: Geschlossen
+    - region:
+      - heading "Spezielle Öffnungszeiten" [level=3]
+      - button "Spezielle Öffnungszeiten bearbeiten":
+      - generic: Hinzufügen
+    -
