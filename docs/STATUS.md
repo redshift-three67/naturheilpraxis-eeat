@@ -1,5 +1,7 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+Planpriorität ergänzt: Rankingverluste zunächst je Suchanfrage, URL und Zeitraum belegen und mit reproduzierbar erhobenen organischen Top Ten vergleichen; Maps getrennt. Erste GSC-Werte sind keine Verlustzeitreihe. Siehe [Ursachenanalyse und Wettbewerbsplan](reviews/2026-10-14-rankingverlust-plan.md).
+
 ## SEO-Quickwins am 14.10.2026
 
 Aktuelle Sitemap mit 64 geprüften Seiten einmal in GSC eingereicht. Detailbericht: fehlerfrei verarbeitet, noch 0 Seiten; Übersicht weiterhin Abruffehler. Verarbeitung der untergeordneten Sitemap bleibt offen. Praxiszeiten nach Betreiberbestätigung gespeichert: Mo–Fr 10:00–12:30 und 13:00–19:00, Sa/So geschlossen; Google-Prüfung ausstehend, Termin erforderlich erhalten. Diagnose-Hub: Google-Live-Test bestanden; ein Indexierungsantrag wegen reCAPTCHA-Verbindungsfehler gescheitert, keine erfolgreiche Einreichung behaupten.

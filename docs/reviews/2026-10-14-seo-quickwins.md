@@ -62,6 +62,8 @@ Dateinamen wie „aktuell“ oder ein erreichbarer PDF-Pfad reichen nicht für e
 
 ## Nächste Arbeitspakete in Reihenfolge
 
+Ergänzung auf Betreiberwunsch: Vor größeren SEO-Änderungen gilt der [Plan zur Ranking-Ursachenanalyse und zum Top-Ten-Vergleich](2026-10-14-rankingverlust-plan.md). Er konkretisiert und priorisiert Punkt 2.
+
 1. Beim nächsten gezielten Kontrollschritt Google-Freigabe der Zeiten und konsistenten Sitemapstatus einschließlich page-sitemap.xml prüfen. Kein automatisches Monitoring eingerichtet.
 2. GSC-Leistungsdaten nach Suchanfrage, Seite, Gerät und Zeitraum auswerten; Markenanfragen getrennt betrachten. Mit Indexierungsdaten die drei Leistungscluster priorisieren: biophysikalische Informationstherapien, Naturheilverfahren, Diagnostik im Augsburger Raum.
 3. Downloadwege und Kontakt-/Terminführung konkret reparieren, sobald aktuelle Dokumente zugeordnet sind. Tatsächlichen Anamnese-App-/Mailrelay-Aufrufer identifizieren; Erfolg ohne vorgesehenen PDF-Anhang vor Änderung des Antwortvertrags beim echten Client prüfen.
