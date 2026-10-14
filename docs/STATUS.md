@@ -1,5 +1,10 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## PAUSE – Sicherungspunkt 15.10.2026
+
+Arbeit auf ausdrücklichen Betreiberwunsch pausiert. Keine Fortsetzung oder Hintergrundüberwachung ohne neuen Auftrag. Stand, offene Punkte und Wiederaufnahme: [Sicherungspunkt](../archive/2026-10-15/CHECKPOINT-PAUSE.md). Git-Markierung: checkpoint-2026-10-15-pause. Private verschlüsselte Zusatzsicherung außerhalb Git; vorhandene fremde Arbeitsdatei unverändert erhalten.
+
+
 
 ## Ranking-Erstauswertung und Quickwin-Verifizierung
 
