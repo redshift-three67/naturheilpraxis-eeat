@@ -23,6 +23,24 @@ Dies sind aggregierte Werte im sichtbaren Zeitraum, keine heutigen lokalen Rangp
 
 Der Diagnostik-Hub ist im gespeicherten Google-Bericht nicht indexiert; der aktuelle Live-Test erlaubt Indexierung. Das begrenzt die Sichtbarkeit dieser URL, erklärt aber keinen websiteweiten Absturz. Details: [Quickwins](2026-10-14-seo-quickwins.md).
 
+### Betreiberbeobachtung und aktuelle Google-Stichprobe
+
+Der Betreiber sieht die Website aktuell auf der dritten Ergebnisseite; der Rückgang bestehe schon länger, ein Beginn lässt sich nicht verlässlich benennen. Dies ist als Betreiberbeobachtung aufgenommen, nicht als unter identischen Bedingungen unabhängig gemessener Rang. Die frühere Formulierung, die aggregierte Position „relativiere“ den Verlust, war zu weitgehend: 4,9 widerlegt diesen Verlust nicht.
+
+Google erläutert außerdem: Positionen werden nur bei erfassten Impressionen berücksichtigt. Ergebnisse auf nicht aufgerufenen späteren Seiten können fehlen; pro Property wird der höchstplatzierte Link berücksichtigt. Damit ist der Wert kein verlässlicher Rang der normalen organischen Hauptseitenanzeige in einer heutigen Augsburger Suche. Quelle: https://support.google.com/webmasters/answer/7042828?hl=de .
+
+Zusätzliche direkte Chrome-Desktop-Stichprobe am 14.10.2026: Query „heilpraktiker augsburg“, hl=de, gl=de, pws=0. Google-Fußzeile „Ergebnisse sind nicht personalisiert“, IP-Region 86156 Augsburg; kein gezielt gesetzter Hochzoll-Standort. Rauch erscheint in einer separaten lokalen Anbieterliste, aber nicht in den neun allgemeinen Webtreffern der ersten Ergebnisseite. In dieser Stichprobe ließ sich die vom Betreiber beobachtete dritte Seite nicht punktgenau reproduzieren. Es wird daraus kein allgemeingültiger Rang behauptet.
+
+Die neun allgemeinen Webtreffer auf Seite 1 waren in angezeigter Reihenfolge: werkenntdenbesten.de, naturheilpraxis-ruhl.de, polinacea-heilpraktiker.de, landkreis-augsburg.de (Heilpraktikerinformation), doctolib.de, naturheilpraxis-augsburg.de, praxis-pruefer.de, natural-medical-coach.de und heilpraktiker-haimerl-augsburg.de. Anzeigen, lokale Listen und Bilder sind nicht als diese Webtreffer mitgezählt. Diese Stichprobe konkretisiert die Ausgangsliste für P1; weitere Queries/Standorte/Geräte sind noch offen.
+
+Von diesen tatsächlich sichtbaren Seiten wurden zusätzlich zwei Primärseiten gelesen:
+
+- https://www.naturheilpraxis-ruhl.de/ : direkt sichtbare Buchungs- und Preisnavigation, konkrete Kontakt-/Anfahrtshinweise sowie aktuelle Praxisinformationen. Prüffeld bei Rauch: Verlässlichkeit und Eindeutigkeit des Terminwegs; kein Schluss, dass mehr Praxisnews automatisch besser ranken.
+- https://praxis-pruefer.de/ : führt über Anliegen und Zielgruppen zu Angeboten; Termine/Gebühren und Kontakt sind direkt erschlossen. Prüffeld bei Rauch: verständlicher Zugang zu den bestehenden drei Leistungsbereichen. Die teils weitreichenden medizinischen Aussagen werden nicht übernommen; daraus folgt keine Empfehlung für neue Krankheitsseiten.
+
+Die Polinacea-Startseite war über das Web-Lesewerkzeug nicht abrufbar; aus einem Abruffehler dieses Werkzeugs folgt kein technischer Fehler der Konkurrenzseite. Die weiter unten aufgeführte frühere qualitative Stichprobe ergänzt diese tatsächlichen SERP-Kandidaten, ersetzt sie aber nicht.
+
+
 ### Lokale Historie
 
 Es liegt im geprüften Repo keine belastbare Keyword-/Rankingzeitreihe und kein alter GSC-Leistungsexport vor.
