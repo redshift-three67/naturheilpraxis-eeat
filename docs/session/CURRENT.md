@@ -1,5 +1,12 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
+## Mailrelay-Antworten am 14.10.2026
+
+Zweiter Sicherheitsfix live: fünf smtp_error-Werte enthalten ausschließlich SMTP delivery failed. Baseline verschlüsselt gesichert; sieben lokale Szenarien mit echtem Antwortcode bestanden, native mail()-Funktion gesperrt. Vollständige PHP-Grammatik und Live-Hash nach Speichern geprüft; GET 405. Alter Editor vom Nutzer geschlossen, neuer Prüfeditor abschließend geschlossen. Bericht: [SMTP-Antworten](../reviews/2026-10-14-mailrelay-response-errors.md).
+
+Kein Zustelltest. Erfolg ohne ursprünglich vorgesehenen Anhang bleibt separat zu prüfen; kein zusätzliches Versandverhalten geändert.
+
+
 
 ## Aktueller Zusatzstand 14.10.2026
 

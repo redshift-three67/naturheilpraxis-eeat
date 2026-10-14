@@ -1,5 +1,12 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## Mailrelay-Antworten: weiterer Live-Schritt am 14.10.2026
+
+Fünf rohe SMTP-Fehlerwerte in JSON-Antworten durch einen festen String ersetzt. Antwortstruktur und Transport bleiben erhalten. Original: fünf Canary-Offenlegungen in sieben Szenarien; Patch: sieben Szenarien bestanden, vollständige PHP-Grammatik geprüft. Vorheriger Stand zusätzlich verschlüsselt gesichert; Live-Quelltext nach Speichern erneut abgeglichen, GET 405. Alter Editor vom Nutzer ohne Speichern geschlossen; neuer Prüfeditor abschließend geschlossen.
+
+Details: [SMTP-Antworten](reviews/2026-10-14-mailrelay-response-errors.md). Offen: produktiver Versandtest, tatsächlicher Client-Umgang mit Erfolg ohne vorgesehenen Anhang, weitere Ausgabepfade und Zugangsdatenrotation. Keine weiteren SEO-/Profil-/Pluginänderungen.
+
+
 
 ## Aktueller Zusatzstand 14.10.2026
 

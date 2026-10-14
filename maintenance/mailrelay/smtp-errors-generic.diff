@@ -1,0 +1,17 @@
+--- a/mail-relay.php
++++ b/mail-relay.php
+@@ -513,1 +513,1 @@
+-                'smtp_error' => $result,
++                'smtp_error' => 'SMTP delivery failed',
+@@ -532,1 +532,1 @@
+-                    'smtp_error' => $result,
++                    'smtp_error' => 'SMTP delivery failed',
+@@ -541,1 +541,1 @@
+-                    'smtp_error' => $result,
++                    'smtp_error' => 'SMTP delivery failed',
+@@ -561,1 +561,1 @@
+-                'smtp_error' => $result,
++                'smtp_error' => 'SMTP delivery failed',
+@@ -570,1 +570,1 @@
+-                'smtp_error' => $result,
++                'smtp_error' => 'SMTP delivery failed',

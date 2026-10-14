@@ -35,3 +35,7 @@ Normalisierte UTF-8-SHA-256:
 - Andere Ausgabepfade, insbesondere freie SMTP-Fehlertexte in HTTP-Antworten, sowie Zugangsdatenrotation benötigen einen eigenen gezielten Schritt.
 - Der alte ursprüngliche Editor-Tab verlor seine Browsersteuerungsverbindung vor dem Speichern. Gespeichert und erneut verifiziert wurde in einem frischen Tab. Betreiber wurde aufgefordert, den alten Editor ohne Speichern zu schließen, damit kein veralteter Puffer zurückgeschrieben wird.
 - Weitere SEO-, Plugin-, Schema- und Profiländerungen wurden nicht durchgeführt.
+
+## Fortschreibung am 14.10.2026
+
+Nutzer bestätigt: alter Editor ohne Speichern geschlossen. Die fünf rohen SMTP-Fehlerwerte in JSON-Antworten sind inzwischen bereinigt; siehe [Folgebericht](2026-10-14-mailrelay-response-errors.md). Die übrigen Grenzen dieses Berichts bleiben bestehen.
