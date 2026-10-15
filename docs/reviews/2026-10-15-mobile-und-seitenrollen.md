@@ -61,19 +61,25 @@ Neun öffentliche URLs wurden frisch ohne Anmeldung abgerufen. Jede liefert 200,
 | /naturheilkundliche-gesundheitsdiagnostik/ | Allgemeiner Einstieg in Ablauf und angebotene Untersuchungen | Laboruntersuchungen und ergänzende Hinweisverfahren verständlich trennen. Der kurze vorhandene Text ordnet beide zusammen und anschließend Diagnostik unter BIT ein. |
 | /nls-diagnostik/ | Ein konkretes Verfahren | NLS als Einzelleistung benennen; Aussagen zu Organen, Erregern und Belastungen fachlich prüfen. |
 | /diagnostik-informationstherapie/ | Begriffliche Einordnung von Informationstherapie | Eigene Aufgabe gegenüber BIT erklären; die aktuelle Überordnung und der anschließende Einstieg über NLS widersprechen einer eindeutigen Navigation. |
-| /biophysikalische-informationstherapie-bit/ | Tatsächliches Praxisangebot unter BIT | Sammelbegriff oder eigenständige Anwendung mit Betreiber abgrenzen. Kurze allgemeine Absätze belegen noch keine eigenständige Leistung. |
+| /biophysikalische-informationstherapie-bit/ | Tatsächliches Praxisangebot unter BIT | Betreiberbestätigung 15.10.: BIT ist ein Oberbegriff für mehrere Verfahren. Die Seite soll dieses Angebot ordnen und die einzelnen Leistungen direkt erschließen; keine separate BIT-Anwendung erfinden. |
 | /bioresonanz-therapie/ | Konkrete Leistung mit Ablauf und Terminweg | Veraltetes Seit-kurzem-Wording und weitgehende Gerätebeschreibungen sachlich prüfen. |
 | /bioresonanz-und-elektroakupunktur/ | Sachlicher Methodenvergleich | Unterschiede konkret erklären und die beiden Leistungsseiten direkt verknüpfen. |
-| /vieva-pro-herzratenvariabilitaet/ und /vital-und-naehrstoffanalyse/ | Tatsächlich angebotene Messung und deren Grenzen | HRV-Einleitung ohne Ersatzlabor steht neben älteren Listen zu Nährstoffen, Organfunktionen und Belastungen. Alte Liste und neue Einleitung nicht ungeprüft als maßgeblich behandeln. |
+| /vieva-pro-herzratenvariabilitaet/ und /vital-und-naehrstoffanalyse/ | Tatsächlich angebotene Messung und deren Grenzen | Betreiberbestätigung 15.10.: Es gibt nur Vieva Pro; Vieva Plus ist ein Schreibfehler. Angeboten werden damit HRV und Vital-/Nährstoffanalyse. Diese Angebotsbestätigung ist kein Wirksamkeits- oder Validitätsnachweis der medizinischen Aussagen. HRV-Einleitung und ältere Organ-/Nährstofflisten fachlich aufeinander abstimmen. |
 
 Geeignete kleine Umsetzungspakete nach dieser Inhaltsklärung:
 
 1. Hauptmenü und allgemeinen Startseitenlink Diagnostik auf denselben geeigneten allgemeinen Einstieg führen. Namentliche NLS-Zugänge behalten ihr spezifisches Ziel.
 2. HFCM #13 gezielt anpassen. Der aktuelle Cluster ordnet 13 Einträge einschließlich BIT, Informationstherapie und allgemeinem Hub unter NLS ein. NLS fehlt selbst als MAP-Eintrag und DIAG-Item. Ein globaler URL-Tausch würde außerdem einen Übersichts-Selbstlink auf dem neuen Hub erzeugen, weil der Renderer nur items-Selbstlinks überspringt, nicht hub-Selbstlinks.
 3. Bioresonanz-Leistungskachel direkt auf /bioresonanz-therapie/ und Vergleichskachel direkt auf /bioresonanz-und-elektroakupunktur/ führen; Labels und Wirkungsaussagen müssen zur tatsächlichen Aussage der Zielseite passen.
-4. Vieva-Footerlink erst nach Geräte-/Verfahrenszuordnung korrigieren. Sein heutiges EAV-Ziel ist keine sachlich passende Standardlösung; die beiden Vieva-Texte begründen aber noch kein beliebig austauschbares Ersatz-Ziel.
+4. Die Gerätezuordnung ist nun bestätigt: Footerlabel Vieva Plus Diagnostik zu Vieva Pro Diagnostik korrigieren und direkt auf /vieva-pro-herzratenvariabilitaet/ führen. Der jetzige EAV-Link ist falsch zugeordnet. Auf der Pro-Seite die bestätigten Angebotsbereiche HRV und Vital-/Nährstoffanalyse verständlich verknüpfen und Aussagen getrennt fachlich prüfen; keine ungeprüfte Gleichsetzung der Methoden mit einem Labor.
 
 Abnahme je Paket: archivierter Vorherstand, eine logische Änderung, direktes Ziel 200, passende Canonical, korrekte Labels in Desktop- und Mobilnavigation, keine Übersichts-Selbstlinks und öffentlich geprüftes JavaScript-Cluster. Keine neuen URLs, Weiterleitungen oder Zusammenlegungen aus diesem Befund ableiten.
+
+## Bestätigte Begriffe und offene Footerzuordnung
+
+Der Betreiber hat im laufenden Schritt bestätigt: BIT ist der Oberbegriff für mehrere Verfahren. Es gibt nur Vieva Pro; Plus ist ein Schreibfehler. Vieva Pro wird in der Praxis für HRV und Vital-/Nährstoffanalyse angeboten. Damit ist die Benennung geklärt; die wissenschaftliche Aussagekraft der genannten Auswertungen ist gesondert anhand geeigneter Quellen zu prüfen.
+
+Die öffentliche Footer-Verknüpfung wurde im Browser erneut als Vieva Plus Diagnostik mit dem falschen EAV-Ziel festgestellt. In WordPress wurden Widgets und anschließend YOOtheme Layout/Fußzeile nur lesend geöffnet. Der Fußzeilenbereich bot Neues Layout statt eines bestehenden Layouts an; die Vorschau war noch leer. Der vorhandene öffentliche Footer konnte dadurch keiner eindeutig bearbeitbaren aktuellen Vorlage zugeordnet werden. Kein neues Layout anlegen und kein inaktives Footer-Widget auf Verdacht verändern. Die Oberfläche blieb auf Veröffentlicht mit deaktivierter Schaltfläche; kein Speichern oder Veröffentlichen ausgelöst. Die Korrektur bleibt bis zur eindeutigen Vorlagenzuordnung offen.
 
 ## Fortsetzung und Schutz des Bestands
 

@@ -6,7 +6,7 @@ Der Betreiber hat die Fortsetzung ausdrücklich freigegeben. Der Sicherungspunkt
 
 Neue Prüfung: 54 GSC-Tageszeilen der exakten Anfrage heilpraktiker augsburg, Deutschland/Mobil, 20.08.–12.10.; 499 Impressionen und 8 Klicks. Vollständige Wochen zeigen einen Übergang im September und danach schwächere Sichtbarkeit. Öffentlicher mobiler PSI-Labortest: Leistung 79, LCP 5,0 Sekunden; Hintergrund-SVG im LCP-Anfrageaudit. Keine CrUX-Felddaten, GSC-CWV für beide Gerätetypen ohne ausreichende Nutzungsdaten. Kein Beweis einer technischen Rankingursache.
 
-Neun öffentliche Seiten frisch geprüft. Nächster Schritt: konkreten mobilen LCP-Ladeablauf prüfen und Diagnostik/BIT/NLS inhaltlich abgrenzen; erst danach kleine gesicherte Linkkorrekturen. BIT-Abgrenzung und tatsächlich angebotenes Vieva-Gerät beim Betreiber erfragt. Keine Live-Inhalte oder Systeme in dieser Wiederaufnahme verändert. [Befund und Korrekturplan](reviews/2026-10-15-mobile-und-seitenrollen.md).
+Neun öffentliche Seiten frisch geprüft. Nächster Schritt: konkreten mobilen LCP-Ladeablauf prüfen und Diagnostik/BIT/NLS inhaltlich abgrenzen; erst danach kleine gesicherte Linkkorrekturen. Betreiber bestätigt: BIT ist Oberbegriff; nur Vieva Pro, angeboten für HRV und Vital-/Nährstoffanalyse, Plus ist Schreibfehler. Footerlabel und EAV-Fehlziel sind geklärt; aktuelle Bearbeitungsvorlage noch eindeutig zuordnen. YOOtheme Layout/Fußzeile zeigte nur Neues Layout, kein bestehendes Layout; nichts angelegt oder gespeichert. Keine Live-Inhalte oder Systeme in dieser Wiederaufnahme verändert. [Befund und Korrekturplan](reviews/2026-10-15-mobile-und-seitenrollen.md).
 
 Die folgenden Abschnitte sind historische Arbeitsstände; bei Widersprüchen gilt der jüngste Abschnitt oben.
 
