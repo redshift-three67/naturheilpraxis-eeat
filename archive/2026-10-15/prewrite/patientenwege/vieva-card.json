@@ -1,0 +1,46 @@
+{
+  "source": "Home Post 17, Grid NLS/Vieva, Eintrag Vitalfeldtherapie",
+  "fields": [
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Vitalfeldtherapie"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Vitalfeldtherapie"
+    },
+    {
+      "disabled": false,
+      "placeholder": "http://",
+      "value": "wp-content/uploads/company-office-icon-01.svg"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Vitalfeldtherapie mit dem Vieva Pro Vitaltuning"
+    },
+    {
+      "disabled": true,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "placeholder": "http://",
+      "value": "/vieva-pro-herzratenvariabilitaet/"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": ""
+    }
+  ],
+  "html": "<p style=\"color: #000;\" data-mce-style=\"color: #000;\">Vital und Kraftvoll: Entdecken Sie die Vorteile der <strong>Vieva Pro Vitalfeldanalyse</strong></p><p><br></p>"
+}

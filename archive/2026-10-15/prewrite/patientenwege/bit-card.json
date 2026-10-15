@@ -1,0 +1,47 @@
+{
+  "source": "Home Post 17, Grid BIT/Baklayan, Eintrag BIT",
+  "fields": [
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Biophysikalische Informationstherapie"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Biophysikalische Informationstherapie"
+    },
+    {
+      "disabled": false,
+      "placeholder": "http://",
+      "value": "wp-content/uploads/company-office-icon-01.svg"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Biophysikalische Informationstherapie"
+    },
+    {
+      "disabled": true,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "placeholder": "http://",
+      "value": "biophysikalische-informationstherapie-bit/"
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": ""
+    },
+    {
+      "disabled": false,
+      "placeholder": null,
+      "value": "Heilpraktiker Augsburg"
+    }
+  ],
+  "html": "<p style=\"color: #000;\" data-mce-style=\"color: #000;\"><span>Die <strong>Biophysikalische Informationstherapie</strong> (BIT) gehört zu der sogenannten „Holistischen Medizin“.</span></p>",
+  "editable": "true"
+}

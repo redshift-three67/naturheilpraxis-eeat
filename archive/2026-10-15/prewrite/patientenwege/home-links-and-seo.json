@@ -1,0 +1,907 @@
+{
+  "canonical": "https://rauch-heilpraktiker.de/",
+  "h1": [
+    "Heilpraktiker Augsburg – Naturheilpraxis Peter Rauch"
+  ],
+  "links": [
+    {
+      "href": "#eeat-main",
+      "text": "Zum Inhalt"
+    },
+    {
+      "href": "https://de.wordpress.org/",
+      "text": "WordPress.org"
+    },
+    {
+      "href": "https://wordpress.org/documentation/",
+      "text": "Dokumentation (engl.)"
+    },
+    {
+      "href": "https://learn.wordpress.org/?locale=de_DE",
+      "text": "Learn WordPress"
+    },
+    {
+      "href": "https://de.wordpress.org/support/",
+      "text": "Support"
+    },
+    {
+      "href": "https://wordpress.org/support/forum/requests-and-feedback/",
+      "text": "Feedback"
+    },
+    {
+      "href": "#",
+      "text": "Markiere diese Seite"
+    },
+    {
+      "href": "#pillar_content",
+      "text": "Als Säuleninhalt"
+    },
+    {
+      "href": "#noindex",
+      "text": "Als NoIndex"
+    },
+    {
+      "href": "#nofollow",
+      "text": "Als NoFollow"
+    },
+    {
+      "href": "#",
+      "text": "Externe Werkzeuge"
+    },
+    {
+      "href": "https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Frauch-heilpraktiker.de%2F",
+      "text": "Google PageSpeed"
+    },
+    {
+      "href": "https://search.google.com/test/rich-results?url=https%3A%2F%2Frauch-heilpraktiker.de%2F&user_agent=1",
+      "text": "Google Rich-Suchergebnisse (Mobile)"
+    },
+    {
+      "href": "https://search.google.com/test/rich-results?url=https%3A%2F%2Frauch-heilpraktiker.de%2F&user_agent=2",
+      "text": "Google Rich-Suchergebnisse (Desktop)"
+    },
+    {
+      "href": "https://developers.facebook.com/tools/debug/sharing/?q=https%3A%2F%2Frauch-heilpraktiker.de%2F",
+      "text": "Facebook Fehlersuchprogramm"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de",
+      "text": ""
+    },
+    {
+      "href": "#tm-mobile",
+      "text": "Menü"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/",
+      "text": "Rauch"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung/",
+      "text": "Datenschutz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung-tools/",
+      "text": "Datenschutz Tools"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/impressum/",
+      "text": "Impressum"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilpraktiker-rechtshinweise/",
+      "text": "Rechtshinweise"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtshinweise Therapieverfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/downloadbereich-naturheilpraxis-rauch/",
+      "text": "Downloadbereich"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/corona-praxis-offen/",
+      "text": "Praxis offen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/gesundheitsrelevante-dokumentation/",
+      "text": "Gesundheitsrelevante Dokumentation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-informationstherapie/",
+      "text": "Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-stuhluntersuchung/",
+      "text": "Diagnostik – Stuhluntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-urinuntersuchung/",
+      "text": "Diagnose – Urinuntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-labordiagnose-biodiagnostik/",
+      "text": "Diagnose – Labordiagnose – Biodiagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/",
+      "text": "Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-irisdiagnose/",
+      "text": "Hinweisdiagnostik – Irisdiagnose"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-frequenztherapie/",
+      "text": "Hinweisdiagnostik – Frequenztherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/biophysikalische-informationstherapie-bit/",
+      "text": "Biophysikalische"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+      "text": "Bioresonanz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-und-elektroakupunktur/",
+      "text": "Funktionsweise Bioresonanz / Elektroakupunktur"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/akupunktur-ohne-nadeln/",
+      "text": "Akupunktur ohne Nadeln"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+      "text": "NLS-Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vieva Pro"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vital-und-naehrstoffanalyse/",
+      "text": "Analyse"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/elektroakupunktur-nach-dr-voll-3/",
+      "text": "Elektroakupunktur nach Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/150-mhz-befeldung-nach-broers-3/",
+      "text": "150 MHz nach Broers"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/manuelle-therapieverfahren-uebersicht/",
+      "text": "Manuelle"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/osteopathie-techniken/",
+      "text": "+Osteopathie Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/integrative-manual-therapy-imt/",
+      "text": "+Integrative Manual Therapy"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/integrative-manual-therapy-die-begruender/",
+      "text": "Die Begründer"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/imt-denk-und-behandlungsansaetze/",
+      "text": "Denk und Behandlungsansätze"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/imt-behandlungsmoeglichkeiten/",
+      "text": "Behandlungsmöglichkeiten"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/funktionelle-strukturelle-rehabilitation/",
+      "text": "Rehabilitation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-biovalent-system/",
+      "text": "+Lowen Systems (Biovalent System)"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-allgemeines/",
+      "text": "Arbeit mit den Händen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-begruender-frank-lowen/",
+      "text": "Begründer Frank Lowen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-haende/",
+      "text": "Die Hände"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/arbeit-mit-den-regulatoren/",
+      "text": "Die Regulatoren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-koerper-rhythmen/",
+      "text": "Die Koerper Rhythmen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-koerpersysteme/",
+      "text": "Die Körpersysteme"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/microkinesi-therapie/",
+      "text": "+Microkinesi Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/microkinesi-behandlungsmoeglichkeiten/",
+      "text": "Microkinesi Möglichkeiten"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/physiotherapie-allgemeines/",
+      "text": "+Physiotherapie Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/physiotherapie-taetigkeitsfelder/",
+      "text": "Physiotherapie Tätigkeitsfelder"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/dorntherapie/",
+      "text": "+Dorntherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/schmerztherapie-augsburg/",
+      "text": "Schmerz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/schmerztherapie-entstehung-von-schmerz/",
+      "text": "Entstehung von Schmerz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naturheilkunde/",
+      "text": "Naturheilkunde"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+      "text": "Klassische Homöopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+      "text": "Die Komplex Homöopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/die-phytotherapie/",
+      "text": "Die Phytotherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/allergiebehandlung-mit-naet/",
+      "text": "Allergiebehandlung mit NAET"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+      "text": "Behandlungsablauf"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+      "text": "Naturheilkundliche Darmsanierung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/injektionstherapie/",
+      "text": "Injektionstherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/orthomolekulare-therapie/",
+      "text": "Orthomolekular"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kinesiologie/",
+      "text": "Kinesiologie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/zhineng-qigong/",
+      "text": "Zhineng"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/zhineng-qigong-nach-dr-pang-ming/",
+      "text": "Dr Pang Ming"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+      "text": "Psychotherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hypnotherapie-augsburg/",
+      "text": "Hypnose"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilmeditation/",
+      "text": "Heilmeditation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de",
+      "text": ""
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/",
+      "text": "RauchHeilpraktiker"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung/",
+      "text": "Datenschutz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung-tools/",
+      "text": "Datenschutz Tools"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/impressum/",
+      "text": "Impressum"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilpraktiker-rechtshinweise/",
+      "text": "Rechtshinweise"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtshinweise Therapieverfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/downloadbereich-naturheilpraxis-rauch/",
+      "text": "Downloadbereich"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/corona-praxis-offen/",
+      "text": "Praxis offen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/gesundheitsrelevante-dokumentation/",
+      "text": "Gesundheitsrelevante Dokumentation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-informationstherapie/",
+      "text": "DiagnostikUntersuchungen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnostik-stuhluntersuchung/",
+      "text": "Diagnostik – Stuhluntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-urinuntersuchung/",
+      "text": "Diagnose – Urinuntersuchung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/diagnose-labordiagnose-biodiagnostik/",
+      "text": "Diagnose – Labordiagnose – Biodiagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-eav-elektroakupunktur-nach-dr-voll/",
+      "text": "Hinweisdiagnostik – EAV – Elektroakupunktur nach Dr. Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-irisdiagnose/",
+      "text": "Hinweisdiagnostik – Irisdiagnose"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hinweisdiagnostik-frequenztherapie/",
+      "text": "Hinweisdiagnostik – Frequenztherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/biophysikalische-informationstherapie-bit/",
+      "text": "BiophysikalischeInformationstherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+      "text": "Bioresonanz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-und-elektroakupunktur/",
+      "text": "Funktionsweise Bioresonanz / Elektroakupunktur"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/akupunktur-ohne-nadeln/",
+      "text": "Akupunktur ohne Nadeln"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+      "text": "NLS-Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vieva Pro"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vital-und-naehrstoffanalyse/",
+      "text": "Analyse"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/elektroakupunktur-nach-dr-voll-3/",
+      "text": "Elektroakupunktur nach Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/150-mhz-befeldung-nach-broers-3/",
+      "text": "150 MHz nach Broers"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/manuelle-therapieverfahren-uebersicht/",
+      "text": "ManuelleTherapien"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/osteopathie-techniken/",
+      "text": "+Osteopathie Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/integrative-manual-therapy-imt/",
+      "text": "+Integrative Manual Therapy"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/integrative-manual-therapy-die-begruender/",
+      "text": "Die Begründer"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/imt-denk-und-behandlungsansaetze/",
+      "text": "Denk und Behandlungsansätze"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/imt-behandlungsmoeglichkeiten/",
+      "text": "Behandlungsmöglichkeiten"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/funktionelle-strukturelle-rehabilitation/",
+      "text": "Rehabilitation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-biovalent-system/",
+      "text": "+Lowen Systems (Biovalent System)"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-allgemeines/",
+      "text": "Arbeit mit den Händen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-begruender-frank-lowen/",
+      "text": "Begründer Frank Lowen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-haende/",
+      "text": "Die Hände"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/arbeit-mit-den-regulatoren/",
+      "text": "Die Regulatoren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-koerper-rhythmen/",
+      "text": "Die Koerper Rhythmen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/lowen-systems-und-die-koerpersysteme/",
+      "text": "Die Körpersysteme"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/microkinesi-therapie/",
+      "text": "+Microkinesi Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/microkinesi-behandlungsmoeglichkeiten/",
+      "text": "Microkinesi Möglichkeiten"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/physiotherapie-allgemeines/",
+      "text": "+Physiotherapie Allgemein"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/physiotherapie-taetigkeitsfelder/",
+      "text": "Physiotherapie Tätigkeitsfelder"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/dorntherapie/",
+      "text": "+Dorntherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/schmerztherapie-augsburg/",
+      "text": "SchmerzTherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/schmerztherapie-entstehung-von-schmerz/",
+      "text": "Entstehung von Schmerz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naturheilkunde/",
+      "text": "NaturheilkundeTherapieverfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/klassische-homoeopathie/",
+      "text": "Klassische Homöopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/die-komplex-homoeopathie/",
+      "text": "Die Komplex Homöopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/die-phytotherapie/",
+      "text": "Die Phytotherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/allergiebehandlung-mit-naet/",
+      "text": "Allergiebehandlung mit NAET"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naet-methode-allergie-behandlung/",
+      "text": "Behandlungsablauf"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naturheilkundliche-darmsanierung/",
+      "text": "Naturheilkundliche Darmsanierung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/injektionstherapie/",
+      "text": "Injektionstherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/orthomolekulare-therapie/",
+      "text": "OrthomolekularTherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kinesiologie/",
+      "text": "Kinesiologie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/zhineng-qigong/",
+      "text": "ZhinengQi Gong"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/zhineng-qigong-nach-dr-pang-ming/",
+      "text": "Dr Pang Ming"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+      "text": "Psychotherapieund Burnout"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/hypnotherapie-augsburg/",
+      "text": "Hypnose"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilmeditation/",
+      "text": "Heilmeditation"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "KontaktNaturheilpraxis"
+    },
+    {
+      "href": "/nls-diagnostik/",
+      "text": "Info zur NLS Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "/klassische-homoeopathie/",
+      "text": "Info zur klassischen Homöopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+      "text": "Info zur Psychotherapie"
+    },
+    {
+      "href": "/biophysikalische-informationstherapie-bit/",
+      "text": "Info zur Informationstherapie"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "tel:+498212621462",
+      "text": "Anrufen"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=Friedrich-Deffner-Stra%C3%9Fe+19a%2C+86163+Augsburg",
+      "text": "Route"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": "Naturheilpraxis mit Herz"
+    },
+    {
+      "href": "#",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": "Heilpraktiker Augsburg"
+    },
+    {
+      "href": "https://www.provenexpert.com/naturheilpraxis-rauch/?mode=preview#appointment",
+      "text": "Jetzt Termin buchen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen Patientenaufnahme vor dem Termin"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtliche Hinweise"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+      "text": "Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+      "text": "Bioresonanz"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/naturheilkunde/",
+      "text": "Naturheilkunde"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/psychotherapie-augsburg/",
+      "text": "Psychotherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/manuelle-therapieverfahren-uebersicht/",
+      "text": "Manuelle Verfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/schmerztherapie-augsburg/",
+      "text": "Schmerztherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Anamnesebogen"
+    },
+    {
+      "href": "https://www.provenexpert.com/naturheilpraxis-rauch/?mode=preview#appointment",
+      "text": "Jetzt Termin buchen"
+    },
+    {
+      "href": "/biophysikalische-informationstherapie-bit/",
+      "text": "Biophysikalische Informationstherapie Die Biophysikalische Informationstherapie (BIT) gehört zu der sogenannten „Holistischen Medizin“."
+    },
+    {
+      "href": "/bioresonanz-therapie/",
+      "text": "Bioresonanztherapie nach Baklayan Entdecken Sie die positive Wirkung von Bioresonanztherapie auf Ihren Körper und Geist."
+    },
+    {
+      "href": "/elektroakupunktur-nach-dr-voll-3/",
+      "text": "Elektroakupunktur nach Doktor Voll Der Energiefluss im Körper: Wie Elektroakupunktur Ihnen helfen kann."
+    },
+    {
+      "href": "/bioresonanz-versus-elektroakupunktur/",
+      "text": "Bioresonanztherapie vs Elektroakupunktur Körperliche Balance durch Energiefluss: Wie unterscheiden sich Bioresonanztherapie und Elektroakupunktur?"
+    },
+    {
+      "href": "/nls-diagnostik/",
+      "text": "NLS Diagnostik Die NLS-Diagnostik ist ein ergänzendes Hinweisverfahren. Sie ersetzt keine ärztliche Diagnose."
+    },
+    {
+      "href": "/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vitalfeldtherapie Vital und Kraftvoll: Entdecken Sie die Vorteile der Vieva Pro Vitalfeldanalyse"
+    },
+    {
+      "href": "/150-mhz-befeldung-nach-broers-3/",
+      "text": "150 MHz Körperliche Befeldung nach Broers Wie kann man von einer 150 MHz Befeldung profitieren?"
+    },
+    {
+      "href": "/akupunktur-ohne-nadeln/",
+      "text": "Frequenz-Akupunkt oder HEAL-Therapie nach Baklayan Entspannen Sie sich mit Frequenz Akupunktur – Wie die HP Baklayan Heal Therapie Ihnen helfen kann."
+    },
+    {
+      "href": "/osteopathie-techniken/",
+      "text": "Osteopathie Techniken"
+    },
+    {
+      "href": "/manuelle-therapieverfahren-uebersicht/",
+      "text": "Manuelle Therapieverfahren"
+    },
+    {
+      "href": "/vital-und-naehrstoffanalyse/",
+      "text": "Vitamin- und Nährstoffberatung"
+    },
+    {
+      "href": "/kinesiologie/",
+      "text": "Kinesiologie Behandlung"
+    },
+    {
+      "href": "/klassische-homoeopathie/",
+      "text": "Klassische | Komplexe Homöpathie"
+    },
+    {
+      "href": "/schmerztherapie-augsburg/",
+      "text": "Schmerztherapie"
+    },
+    {
+      "href": "/allergiebehandlung-mit-naet/",
+      "text": "Allergie Behandlung"
+    },
+    {
+      "href": "/orthomolekulare-therapie/",
+      "text": "Orthomolekulare Therapie"
+    },
+    {
+      "href": "https://www.paracelsus.de/magazin/ausgabe/201006/nls-das-diagnosegeraet-des-neuen-jahrtausends",
+      "text": "NLS Diagnostik"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de//rechtshinweise-therapieverfahren/",
+      "text": "Therapien und Erkrankungen"
+    },
+    {
+      "href": "/kontakt/",
+      "text": ""
+    },
+    {
+      "href": "#",
+      "text": "Anschrift:Naturheilpraxis RauchHeilpraktiker Augsburg, HochzollTerminvereinbarung:Telefon: 0821 262 14 62"
+    },
+    {
+      "href": "#",
+      "text": "E-Mail:"
+    },
+    {
+      "href": "mailto:praxis_rauch@icloud.com",
+      "text": "praxis_rauch@icloud.com"
+    },
+    {
+      "href": "https://www.provenexpert.com/naturheilpraxis-rauch/?utm_source=Widget&utm_medium=Widget&utm_campaign=Widget",
+      "text": ""
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+      "text": "Bioresonanztherapie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/nls-diagnostik/",
+      "text": "NLS Diagnose"
+    },
+    {
+      "href": "https://www.mba-gmbh.de/",
+      "text": "EAV nach Dr. Voll"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vieva Pro (HRV)"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vital-und-naehrstoffanalyse/",
+      "text": "Vitalfeld- und Nährstoffanalyse"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/osteopathie-techniken/",
+      "text": "Osteopathie"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/150-mhz-befeldung-nach-broers-3/",
+      "text": "150 MHz nach Broers"
+    },
+    {
+      "href": "https://bni.de/de",
+      "text": ""
+    },
+    {
+      "href": "https://www.naturheilkunde.de",
+      "text": "Naturheilkunde"
+    },
+    {
+      "href": "https://www.zfn.de/",
+      "text": "Zentrum für Naturheilkunde"
+    },
+    {
+      "href": "https://de-de.facebook.com/heilpraktiker.naturheilpraxis.bioresonanz.rauch",
+      "text": "Mein Facebook - Profil"
+    },
+    {
+      "href": "https://g.page/r/CWJnjtkTYH3kEBE/review",
+      "text": "Meine Google - Bewertung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/downloadbereich-naturheilpraxis-rauch/",
+      "text": "Downloadbereich Naturheilpraxis"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/impressum/",
+      "text": "Impressum"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/datenschutzerklaerung/",
+      "text": "Datenschutzerklärung"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtshinweise Therapieverfahren"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/heilpraktiker-rechtshinweise/",
+      "text": "Heilpraktiker-Rechtshinweise"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/rechtshinweise-therapieverfahren/",
+      "text": "Rechtshinweise Therapieverfahren"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=Friedrich-Deffner-Stra%C3%9Fe+19a%2C+86163+Augsburg",
+      "text": "Friedrich-Deffner-Straße 19a, 86163 Augsburg (Hochzoll)"
+    },
+    {
+      "href": "tel:+498212621462",
+      "text": "0821 2621462"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "tel:+498212621462",
+      "text": "0821 2621462"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://www.google.com/maps/search/?api=1&query=Friedrich-Deffner-Stra%C3%9Fe+19a%2C+86163+Augsburg",
+      "text": "Friedrich-Deffner-Straße 19a, 86163 Augsburg"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/online-anamnesebogen/",
+      "text": "Online-Anamnesebogen"
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/kontakt/",
+      "text": "Kontakt"
+    },
+    {
+      "href": "tel:+498212621462",
+      "text": "0821 2621462"
+    },
+    {
+      "href": "#",
+      "text": ""
+    }
+  ],
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "title": "Heilpraktiker Augsburg - Naturheilpraxis Peter Rauch",
+  "url": "https://rauch-heilpraktiker.de/"
+}

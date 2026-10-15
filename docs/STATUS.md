@@ -1,5 +1,11 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## Patientenwege: drei Home-Karten präzisiert – 15.10.2026
+
+Gesichert und live veröffentlicht: BIT-Teaser erklärt den vom Betreiber bestätigten Oberbegriff; Baklayan-Teaser enthält statt pauschaler positiver Wirkung eine sachliche Beschreibung; Vieva-Karte heißt passend zum Ziel „Vieva Pro – Herzratenvariabilität“ und beschreibt HRV/Biofeedback. Öffentlich genau drei geänderte Kartentexte, alle Linkziele/Reihenfolge sowie Home-Titel, H1, Canonical und Robots unverändert. Desktop visuell geprüft. Mobile Umbruchkontrolle offen: angeforderter Viewport wurde nicht wirksam übernommen, Override zurückgesetzt. Luna prüfte Clusterlogik, Astra die Textgrenzen unabhängig anhand übermittelter Befunde.
+
+Vier Schwerpunktseiten frisch gelesen. Diagnostik-Menü/Home/Cluster bleiben uneinheitlich; allgemeiner Hub vermischt Labor und ergänzende Verfahren. Größere Linkneuzuordnung erst nach Inhaltsklärung. BIT anschließend separat live korrigiert: zwei Absätze erklären jetzt den Oberbegriff statt eines einzelnen Verfahrens mit gemeinsamem Mechanismus. Nach manuellem Öffnen durch den Betreiber war der Editor nutzbar; vor Speicherung Original gesichert. Öffentlich genau zwei Absatzänderungen, alle Links, Überschriften und grundlegenden Metadaten gleich; separate wissenschaftliche Einordnung und Ergebnisgrenze erhalten. Neu: Naturheilkunde-Slider „Klassische Homöopathie“ verlinkt Psychotherapie; aktive Quelle/Ziel vor separatem Fix prüfen. [Ergebnis, Sicherungen und nächste Pakete](reviews/2026-10-15-patientenwege-und-homekarten.md). Kein neuer Pausenauftrag.
+
 ## YOOtheme-Linkkorrekturen live – 15.10.2026
 
 Der vom Betreiber geöffnete Customizer funktioniert. Zwei gesicherte Routinekorrekturen veröffentlicht: Home/Baklayan-Karte → `/bioresonanz-therapie/`; aktiver Footer „Vieva Pro (HRV)“ → `/vieva-pro-herzratenvariabilitaet/`. Footerquelle: Widgets → Bottom → Builder: Peter Footer 2, `builderwidget-6`, erstes Text-Element. Öffentlicher Vorher-/Nachher-Linkvergleich: genau zwei geänderte Links; Vergleichskarte und separater Vital-/Nährstofflink erhalten. Startseiten-Titel, H1, Canonical, Robots und Anzahl der Schema-Blöcke unverändert. Zielseite tatsächlich aufgerufen; Footer auch dort korrigiert. Customizer abschließend veröffentlicht und ohne offene Änderungen dieses Pakets.
