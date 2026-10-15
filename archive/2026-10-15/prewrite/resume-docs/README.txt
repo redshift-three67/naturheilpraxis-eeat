@@ -1,0 +1,1 @@
+Unveraenderte Vorherkopien von AGENTS.md, docs/STATUS.md und docs/session/CURRENT.md unmittelbar vor Wiederaufnahme-Dokumentation. Vorhandene Markdown-Zeilenumbrueche mit zwei Endleerzeichen bewusst erhalten; im Whitespace-Check separat behandelt.

@@ -1,0 +1,35 @@
+{
+  "source": "Public PageSpeed Insights UI",
+  "url": "https://pagespeed.web.dev/analysis/https-rauch-heilpraktiker-de/2vkrb00f9p?utm_source=search_console&form_factor=mobile&hl=de",
+  "target": "https://rauch-heilpraktiker.de/",
+  "reportedAt": "2026-10-15T08:09:01+02:00",
+  "formFactor": "mobile",
+  "fieldData": "No data",
+  "lab": {
+    "performanceScore": 79,
+    "accessibilityScore": 95,
+    "bestPracticesScore": 100,
+    "seoScore": 100,
+    "fcpSeconds": 2.1,
+    "lcpSeconds": 5.0,
+    "tbtMilliseconds": 0,
+    "cls": 0.03,
+    "speedIndexSeconds": 2.1,
+    "device": "Moto G Power emulated",
+    "lighthouse": "13.5.0",
+    "browser": "HeadlessChromium 153.0.8010.36",
+    "network": "Slow 4G",
+    "navigation": "Single-page initial load"
+  },
+  "lcpDiscoveryAudit": {
+    "dataSrc": "/wp-content/uploads/Naturheilpraxis-Augsburg-Therapieverfahren.svg",
+    "element": "div background with data-src, uk-img, uk-height-viewport",
+    "reportedChecks": [
+      "LCP resources should not use loading=lazy",
+      "fetchpriority=high should be applied",
+      "Request is discoverable in original document"
+    ]
+  },
+  "renderBlockingEstimatedSavingsMilliseconds": 1800,
+  "note": "Single synthetic run, no measured historical regression or ranking causation. Do not add preload without checking current resource priorities and actual above-fold rendering."
+}

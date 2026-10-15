@@ -14,7 +14,7 @@ Nicht als offenen Auftrag lesen: `docs/session/PROMPT-FORTSETZUNG.md` (Stand 14.
 
 ## Jetzt
 
-Phase **PAUSE / Messung**. Keine Site-Writes, keine Ads, keine neue Schrift, keine Krankheits-Hubs.
+Phase **Review / gezielte Optimierung**, vom Betreiber am 15.10.2026 nach dem Sicherungspunkt wieder aufgenommen. Aktueller Auftrag und nächster Schritt: `docs/STATUS.md`. Kleine Live-Änderungen nur gesichert nach WORKFLOW und innerhalb des Betreiberauftrags. Keine Ads, keine neue Schrift, keine Krankheits-Hubs.
 
 Nächstes anderes Projekt: **sunclinic.ch** — Prinzipien in `docs/entwickler-handover-eeat-2026-08/08-uebertragbare-erkenntnisse.md`. CDP Sunclinic **9225**. Dieses Repo nicht für Sunclinic-Writes nutzen.
 

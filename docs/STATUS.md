@@ -1,5 +1,16 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## Wieder aufgenommen am 15.10.2026
+
+Der Betreiber hat die Fortsetzung ausdrücklich freigegeben. Der Sicherungspunkt checkpoint-2026-10-15-pause bleibt unverändert erhalten; die Pause gilt ab diesem Auftrag nicht mehr.
+
+Neue Prüfung: 54 GSC-Tageszeilen der exakten Anfrage heilpraktiker augsburg, Deutschland/Mobil, 20.08.–12.10.; 499 Impressionen und 8 Klicks. Vollständige Wochen zeigen einen Übergang im September und danach schwächere Sichtbarkeit. Öffentlicher mobiler PSI-Labortest: Leistung 79, LCP 5,0 Sekunden; Hintergrund-SVG im LCP-Anfrageaudit. Keine CrUX-Felddaten, GSC-CWV für beide Gerätetypen ohne ausreichende Nutzungsdaten. Kein Beweis einer technischen Rankingursache.
+
+Neun öffentliche Seiten frisch geprüft. Nächster Schritt: konkreten mobilen LCP-Ladeablauf prüfen und Diagnostik/BIT/NLS inhaltlich abgrenzen; erst danach kleine gesicherte Linkkorrekturen. BIT-Abgrenzung und tatsächlich angebotenes Vieva-Gerät beim Betreiber erfragt. Keine Live-Inhalte oder Systeme in dieser Wiederaufnahme verändert. [Befund und Korrekturplan](reviews/2026-10-15-mobile-und-seitenrollen.md).
+
+Die folgenden Abschnitte sind historische Arbeitsstände; bei Widersprüchen gilt der jüngste Abschnitt oben.
+
+
 ## PAUSE – Sicherungspunkt 15.10.2026
 
 Arbeit auf ausdrücklichen Betreiberwunsch pausiert. Keine Fortsetzung oder Hintergrundüberwachung ohne neuen Auftrag. Stand, offene Punkte und Wiederaufnahme: [Sicherungspunkt](../archive/2026-10-15/CHECKPOINT-PAUSE.md). Git-Markierung: checkpoint-2026-10-15-pause. Private verschlüsselte Zusatzsicherung außerhalb Git; vorhandene fremde Arbeitsdatei unverändert erhalten.

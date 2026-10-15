@@ -1,0 +1,23 @@
+{
+  "url": "https://rauch-heilpraktiker.de/",
+  "source": "Public unauthenticated HTTP with mobile User-Agent; no browser rendering or network waterfall",
+  "capturedAtUTC": "2026-10-15T06:16:08.958776+00:00",
+  "status": 200,
+  "imagePreloadTags": [
+    "<link as=\"image\" fetchpriority=\"high\" href=\"/wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-b4177a22.jpeg\" id=\"eeat-lcp-preload\" imagesizes=\"100vw\" imagesrcset=\"/wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-b4177a22.jpeg 768w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-a2d2c22c.jpeg 947w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-525731a2.jpeg 1024w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-6beb5584.jpeg 1366w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-5d460ce9.jpeg 1600w, /wp-content/themes/yootheme/cache/Naturheilpraxis_Heilpraktiker_Rauch_Augsburg_2_3-e21846ab.jpeg 1894w\" rel=\"preload\"/>",
+    "<link as=\"image\" data-od-added-tag=\"\" fetchpriority=\"high\" href=\"/wp-content/uploads/Peter-Logo-klein.svg\" media=\"screen and (width &lt;= 480px)\" rel=\"preload\"/>",
+    "<link as=\"image\" data-od-added-tag=\"\" fetchpriority=\"high\" href=\"/wp-content/uploads/Peter-Logo-klein.svg\" media=\"screen and (782px &lt; width)\" rel=\"preload\"/>",
+    "<link as=\"image\" data-od-added-tag=\"\" fetchpriority=\"high\" href=\"https://rauch-heilpraktiker.de/wp-content/themes/yootheme/vendor/assets/uikit-themes/master-florence/images/styles/dark-brown/section-dark-background.svg\" media=\"screen and (480px &lt; width &lt;= 782px)\" rel=\"preload\"/>"
+  ],
+  "svgBackgroundElements": [
+    "<div class=\"uk-background-norepeat uk-background-top-left uk-background-fixed uk-section\" data-src=\"/wp-content/uploads/Naturheilpraxis-Augsburg-Therapieverfahren.svg\" style=\"background-size: 900px autopx;\" uk-height-viewport=\"offset-top: true; offset-bottom: 20;\" uk-img=\"\">\n<div class=\"uk-container uk-container-xlarge\">\n<div class=\"tm-header-placeholder uk-margin-remove-adjacent\"></div>\n<div class=\"tm-grid-expand uk-grid-large uk-grid-margin-large\" uk-grid=\"\">\n<div class=\"uk-grid-item-match uk-flex-middle uk-width-1-2@m\">\n<div class=\"uk-panel uk-width-1-1\">\n<h2 class=\"uk-h3 uk-font-secondary uk-text-emphasis uk-margin-small uk-width-xlarge uk-margin-auto-right@m uk-margin-remove-left@m uk-margin-auto uk-text-left@s uk-text-center\" uk-scrollspy-class=\"\"> <h3>… das ist der zentrale Fokus der therapeutischen Arbeit in meiner Praxis.</h3> </h2><hr class=\"uk-divider-icon\" uk-scrollspy-class=\"\"/>\n<h2 class=\"uk-h3 uk-font-secondary uk-text-emphasis uk-margin-small uk-width-xlarge uk-margin-auto-right@m uk-margin-remove-left@m uk-margin-auto uk-text-left@s uk-text-center\">        Herzlich willkommen in meiner Naturheilpraxis<br/><br/>Ich arbeite als Heilpraktiker mit Naturheilverfahren und manuellen Therapieformen. Ich betrachte den Menschen als Ganzes. Ich bin Physiotherapeut und Heilpraktiker mit 20 Jahren Berufserfahrung und Hypnotherapeut.<br/><br/>Die Praxis liegt in Augsburg-Hochzoll, Friedrich-Deffner-Straße 19a. Von Friedberg und Lechhausen-Ost ist sie gut zu erreichen.    <"
+  ],
+  "eagerImages": [
+    {
+      "src": "/wp-content/uploads/Peter-Logo-klein.svg",
+      "loading": null,
+      "fetchpriority": "high",
+      "class": null
+    }
+  ]
+}

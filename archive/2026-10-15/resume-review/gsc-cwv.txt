@@ -1,0 +1,1 @@
+GSC Core Web Vitals, read 2026-10-15. Last updated 13.10.26. Source Chrome UX Report. Mobile and desktop: Nicht genug Nutzungsdaten in den letzten 90 Tagen fuer diesen Geraetetyp. Both report buttons disabled. No good/bad verdict.
