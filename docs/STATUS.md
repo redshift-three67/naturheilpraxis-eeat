@@ -1,5 +1,15 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## Organischer Wettbewerbsvergleich und neue Prioritäten – 15.10.2026
+
+Betreiberauftrag: Prüfungen selbstständig fortsetzen; nur bei tatsächlichen Fehlern oder erforderlichen Betreiberentscheidungen anhalten. Keine neue Pause. Die bereitgestellte Google-Suche wurde live in Chrome untersucht. Acht normale Webtreffer auf Seite 1 und zwei weitere Praxisreferenzen von Seite 2 verglichen; lokale Module getrennt. Platz 32 blieb Betreiberbeobachtung und wurde nicht exakt reproduziert. GSC-Positionen sind **keine isolierten Ränge der blauen Weblinks**: oberste Property-/Seitenposition und zusammengesetzte Suchelemente können die Werte beeinflussen. Der konkrete historische Anteil lokaler Module bleibt offen.
+
+Wichtig für die Ursachenprüfung: Rauch war schon in der Stichprobe vom 17.08. nicht auf organischer Seite 1; mobiler LCP lag am 15.08. bereits bei 4,5–4,9 s. Home Post 17 zeigt als aktuelle Revision den 17.08., 08:35. Kein belegter September-Deploy und keine bewiesene einzelne Rankingursache. Priorität: eindeutige Links/Seitenrollen, patientengerechte Orientierung, nachvollziehbare Qualifikation/Ablauf/Kosten und kohärente medizinische Aussagen; gezielte Performanceprüfung parallel. Kein pauschaler Relaunch.
+
+Neue Betriebsbefunde: WordPress meldet 1.968 Autoload-Optionen mit ca. 2 MB; nicht bereinigt. Der Home-Builder zeigt eine leere Vorschau und „nicht verfügbar“; im Editor warnt ein vorhandenes Duplikat vor möglichem späterem Überschreiben. Ohne Speichern zurückgekehrt. Bioresonanz- und Vieva-Linkkorrekturen bleiben vorbereitet, aber noch nicht live. Keine Inhalte, Plugins, Optionen oder Einstellungen in diesem Arbeitspaket gespeichert. Nächster ausführbarer Schritt: lesende Klärung des Builder-/Vorschaufehlers und der aktiven Footerquelle, dann Prewrite und jeweils ein kleiner Linkfix. Keine weitere Freigabe für diese bereits autorisierten Routinekorrekturen erforderlich.
+
+[Vollständiger Vergleich, Beleggrenzen und priorisierter Maßnahmenplan](reviews/2026-10-15-organische-suchergebnisse-und-prioritaeten.md).
+
 ## Wieder aufgenommen am 15.10.2026
 
 Der Betreiber hat die Fortsetzung ausdrücklich freigegeben. Der Sicherungspunkt checkpoint-2026-10-15-pause bleibt unverändert erhalten; die Pause gilt ab diesem Auftrag nicht mehr.

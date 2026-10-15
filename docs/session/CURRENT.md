@@ -1,5 +1,13 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
+## Organische Webtreffer geprüft – 15.10.2026
+
+Fortsetzung bleibt autorisiert; keine neue Pause. Google-Suche live in Chrome geprüft, acht normale S1-Webtreffer plus zwei S2-Praxisreferenzen verglichen. Die exakte Betreiberposition 32 wurde nicht reproduziert. GSC-Positionen dürfen nicht als isolierte Ränge der blauen Links ausgegeben werden; zusammengesetzte Elemente und oberste Property-/Seitenposition beachten. Ein lokaler Website-Link ist eine plausible, historisch nicht bewiesene Erklärung für die Diskrepanz.
+
+Kein belegter einzelner Rankingauslöser: organische Seite 1 schon am 17.08. nicht erreicht, mobiler LCP bereits am 15.08. ca. 4,5–4,9 s. Home Post 17: aktuelle Revision 17.08., 08:35. Neue WordPress-Anzeige: 1.968 Autoload-Optionen/ca. 2 MB, keine Bereinigung ausgeführt. Builder-Vorschau bleibt leer und meldet „nicht verfügbar“; bestehende Duplikatwarnung erhalten. Ohne Speichern zurückgekehrt, keine Liveänderung.
+
+Priorität: aktive Home-/Footerquelle und Vorschaufehler lesen/klären, Inhalte vorab sichern, dann einzelne autorisierte Linkfixes. Anschließend klare Patientenwege für Diagnostik, BIT als Oberbegriff und Naturheilkunde; Qualifikation/Ablauf/Kosten und medizinische Aussagen präzisieren. Performance gezielt parallel untersuchen, größere Umstellung später. [Bericht und vollständige Reihenfolge](../reviews/2026-10-15-organische-suchergebnisse-und-prioritaeten.md). Fremde Analyse und alter WordPress-Quellordner unverändert lassen; keine Geheimnisse oder Patientendaten in Git/Cloud.
+
 ## Wieder aufgenommen am 15.10.2026
 
 Der Betreiber hat die Fortsetzung ausdrücklich freigegeben. Der Sicherungspunkt checkpoint-2026-10-15-pause bleibt unverändert erhalten; die Pause gilt ab diesem Auftrag nicht mehr.
