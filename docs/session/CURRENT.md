@@ -1,5 +1,13 @@
 # Session CURRENT – rauch-heilpraktiker.de
 
+## YOOtheme-Linkkorrekturen live – 15.10.2026
+
+Fortsetzung autorisiert, keine neue Pause. Bestehender Betreiber-Customizer nutzbar; frühere leere Vorschau keine allgemeine Bearbeitungssperre mehr. Nur zwei gesicherte Live-Korrekturen: Home Post 17/Baklayan-Grid → `/bioresonanz-therapie/` über Layout speichern; Footer „Vieva Pro (HRV)“ → `/vieva-pro-herzratenvariabilitaet/` über Veröffentlichen. Aktive Footerquelle: Widgets → Bottom → Builder: Peter Footer 2, `builderwidget-6`, erstes Text-Element. Öffentlich genau zwei Linkänderungen; separate Vergleichs- und Vital-/Nährstofflinks erhalten. Startseiten-SEO-Signale einschließlich Schema-Anzahl unverändert; keine Rankingwirkung behaupten. Customizer veröffentlicht, keine offenen Änderungen dieses Pakets.
+
+Nächster Schritt: bestehende Patientenwege/Navigation für Diagnostik, BIT-Oberbegriff und Naturheilkunde konkret abgleichen und kleine Änderungsvorschläge vorbereiten; medizinische Aussagen vor neuer Veröffentlichung prüfen. Danach Qualifikation, Ablauf und Kosten aus vorhandenen bestätigten Angaben präzisieren. Bioresonanz-Zielseite enthält acht H1-Knoten, Strukturprüfung offen. Home-Duplikatwarnung nicht gelöst: kein Duplikat veröffentlichen, bevor aktueller Stand abgeglichen ist. Performance-/Autoloadprüfung zunächst lesend bzw. Staging. Keine weiteren Plugin-, Schema-, Mailrelay- oder Versandänderungen. [Nachweis, Rollback und Prioritäten](../reviews/2026-10-15-yootheme-linkkorrekturen.md).
+
+Ältere Angaben „Linkfixes noch nicht live“ und „Builder gesperrt“ unten sind durch diesen Stand überholt. Der alte WordPress-Quellordner und die fremde geänderte Analyse bleiben unverändert.
+
 ## Organische Webtreffer geprüft – 15.10.2026
 
 Fortsetzung bleibt autorisiert; keine neue Pause. Google-Suche live in Chrome geprüft, acht normale S1-Webtreffer plus zwei S2-Praxisreferenzen verglichen. Die exakte Betreiberposition 32 wurde nicht reproduziert. GSC-Positionen dürfen nicht als isolierte Ränge der blauen Links ausgegeben werden; zusammengesetzte Elemente und oberste Property-/Seitenposition beachten. Ein lokaler Website-Link ist eine plausible, historisch nicht bewiesene Erklärung für die Diskrepanz.

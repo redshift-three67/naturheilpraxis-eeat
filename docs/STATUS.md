@@ -1,5 +1,13 @@
 # STATUS – rauch-heilpraktiker.de (LLM + Entwickler)
 
+## YOOtheme-Linkkorrekturen live – 15.10.2026
+
+Der vom Betreiber geöffnete Customizer funktioniert. Zwei gesicherte Routinekorrekturen veröffentlicht: Home/Baklayan-Karte → `/bioresonanz-therapie/`; aktiver Footer „Vieva Pro (HRV)“ → `/vieva-pro-herzratenvariabilitaet/`. Footerquelle: Widgets → Bottom → Builder: Peter Footer 2, `builderwidget-6`, erstes Text-Element. Öffentlicher Vorher-/Nachher-Linkvergleich: genau zwei geänderte Links; Vergleichskarte und separater Vital-/Nährstofflink erhalten. Startseiten-Titel, H1, Canonical, Robots und Anzahl der Schema-Blöcke unverändert. Zielseite tatsächlich aufgerufen; Footer auch dort korrigiert. Customizer abschließend veröffentlicht und ohne offene Änderungen dieses Pakets.
+
+Nächste Priorität: konkrete Patientenwege für Diagnostik, BIT als Oberbegriff und Naturheilkunde vorbereiten; danach vorhandene Qualifikations-/Ablauf-/Kostenangaben präzisieren, medizinische Aussagen vor neuer Veröffentlichung prüfen. Auf der Bioresonanz-Seite acht H1-Knoten festgestellt, zur Strukturprüfung vorgemerkt; keine daraus bewiesene Rankingursache. Mobile Ladeursache/Autoload gezielt parallel untersuchen. Home-Duplikatwarnung bleibt offen, Duplikat nicht veröffentlicht. Keine neue Pause; Fortsetzung bleibt autorisiert. [Änderungen, Sicherungen und nächste Schritte](reviews/2026-10-15-yootheme-linkkorrekturen.md).
+
+Die folgenden Abschnitte sind historische Arbeitsstände; der jüngste Abschnitt oben hat Vorrang.
+
 ## Organischer Wettbewerbsvergleich und neue Prioritäten – 15.10.2026
 
 Betreiberauftrag: Prüfungen selbstständig fortsetzen; nur bei tatsächlichen Fehlern oder erforderlichen Betreiberentscheidungen anhalten. Keine neue Pause. Die bereitgestellte Google-Suche wurde live in Chrome untersucht. Acht normale Webtreffer auf Seite 1 und zwei weitere Praxisreferenzen von Seite 2 verglichen; lokale Module getrennt. Platz 32 blieb Betreiberbeobachtung und wurde nicht exakt reproduziert. GSC-Positionen sind **keine isolierten Ränge der blauen Weblinks**: oberste Property-/Seitenposition und zusammengesetzte Suchelemente können die Werte beeinflussen. Der konkrete historische Anteil lokaler Module bleibt offen.

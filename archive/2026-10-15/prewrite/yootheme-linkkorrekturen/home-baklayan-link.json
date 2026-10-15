@@ -1,0 +1,17 @@
+{
+  "captured_at": "2026-10-15T07:15:43Z",
+  "source": "WordPress Customizer, aktiver YOOtheme Builder, Home (Post 17), Grid mit BIT und Bioresonanz, Eintrag Bioresonanztherapie nach Baklayan",
+  "public_url": "https://rauch-heilpraktiker.de/",
+  "title": "Bioresonanztherapie nach Baklayan",
+  "meta": "Bioresonanztherapie nach Baklayan",
+  "content_text": "Entdecken Sie die positive Wirkung von Bioresonanztherapie auf Ihren Körper und Geist.",
+  "image": "wp-content/uploads/company-office-icon-01.svg",
+  "image_alt": "Bioresonanztherapie nach Baklayan",
+  "link_before": "bioresonanz-versus-elektroakupunktur/",
+  "link_after_intended": "bioresonanz-therapie/",
+  "link_text": "",
+  "tags": "Heilpraktiker Augsburg",
+  "scope": "Nur das Link-Feld dieses einen Grid-Eintrags ändern; kein Text-, Layout-, Bild-, Title-, Schema- oder Menüeingriff. Vergleichskarte bleibt unverändert.",
+  "rollback": "In demselben Eintrag Link auf bioresonanz-versus-elektroakupunktur/ zurücksetzen und veröffentlichen; Frontend erneut prüfen.",
+  "note": "Vorhandene medizinische Formulierung nur zur Wiederherstellung erfasst, nicht fachlich bestätigt. Backend-Duplikat nicht veröffentlichen. Diese Sicherung umfasst die betroffenen Felder, keinen vollständigen Datenbankexport."
+}

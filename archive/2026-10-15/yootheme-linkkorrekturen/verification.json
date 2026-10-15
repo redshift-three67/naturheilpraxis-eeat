@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-15",
+  "method": "Autorisierte Chrome-Sitzung; frischer öffentlicher Startseitenaufruf nach Speicherung",
+  "home": "https://rauch-heilpraktiker.de/",
+  "changedLinks": [
+    {
+      "href": "/bioresonanz-therapie/",
+      "text": "Bioresonanztherapie nach Baklayan Entdecken Sie die positive Wirkung von Bioresonanztherapie auf Ihren Körper und Geist."
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/",
+      "text": "Vieva Pro (HRV)"
+    }
+  ],
+  "removedLinks": [
+    {
+      "href": "/bioresonanz-versus-elektroakupunktur/",
+      "text": "Bioresonanztherapie nach Baklayan Entdecken Sie die positive Wirkung von Bioresonanztherapie auf Ihren Körper und Geist."
+    },
+    {
+      "href": "https://rauch-heilpraktiker.de/elektroakupunktur-nach-dr-voll-3/",
+      "text": "Vieva Plus Diagnostik"
+    }
+  ],
+  "signals": {
+    "title": "Heilpraktiker Augsburg - Naturheilpraxis Peter Rauch",
+    "h1": [
+      "Heilpraktiker Augsburg – Naturheilpraxis Peter Rauch"
+    ],
+    "canonical": "https://rauch-heilpraktiker.de/",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "schemaCount": 3
+  },
+  "unchanged": {
+    "title": true,
+    "h1": true,
+    "canonical": true,
+    "robots": true,
+    "schemaCount": true
+  },
+  "baklayanTarget": {
+    "url": "https://rauch-heilpraktiker.de/bioresonanz-therapie/",
+    "h1": [
+      "        Trikombin nach Heilpraktiker Baklayan    ",
+      "        Bioresonanz-Therapie     ",
+      "        Naturheilkundlich begleiten – Stark im Leben    ",
+      "        Bioresonanz System Trikombin    ",
+      "                        Trikombin                    ",
+      "                        Bioresonanz Augsburg                    ",
+      "        Die Bioresonanz-Therapie mit dem Trikombin an sich ist kein schulmedizinisch anerkanntes Verfahren. Alle Angaben stammen aus der Erfahrungsheilkunde.    ",
+      "Häufige Fragen zur Praxis"
+    ],
+    "footerVieva": "https://rauch-heilpraktiker.de/vieva-pro-herzratenvariabilitaet/"
+  },
+  "publishedButtonDisabled": true,
+  "screenshot": "footer-live.jpg"
+}
